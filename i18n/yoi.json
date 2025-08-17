@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kainuguni"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1ぬ物言ぬ版}}",
+	"continuum-view-create": "作るん",
+	"continuum-view-edit": "直ん",
+	"continuum-view-history": "ページぬ歴史読むん",
+	"continuum-view-view": "読むん",
+	"continuum-more-actions": "其ぬ他",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>含むページさばぐん"
+}

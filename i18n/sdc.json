@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"F Samaritani",
+			"Felis",
+			"Jun Misugi"
+		]
+	},
+	"continuum-languages": "Linghi",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 linga|$1 linghi}}",
+	"continuum-no-language-button-label": "Aggiugní linghi",
+	"continuum-action-addsection": "Aggiungì oggettu",
+	"continuum-action-delete": "Canzella",
+	"continuum-action-move": "Ippustha",
+	"continuum-action-protect": "Pruteggì",
+	"continuum-view-create": "Cria",
+	"continuum-view-edit": "Mudifigga",
+	"continuum-view-history": "Vèdi isthòria",
+	"continuum-view-view": "Leggi",
+	"continuum-view-viewsource": "Vèdi fonti",
+	"continuum-more-actions": "Più",
+	"continuum-toc-label": "Ìndizi",
+	"continuum-toc-beginning": "Ischumenzu",
+	"continuum-page-tools-label": "Isthrumenti",
+	"continuum-page-tools-general-label": "Generari",
+	"continuum-unpin-element-label": "cuà"
+}

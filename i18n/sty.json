@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khanmarat",
+			"Sorbat"
+		]
+	},
+	"continuum-languages": "Телләр",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 тел|телләрнең $1 }}",
+	"continuum-no-language-button-label": "Телләр ҡушҡалы",
+	"continuum-action-addsection": "Тема өстәгәле",
+	"continuum-action-delete": "Йуҡ иткәле",
+	"continuum-action-move": "Исемен алмаштырғалы",
+	"continuum-action-protect": "Йаҡлағалы",
+	"continuum-view-create": "Ҡылғалы",
+	"continuum-view-edit": "Төсәткәле",
+	"continuum-view-history": "Тариҡны ҡарағалы",
+	"continuum-view-view": "Уғығалы",
+	"continuum-more-actions": "Тағын",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> эцтәлегентә парын питләрне эстәү",
+	"continuum-page-tools-label": "Ҡораллар",
+	"continuum-page-tools-general-label": "Умумий",
+	"continuum-unpin-element-label": "йәшергәле"
+}

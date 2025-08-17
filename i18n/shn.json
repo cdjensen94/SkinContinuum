@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saiddzone",
+			"Saimawnkham",
+			"Sengwan365"
+		]
+	},
+	"continuum-opt-out": "လၢႆႈၸူး ၽၢင်ႁၢင်ႈၵဝ်ႇ",
+	"continuum-languages": "ၽႃႇသႃႇ",
+	"continuum-language-button-label": "{{PLURAL:$1 ၽႃႇသႃႇ|$1 ၽႃႇသႃႇ}}",
+	"continuum-no-language-button-label": "ထႅမ်သႂ်ႇ ၽႃႇသႃႇ",
+	"continuum-action-addsection": "ထႅမ်သႂ်ႇ ႁူဝ်ၶေႃႈ",
+	"continuum-action-delete": "မွတ်ႇပႅတ်ႈ",
+	"continuum-action-move": "ၶၢႆႉ",
+	"continuum-action-protect": "ႁေႉၵင်ႈ",
+	"continuum-view-create": "သၢင်ႈ",
+	"continuum-view-edit": "မႄးထတ်း",
+	"continuum-view-history": "တူၺ်းပိုၼ်း",
+	"continuum-view-view": "ဢၢၼ်ႇ",
+	"continuum-view-viewsource": "တူၺ်း ငဝ်ႈငႃႇ",
+	"continuum-more-actions": "ၼမ်လိူဝ်",
+	"continuum-searchsuggest-containing": "ၶူၼ်ႉႁႃ တွၼ်ႈတႃႇ ၼႃႈလိၵ်ႈ ၸိူဝ်းၶဝ်ႈပႃးဝႆႉ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "လမ်းၼႂ်း",
+	"continuum-toc-beginning": "မိူဝ်ႈတႄႇမၼ်း",
+	"continuum-main-menu-label": "မႄးၼူး ပိူင်လူင်",
+	"continuum-page-tools-label": "ၶိူင်ႈၵမ်ႉၵႅမ်",
+	"continuum-page-tools-general-label": "ၵူႈလွင်ႈလွင်ႈ",
+	"continuum-unpin-element-label": "သိူင်ႇ",
+	"continuum-night-mode-issue-reporting-link-notification": "ႁပ့်လႆႈႁၢႆးငၢၼ်းယဝ့်!"
+}

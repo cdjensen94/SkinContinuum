@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xqt"
+		]
+	},
+	"continuum-action-delete": "Verwische",
+	"continuum-action-move": "Ziehe",
+	"continuum-action-protect": "Schitze",
+	"continuum-view-create": "Schtaerte",
+	"continuum-view-edit": "Ennere",
+	"continuum-view-history": "Gschicht zeige",
+	"continuum-view-view": "Lese"
+}

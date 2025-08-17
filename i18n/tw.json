@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"AC Krah",
+			"Robertjamal12",
+			"Warmglow"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 kasa|$1 kasa ahorow}}",
+	"continuum-action-addsection": "Fa atifi asɛm ka ho",
+	"continuum-action-delete": "Pepa",
+	"continuum-action-move": "Yi kɔ bɛbi foforo",
+	"continuum-action-protect": "Bammɔ",
+	"continuum-view-create": "Create",
+	"continuum-view-edit": "Sesa",
+	"continuum-view-history": "Hwɛ abakɔsɛm",
+	"continuum-view-view": "Kenkan",
+	"continuum-more-actions": "Pii",
+	"continuum-feature-custom-font-size-0-label": "Ketewa",
+	"continuum-unpin-element-label": "fa sie"
+}

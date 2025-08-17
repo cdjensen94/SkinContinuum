@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pare Mo"
+		]
+	},
+	"continuum-action-delete": "Borrahon",
+	"continuum-action-protect": "Proteksiyunan",
+	"continuum-view-create": "Maghimò",
+	"continuum-view-edit": "Iislan",
+	"continuum-view-history": "Tërëkon ang maragtas",
+	"continuum-view-view": "Basahon",
+	"continuum-searchsuggest-containing": "Magsagap kang manga pahina nga may sëlëd nga <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>"
+}

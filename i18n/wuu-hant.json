@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benojan",
+			"Subarupan",
+			"Winston Sung"
+		]
+	},
+	"continuum-languages": "閒話",
+	"continuum-language-button-label": "{{PLURAL:$1|$1種閒話}}",
+	"continuum-action-addsection": "加話題",
+	"continuum-action-delete": "刪脫",
+	"continuum-action-move": "捅去",
+	"continuum-action-protect": "保護牢",
+	"continuum-view-history": "望歷史",
+	"continuum-view-view": "閱讀",
+	"continuum-more-actions": "還多",
+	"continuum-feature-limited-width-name": "闊度",
+	"continuum-feature-limited-width-0-label": "闊",
+	"continuum-feature-limited-width-1-label": "標準",
+	"continuum-page-tools-label": "家生",
+	"continuum-unpin-element-label": "囥起來"
+}

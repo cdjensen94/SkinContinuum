@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Emmikweok",
+			"Maryeren",
+			"Samatics"
+		]
+	},
+	"continuum-languages": "Mme usem",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 usem|$1 mme usem}}",
+	"continuum-no-language-button-label": "Dian mme usem",
+	"continuum-action-addsection": "Dian ibuotikọ",
+	"continuum-action-delete": "Sọhi",
+	"continuum-action-move": "Men ka",
+	"continuum-action-protect": "Kpeme",
+	"continuum-view-create": "Bot",
+	"continuum-view-history": "Se se ẹma ẹkenanam",
+	"continuum-view-view": "Kot",
+	"continuum-more-actions": "En̄wen",
+	"continuum-searchsuggest-containing": "Yom mme ikpehe <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>ọdọn̄ọde",
+	"continuum-toc-label": "Se Isịnede",
+	"continuum-toc-beginning": "Editọñọ",
+	"continuum-main-menu-label": "Main menu",
+	"continuum-page-tools-label": "N̄kpọ utom",
+	"continuum-page-tools-general-label": "Ke ofụri ofụri",
+	"continuum-unpin-element-label": "dịbe"
+}

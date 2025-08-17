@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Comp1089",
+			"Enye Lav",
+			"Merrahtar",
+			"СерМар"
+		]
+	},
+	"continuum-languages": "Кывъяс",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 кыв|$1 кывъяс}}",
+	"continuum-no-language-button-label": "Содтыны кывъяс",
+	"continuum-action-addsection": "Содтыны тема",
+	"continuum-action-delete": "Бырӧдны",
+	"continuum-action-move": "Ним вежны",
+	"continuum-action-protect": "Дорйыны",
+	"continuum-view-create": "Лӧсьӧдны",
+	"continuum-view-edit": "Вежны",
+	"continuum-view-history": "История",
+	"continuum-view-view": "Лыддьыны",
+	"continuum-more-actions": "Нӧшта",
+	"continuum-searchsuggest-containing": "Корсьны лист бокъяс, кӧні эм <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Юриндалысь",
+	"continuum-toc-beginning": "Заводитчӧм",
+	"continuum-main-menu-label": "Медшӧр меню",
+	"continuum-page-tools-label": "Инструментъяс",
+	"continuum-page-tools-general-label": "Ӧтувъя",
+	"continuum-unpin-element-label": "сайӧдны"
+}

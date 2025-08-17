@@ -1,0 +1,85 @@
+@import '../variables.less';
+
+.profile-tab {
+    background-color: @color-dark-navy;
+    font-size: @font-size-medium;
+    text-align: center;
+    height: 22px;
+    min-width: 72px;
+    float: left;
+    padding: 12px 4px;
+    border: 2px solid @color-burnt-orange;
+    border-radius: 8px;
+    margin: 0 5px 0 0;
+}
+.profile-tab-on {
+    background-color: @color-burnt-orange;
+    text-align: center;
+    font-size: @font-size-medium;
+    height: 22px;
+    min-width: 72px;
+    float: left;
+    padding: 12px 4px;
+    border: 2px solid @color-soft-peach;
+    border-radius: 8px;
+    margin: 0 5px 0 0;
+}
+.profile-on {
+    color: @color-white;
+    font-family: @font-content, 'Book Antiqua', serif !important;
+    font-size: @font-size-medium;
+    background-color: @color-burnt-orange;
+    border: 2px solid @color-soft-peach;
+    border-radius: 8px;
+    padding: 10px;
+}
+.user-gift-container {
+
+    img {
+        background: transparent;
+        border: 1px solid @color-bright-orange;
+        border-radius: 12px;
+        padding: 4px;
+    }
+}
+.profile-info-container {
+    background-color: @color-dark-navy;
+    color: @color-white;
+    border: 1px solid @color-burnt-orange;
+    border-radius: 12px;
+    padding: 24px !important;
+    b {
+        color: @color-soft-peach;
+    }
+    div {
+        color: @color-white;
+    }
+}
+.listpages-blurb-size-small {
+    font-size: @font-size-small;
+    line-height: 1.4;
+    color: @color-white;
+    font-family: @font-content, 'Book Antiqua', serif !important;
+    padding: 12px;
+}
+.user-board-message {
+    border: 1px solid @color-bright-orange;
+    border-radius: 0.4em;
+    margin-block-end: 1em;
+    background: @color-deep-navy;
+    padding: 0.6em;
+    display: flex;
+    gap: 1em;
+}
+.user-board-message-from {
+    background-color: @color-dark-navy;
+    padding: 3px 0 5px 5px;
+}
+.no-info-container, .no-pictures-container {
+    margin-block: 0.7em 1.3em;
+    background: @color-dark-navy;
+    padding: 1.3em;
+    text-align: center;
+    color: @color-burnt-orange;
+    border-radius: 0.7em;
+}

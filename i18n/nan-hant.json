@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"SupaplexTW",
+			"Winston Sung"
+		]
+	},
+	"continuum-languages": "語言",
+	"continuum-action-move": "徙去",
+	"continuum-action-protect": "保護",
+	"continuum-view-history": "看歷史",
+	"continuum-more-actions": "閣看",
+	"continuum-searchsuggest-containing": "搜揣有<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>的頁",
+	"continuum-page-tools-label": "家私"
+}

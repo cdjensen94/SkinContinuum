@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table of contents reloadTableOfContents re-renders toc when wikipage.tableOfContents hook is fired with empty sections 1`] = `
+"<div id=\\"continuum-toc\\" class=\\"continuum-toc continuum-pinnable-element\\">
+<div class=\\"continuum-pinnable-header continuum-toc-pinnable-header continuum-pinnable-header-pinned\\" data-feature-name=\\"pinned\\" data-pinnable-element-id=\\"continuum-toc\\">
+	<h2 class=\\"continuum-pinnable-header-label\\">Contents</h2>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-pin-button\\" data-event-name=\\"pinnable-header.continuum-toc.pin\\">move to sidebar</button>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-unpin-button\\" data-event-name=\\"pinnable-header.continuum-toc.unpin\\">hide</button>
+</div>
+<ul class=\\"continuum-toc-contents\\" id=\\"mw-panel-toc-list\\">
+	<li id=\\"toc-mw-content-text\\" class=\\"continuum-toc-list-item continuum-toc-level-1\\">
+		<a href=\\"#\\" class=\\"continuum-toc-link\\">
+			<div class=\\"continuum-toc-text\\">Beginning</div>
+		</a>
+	</li>
+<li id=\\"toc-foo\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#foo\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">1</span>
+			<span>foo</span>
+		</div>
+	</a>
+	<ul id=\\"toc-foo-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+<li id=\\"toc-bar\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#bar\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2</span>
+			<span>bar</span>
+		</div>
+	</a>
+		<button aria-controls=\\"toc-bar-sublist\\" class=\\"cdx-button cdx-button--weight-quiet cdx-button--icon-only continuum-toc-toggle\\" aria-expanded=\\"true\\">
+			<span class=\\"continuum-icon mw-ui-icon-wikimedia-expand\\"></span>
+			<span>Toggle bar subsection</span>
+		</button>
+	<ul id=\\"toc-bar-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-baz\\" class=\\"continuum-toc-list-item continuum-toc-level-2\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#baz\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1</span>
+			<span>baz</span>
+		</div>
+	</a>
+	<ul id=\\"toc-baz-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-qux\\" class=\\"continuum-toc-list-item continuum-toc-level-3\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#qux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1.1</span>
+			<span>qux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-qux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+	</ul>
+</li>
+	</ul>
+</li>
+<li id=\\"toc-quux\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#quux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">3</span>
+			<span>quux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-quux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+</ul>
+</div>
+"
+`;
+
+exports[`Table of contents reloadTableOfContents re-renders toc when wikipage.tableOfContents hook is fired with sections 1`] = `
+"<div id=\\"continuum-toc\\" class=\\"continuum-toc continuum-pinnable-element\\">
+<div class=\\"continuum-pinnable-header continuum-toc-pinnable-header continuum-pinnable-header-pinned\\" data-feature-name=\\"pinned\\" data-pinnable-element-id=\\"continuum-toc\\">
+	<h2 class=\\"continuum-pinnable-header-label\\">Contents</h2>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-pin-button\\" data-event-name=\\"pinnable-header.continuum-toc.pin\\">move to sidebar</button>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-unpin-button\\" data-event-name=\\"pinnable-header.continuum-toc.unpin\\">hide</button>
+</div>
+<ul class=\\"continuum-toc-contents\\" id=\\"mw-panel-toc-list\\"><div id=\\"continuum-toc\\" class=\\"continuum-toc continuum-pinnable-element\\">
+<div class=\\"continuum-pinnable-header continuum-toc-pinnable-header continuum-pinnable-header-pinned\\" data-feature-name=\\"pinned\\" data-pinnable-element-id=\\"continuum-toc\\">
+	<h2 class=\\"continuum-pinnable-header-label\\">Contents</h2>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-pin-button\\" data-event-name=\\"pinnable-header.continuum-toc.pin\\">move to sidebar</button>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-unpin-button\\" data-event-name=\\"pinnable-header.continuum-toc.unpin\\">hide</button>
+</div>
+<ul class=\\"continuum-toc-contents\\" id=\\"mw-panel-toc-list\\">
+	<li id=\\"toc-mw-content-text\\" class=\\"continuum-toc-list-item continuum-toc-level-1\\">
+		<a href=\\"#\\" class=\\"continuum-toc-link\\">
+			<div class=\\"continuum-toc-text\\">Beginning</div>
+		</a>
+	</li>
+<li id=\\"toc-foo\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#foo\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">1</span>
+			<span>foo</span>
+		</div>
+	</a>
+	<ul id=\\"toc-foo-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+<li id=\\"toc-bar\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#bar\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2</span>
+			<span>bar</span>
+		</div>
+	</a>
+		<button aria-controls=\\"toc-bar-sublist\\" class=\\"cdx-button cdx-button--weight-quiet cdx-button--icon-only continuum-toc-toggle\\" aria-expanded=\\"true\\">
+			<span class=\\"continuum-icon mw-ui-icon-wikimedia-expand\\"></span>
+			<span>Toggle bar subsection</span>
+		</button>
+	<ul id=\\"toc-bar-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-baz\\" class=\\"continuum-toc-list-item continuum-toc-level-2\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#baz\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1</span>
+			<span>baz</span>
+		</div>
+	</a>
+	<ul id=\\"toc-baz-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-qux\\" class=\\"continuum-toc-list-item continuum-toc-level-3\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#qux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1.1</span>
+			<span>qux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-qux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+	</ul>
+</li>
+	</ul>
+</li>
+<li id=\\"toc-quux\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#quux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">3</span>
+			<span>quux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-quux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+<li id=\\"toc-bat\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#bat\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">4</span>
+			<span>bat</span>
+		</div>
+	</a>
+	<ul id=\\"toc-bat-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+</ul>
+</div>
+</ul>
+</div>
+"
+`;
+
+exports[`Table of contents renders when \`continuum-is-collapse-sections-enabled\` is false 1`] = `
+"<div id=\\"continuum-toc\\" class=\\"continuum-toc continuum-pinnable-element\\">
+<div class=\\"continuum-pinnable-header continuum-toc-pinnable-header continuum-pinnable-header-pinned\\" data-feature-name=\\"pinned\\" data-pinnable-element-id=\\"continuum-toc\\">
+	<h2 class=\\"continuum-pinnable-header-label\\">Contents</h2>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-pin-button\\" data-event-name=\\"pinnable-header.continuum-toc.pin\\">move to sidebar</button>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-unpin-button\\" data-event-name=\\"pinnable-header.continuum-toc.unpin\\">hide</button>
+</div>
+<ul class=\\"continuum-toc-contents\\" id=\\"mw-panel-toc-list\\">
+	<li id=\\"toc-mw-content-text\\" class=\\"continuum-toc-list-item continuum-toc-level-1\\">
+		<a href=\\"#\\" class=\\"continuum-toc-link\\">
+			<div class=\\"continuum-toc-text\\">Beginning</div>
+		</a>
+	</li>
+<li id=\\"toc-foo\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#foo\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">1</span>
+			<span>foo</span>
+		</div>
+	</a>
+	<ul id=\\"toc-foo-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+<li id=\\"toc-bar\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#bar\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2</span>
+			<span>bar</span>
+		</div>
+	</a>
+		<button aria-controls=\\"toc-bar-sublist\\" class=\\"cdx-button cdx-button--weight-quiet cdx-button--icon-only continuum-toc-toggle\\" aria-expanded=\\"true\\">
+			<span class=\\"continuum-icon mw-ui-icon-wikimedia-expand\\"></span>
+			<span>Toggle bar subsection</span>
+		</button>
+	<ul id=\\"toc-bar-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-baz\\" class=\\"continuum-toc-list-item continuum-toc-level-2\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#baz\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1</span>
+			<span>baz</span>
+		</div>
+	</a>
+	<ul id=\\"toc-baz-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-qux\\" class=\\"continuum-toc-list-item continuum-toc-level-3\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#qux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1.1</span>
+			<span>qux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-qux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+	</ul>
+</li>
+	</ul>
+</li>
+<li id=\\"toc-quux\\" class=\\"continuum-toc-list-item continuum-toc-level-1 continuum-toc-list-item-expanded\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#quux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">3</span>
+			<span>quux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-quux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+</ul>
+</div>
+"
+`;
+
+exports[`Table of contents renders when \`continuum-is-collapse-sections-enabled\` is true 1`] = `
+"<div id=\\"continuum-toc\\" class=\\"continuum-toc continuum-pinnable-element\\">
+<div class=\\"continuum-pinnable-header continuum-toc-pinnable-header continuum-pinnable-header-pinned\\" data-feature-name=\\"pinned\\" data-pinnable-element-id=\\"continuum-toc\\">
+	<h2 class=\\"continuum-pinnable-header-label\\">Contents</h2>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-pin-button\\" data-event-name=\\"pinnable-header.continuum-toc.pin\\">move to sidebar</button>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-unpin-button\\" data-event-name=\\"pinnable-header.continuum-toc.unpin\\">hide</button>
+</div>
+<ul class=\\"continuum-toc-contents\\" id=\\"mw-panel-toc-list\\">
+	<li id=\\"toc-mw-content-text\\" class=\\"continuum-toc-list-item continuum-toc-level-1\\">
+		<a href=\\"#\\" class=\\"continuum-toc-link\\">
+			<div class=\\"continuum-toc-text\\">Beginning</div>
+		</a>
+	</li>
+<li id=\\"toc-foo\\" class=\\"continuum-toc-list-item continuum-toc-level-1\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#foo\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">1</span>
+			<span>foo</span>
+		</div>
+	</a>
+	<ul id=\\"toc-foo-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+<li id=\\"toc-bar\\" class=\\"continuum-toc-list-item continuum-toc-level-1\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#bar\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2</span>
+			<span>bar</span>
+		</div>
+	</a>
+		<button aria-controls=\\"toc-bar-sublist\\" class=\\"cdx-button cdx-button--weight-quiet cdx-button--icon-only continuum-toc-toggle\\" aria-expanded=\\"false\\">
+			<span class=\\"continuum-icon mw-ui-icon-wikimedia-expand\\"></span>
+			<span>Toggle bar subsection</span>
+		</button>
+	<ul id=\\"toc-bar-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-baz\\" class=\\"continuum-toc-list-item continuum-toc-level-2\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#baz\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1</span>
+			<span>baz</span>
+		</div>
+	</a>
+	<ul id=\\"toc-baz-sublist\\" class=\\"continuum-toc-list\\">
+<li id=\\"toc-qux\\" class=\\"continuum-toc-list-item continuum-toc-level-3\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#qux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">2.1.1</span>
+			<span>qux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-qux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+	</ul>
+</li>
+	</ul>
+</li>
+<li id=\\"toc-quux\\" class=\\"continuum-toc-list-item continuum-toc-level-1\\">
+	<a class=\\"continuum-toc-link\\" href=\\"#quux\\">
+		<div class=\\"continuum-toc-text\\">
+			<span class=\\"continuum-toc-numb\\">3</span>
+			<span>quux</span>
+		</div>
+	</a>
+	<ul id=\\"toc-quux-sublist\\" class=\\"continuum-toc-list\\">
+	</ul>
+</li>
+</ul>
+</div>
+"
+`;

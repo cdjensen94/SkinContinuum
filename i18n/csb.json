@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaszeba",
+			"Kirsan",
+			"Kuvaly"
+		]
+	},
+	"continuum-action-addsection": "Dodôj témã",
+	"continuum-action-delete": "Rëmôj",
+	"continuum-action-move": "Przeniesë",
+	"continuum-action-protect": "Zazychrëjë",
+	"continuum-action-undelete": "Doprowadzë nazôd",
+	"continuum-action-unprotect": "Zmieni zazychrowanié",
+	"continuum-view-create": "Ùsadzë",
+	"continuum-view-edit": "Edicëjô",
+	"continuum-view-history": "Historëjô lopka",
+	"continuum-view-view": "Czëtôj",
+	"continuum-view-viewsource": "Zdrojowi tekst",
+	"continuum-more-actions": "Wiãcy"
+}

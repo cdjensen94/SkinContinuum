@@ -1,0 +1,120 @@
+// continuum-toc.less
+// ===== Table of Contents (TOC) Styles for Continuum Skin =====
+
+.continuum-toc {
+    .continuum-pinnable-header {
+        margin-left: @toc-list-item-padding-start;
+    }
+
+    .continuum-pinnable-header-label {
+        font-size: @font-size-reset; // <h2> fix
+    }
+
+    .continuum-toc-numb {
+        display: none;
+    }
+
+    .continuum-toc-toggle {
+        display: none; // No-js fallback: hide toggle icon
+        transition: @transition-duration-base;
+        position: absolute;
+        left: -@size-toc-subsection-toggle/2;
+        top: 1px; // Visual centering
+        min-width: @size-toc-subsection-toggle;
+        min-height: @size-toc-subsection-toggle;
+        padding: 0;
+        font-size: @size-toc-subsection-toggle-icon;
+    }
+
+    .continuum-toc-link {
+        display: block;
+        word-break: break-word;
+    }
+
+    // Highlight active TOC sections
+    .continuum-toc-list-item-active,
+    .continuum-toc-level-1-active:not(.continuum-toc-list-item-expanded),
+    .continuum-toc-list-item-active.continuum-toc-level-1-active {
+        > .continuum-toc-link {
+            .mixin-continuum-selected-link(); // Use your mixin or replace if renaming
+            font-weight: bold;
+            .continuum-toc-text {
+                width: ~'calc( 100% + @{padding-horizontal-dropdown-menu} )';
+            }
+        }
+    }
+
+    .continuum-toc-level-1-active:not(.continuum-toc-list-item-active) > .continuum-toc-link {
+        .mixin-continuum-selected-link();
+    }
+
+    .continuum-toc-text {
+        padding: @padding-vertical-dropdown-menu-item 0;
+    }
+
+    .continuum-toc-contents,
+    .continuum-toc-list {
+        margin: 0;
+        list-style: none;
+    }
+
+    .continuum-toc-list-item {
+        position: relative;
+        list-style-type: none;
+        padding-left: @toc-list-item-padding-start;
+        margin: 0;
+    }
+}
+
+// ===== Collapse ToC Sections by Default (with JS) =====
+.client-js .continuum-toc {
+    .continuum-toc-level-1 .continuum-toc-list-item {
+        display: none;
+    }
+
+    .continuum-toc-level-1.continuum-toc-list-item-expanded .continuum-toc-list-item {
+        display: block;
+    }
+
+    .continuum-toc-toggle {
+        display: block;
+    }
+
+    .continuum-toc-level-1.continuum-toc-list-item-expanded .continuum-toc-toggle {
+        transform: rotate(0deg);
+    }
+}
+
+.client-js body.ltr .continuum-toc .continuum-toc-toggle {
+    transform: rotate(-90deg);
+}
+.client-js body.rtl .continuum-toc .continuum-toc-toggle {
+    transform: rotate(90deg);
+}
+
+// ===== Only 1 ToC Landmark at a Time =====
+.continuum-toc-landmark {
+    display: none;
+}
+
+// Display the correct ToC landmark depending on pinning/prefs
+.continuum-feature-toc-pinned-clientpref-0 body:not(.continuum-sticky-header-visible) .continuum-page-titlebar,
+.continuum-feature-toc-pinned-clientpref-0 .continuum-sticky-header-visible .continuum-sticky-header-context-bar,
+.continuum-feature-toc-pinned-clientpref-1 .continuum-column-start {
+    .continuum-toc-landmark {
+        display: block;
+    }
+}
+
+// ===== Responsive: ToC moves to titlebar on mobile regardless of pinning =====
+@media (max-width: @max-width-breakpoint-tablet) {
+    .client-js .continuum-page-titlebar .continuum-toc-landmark {
+        display: block;
+    }
+    .client-js .mw-table-of-contents-container.continuum-toc-landmark {
+        display: none;
+    }
+}
+.toc {
+    border-radius: 12px;
+}

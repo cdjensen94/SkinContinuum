@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ftillimi",
+			"Martindimaggio"
+		]
+	},
+	"continuum-languages": "Gljuh",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 gljuh}}",
+	"continuum-no-language-button-label": "Vu gnatrë gljuh",
+	"continuum-action-addsection": "Jungir gnë argument",
+	"continuum-action-delete": "Kançilar",
+	"continuum-action-move": "Tunde",
+	"continuum-action-protect": "Mbroj",
+	"continuum-view-create": "Kriar",
+	"continuum-view-history": "Vrej kronologiën",
+	"continuum-more-actions": "Më shurbise",
+	"continuum-searchsuggest-containing": "Kërkoj paginet çë kan <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Indiçe",
+	"continuum-toc-beginning": "Iniziu",
+	"continuum-main-menu-label": "Menu prinçipali",
+	"continuum-page-tools-label": "Strumente",
+	"continuum-page-tools-general-label": "Generali",
+	"continuum-unpin-element-label": "fshihe"
+}

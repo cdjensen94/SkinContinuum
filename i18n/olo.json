@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Denö",
+			"Ilja.mos",
+			"Mashoi7",
+			"Ruppijeva"
+		]
+	},
+	"continuum-languages": "Kielet",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 kieli|$1 kieldy}}",
+	"continuum-no-language-button-label": "Ližiä kielii",
+	"continuum-action-addsection": "Ližiä aihe",
+	"continuum-action-delete": "Ota iäre",
+	"continuum-action-move": "Muuta nimi",
+	"continuum-action-protect": "Suojua",
+	"continuum-action-unprotect": "Vaihta suojavustu",
+	"continuum-view-create": "Luaji",
+	"continuum-view-edit": "Kohendele",
+	"continuum-view-history": "Kačo histourii",
+	"continuum-view-view": "Luve",
+	"continuum-view-viewsource": "Kačo algukoodu",
+	"continuum-more-actions": "Vie",
+	"continuum-searchsuggest-containing": "Eči sivuloi, kudamis on <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Syväindö",
+	"continuum-toc-beginning": "Algavo",
+	"continuum-main-menu-label": "Piävalličuslistu",
+	"continuum-page-tools-label": "Instrumentat",
+	"continuum-page-tools-general-label": "Yhtehine",
+	"continuum-unpin-element-label": "peitä"
+}

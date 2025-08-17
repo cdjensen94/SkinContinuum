@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paraw2",
+			"TerranBoy"
+		]
+	},
+	"continuum-languages": "زوانەیل",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 زوان}}",
+	"continuum-no-language-button-label": "زوان زێاێ بکە",
+	"continuum-action-addsection": "باوەت تازە ئزافە بکە",
+	"continuum-action-delete": "بسڕەوە",
+	"continuum-action-move": "جیوەجی بکە",
+	"continuum-action-protect": "بپیەرێزەێ",
+	"continuum-view-create": "درس‌کردن",
+	"continuum-view-edit": "دەسکاری بکە",
+	"continuum-view-history": "بنووڕە پێشینەگەی",
+	"continuum-view-view": "بخوەنە",
+	"continuum-view-viewsource": "سەرچاوەگەێ بۊن",
+	"continuum-more-actions": "فرەتر",
+	"continuum-feature-custom-font-size-0-label": "بۊچگ",
+	"continuum-feature-custom-font-size-1-label": "ستاندارد",
+	"continuum-searchsuggest-containing": "مینەێ ئەو پەڕەیلە بکە ک «<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>» دێرن.",
+	"continuum-toc-label": "ناواخنەیل",
+	"continuum-toc-beginning": "دەسپێک",
+	"continuum-main-menu-tooltip": "پێرست سەرەکی",
+	"continuum-site-nav-label": "ماڵپەڕ",
+	"continuum-main-menu-label": "پێڕست سەرەکی",
+	"continuum-page-tools-label": "ئەفزارەیل",
+	"continuum-page-tools-general-label": "گشتی",
+	"continuum-unpin-element-label": "بشارەو"
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian Yakubu"
+		]
+	},
+	"continuum-languages": "Bula",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 Bulli|$1 Bula}}",
+	"continuum-no-language-button-label": "Zaŋ bula paasi",
+	"continuum-action-addsection": "Zaŋin yaɣli paali ŋpaasi",
+	"continuum-action-delete": "Nyesi",
+	"continuum-action-move": "Vuuma",
+	"continuum-action-protect": "Gur",
+	"continuum-view-create": "Namma",
+	"continuum-more-actions": "Din pasi",
+	"continuum-appearance-label": "Yin paalo",
+	"continuum-feature-limited-width-0-label": "Yɛlima",
+	"continuum-feature-limited-width-1-label": "Din sumsi sheem",
+	"continuum-feature-custom-font-size-name": "Sɔbbu",
+	"continuum-feature-custom-font-size-0-label": "Beela",
+	"continuum-feature-custom-font-size-1-label": "Din sumsi sheem",
+	"continuum-feature-custom-font-size-2-label": "Din yɛlima",
+	"skin-theme-name": "Kom",
+	"skin-theme-day-label": "Neesim",
+	"skin-theme-night-label": "Zibsim",
+	"skin-theme-os-label": "Toritori",
+	"continuum-searchsuggest-containing": "Guan bɔa yaɣshela din Mari<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Din be di puuni",
+	"continuum-toc-beginning": "Di Piligu",
+	"continuum-main-menu-label": "Yiŋni dundɔŋi",
+	"continuum-page-tools-label": "Kpatuɣa dima",
+	"continuum-page-tools-general-label": "Di kolin vaai",
+	"continuum-page-tools-actions-label": "Tuuma",
+	"continuum-unpin-element-label": "Zaŋ suaɣ"
+}

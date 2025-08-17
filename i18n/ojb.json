@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aandeginini",
+			"Nibi-zhimaaganish",
+			"Mashkawiziiwin"
+		]
+	},
+	"continuum-languages": "Inwewin",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 inwewin|$1 inwewined}}",
+	"continuum-no-language-button-label": "Asigagindaaso inwewin",
+	"continuum-action-addsection": "Asigagindaaso dibaajimowin",
+	"continuum-action-delete": "Gaasiibii'an",
+	"continuum-action-move": "Mamaajii",
+	"continuum-action-protect": "Ganawendan",
+	"continuum-view-create": "Ozhitoon",
+	"continuum-view-edit": "Aanji'",
+	"continuum-view-history": "Gaa'-waabam",
+	"continuum-view-view": "Agindan",
+	"continuum-more-actions": "Nawaj",
+	"continuum-appearance-label": "Bi-naagwad",
+	"continuum-feature-limited-width-name": "Mengadeyaa",
+	"continuum-feature-custom-font-size-name": "Ozhibii'igan",
+	"continuum-feature-custom-font-size-0-label": "Agaasaa",
+	"continuum-feature-custom-font-size-1-label": "Akina giizhig",
+	"continuum-feature-custom-font-size-2-label": "Gichi",
+	"skin-theme-name": "Adisan",
+	"skin-theme-day-label": "Waazakonenjigan",
+	"skin-theme-night-label": "Dibiki",
+	"skin-theme-os-label": "Ganawenindizowin",
+	"skin-theme-exclusion-notice": "Wa'aw mazina'igan ayaan mozhag biindig  waazakonenjigan bi.",
+	"continuum-searchsuggest-containing": "Nandawaabam biindig mazina'igans ayaa <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Biindiged",
+	"continuum-toc-beginning": "Maajii",
+	"continuum-main-menu-label": "Niigaan miijim-mazina'igans",
+	"continuum-feature-custom-font-size-exclusion-notice": "Wa'aw mazina'igan apane abajo' agasaja  maajiibii'amaw",
+	"continuum-page-tools-label": "Aabajichiganed",
+	"continuum-page-tools-general-label": "Ogimaa",
+	"continuum-page-tools-actions-label": "Doodaadiwaged",
+	"continuum-unpin-element-label": "gaazo"
+}

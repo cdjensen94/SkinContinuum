@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abdullahi",
+			"Maax"
+		]
+	},
+	"continuum-action-addsection": "Hadal ku dar",
+	"continuum-action-delete": "Tirtir",
+	"continuum-action-move": "Wareeji",
+	"continuum-action-protect": "Difaac",
+	"continuum-action-undelete": "Ha tirtirin",
+	"continuum-action-unprotect": "Bedel difaacida",
+	"continuum-view-create": "Abuur",
+	"continuum-view-edit": "Wax ka badal",
+	"continuum-view-history": "Fiiri taariikhda",
+	"continuum-view-view": "Akhri",
+	"continuum-view-viewsource": "Itusi xogta",
+	"continuum-more-actions": "Dheeraad"
+}

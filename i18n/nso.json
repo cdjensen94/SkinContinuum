@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mohau"
+		]
+	},
+	"continuum-action-addsection": "Lokela sererwa",
+	"continuum-action-delete": "Phumula",
+	"continuum-action-move": "Huduša",
+	"continuum-action-protect": "Lota",
+	"continuum-view-create": "Hlola",
+	"continuum-view-edit": "Fetola",
+	"continuum-view-history": "Laetša histori",
+	"continuum-view-view": "Bala",
+	"continuum-view-viewsource": "Lebelela mothopo"
+}

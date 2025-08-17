@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Demmy",
+			"TheSymbyat"
+		]
+	},
+	"continuum-languages": "Àwọn èdè",
+	"continuum-language-button-label": "{{PLURAL:$1|èdè $1|Àwọn èdè $1}}",
+	"continuum-no-language-button-label": "Àfikún àwọn édé",
+	"continuum-action-addsection": "Àfikún orí-ọ̀rọ̀",
+	"continuum-action-delete": "Ìparẹ́",
+	"continuum-action-move": "Ìyípòdà",
+	"continuum-action-protect": "Àbò",
+	"continuum-action-undelete": "Ìmúkúrò ìparẹ́",
+	"continuum-action-unprotect": "Ìyípadà àbò",
+	"continuum-view-create": "Ṣ'èdá",
+	"continuum-view-edit": "Àtúnṣe",
+	"continuum-view-history": "Wo ìtàn",
+	"continuum-view-view": "Àwòkà",
+	"continuum-view-viewsource": "Wo àmìọ̀rọ̀",
+	"continuum-more-actions": "Ọ̀pọ̀",
+	"continuum-appearance-label": "Ìrísí",
+	"continuum-feature-custom-font-size-name": "Àyọkà",
+	"continuum-feature-custom-font-size-0-label": "Kékeré",
+	"continuum-feature-custom-font-size-1-label": "Àjùmọ̀lò",
+	"continuum-feature-custom-font-size-2-label": "Tóbi",
+	"continuum-searchsuggest-containing": "Ṣe ìwárí fún àwọn ojúewé tó ní <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Àwọn àkóónú",
+	"continuum-toc-beginning": "Ìbẹ̀rẹ̀",
+	"continuum-main-menu-label": "Ẹ̀ka àkọ́kọ́",
+	"continuum-page-tools-label": "Àwọn irinṣẹ́",
+	"continuum-page-tools-general-label": "Àpapọ̀",
+	"continuum-unpin-element-label": "bòmọ́lẹ̀"
+}

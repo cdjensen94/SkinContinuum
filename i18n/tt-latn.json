@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro",
+			"Frhdkazan",
+			"TayfunEt.",
+			"Zolgoyo"
+		]
+	},
+	"skinname-continuum": "Sızımlı",
+	"continuum-languages": "Tellär",
+	"continuum-action-addsection": "Yaña tema östäw",
+	"continuum-action-delete": "Beterü",
+	"continuum-action-move": "Küçerü",
+	"continuum-action-protect": "Yaqlaw",
+	"continuum-action-undelete": "Qaytaru",
+	"continuum-action-unprotect": "Yaqlawnı beterü",
+	"continuum-view-create": "Tözü",
+	"continuum-view-edit": "Üzgärtü",
+	"continuum-view-history": "Tarixın qaraw",
+	"continuum-view-view": "Uqu",
+	"continuum-view-viewsource": "Çığanağın qaraw",
+	"continuum-more-actions": "Başqalar",
+	"continuum-page-tools-label": "Qorallar",
+	"continuum-unpin-element-label": "yäşerü"
+}

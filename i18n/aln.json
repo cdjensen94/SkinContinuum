@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bresta"
+		]
+	},
+	"continuum.css": "/* CSSi i vednosun këtu ka me i prekë shfrytëzuesit e dukjes Continuum */",
+	"continuum.js": "/* Çdo JavaScript këtu ka me u ngarkue për shfrytëzuesit që përdorin dukjen Continuum */",
+	"continuum-action-addsection": "Shto temë",
+	"continuum-action-delete": "Fshij",
+	"continuum-action-move": "Zhvendos",
+	"continuum-action-protect": "Mbroj",
+	"continuum-action-undelete": "Kthe fshimjen mbrapsht",
+	"continuum-action-unprotect": "Hiq mbrojtjen",
+	"continuum-view-create": "Krijo",
+	"continuum-view-edit": "Redakto",
+	"continuum-view-history": "Shih historinë",
+	"continuum-view-view": "Lexo",
+	"continuum-view-viewsource": "Shih kodin"
+}

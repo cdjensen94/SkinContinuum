@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moshtank",
+			"Mostafadaneshvar",
+			"RigiMahnoor",
+			"Sultanselim baloch"
+		]
+	},
+	"continuum-opt-out": "پݔسری وڈئی سۏج دئ",
+	"continuum-languages": "زبانان",
+	"continuum-language-button-label": "{{PLURAL:$1|$1ءِ زبان}}",
+	"continuum-no-language-button-label": "زبانانءِ ھۏر کنگ",
+	"continuum-action-addsection": "سرگالے ھۏر کنگ",
+	"continuum-action-delete": "گار",
+	"continuum-action-move": "دگہ جاھے کنگ",
+	"continuum-action-protect": "سمبالی",
+	"continuum-action-undelete": "ترینگ",
+	"continuum-action-unprotect": "پروتکشنء ٹگل بدئ",
+	"continuum-view-create": "بنݔنگ",
+	"continuum-view-edit": "ٹگلݔنگ",
+	"continuum-view-history": "رمسءِ چارگ",
+	"continuum-view-view": "وانگ",
+	"continuum-view-viewsource": "سرچممگءِ سۏج",
+	"continuum-more-actions": "گݔشتِر",
+	"continuum-searchsuggest-containing": "شۏھاز مہ تاکانءِ تۏکا <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "تلمبار",
+	"continuum-toc-beginning": "بُنرِد",
+	"continuum-main-menu-tooltip": "رݔدگݔن منو",
+	"continuum-main-menu-label": "رݔدگݔن منو",
+	"continuum-page-tools-label": "ابزاران",
+	"continuum-page-tools-general-label": "لَس",
+	"continuum-unpin-element-label": "اندݔم کنگ"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Medaho"
+		]
+	},
+	"continuum-languages": "Egbewo",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 egbe|$1 egbewo}}",
+	"continuum-more-actions": "Sugbɔ",
+	"continuum-page-tools-label": "Dɔwanuwo"
+}

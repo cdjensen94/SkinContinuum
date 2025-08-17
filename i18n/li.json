@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes",
+			"Robin van der Vliet",
+			"Robin0van0der0vliet"
+		]
+	},
+	"continuum-skin-desc": "Modern versie van MonoBook mit e frisj uterlik en verbaeteringe op 't gebeed van gebroeksvruntjelikheid",
+	"continuum-languages": "Sjpraoke",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 spraok|$1 spraoke}}",
+	"continuum-no-language-button-label": "Veug spraoke toe",
+	"continuum-action-addsection": "Voog köpke toe",
+	"continuum-action-delete": "Sjaf eweg",
+	"continuum-action-move": "Verplaats",
+	"continuum-action-protect": "Besjirm",
+	"continuum-action-undelete": "Plaats trök",
+	"continuum-action-unprotect": "Anger beveiliging",
+	"continuum-view-create": "Maak aan",
+	"continuum-view-edit": "Bewirk",
+	"continuum-view-history": "Bekiek de gesjiedenis",
+	"continuum-view-view": "Laes",
+	"continuum-view-viewsource": "Bekiek bróntèks",
+	"continuum-more-actions": "Mieë",
+	"continuum-searchsuggest-containing": "Zeuk veur pagina's mitte teks <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Inhaud",
+	"continuum-toc-beginning": "Begin",
+	"continuum-main-menu-label": "Houfmenu",
+	"continuum-page-tools-label": "Gereidsjapskis",
+	"continuum-page-tools-general-label": "Algemein",
+	"continuum-unpin-element-label": "versjtaek"
+}

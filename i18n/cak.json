@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"CeciMagi",
+			"Chocoj"
+		]
+	},
+	"continuum-languages": "taq ch'ab'äl",
+	"continuum-language-button-label": "{{jun ch'ab'äl\n:$1|$1 language|$1 languages}}",
+	"continuum-no-language-button-label": "tiya' jun chik ch'ab'äl",
+	"continuum-action-addsection": "K'ak'a' peraj",
+	"continuum-view-create": "Tatz'uku'",
+	"continuum-view-edit": "Tanuk'u'",
+	"continuum-view-history": "Tatz'eta' ri natab'äl",
+	"continuum-view-view": "Tasik'ij",
+	"continuum-more-actions": "Ch'aqa chik",
+	"continuum-main-menu-label": "Nïm okem",
+	"continuum-page-tools-general-label": "Ronojel",
+	"continuum-unpin-element-label": "ti ewäx"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"MokaAkashiyaPT"
+		]
+	},
+	"continuum-action-addsection": "Nuobo cacho",
+	"continuum-action-delete": "Botar fuora",
+	"continuum-action-move": "Arrastrar",
+	"continuum-action-protect": "Porteger",
+	"continuum-action-unprotect": "Altarar la porteçon",
+	"continuum-view-create": "Criar",
+	"continuum-view-edit": "Eiditar",
+	"continuum-view-history": "Ber stórico",
+	"continuum-view-view": "Lher",
+	"continuum-more-actions": "Mais"
+}

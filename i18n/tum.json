@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tumbuka Arch"
+		]
+	},
+	"continuum-languages": "Viyowoyelo",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 chiyowoyelo|$1 viyowoyelo}}",
+	"continuum-no-language-button-label": "Sazgapo viyowoyelo",
+	"continuum-action-addsection": "Sazgapo mutu",
+	"continuum-action-delete": "Fufuta",
+	"continuum-action-move": "Ithya",
+	"continuum-action-protect": "Tchinjilizga",
+	"continuum-view-create": "Yata",
+	"continuum-view-edit": "Lemba",
+	"continuum-view-history": "Wona mayambilo",
+	"continuum-view-view": "Ŵelenga",
+	"continuum-more-actions": "Vinandi",
+	"continuum-appearance-label": "Kaonekelo",
+	"continuum-feature-limited-width-name": "Mu ufupi",
+	"continuum-feature-limited-width-0-label": "Usani",
+	"continuum-feature-limited-width-1-label": "Mwakuzomelezgeka",
+	"continuum-feature-custom-font-size-name": "Malemba",
+	"continuum-feature-custom-font-size-0-label": "Malemba ghachoko",
+	"continuum-feature-custom-font-size-1-label": "Malemba ghakuzomelezgeka",
+	"continuum-feature-custom-font-size-2-label": "Ghakulu",
+	"skin-theme-name": "Mutundu",
+	"skin-theme-day-label": "Kuŵala",
+	"skin-theme-night-label": "Ufipa",
+	"skin-theme-os-label": "Mwakujisintha sintha",
+	"skin-theme-exclusion-notice": "Pa jani ili pali ungweru nyengo zose.",
+	"continuum-searchsuggest-containing": "Fufuza ma jani agho muli <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Vyamukati",
+	"continuum-toc-beginning": "Kumayambililo",
+	"continuum-main-menu-label": "Menyu yikuru",
+	"continuum-feature-custom-font-size-exclusion-notice": "Jani ili likugwiliska ntchito malemba ghachoko ghachoko nyengo zose",
+	"continuum-page-tools-label": "Vilwelo",
+	"continuum-page-tools-general-label": "Vya masiku ghose",
+	"continuum-page-tools-actions-label": "Vyakuchita",
+	"continuum-unpin-element-label": "kubisa"
+}

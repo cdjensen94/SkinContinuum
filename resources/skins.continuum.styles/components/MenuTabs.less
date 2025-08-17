@@ -1,0 +1,92 @@
+/**
+ * Styling for namespace tabs (page, discussion) and views (read, edit, view history, watch and other actions)
+ */
+
+/* Tab list items */
+.continuum-menu-tabs {
+	float: left;
+
+	// With mw-ui-icons, expand watchstar and wikilove links it to cover full touch area
+	.mw-list-item {
+		.cdx-button--icon-only {
+			// Align small icons with the bottom of the tabs.
+			margin: 2px 0 0;
+		}
+	}
+
+	/* focus and hover have outlines. Text underline interferes with bottom border */
+	.mw-list-item.continuum-tab-noicon a:focus,
+	.mw-list-item.continuum-tab-noicon a:hover {
+		text-decoration: none;
+		border-bottom: 2px @border-style-base;
+	}
+
+	/* T361841 add invisible bottom border by default */
+	.mw-list-item.continuum-tab-noicon a {
+		border-bottom: 2px @border-style-base @border-color-transparent;
+	}
+
+	// T316574 Override visited link styles
+	.mw-list-item a {
+		.mixin-continuum-unvisited-link-base();
+	}
+
+	// Override visited red link styles
+	.mw-list-item.new a {
+		.mixin-continuum-unvisited-link-red();
+	}
+
+	.mw-list-item.selected a {
+		.mixin-continuum-selected-link();
+		border-bottom: 2px @border-style-base;
+	}
+}
+
+/**
+ * Tab list item appearance. Applies to both <li>'s inside .continuum-menu-tabs
+ * and dropdown menus inside the article toolbar
+ */
+.continuum-menu-tabs .mw-list-item.continuum-tab-noicon,
+.continuum-page-toolbar-container .continuum-dropdown {
+	margin: 0 @padding-horizontal-tabs;
+}
+
+.continuum-menu-tabs .mw-list-item,
+.continuum-page-toolbar-container .continuum-dropdown-label {
+	// Only apply no wrap
+	white-space: nowrap;
+}
+
+.continuum-menu-tabs .mw-list-item,
+.continuum-page-toolbar-container .continuum-dropdown {
+	float: left;
+	margin-bottom: 0; /* overrides default `li` styling */
+
+	// target links inside of .continuum-tab-menu
+	// and dropdown toggles inside the article toolbar.
+	// NOTE: Consider adding a single selector to define both items,
+	// since they both appear beside each other in the article toolbar.
+	& > a,
+	.continuum-dropdown-label {
+		display: inline-flex;
+		position: relative;
+		cursor: pointer;
+		font-weight: normal;
+	}
+
+	.continuum-dropdown-label {
+		// For better compatibility with gadgets (like Twinkle) that append
+		// <H3> elements as dropdown headings (which was the convention in legacy Continuum).
+		font-size: inherit;
+		// Override button styles on dropdown toggle button
+		border: 0;
+	}
+
+	&.continuum-tab-noicon > a,
+	.continuum-dropdown-label {
+		// Top & bottom padding to increase clickable area.
+		padding: @padding-vertical-tabs;
+		// bottom margin to overlap border with toolbar border.
+		margin-bottom: -1px;
+	}
+}

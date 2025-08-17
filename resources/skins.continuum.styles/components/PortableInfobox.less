@@ -1,0 +1,175 @@
+// PortableInfobox - Dark Theme (Navy & Orange)
+// Ensure your variables are imported first!
+@import 'mediawiki.skin.variables.less';
+
+@pi-header-bg:        @background-color-interactive;  // #002B5C
+@pi-bg:               @background-color-neutral-subtle; // #001933
+@pi-title-color:      @color-progressive;              // #FF851B
+@pi-title-bg:         @background-color-interactive;   // #002B5C
+@pi-tab-color:        @background-color-interactive;   // #002B5C
+@pi-tab-active:       @color-progressive;              // #FF851B
+@pi-tab-border:       @color-base;                     // #FFF
+@pi-label-color:      @color-progressive--active;      // #FF6300
+@pi-border:           @color-progressive;              // #FF851B
+@pi-footer-bg:        @background-color-base;          // #001F3F
+@pi-data-bg:          @background-color-base;          // #001F3F
+@pi-data-hover-bg:    @background-color-interactive;   // #002B5C
+@pi-divider:          #003366;
+@pi-image-bg:         @background-color-neutral-subtle; // #001933
+@pi-scroll-thumb:     @color-progressive;              // #FF851B
+@pi-scroll-thumb-hover: @color-progressive--hover;     // #FFB84D
+@pi-scroll-track:     @background-color-neutral-subtle; // #001933
+
+.portable-infobox {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    background-color: @pi-bg;
+    color: @color-base;
+    border: 2px solid @pi-border;
+    border-radius: 12px;
+    padding: 12px;
+
+    // Scrollbar Styling
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        background: @pi-scroll-track;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: @pi-scroll-thumb;
+        border-radius: 5px;
+        border: 2px solid @pi-scroll-track;
+        &:hover {
+            background-color: @pi-scroll-thumb-hover;
+        }
+    }
+
+    // Infobox Title
+    .pi-title {
+        background-color: @pi-title-bg;
+        color: @pi-title-color;
+        font-size: 2.3em;
+        font-weight: bold;
+        border-radius: 12px;
+        text-align: center;
+        padding: 8px 12px;
+    }
+    // Header
+    .pi-header {
+        background-color: @pi-header-bg;
+        color: @pi-title-color;
+        border-radius: 6px;
+        font-size: 1.6em;
+    }
+
+    // Data Fields
+    .pi-data {
+        background-color: @pi-data-bg;
+        color: @color-base;
+        border-top: 1px solid @pi-divider;
+        &:hover {
+            background-color: @pi-data-hover-bg;
+        }
+    }
+
+    .pi-data-label {
+        min-width: 120px;
+        max-width: 35%;
+        flex-grow: 1;
+        text-align: left;
+        color: @pi-label-color;
+    }
+
+    .pi-data-value {
+        flex-grow: 2;
+        min-width: 60%;
+        text-align: left;
+    }
+
+    // Images
+    .pi-image img {
+        border: 2px solid @pi-border;
+        border-radius: 4px;
+        background-color: @pi-image-bg;
+        width: 100%;
+        display: block;
+        margin: auto;
+        height: auto;
+    }
+
+    // Footer
+    .pi-footer {
+        background-color: @pi-footer-bg;
+        color: @color-base;
+        border-top: 1px solid @pi-border;
+    }
+
+    // Secondary Backgrounds
+    .pi-secondary-background {
+        background-color: @pi-bg;
+        color: @pi-title-color;
+        border-radius: 12px;
+    }
+}
+
+// Tabs
+.pi-section-navigation {
+    .pi-section-tab,
+    .pi-media-collection .pi-tab-link {
+        &.pi-section-active,
+        &.current {
+            background: @pi-tab-active;
+        }
+    }
+    li.pi-section-tab {
+        border: 2px solid @pi-tab-border;
+        background: @pi-tab-color;
+    }
+}
+
+// VisualEditor exception
+body:not(.ve-active) .portable-infobox {
+    background-color: @pi-bg;
+    color: @color-base;
+    border: 1px solid @pi-border;
+}
+
+// Responsive (Mobile)
+@media (max-width: 768px) {
+    .pi-infobox {
+        width: 100%;
+    }
+    .pi-data-label, .pi-data-value {
+        width: 100%;
+        display: block;
+    }
+}
+.pi-title h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: @color-bright-orange; /* Bright Orange */
+    text-align: center;
+    margin: 0;
+}
+/*
+.pi-horizontal-group {
+  display: flex;
+  flex-wrap: wrap;           // Ensures items wrap if container is too narrow
+  align-items: center;       // Vertically center within the row
+  margin: (@spacing-xxs) 0;  // Optional spacing above/below
+
+  > .pi-data,
+  > .pi-group,
+  > .pi-item {
+    margin-right: @spacing-xs;      // Horizontal spacing
+  }
+
+  > .pi-data:last-child,
+  > .pi-group:last-child,
+  > .pi-item:last-child {
+    margin-right: 0;
+  }
+}
+*/

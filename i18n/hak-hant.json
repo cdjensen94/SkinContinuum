@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"continuum-action-undelete": "恢復",
+	"continuum-action-unprotect": "更改保護"
+}

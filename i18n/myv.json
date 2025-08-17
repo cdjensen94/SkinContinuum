@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Botuzhaleny-sodamo",
+			"Rueter",
+			"Сантяй"
+		]
+	},
+	"continuum-opt-out": "Аравтомс ташто аравтомкатнень",
+	"continuum-opt-out-tooltip": "Полавтыть аравтомкатнень, ташто аравтомкатнень (Таштомозь Векторонь) теманть коряс",
+	"continuum-languages": "Кельть",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 кель|$1 кельть}}",
+	"continuum-no-language-button-label": "Поладомс кельть",
+	"continuum-action-addsection": "Поладомс кортамодо теманть",
+	"continuum-action-delete": "Нардамс",
+	"continuum-action-move": "Шаштомс",
+	"continuum-action-protect": "Ванстомс",
+	"continuum-action-undelete": "Вельмевтемс нардазенть",
+	"continuum-action-unprotect": "Полавтомс ванстоманзо",
+	"continuum-view-create": "Теемс",
+	"continuum-view-edit": "Витнемс-петнемс",
+	"continuum-view-history": "Историянь ваннома",
+	"continuum-view-view": "Ловномс",
+	"continuum-view-viewsource": "Ваномс косто саезь",
+	"continuum-more-actions": "Седе ламо",
+	"continuum-searchsuggest-containing": "Вешнемс лопат, конатнесэ ули <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Потмокс",
+	"continuum-toc-beginning": "Ушодкс",
+	"continuum-main-menu-label": "Прявт лопа",
+	"continuum-page-tools-label": "Кедьёнкст",
+	"continuum-page-tools-general-label": "Вейсэнь",
+	"continuum-unpin-element-label": "кекшемс"
+}

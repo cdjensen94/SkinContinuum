@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Belkacem77",
+			"Mmistmurt",
+			"YouvaDjouadi",
+			"ButterflyOfFire"
+		]
+	},
+	"continuum-skin-desc": "Lqem atrar n MonoBook s wudem ilemẓi akked ddeqs n usnerni ucbiḥ",
+	"continuum-languages": "Tutlayin",
+	"continuum-no-language-button-label": "Rnu tutlayin",
+	"continuum-action-addsection": "Rnu-d asentel",
+	"continuum-action-delete": "Mḥu",
+	"continuum-action-move": "Snifel isem",
+	"continuum-action-protect": "Mmesten",
+	"continuum-action-undelete": "Uɣaled",
+	"continuum-action-unprotect": "Beddel amesten",
+	"continuum-view-create": "Rnu",
+	"continuum-view-edit": "Ẓreg",
+	"continuum-view-history": "Wali amazray",
+	"continuum-view-view": "Ɣeṛ",
+	"continuum-view-viewsource": "Ẓer aɣbalu",
+	"continuum-more-actions": "Ugar",
+	"continuum-feature-limited-width-name": "Tehri",
+	"continuum-feature-custom-font-size-name": "Aḍris",
+	"continuum-feature-custom-font-size-0-label": "Ameẓyan",
+	"skin-theme-name": "Ini",
+	"skin-theme-day-label": "Aceɛlal",
+	"skin-theme-night-label": "Aberkan",
+	"skin-theme-os-label": "Awurman",
+	"continuum-toc-label": "Igburen",
+	"continuum-main-menu-label": "Umuɣ agejdan",
+	"continuum-page-tools-label": "Ifecka",
+	"continuum-page-tools-general-label": "Amatu",
+	"continuum-page-tools-actions-label": "Tigawin",
+	"continuum-unpin-element-label": "ffer"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Filipinayzd"
+		]
+	},
+	"continuum-action-addsection": "Magrugang sa paksa",
+	"continuum-action-delete": "Puraon",
+	"continuum-action-move": "Ilipat",
+	"continuum-action-protect": "Protektaran",
+	"continuum-action-undelete": "Ibalik",
+	"continuum-action-unprotect": "Ribayan a proteksyon",
+	"continuum-view-create": "Gumibo",
+	"continuum-view-edit": "Balyowan",
+	"continuum-view-history": "Baydon a kasaysayan",
+	"continuum-view-view": "Basahon",
+	"continuum-view-viewsource": "Baydon a ginikanan",
+	"continuum-more-actions": "Dakul pa"
+}

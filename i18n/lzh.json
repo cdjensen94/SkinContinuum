@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Itsmine",
+			"Justincheng12345",
+			"Nemo bis",
+			"物灵",
+			"魔琴",
+			"優枰"
+		]
+	},
+	"skinname-continuum": "經典向量（庚寅年）",
+	"skinname-continuum": "向量（壬寅年）",
+	"continuum.css": "/* 此之 CSS 用於動力面之簿也 */",
+	"continuum.js": "/* 此之JavaScript將載於用動力面之簿 */",
+	"continuum-language-button-label": "{{PLURAL:$1|$1}}語言",
+	"continuum-action-addsection": "入題",
+	"continuum-action-delete": "刪",
+	"continuum-action-move": "遷",
+	"continuum-action-protect": "緘",
+	"continuum-action-undelete": "覽刪",
+	"continuum-action-unprotect": "啟",
+	"continuum-view-create": "立",
+	"continuum-view-edit": "纂",
+	"continuum-view-history": "覽史",
+	"continuum-view-view": "閱",
+	"continuum-view-viewsource": "覽源",
+	"continuum-more-actions": "餘",
+	"skin-theme-day-label": "白",
+	"skin-theme-night-label": "緇",
+	"skin-theme-exclusion-notice": "卷常素色。"
+}

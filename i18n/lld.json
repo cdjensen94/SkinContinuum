@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Asenoner",
+			"Starladin"
+		]
+	},
+	"continuum-languages": "Rujenedes",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 lingaz|$1 lingac}}",
+	"continuum-no-language-button-label": "Jonta rujenedes",
+	"continuum-action-addsection": "Mët leprò n tema de descuscion",
+	"continuum-action-delete": "Straihëia",
+	"continuum-action-move": "Spostëia",
+	"continuum-action-protect": "Straverda",
+	"continuum-view-create": "Mët adum",
+	"continuum-view-edit": "Muda",
+	"continuum-view-history": "Storia dl documënt",
+	"continuum-view-view": "Liej",
+	"continuum-more-actions": "De plu",
+	"continuum-searchsuggest-containing": "Chir les plates cun laite <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-page-tools-label": "Strumënc",
+	"continuum-page-tools-general-label": "Generel",
+	"continuum-unpin-element-label": "nascuend"
+}

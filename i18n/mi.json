@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"MinecraftAustralia",
+			"Piwaiwaka",
+			"Ultron90"
+		]
+	},
+	"continuum-languages": "Reo",
+	"continuum-no-language-button-label": "Tāpiri reo",
+	"continuum-action-delete": "Muku",
+	"continuum-action-move": "Nuku",
+	"continuum-view-view": "Tirohia",
+	"continuum-unpin-element-label": "huna"
+}

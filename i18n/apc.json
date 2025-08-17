@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"FunLater",
+			"HitomiAkane"
+		]
+	},
+	"continuum-languages": "لغات",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 لغة|$1 لغات}}",
+	"continuum-no-language-button-label": "زيد لغات",
+	"continuum-action-addsection": "زيد موضوع",
+	"continuum-action-delete": "حذف",
+	"continuum-action-move": "غيّر الإسم",
+	"continuum-action-protect": "حمي",
+	"continuum-view-create": "عمول",
+	"continuum-view-history": "شوف التاريخ",
+	"continuum-more-actions": "أكتر",
+	"continuum-appearance-label": "المظهر",
+	"continuum-feature-limited-width-name": "العرض",
+	"continuum-feature-limited-width-0-label": "عريض",
+	"continuum-feature-limited-width-1-label": "قياسي",
+	"continuum-feature-custom-font-size-name": "النص",
+	"continuum-feature-custom-font-size-0-label": "صغير",
+	"continuum-feature-custom-font-size-1-label": "قياسي",
+	"continuum-feature-custom-font-size-2-label": "كبير",
+	"skin-theme-name": "اللون",
+	"skin-theme-day-label": "فاتح",
+	"skin-theme-night-label": "غامق",
+	"skin-theme-os-label": "أوتوماتيكي",
+	"skin-theme-exclusion-notice": "الصفحة هي دايما بالوضع الفاتح.",
+	"continuum-searchsuggest-containing": "نبّش ع صفحات بتحتوى ع <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "المحتوى",
+	"continuum-toc-beginning": "المقدمة",
+	"continuum-anon-user-menu-pages": "صفحات للمحررين اللي سجَّلو خروج",
+	"continuum-main-menu-label": "المنيو الرئيسية",
+	"continuum-feature-custom-font-size-exclusion-notice": "الصفحة هي بتستخدم على طول حجم خط صغير",
+	"continuum-page-tools-label": "أدوات",
+	"continuum-page-tools-general-label": "عام",
+	"continuum-page-tools-actions-label": "إجراءات",
+	"continuum-unpin-element-label": "خبي"
+}

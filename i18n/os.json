@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amikeco",
+			"Bouron",
+			"Taamu",
+			"Таймураз"
+		]
+	},
+	"continuum-languages": "Æвзæгтæ",
+	"continuum-no-language-button-label": "Æвзæгтæ бафтау",
+	"continuum-action-addsection": "Нæуæг ныхас бакæнын",
+	"continuum-action-delete": "Схафын",
+	"continuum-action-move": "Ном ивын",
+	"continuum-action-protect": "Сæхгæнын",
+	"continuum-action-undelete": "Рацаразын",
+	"continuum-action-unprotect": "Ивын хъахъхъæд",
+	"continuum-view-create": "Скæнын",
+	"continuum-view-edit": "Ивын",
+	"continuum-view-history": "Истори",
+	"continuum-view-view": "Кæсын",
+	"continuum-view-viewsource": "Код кæсын",
+	"continuum-more-actions": "Фылдæр",
+	"continuum-searchsuggest-containing": "Агур фæрстæ, кæцыты ис <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-page-tools-label": "Фæрæзтæ",
+	"continuum-page-tools-general-label": "Иумæйаг",
+	"continuum-unpin-element-label": "бамбæхс"
+}

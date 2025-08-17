@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"continuum-action-addsection": "Voeg kopje toe",
+	"continuum-action-delete": "Wissen",
+	"continuum-action-move": "Verschuuf",
+	"continuum-action-protect": "Bescherm",
+	"continuum-action-undelete": "Plaets truhhe",
+	"continuum-action-unprotect": "Beveiligienge anpass'n",
+	"continuum-view-create": "Anmaeken",
+	"continuum-view-edit": "Bewerk",
+	"continuum-view-history": "Geschiedenisse bekiek'n",
+	"continuum-view-view": "Lezen",
+	"continuum-view-viewsource": "Brontekst bekieken"
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pinnable header renders 1`] = `
+"<div id=\\"pinned-container\\">
+			
+		</div>
+		<div class=\\"continuum-dropdown\\">
+			<input type=\\"checkbox\\" id=\\"checkbox\\" class=\\"continuum-menu-checkbox\\">
+			<label for=\\"checkbox\\" class=\\"continuum-menu-heading \\">
+				<span class=\\"continuum-menu-heading-label\\">Dropdown</span>
+			</label>
+			<div class=\\"continuum-menu-content\\">
+				<div id=\\"unpinned-container\\">
+				<div id=\\"pinnable-element\\"><div class=\\"continuum-pinnable-header pinnable-element-pinnable-header continuum-pinnable-header-unpinned\\" data-feature-name=\\"pinned\\" data-pinnable-element-id=\\"pinnable-element\\">
+	<div class=\\"continuum-pinnable-header-label\\">simple pinnable element</div>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-pin-button\\" data-event-name=\\"pinnable-header.pinnable-element.pin\\">pin</button>
+	<button class=\\"continuum-pinnable-header-toggle-button continuum-pinnable-header-unpin-button\\" data-event-name=\\"pinnable-header.pinnable-element.unpin\\">unpin</button>
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+"
+`;

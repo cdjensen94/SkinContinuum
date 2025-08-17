@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Marwan Mohamad",
+			"Veracious"
+		]
+	},
+	"continuum-languages": "Bahasa",
+	"continuum-language-button-label": "{{PLURAL:$1|Bahasa $1}}",
+	"continuum-no-language-button-label": "Duhengi bahasa",
+	"continuum-action-addsection": "Duhengi topik",
+	"continuum-action-delete": "Luluta",
+	"continuum-action-move": "Heyiya",
+	"continuum-action-protect": "Dahayi",
+	"continuum-view-create": "Mohutu",
+	"continuum-view-edit": "Boli'o",
+	"continuum-view-history": "Bilohi riwayati",
+	"continuum-view-view": "Baca",
+	"continuum-more-actions": "Uweewo",
+	"continuum-appearance-label": "Bibilohu",
+	"continuum-feature-limited-width-name": "Tanggalo",
+	"continuum-feature-limited-width-0-label": "Tanggalo",
+	"continuum-feature-limited-width-1-label": "Standar",
+	"continuum-feature-custom-font-size-name": "Hurupu",
+	"continuum-feature-custom-font-size-0-label": "Kiki'o",
+	"continuum-feature-custom-font-size-1-label": "Standar",
+	"continuum-feature-custom-font-size-2-label": "Damango",
+	"skin-theme-name": "Laku",
+	"skin-theme-day-label": "Mobango",
+	"skin-theme-night-label": "Di'olomo",
+	"skin-theme-os-label": "Otomatis",
+	"skin-theme-exclusion-notice": "Halaman botiya layito hemopohuna mode mobango",
+	"continuum-searchsuggest-containing": "Lolohe halaman otuwa <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Tuwango",
+	"continuum-toc-beginning": "Awali",
+	"continuum-main-menu-label": "Menu uda'a",
+	"continuum-feature-custom-font-size-exclusion-notice": "Halaman botiya layito hemopohuna fon keke'i",
+	"continuum-page-tools-label": "Pilākasi",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-page-tools-actions-label": "Huhutu",
+	"continuum-unpin-element-label": "wanto'a"
+}

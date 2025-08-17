@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kiran sidam",
+			"Varaprasadsidam"
+		]
+	},
+	"continuum-languages": "గోష్ఠింగ్",
+	"continuum-language-button-label": "}{బాహువచన్:$1|$1భాష|$1భాషంగ్}}",
+	"continuum-no-language-button-label": "గోష్టంగ్ జోడి కింట్",
+	"continuum-action-addsection": "టాపిక్ కున్ జోడికిం",
+	"continuum-action-delete": "తెడ్సివాట",
+	"continuum-action-protect": "పిసుసాట్",
+	"continuum-view-create": "నివిడి కీమ్",
+	"continuum-view-history": "హితిహస్ తున్ దిహన్ కిం",
+	"continuum-more-actions": "ఉండే గిర్",
+	"continuum-toc-label": "కంటెంట్ కు",
+	"continuum-toc-beginning": "మొఫ్",
+	"continuum-main-menu-label": "మొదొడ మెనూ",
+	"continuum-page-tools-label": "ఆరంగ్ ఆరంగ్",
+	"continuum-page-tools-general-label": "సాదర్న",
+	"continuum-unpin-element-label": "మాకుసా"
+}

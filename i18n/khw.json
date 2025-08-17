@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachitrali"
+		]
+	},
+	"continuum-action-addsection": "نوغ موضوع",
+	"continuum-action-delete": "بوغاوے",
+	"continuum-action-move": "منتقل کورے",
+	"continuum-action-protect": "محفوظ کورے",
+	"continuum-action-undelete": "اچی انگیے",
+	"continuum-action-unprotect": "غیر محفوظ",
+	"continuum-view-create": "ساوزاوے",
+	"continuum-view-edit": "ایڈٹ کورے",
+	"continuum-view-history": "تاریخچہ",
+	"continuum-view-view": "راوے",
+	"continuum-view-viewsource": "مسودہ",
+	"continuum-more-actions": "مزید"
+}

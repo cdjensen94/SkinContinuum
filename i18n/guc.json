@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leonfd1992",
+			"Maor X",
+			"Wilfredor"
+		]
+	},
+	"continuum-opt-out": "Awanajaa sünainmüin sukuwa'ipaka paalainka",
+	"continuum-languages": "Anüikii",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 anüikii|$1 anüikikalüirua}}",
+	"continuum-no-language-button-label": "Supushuwa'a anüikikalüirua",
+	"continuum-action-addsection": "Ashajiraa sünülia wane yootirayaapülee",
+	"continuum-action-delete": "Ojuichajaa",
+	"continuum-action-move": "Ee'irataa sünülia",
+	"continuum-action-protect": "Eisalajaa",
+	"continuum-view-create": "Akumajaa",
+	"continuum-view-edit": "Anaataa",
+	"continuum-view-history": "E'rajaa a'wanajaanüka",
+	"continuum-view-view": "Aashaje'eraa",
+	"continuum-view-viewsource": "Anüliaa eejeetülee",
+	"continuum-more-actions": "Soo'omüin",
+	"continuum-searchsuggest-containing": "Achajaa sulu'u tü ee'iyalayaaka kalu'uko <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Sulujunaa",
+	"continuum-toc-beginning": "O'ttia",
+	"continuum-page-tools-label": "A’yataayaapala",
+	"continuum-page-tools-general-label": "Supushuwa'a",
+	"continuum-unpin-element-label": "ounjulaa"
+}

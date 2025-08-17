@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"787IYO",
+			"Misbahu umar",
+			"Umar Ahmad2345"
+		]
+	},
+	"continuum-languages": "Ezhimizhi",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ezhimi|$1 ezhimizhi}}",
+	"continuum-no-language-button-label": "La ezhimizhi bebo",
+	"continuum-action-addsection": "La eganti bebo",
+	"continuum-action-delete": "Nuwan",
+	"continuum-action-move": "Yelo",
+	"continuum-action-protect": "Tswa",
+	"continuum-view-create": "Te",
+	"continuum-view-history": "Chin etan le",
+	"continuum-more-actions": "Ndocizhi",
+	"continuum-appearance-label": "Wuwu",
+	"continuum-feature-limited-width-name": "Epede",
+	"continuum-feature-limited-width-0-label": "Epe",
+	"continuum-feature-limited-width-1-label": "Kinigi",
+	"continuum-feature-custom-font-size-name": "Enyakikaci",
+	"continuum-feature-custom-font-size-0-label": "Tetengi",
+	"continuum-feature-custom-font-size-1-label": "Kinigi",
+	"continuum-feature-custom-font-size-2-label": "Wunciko",
+	"skin-theme-name": "Kwege",
+	"skin-theme-day-label": "Bayetin",
+	"skin-theme-night-label": "Bazhiko",
+	"skin-theme-os-label": "Tsutsoci",
+	"skin-theme-exclusion-notice": "Eye nana kamindondo dan bayetin o.",
+	"continuum-searchsuggest-containing": " Wiwaza feregi nan fibo nan<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Enyanzhi",
+	"continuum-toc-beginning": "Chaba",
+	"continuum-anon-user-menu-pages": "Eyegizhi nya lilatinya edzuntazhi",
+	"continuum-main-menu-label": "Fere gboko",
+	"continuum-feature-custom-font-size-exclusion-notice": "Kperegi nana kamindondo wun e lotun be eciwan enyaka tetengi",
+	"continuum-page-tools-label": "Nyangagi tunzhi",
+	"continuum-page-tools-general-label": "Kpata",
+	"continuum-page-tools-actions-label": "Jinjin",
+	"continuum-unpin-element-label": "so"
+}

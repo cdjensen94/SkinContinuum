@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Songhay"
+		]
+	},
+	"continuum-action-addsection": "Furari tonton",
+	"continuum-action-delete": "Tuusu",
+	"continuum-action-move": "Ganandi",
+	"continuum-action-protect": "Jejebu",
+	"continuum-view-create": "Tee",
+	"continuum-view-edit": "Barmay",
+	"continuum-view-history": "Taarikoo guna",
+	"continuum-view-view": "Caw",
+	"continuum-more-actions": "Ka tonton"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tidsaleh"
+		]
+	},
+	"continuum-languages": "لوّغ",
+	"continuum-view-create": "عدّل",
+	"continuum-more-actions": "أكثر",
+	"continuum-searchsuggest-containing": "لوٌد لصفحات فيهم <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-page-tools-label": "أدوات",
+	"continuum-page-tools-general-label": "عام",
+	"continuum-unpin-element-label": "روّق"
+}

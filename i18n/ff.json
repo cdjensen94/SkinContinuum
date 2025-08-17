@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahima",
+			"Ibrahima Malal Sarr",
+			"Musaddam Idriss"
+		]
+	},
+	"continuum-languages": "Ɗemngal",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ɗemngal}}",
+	"continuum-action-addsection": "Ɓeydi toɓɓere",
+	"continuum-action-delete": "Momtu",
+	"continuum-action-move": "Dirtin",
+	"continuum-action-protect": "Hisnu",
+	"continuum-view-create": "Sos",
+	"continuum-view-edit": "Taƴto",
+	"continuum-view-history": "Yiyto aslol",
+	"continuum-view-view": "Tar",
+	"continuum-view-viewsource": "Yiyto ɗaɗol",
+	"continuum-more-actions": "Ɓeydu",
+	"continuum-searchsuggest-containing": "Yiylo kelle coomɗe $1<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Loowdi",
+	"continuum-toc-beginning": "Fuɗɗam"
+}

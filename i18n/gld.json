@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"RFScott"
+		]
+	},
+	"continuum-languages": "Хэсэсэл",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 хэсэ}}",
+	"continuum-no-language-button-label": "Гучи хэсэ",
+	"continuum-action-addsection": "Темава аӈгойни",
+	"continuum-action-delete": "Нангалаори",
+	"continuum-action-move": "Энэвэмбури",
+	"continuum-action-protect": "Кандёри",
+	"continuum-view-create": "Аӈговори",
+	"continuum-view-edit": "Калаори",
+	"continuum-view-history": "Дюлэ дурун",
+	"continuum-view-view": "Холаори",
+	"continuum-more-actions": "Гучи",
+	"continuum-page-tools-label": "Дебой дяка",
+	"continuum-unpin-element-label": "дасиори"
+}

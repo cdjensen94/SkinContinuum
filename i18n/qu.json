@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlimanRuna"
+		]
+	},
+	"continuum-action-addsection": "Allwiyta yapay",
+	"continuum-action-delete": "Qulluy",
+	"continuum-action-move": "Astay",
+	"continuum-action-protect": "Amachay",
+	"continuum-action-undelete": "Qullusqata paqarichiy",
+	"continuum-action-unprotect": "Amachayta wakinchay",
+	"continuum-view-create": "Kamariy",
+	"continuum-view-edit": "Llamk'apuy",
+	"continuum-view-history": "Wiñay kawsayta qhaway",
+	"continuum-view-view": "Ñawiriy",
+	"continuum-view-viewsource": "Pukyu qillqata qhaway",
+	"continuum-more-actions": "Aswan"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChoiChong",
+			"Kahin He",
+			"Winston Sung"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1語言}}",
+	"continuum-action-delete": "刪除",
+	"continuum-action-protect": "保護",
+	"continuum-view-create": "創建",
+	"continuum-view-edit": "修改",
+	"continuum-more-actions": "価兮"
+}

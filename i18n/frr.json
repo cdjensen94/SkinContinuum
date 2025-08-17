@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174",
+			"Pyt"
+		]
+	},
+	"continuum-skin-desc": "Modern wersion faan Monobook mä frisk skak an föl muar mögelkhaiden",
+	"continuum-languages": "Spriiken / Spräke",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 spriik / spräke|$1 spriiken / spräke}}",
+	"continuum-no-language-button-label": "Muar spriaken",
+	"continuum-action-addsection": "Nei kirew began",
+	"continuum-action-delete": "Strik",
+	"continuum-action-move": "Fersküüw",
+	"continuum-action-protect": "Seekre",
+	"continuum-action-undelete": "Weder iinstel",
+	"continuum-action-unprotect": "Sidjenseekerhaid",
+	"continuum-view-create": "Maage",
+	"continuum-view-edit": "Bewerke",
+	"continuum-view-history": "Ferluup uunluke",
+	"continuum-view-view": "Lees",
+	"continuum-view-viewsource": "Kweltekst uunluke",
+	"continuum-more-actions": "Muar",
+	"continuum-appearance-label": "Skak / Schake",
+	"continuum-searchsuggest-containing": "Sjük sidjen, huar <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> banen as",
+	"continuum-toc-label": "Auersicht",
+	"continuum-toc-beginning": "Began",
+	"continuum-main-menu-tooltip": "Hoodütjwool",
+	"continuum-toc-menu-tooltip": "Auersicht",
+	"continuum-main-menu-label": "Hoodütjwool",
+	"continuum-page-tools-label": "Werktjüügen",
+	"continuum-page-tools-general-label": "Algemian",
+	"continuum-page-tools-actions-label": "Aksioonen",
+	"continuum-pin-element-label": "Tu't sidjenliist fersküüw",
+	"continuum-unpin-element-label": "Fersteeg",
+	"tooltip-continuum-anon-user-menu-title": "Muar ütjwool",
+	"continuum-page-tools-unpinned-popup": "Rääskapen san nü heer boowen."
+}

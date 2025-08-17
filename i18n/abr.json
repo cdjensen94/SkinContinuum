@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alicia Agyeiwaa",
+			"Obed554",
+			"Yaw tuba"
+		]
+	},
+	"continuum-languages": "kasa ahodoɔ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 language|$1 languages}}",
+	"continuum-no-language-button-label": "Fa kasa ahodoɔ ka ho",
+	"continuum-action-addsection": "Fa asɛnti ka ho",
+	"continuum-view-create": "Yɛ anaa bɔ",
+	"continuum-view-history": "Hwɛ abakɔsɛm",
+	"continuum-more-actions": "Bebree",
+	"continuum-appearance-label": "deɛ wohu",
+	"continuum-feature-limited-width-name": "ɛho",
+	"continuum-feature-limited-width-0-label": "emu trɛ",
+	"continuum-feature-limited-width-1-label": "deɛ bɛagye atom",
+	"continuum-feature-custom-font-size-name": "atwerɛ",
+	"continuum-feature-custom-font-size-0-label": "ketewa",
+	"continuum-feature-custom-font-size-1-label": "yɛagye atom",
+	"continuum-feature-custom-font-size-2-label": "Kɛseɛ",
+	"skin-theme-name": "ahosuo",
+	"skin-theme-day-label": "hann",
+	"skin-theme-night-label": "sum",
+	"skin-theme-os-label": "Afidie a ɔno ara tim yɔ adwuma\nAdeɛ a ɔsi toatoa mu a ɔnyɛ anidaho",
+	"skin-theme-exclusion-notice": "Daa, simpie yi wɔ hann mu",
+	"continuum-searchsuggest-containing": "Hwehwɛ nkratafa ahorow a ɛwɔ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Emu nsɛm ahodoɔ",
+	"continuum-toc-beginning": "Ahyɛaseɛ",
+	"continuum-anon-user-menu-pages": "Simpie ahodoɔ a wɔde ma nkitahodifoɔ a wɔafi mu",
+	"continuum-main-menu-label": "Menu ankasa",
+	"continuum-feature-custom-font-size-exclusion-notice": "Saa simpie yi fa atwerɛdeɛ nketewa nkoaa",
+	"continuum-page-tools-label": "nneɛma",
+	"continuum-page-tools-general-label": "Ne nyinaa",
+	"continuum-page-tools-actions-label": "Nneyɛe ahodoɔ",
+	"continuum-unpin-element-label": "sie"
+}

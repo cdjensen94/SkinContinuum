@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zolgoyo"
+		]
+	},
+	"continuum-languages": "Tíller",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 tíl}}",
+	"continuum-no-language-button-label": "Tíl koş",
+	"continuum-action-addsection": "Mewzu koş",
+	"continuum-action-delete": "Síl",
+	"continuum-action-move": "Atînî deñíştír",
+	"continuum-action-protect": "Kolla",
+	"continuum-view-create": "Yasa",
+	"continuum-view-history": "Keşmíş",
+	"continuum-more-actions": "Taa kóp",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> íşergen sayipalardî kîdîr",
+	"continuum-page-tools-label": "Aletler",
+	"continuum-page-tools-general-label": "Genel",
+	"continuum-unpin-element-label": "saklaw"
+}

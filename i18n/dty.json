@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant",
+			"जनक राज भट्ट",
+			"रमेश सिंह बोहरा",
+			"राम प्रसाद जोशी"
+		]
+	},
+	"continuum-action-addsection": "विषय थपिदिय",
+	"continuum-action-delete": "मेटऽ",
+	"continuum-action-move": "साद्दे",
+	"continuum-action-protect": "सुरक्षा अरऽ",
+	"continuum-action-undelete": "मेट्याको रद्द अरऽ",
+	"continuum-action-unprotect": "सुरक्षा बदेलऽ",
+	"continuum-view-create": "सृजना गर्न्या",
+	"continuum-view-edit": "सम्पादन",
+	"continuum-view-history": "इतिहास तकऽ",
+	"continuum-view-view": "पढ़ऽ",
+	"continuum-view-viewsource": "स्रोत हेरऽ",
+	"continuum-more-actions": "झिक्क"
+}

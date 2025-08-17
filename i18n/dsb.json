@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki",
+			"Vlad5250",
+			"Sławobóg"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 rěc|$1 rěcy|$1 rěcy|$1 rěcow}}",
+	"continuum-action-addsection": "Temu pśidaś",
+	"continuum-action-delete": "Wulašowaś",
+	"continuum-action-move": "Pśesunuś",
+	"continuum-action-protect": "Šćitaś",
+	"continuum-action-undelete": "Wótnowiś",
+	"continuum-action-unprotect": "Šćit změniś",
+	"continuum-view-create": "Napóraś",
+	"continuum-view-edit": "Wobźěłaś",
+	"continuum-view-history": "Wersije a awtory",
+	"continuum-view-view": "Cytaś",
+	"continuum-view-viewsource": "Žrědło se woglědaś",
+	"continuum-more-actions": "Wěcej"
+}

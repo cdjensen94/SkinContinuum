@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Võrok"
+		]
+	},
+	"continuum-action-addsection": "Vahtsõ teema ülespandminõ",
+	"continuum-action-delete": "Kistudaq ärq",
+	"continuum-action-move": "Nõstaq ümbre",
+	"continuum-action-protect": "Kaidsaq",
+	"continuum-action-undelete": "Tiiq tagasi",
+	"continuum-action-unprotect": "Muudaq kaidsõt",
+	"continuum-view-create": "Luuq",
+	"continuum-view-edit": "Toimõndaq",
+	"continuum-view-history": "Näütäq aoluku",
+	"continuum-view-view": "Loeq",
+	"continuum-view-viewsource": "Kaeq lätteteksti",
+	"continuum-more-actions": "Viil"
+}

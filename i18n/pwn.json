@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akamycoco",
+			"Iyumu"
+		]
+	},
+	"continuum-action-addsection": "padjulu ta sipazulju a ljavaran",
+	"continuum-action-delete": "qemulip",
+	"continuum-action-move": "patjaliyav",
+	"continuum-action-protect": "pinaljakevan",
+	"continuum-view-create": "qemati",
+	"continuum-view-edit": "remasudj ta vincikan",
+	"continuum-view-history": "kileqeleq a pacun ta sinantjaucikel",
+	"continuum-view-view": "semupu",
+	"continuum-view-viewsource": "kileqeleq a pacun ta tinagiljan a sinikipukeljang",
+	"continuum-more-actions": "patjaliyav"
+}

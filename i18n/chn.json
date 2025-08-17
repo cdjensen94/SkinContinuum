@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"POSSUM chowg"
+		]
+	},
+	"continuum-languages": "kʰanawi ləlang",
+	"continuum-language-button-label": "{{PLURAL:$1|ixt ləlang|$1 ləlang}}",
+	"continuum-no-language-button-label": "palach ləlang pus uk pipa",
+	"continuum-action-addsection": "munk-miɬayt chxi tayi-wawa.",
+	"continuum-action-delete": "Mash ukuk",
+	"continuum-action-move": "Mamuk-ɬatawa ukuk",
+	"continuum-action-protect": "Mamuk-chako-skukum",
+	"continuum-view-create": "munk-miɬayt",
+	"continuum-view-history": "nanich pipa kakwa anqati",
+	"continuum-more-actions": "wəx̣t",
+	"continuum-searchsuggest-containing": "tilay t’ɬap pipa pus t’uʔan <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "kʰanawi ikta yakwa",
+	"continuum-toc-beginning": "iləp-tənəs-sitkum",
+	"continuum-main-menu-label": "tayi \"menu\"",
+	"continuum-page-tools-label": "wik-kʰəltəs ikta",
+	"continuum-page-tools-general-label": "Wik ixt-ixt ikta (outdated?)",
+	"continuum-unpin-element-label": "munk-ipsut"
+}

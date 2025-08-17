@@ -1,0 +1,20 @@
+/* stylelint-disable no-invalid-double-slash-comments */
+@import 'mediawiki.mixins.less';
+
+// Used to be under #mw-navigation, which is hidden in common/print.less
+.continuum-page-toolbar,
+// Hide all header content except the logo
+.continuum-header-start > *:not( .mw-logo ),
+.continuum-header-end,
+// T300178, T306719
+#mw-panel-toc,
+#continuum-sticky-header,
+#p-lang-btn,
+.continuum-menu-checkbox,
+// Hide all navigation
+nav,
+#continuum-page-titlebar-toc,
+#footer {
+	/* stylelint-disable-next-line declaration-no-important */
+	display: none !important;
+}

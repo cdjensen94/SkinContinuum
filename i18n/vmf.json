@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Silvicola"
+		]
+	},
+	"continuum.css": "/* CSS hiir beâjflusd nôr dii Continuum-schelfn. Wen'd ale uf ôômôôl beâjflusn wilsch, muâsch an MediaWiki:Common.css was ändârn. */",
+	"continuum-action-addsection": "Ân najn abschnid ôôfangn",
+	"continuum-action-delete": "Leschn",
+	"continuum-action-move": "Umdaafn",
+	"continuum-action-protect": "Schidsn",
+	"continuum-action-undelete": "Leschn riggängich machn",
+	"continuum-action-unprotect": "Schuds ufgeebn",
+	"continuum-view-create": "Ôôleechn",
+	"continuum-view-edit": "Bearbajdn",
+	"continuum-view-history": "Wärsjoonsfolche",
+	"continuum-view-view": "Leesn",
+	"continuum-view-viewsource": "Gwäl-dhägsd ôôgugn"
+}

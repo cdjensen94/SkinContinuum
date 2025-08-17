@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lévi"
+		]
+	},
+	"continuum-action-addsection": "Zûnta discusiòun",
+	"continuum-action-delete": "Scanşèla",
+	"continuum-action-move": "Spôsta",
+	"continuum-action-protect": "Prutēz",
+	"continuum-action-undelete": "Fà al recóper",
+	"continuum-action-unprotect": "Câmbia la prutesiòun",
+	"continuum-view-create": "Invèinta",
+	"continuum-view-edit": "Mudéfica",
+	"continuum-view-history": "Guêrda la stôria",
+	"continuum-view-view": "Lēş",
+	"continuum-view-viewsource": "Guêrda la surzéia",
+	"continuum-more-actions": "Êter"
+}

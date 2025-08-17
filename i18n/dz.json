@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tshering Nidup",
+			"Sonamdargay"
+		]
+	},
+	"continuum-view-view": "ལྷག",
+	"continuum-more-actions": "དེ་ལས་མང་བ།",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> ཡོད་པའི་ཤོག་ལེབ་འཚོལ་ཞིབ་འབད།",
+	"continuum-page-tools-actions-label": "ལས་སྣ་ཚུ་"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gott wisst",
+			"Heahwrita",
+			"Hogweard",
+			"JJohnson1701",
+			"Rocioun"
+		]
+	},
+	"continuum-languages": "Geþeodu",
+	"continuum-action-addsection": "Besettan mearcunge",
+	"continuum-action-delete": "Forleos",
+	"continuum-action-move": "Wegan",
+	"continuum-action-protect": "Beorgan",
+	"continuum-action-undelete": "Scieppan tramet eft",
+	"continuum-action-unprotect": "Andwendan beorgunge",
+	"continuum-view-create": "Scieppan",
+	"continuum-view-edit": "Adiht",
+	"continuum-view-history": "Locian on cranice",
+	"continuum-view-view": "Ræd",
+	"continuum-view-viewsource": "Sēon fruman",
+	"continuum-more-actions": "Ma",
+	"skin-theme-name": "Bleo",
+	"continuum-main-menu-label": "Heafodlic cyrewrit"
+}

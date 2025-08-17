@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Lookruk"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ພາສາ}}",
+	"continuum-action-addsection": "ເພີ່ມຫົວຂໍ້",
+	"continuum-action-delete": "ລຶບ",
+	"continuum-action-move": "ຍ້າຍ",
+	"continuum-action-protect": "ປ້ອງກັນ",
+	"continuum-view-create": "ສ້າງ",
+	"continuum-view-edit": "ດັດແກ້",
+	"continuum-view-history": "ເບິ່ງປະຫວັດ",
+	"continuum-view-view": "ອ່ານ",
+	"continuum-more-actions": "ເພີ່ມເຕີມ",
+	"continuum-searchsuggest-containing": "ຊອກຫາໜ້າເວັບທີ່ມີ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>"
+}

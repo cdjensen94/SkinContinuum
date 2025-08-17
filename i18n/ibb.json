@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akpanufun",
+			"Anietie2",
+			"Effiong badi",
+			"Ekemini5",
+			"Okon Ibiono",
+			"Uduakj",
+			"Uduakumana"
+		]
+	},
+	"continuum-languages": "Ikọ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ikọ}‎}",
+	"continuum-no-language-button-label": "Dian usem",
+	"continuum-action-addsection": "Dian iwod nwed",
+	"continuum-action-delete": "Sịññe",
+	"continuum-action-move": "Saña",
+	"continuum-action-protect": "Beem",
+	"continuum-view-create": "Nam",
+	"continuum-view-history": "Se mkpo ini edem",
+	"continuum-more-actions": "afen",
+	"continuum-searchsuggest-containing": "Yem ikpa nwed anieghe <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Si sine",
+	"continuum-toc-beginning": "Ntak",
+	"continuum-main-menu-label": "Ata usung",
+	"continuum-page-tools-label": "Mkpo utom",
+	"continuum-page-tools-general-label": "Uked",
+	"continuum-unpin-element-label": "dịbe"
+}

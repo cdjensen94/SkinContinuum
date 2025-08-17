@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rut"
+		]
+	},
+	"continuum-languages": "ЧIелбыр",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 чIел|$1 чIелбыр}}",
+	"continuum-no-language-button-label": "ЧIелбыр уу лихъихьин",
+	"continuum-action-addsection": "Яратмиш тема",
+	"continuum-action-delete": "Хъуъ",
+	"continuum-action-move": "ЦIинды дур вын",
+	"continuum-action-protect": "Тебин гьыъын",
+	"continuum-view-create": "Яратмиш",
+	"continuum-view-history": "Тарих",
+	"continuum-more-actions": "Бала",
+	"continuum-appearance-label": "гъаъды усул",
+	"continuum-feature-limited-width-name": "АкьуIрвалды",
+	"continuum-feature-limited-width-0-label": "АкьуIрене",
+	"continuum-feature-limited-width-1-label": "Са кIалбыд",
+	"continuum-feature-custom-font-size-name": "Текст",
+	"continuum-feature-custom-font-size-0-label": "Джулды",
+	"continuum-feature-custom-font-size-1-label": "Са кIалбыд",
+	"continuum-feature-custom-font-size-2-label": "Кьёхьды",
+	"skin-theme-name": "Ранг",
+	"skin-theme-day-label": "Ачыхды",
+	"skin-theme-night-label": "МычIахъды",
+	"skin-theme-os-label": "Автомат",
+	"skin-theme-exclusion-notice": "Мид джар гьаIммише ачыхды режима а",
+	"continuum-searchsuggest-containing": "Мид-кид джарбыр ахтармиш <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Китабад-кьул",
+	"continuum-toc-beginning": "Сифте",
+	"continuum-main-menu-label": "Кьёхьды меню",
+	"continuum-feature-custom-font-size-exclusion-notice": "Гьеми джарди гьаIммише ишлелемиш ваъар джулды шрифт",
+	"continuum-page-tools-label": "Инструментбыр",
+	"continuum-page-tools-general-label": "Уртахды",
+	"continuum-unpin-element-label": "гиркIа"
+}

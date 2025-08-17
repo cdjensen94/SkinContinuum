@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Enye Lav",
+			"Merrahtar",
+			"Римма"
+		]
+	},
+	"continuum-languages": "Кыввез",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 кыв|$1 кыввез}}",
+	"continuum-no-language-button-label": "Содтыны кыввез",
+	"continuum-action-addsection": "Содтыны тема",
+	"continuum-action-delete": "Чышкыны",
+	"continuum-action-move": "Вежны ним",
+	"continuum-action-protect": "Дорйыны",
+	"continuum-view-create": "Лöсьöтны",
+	"continuum-view-history": "Синмалӧмлӧн история",
+	"continuum-view-view": "Лыддьöтны",
+	"continuum-more-actions": "Эшӧ",
+	"continuum-feature-custom-font-size-2-label": "Ыджыт",
+	"continuum-searchsuggest-containing": "Листбоккез кошшом, кытӧн эм <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Пытшкӧс",
+	"continuum-toc-beginning": "Пондӧм",
+	"continuum-main-menu-label": "Шӧр меню",
+	"continuum-page-tools-label": "Инструменттэз",
+	"continuum-page-tools-general-label": "Ӧтувья",
+	"continuum-unpin-element-label": "сайöвтны",
+	"continuum-beta-preview-label": "Continuum 2022-лӧн бета версия",
+	"continuum-beta-preview-description": "Босьтӧ Continuum 2022  виль функцияэзлісь одзвывса видзӧтӧм"
+}

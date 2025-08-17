@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Axel xadolik",
+			"Wikimistusik",
+			"Lisyeng"
+		]
+	},
+	"continuum-action-addsection": "Loplekura va detce",
+	"continuum-action-delete": "Sulara",
+	"continuum-action-move": "Arrundara",
+	"continuum-action-protect": "Nendara",
+	"continuum-view-create": "Redura",
+	"continuum-view-edit": "Betara",
+	"continuum-view-history": "Wira va izvot",
+	"continuum-view-view": "Belira",
+	"continuum-view-viewsource": "klitawira",
+	"continuum-more-actions": "Loon",
+	"skin-theme-name": "Kseva",
+	"continuum-page-tools-actions-label": "Tegira"
+}

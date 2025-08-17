@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikki"
+		]
+	},
+	"continuum-languages": "ᡤᡳᠰᡠᠨ",
+	"continuum-action-addsection": "ᠨᠣᡤᡳᠯᠠ ᠵᠣᡵᡳᠩᡤᠠ",
+	"continuum-action-delete": "ᡩᠠᠪᡤᡳᡵᡝ",
+	"continuum-action-move": "ᡤᡠᡵᡳᠪᡠᡵᡝ",
+	"continuum-action-protect": "ᡴᠠᡵᠮᠠᡵᠠ",
+	"continuum-action-unprotect": "ᡴᠠᡵᠮᠠᠨ ᠪᡝ ᡥᠠᠯᠠᠮᠪᡳ",
+	"continuum-view-create": "ᡳᠯᡳᠪᡠᡵᡝ",
+	"continuum-view-edit": "ᠪᠠᠨᠵᡳᠪᡠᠮᡝ ᠠᡵᠠᡵᠠ",
+	"continuum-view-history": "ᡝᡵᡝ ᡧᡠ ᡶᡳᠶᡝᠯᡝᠨ ᡳ ᠰᡠᡩᡠᡵᡳ ᠪᡝ ᠪᠠᡳᠴᠠᡵᠠ",
+	"continuum-view-view": "ᡥᡡᠯᠠᡵᠠ",
+	"continuum-view-viewsource": "ᡩᠠ ᡧᡠ ᠸᡝᠨ ᠪᡝ ᠪᠠᡳᠴᠠᡵᠠ",
+	"continuum-more-actions": "ᡝᠯᡝ",
+	"continuum-toc-label": "ᡧᠣᡧᠣᡥᠣᠨ ᡥᠠᠴᡳᠨ",
+	"continuum-page-tools-label": "ᠠᡤᡡᡵᠠ ᡳ ᠰᡳᡨᡥᡝᠨ"
+}

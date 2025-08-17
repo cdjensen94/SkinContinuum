@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chabi1",
+			"Universal Life"
+		]
+	},
+	"continuum-action-addsection": "Ajustar sujeto",
+	"continuum-action-delete": "Efassar",
+	"continuum-action-move": "Taşirear",
+	"continuum-action-protect": "Guadrar",
+	"continuum-action-undelete": "Traer atrás",
+	"continuum-action-unprotect": "Trokar proteksyon",
+	"continuum-view-create": "Kriar",
+	"continuum-view-edit": "Trocar",
+	"continuum-view-history": "Ver la istoria",
+	"continuum-view-view": "Meldar",
+	"continuum-view-viewsource": "Ver su manadero",
+	"continuum-more-actions": "Mas"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174",
+			"Pyt"
+		]
+	},
+	"continuum-languages": "Sproaken",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 Sproake|$1 Sproaken}}",
+	"continuum-action-addsection": "Ousnit bietouföigje",
+	"continuum-action-delete": "Läskje",
+	"continuum-action-move": "Ferskuuwe",
+	"continuum-action-protect": "Skutsje",
+	"continuum-action-undelete": "Wierhäärstaale",
+	"continuum-action-unprotect": "Siedenskuts annerje",
+	"continuum-view-create": "Moakje",
+	"continuum-view-edit": "Beoarbaidje",
+	"continuum-view-history": "Versionsgeskichte",
+	"continuum-view-view": "Leese",
+	"continuum-view-viewsource": "Wältext bekiekje",
+	"continuum-more-actions": "Moor"
+}

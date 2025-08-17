@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athram Rajkumar",
+			"Madavi Jangu"
+		]
+	},
+	"continuum-languages": "గొట్టిక్",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 గొట్టి|$1 గొట్టిక్}}",
+	"continuum-no-language-button-label": "గొట్టికున్ సెర్ప్",
+	"continuum-action-addsection": "గొట్టిన్ సెర్ప్",
+	"continuum-action-delete": "పుస్స్",
+	"continuum-action-move": "పావిడ్",
+	"continuum-action-protect": "సంరక్షించు",
+	"continuum-view-create": "తయ్యర్",
+	"continuum-view-history": "కానున్ ఓల్",
+	"continuum-more-actions": "పెన కొన్ని",
+	"continuum-searchsuggest-containing": "ఇత్తి అనేక పేజీకుంగ్ సటి కిరావ్<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "గొట్టిక్ ఇడ్డెకాధ్",
+	"continuum-toc-beginning": "చాలు ఇదార్",
+	"continuum-page-tools-label": "సామన్",
+	"continuum-page-tools-general-label": "ఆగమి",
+	"continuum-unpin-element-label": "డాప్"
+}

@@ -1,0 +1,100 @@
+// TOC styles when unpinned
+.mixin-toc-unpinned() {
+	margin-right: 8px;
+
+	.continuum-dropdown-content {
+		// Override default dropdown max width
+		max-width: none;
+	}
+
+	// Shared unpinned TOC styles, applies across all unpinned cases (page titlebar, sticky header, floating)
+	.continuum-toc {
+		// T316056 Remove TOC menu fixed width and apply min/max-width
+		width: max-content;
+		min-width: 200px;
+		// Collapsed TOC should be smaller than 85% of the content container (51em) and 75vw
+		max-width: ~'min( 0.85 * @{max-width-content-container}, 75vw )'; // min( 51em, 75vw )
+	}
+}
+
+// TOC styles when below page title
+.mixin-toc-below-page-title {
+	position: fixed;
+	top: 12px;
+	left: 12px;
+	margin: 0;
+	z-index: @z-index-dropdown;
+}
+
+.client-js {
+	@media ( max-width: @max-width-breakpoint-tablet ) {
+		//
+		// TOC in page titlebar on narrow screens
+		//
+		.continuum-page-titlebar-toc {
+			.mixin-toc-unpinned();
+		}
+
+		//
+		// TOC in page titlebar on narrow screens below page title
+		//
+		.continuum-below-page-title .continuum-page-titlebar-toc {
+			.mixin-toc-below-page-title();
+		}
+	}
+
+	@media ( min-width: @min-width-breakpoint-desktop ) {
+		//
+		// TOC in page titlebar
+		//
+		&.continuum-feature-toc-pinned-clientpref-0 body:not( .continuum-sticky-header-visible ) {
+			.continuum-page-titlebar-toc {
+				.mixin-toc-unpinned();
+			}
+		}
+
+		//
+		// TOC in page titlebar below page title
+		//
+		&.continuum-feature-toc-pinned-clientpref-0 body:not( .continuum-sticky-header-visible ).continuum-below-page-title {
+			.continuum-page-titlebar-toc {
+				.mixin-toc-below-page-title();
+			}
+		}
+
+		//
+		// TOC in sticky header
+		//
+		&.continuum-feature-toc-pinned-clientpref-0 .continuum-sticky-header-visible {
+			.continuum-sticky-header-toc {
+				.mixin-toc-unpinned();
+			}
+		}
+	}
+}
+
+.client-nojs {
+	//
+	// No-JS TOC in page titlebar
+	//
+	&.continuum-feature-toc-pinned-clientpref-0 {
+		.continuum-page-titlebar-toc {
+			.mixin-toc-unpinned();
+		}
+	}
+
+	//
+	// Applies simplified TOC styles to No-JS pinned TOC on narrow viewports
+	//
+	@media ( max-width: @max-width-breakpoint-tablet ) {
+		&.continuum-feature-toc-pinned-clientpref-1 {
+			.continuum-sticky-pinned-container {
+				position: static;
+			}
+
+			#continuum-toc-pinned-container {
+				max-height: 200px;
+			}
+		}
+	}
+}

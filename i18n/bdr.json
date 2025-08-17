@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jilorisa",
+			"Tofeiku"
+		]
+	},
+	"continuum-languages": "Ling",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ling}}",
+	"continuum-no-language-button-label": "Ngenopon tuturan",
+	"continuum-action-addsection": "Namba serita'",
+	"continuum-action-delete": "Penelanyap",
+	"continuum-action-move": "Pinali",
+	"continuum-action-protect": "Sindung",
+	"continuum-view-create": "Muat",
+	"continuum-view-edit": "Niuba",
+	"continuum-view-history": "Ngenda' kisa dau-dau",
+	"continuum-view-view": "Boso",
+	"continuum-more-actions": "Iko",
+	"continuum-appearance-label": "Pengitoon",
+	"continuum-feature-limited-width-name": "Lambu",
+	"continuum-feature-limited-width-0-label": "Laga'",
+	"continuum-feature-limited-width-1-label": "Bioso",
+	"continuum-feature-custom-font-size-name": "Tiks",
+	"continuum-feature-custom-font-size-0-label": "Diki'",
+	"continuum-feature-custom-font-size-1-label": "Bioso",
+	"continuum-feature-custom-font-size-2-label": "Oyo",
+	"skin-theme-name": "Rena",
+	"skin-theme-day-label": "Tarang",
+	"skin-theme-night-label": "Patang",
+	"skin-theme-os-label": "Otomitik",
+	"skin-theme-exclusion-notice": "Laman tu bioso ni mediam mud tarang",
+	"continuum-searchsuggest-containing": "Penemia laman yang bengen <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Isi",
+	"continuum-toc-beginning": "Nimpoon",
+	"continuum-main-menu-label": "Laman tekokon",
+	"continuum-feature-custom-font-size-exclusion-notice": "Laman tu bioso ni makai telisan diki'",
+	"continuum-page-tools-label": "Pekakas",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-unpin-element-label": "tenapuk"
+}

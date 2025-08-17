@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChoiChong",
+			"Kyoww",
+			"春春眠眠"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1ぬ口}}",
+	"continuum-action-addsection": "話題追加",
+	"continuum-action-delete": "ちゃーすん",
+	"continuum-action-move": "移動",
+	"continuum-action-protect": "保護",
+	"continuum-view-create": "ちゅくゆん",
+	"continuum-view-edit": "直すん",
+	"continuum-view-history": "履歴んーじゅん",
+	"continuum-view-view": "読むん",
+	"continuum-more-actions": "うぬ他",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>含むページ検索すん"
+}

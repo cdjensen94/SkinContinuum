@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Qiorly",
+			"Danvintius Bookix"
+		]
+	},
+	"continuum-languages": "Језыкы",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 језык|$1 језыков}}",
+	"continuum-no-language-button-label": "Додати језыкы",
+	"continuum-action-addsection": "Додати тему",
+	"continuum-action-delete": "Одстранити",
+	"continuum-action-move": "Прєименовати",
+	"continuum-action-protect": "Зашчитити",
+	"continuum-view-create": "Створити",
+	"continuum-view-history": "Позрєти хисторију",
+	"continuum-more-actions": "Вече",
+	"continuum-appearance-label": "Изглед",
+	"continuum-feature-limited-width-name": "Ширина",
+	"continuum-feature-limited-width-0-label": "Широка",
+	"continuum-feature-limited-width-1-label": "Стандардна",
+	"continuum-feature-custom-font-size-name": "Текст",
+	"continuum-feature-custom-font-size-0-label": "Малы",
+	"continuum-feature-custom-font-size-1-label": "Стандардны",
+	"continuum-feature-custom-font-size-2-label": "Великы",
+	"skin-theme-name": "Колор",
+	"skin-theme-day-label": "Свєтла",
+	"skin-theme-night-label": "Темна",
+	"skin-theme-os-label": "Автоматична",
+	"skin-theme-exclusion-notice": "Тута страница всегда изображаје се в свєтлој темє.",
+	"continuum-searchsuggest-containing": "Искати странице содрживајуче <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Содржање",
+	"continuum-toc-beginning": "Почеток",
+	"continuum-main-menu-label": "Главно менју",
+	"continuum-feature-custom-font-size-exclusion-notice": "Тута страница всегда употрєбјаје малы размєр фонта.",
+	"continuum-page-tools-label": "Орудја",
+	"continuum-page-tools-general-label": "Обче",
+	"continuum-page-tools-actions-label": "Дєјанја",
+	"continuum-unpin-element-label": "скрыти"
+}

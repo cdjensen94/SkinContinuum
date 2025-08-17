@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Musaddam Idriss"
+		]
+	},
+	"continuum-languages": "Lūsìn",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 lūsìn}}",
+	"continuum-no-language-button-label": "ara boo",
+	"continuum-action-addsection": "Gàttu chacha",
+	"continuum-action-delete": "Fàɗu",
+	"continuum-action-move": "Yàwàlu",
+	"continuum-action-protect": "kariya",
+	"continuum-view-create": "Dàgoorìimà",
+	"continuum-view-history": "Naa tarihi",
+	"continuum-more-actions": "Gam",
+	"continuum-searchsuggest-containing": "Bakaa ta shafi ma <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Men",
+	"continuum-toc-beginning": "Cinaa",
+	"continuum-page-tools-label": "Men",
+	"continuum-page-tools-general-label": "Kap",
+	"continuum-unpin-element-label": "binku"
+}

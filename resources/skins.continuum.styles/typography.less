@@ -1,0 +1,468 @@
+// File: skins/Continuum/resources/skins.continuum.styles/typography.less
+// Importing variables for colors, fonts, and other styles
+@import './variables.less';
+
+
+// Almendra is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+    font-family: 'Almendra';
+    src: url('../fonts/Almendra-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Almendra';
+    src: url('../fonts/Almendra-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Almendra';
+    src: url('../fonts/Almendra-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Almendra';
+	src: url('../fonts/Almendra-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+
+// Valorik is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'Valorik';
+	src: url('../fonts/Valorik-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Valorik Serif';
+	src: url('../fonts/ValorikSerif-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+// Balgruf is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'Balgruf';
+	src: url('../fonts/Balgruf-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Balgruf';
+	src: url('../fonts/Balgruf-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+// Berenika is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'Berenika';
+	src: url('../fonts/Berenika-Book.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Berenika';
+	src: url('../fonts/Berenika-BookOblique.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Berenika';
+	src: url('../fonts/Berenika-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Berenika';
+	src: url('../fonts/Berenika-BoldOblique.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+
+// Code fonts
+@font-face {
+	font-family: 'Libertinus Mono';
+	src: url('../fonts/LibertinusMono-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bona Nova';
+	src: url('../fonts/BonaNova-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// Celtica is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'Celtica';
+	src: url('../fonts/Celtica-Book.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Celtica';
+	src: url('../fonts/Celtica-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Celtica';
+	src: url('../fonts/Celtica-BoldOblique.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Celtica';
+	src: url('../fonts/Celtica-BookOblique.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+// GoudyMediaeval is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'GoudyMediaeval';
+	src: url('../fonts/GoudyMediaeval-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+// GoudyMedievalAlternate is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'GoudyMedievalAlternate';
+	src: url('../fonts/GoudyMedieval-Alternate.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+// Metamorphous is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'Metamorphous';
+	src: url('../fonts/Metamorphous-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+// Modern Antiqua is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'Modern Antiqua';
+	src: url('../fonts/ModernAntiqua-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Uncial Antiqua';
+	src: url('../fonts/UncialAntiqua-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ubuntu Sans';
+	src: url('../fonts/UbuntuSans-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Continuum';
+	src: url('../fonts/Continuum-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Noto Serif Display';
+	src: url('../fonts/NotoSerifDisplay-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Noto Serif Display';
+	src: url('../fonts/NotoSerifDisplay-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Noto Serif Display';
+	src: url('../fonts/NotoSerifDisplay-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Noto Serif Display';
+	src: url('../fonts/NotoSerifDisplay-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Serif';
+	src: url('../fonts/NotoSerif-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Noto Serif';
+	src: url('../fonts/NotoSerif-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Noto Serif';
+	src: url('../fonts/NotoSerif-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Noto Serif';
+	src: url('../fonts/NotoSerif-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+// EB Garamond is a custom font used in Continuum skin, it is not a standard web font.
+@font-face {
+	font-family: 'EB Garamond';
+	src: url('../fonts/EBGaramond-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'EB Garamond';
+	src: url('../fonts/EBGaramond-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'EB Garamond';
+	src: url('../fonts/EBGaramond-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'EB Garamond';
+	src: url('../fonts/EBGaramond-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-content: 'Noto Serif', 'EB Garamond', 'Almendra',  serif;
+@font-alternate: 'Almendra', 'Noto Serif', serif;
+@font-alternate2: 'Balgruf', serif;
+@font-noto: 'Noto Serif', serif;
+@font-header: 'Modern Antiqua', 'Uncial Antiqua', 'Metamorphous', 'Book Antiqua', serif;
+@font-valorik: 'Valorik Serif', 'Symbol', serif;
+@font-book: 'Berenika';
+@font-letter: 'Celtica', cursive;
+@font-code: 'Libertinus Mono', 'Courier Prime', 'Courier New', monospace;
+@font-family-sans: 'Ubuntu Sans', sans-serif;
+@font-family-serif: 'Almendra', 'Noto Serif' serif;
+@font-family-test: 'Continuum';
+/*
+ * Continuum's common typography rules,
+ * including whitespace with `margin` & `padding` and list bullets
+ * as part of typographic styles. Iconography wouldn't belong here.
+ *
+ */
+
+html {
+	font-size: @font-size-root;
+}
+
+html,
+body {
+	font-family: @font-family-sans;
+}
+
+ul {
+	// Overrides default sublist styling due to lists being used in some talk pages (i.e. russian wiki)
+	// https://phabricator.wikimedia.org/T364865#9802562
+	list-style-type: disc;
+}
+
+pre,
+.mw-code {
+	line-height: @line-height-code;
+	font-family: @font-code;
+}
+.page-title-name {
+	font-family: @font-header;
+	font-size: @font-size-heading-1;
+	line-height: @line-height-xx-small;
+	margin: 0;
+	padding: 0;
+}
+.mw-jump-link:not( :focus ) {
+	.mixin-screen-reader-text();
+	.user-select( none );
+}
+
+/* Use unscoped selector to allow edit sections outside of .mw-body-content and .continuum-body (T160269) */
+.mw-editsection,
+.mw-editsection-like {
+	font-family: @font-content;
+}
+
+/* Main content area, including siteNotice, indicators, categories, firstHeading and `.continuum-body`. */
+.mw-body {
+	// h1's can exist outside of `.mw-body-content` so some heading styles
+	// therefore need to be defined in `.mw-body` as well.
+	h1,
+	.mw-heading1,
+	&-content h1,
+	&-content .mw-heading1,
+	&-content h2,
+	&-content .mw-heading2 {
+		font-family: @font-header;
+		line-height: @line-height-xx-small;
+
+		// Fallback heading font for scripts which render poorly in `@font-family-serif`.
+		// See T73240
+		&:lang( ja ), /* See T65817 */
+		&:lang( he ), /* See T65843 and T65844 */
+		&:lang( ko ) { /* See T65827 */
+			font-family: @font-family-sans--fallback;
+		}
+
+		&:lang( ckb ) { /* See T306317 */
+			font-family: 'Scheherazade', @font-family-serif;
+		}
+
+		/* Burmese (Myanmar) language headlines would be cropped with set `line-height` */
+		/* See T193270 */
+		&:lang( my ) {
+			line-height: normal;
+		}
+	}
+
+	h1,
+	.mw-heading1,
+	&-content h1,
+	&-content .mw-heading1 {
+		font-size: @font-size-heading-1;
+	}
+
+	.mw-heading2,
+	h2 {
+		font-size: @font-size-heading-2;
+	}
+
+	.mw-heading3,
+	h3,
+	.mw-heading4,
+	h4,
+	.mw-heading5,
+	h5,
+	.mw-heading6,
+	h6 {
+		// Additional bottom padding isnt necessary because only the h2 has an underline
+		padding-bottom: 0;
+		line-height: @line-height-base;
+	}
+
+	.mw-heading2,
+	h2,
+	.mw-heading3,
+	h3,
+	.mw-heading4,
+	h4,
+	.mw-heading5,
+	h5,
+	.mw-heading6,
+	h6 {
+		// Headings should have extra spacing from its siblings, which is a
+		// <p> element most of the time. In this case, spacing from the heading
+		// the <p> is sufficient. However, we to account for cases
+		// where the previous sibling element doesnt have any spacing
+		margin: 0.25em 0 0.25em 0;
+	}
+
+	.mw-heading3,
+	h3 {
+		font-size: @font-size-heading-3;
+	}
+
+	.mw-heading3,
+	h3,
+	.mw-heading4,
+	h4 {
+		font-weight: bold;
+	}
+
+	.mw-heading4,
+	h4,
+	.mw-heading5,
+	h5,
+	.mw-heading6,
+	h6 {
+		font-size: @font-size-reset; // Reset.
+	}
+
+	// On Talk:Test?dtenable=0 h2 is inside mw-heading which results in larger than
+	// expected font size since @font-size-heading-2 is defined in ems (T357929).
+	// TODO: Consider switching font-sizes to rems instead of ems to remove these styles.
+	.mw-heading1 h1,
+	.mw-heading2 h2,
+	.mw-heading3 h3,
+	.mw-heading4 h4,
+	.mw-heading5 h5,
+	.mw-heading6 h6 {
+		margin-top: 0;
+		font-size: inherit;
+	}
+
+	p {
+		margin: 0.5em 0 1em 0;
+	}
+
+	p + ul,
+	p + ol,
+	p + table,
+	p + dl,
+	p + blockquote {
+		// Inline elements should have 0.5em total top spacing
+		// Use negative margin to account for 1em bottom margin on paragraphs
+		// This will not work for floated elements
+		margin-top: -0.5em;
+	}
+
+	blockquote {
+		border-left: @border-start-blockquote;
+		padding: @padding-blockquote;
+
+		// Ensure not to inherit whitespace mashing margins on child elements.
+		> :first-child {
+			margin-top: 0;
+		}
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+// T335625 - Move siteSub into common.less to prevent it from being feature-flagged
+// and overriding on-wiki modifications.
+#siteSub {
+	font-size: @font-size-small; // T311421
+	// By default the sitesub (i.e. tagline) is hidden as it was hidden in Continuum legacy but site styles can reveal.
+	display: none;
+}
+
+.valorik-calligraphy {
+	font-family: @font-valorik, serif;
+	font-size: 1.5em;
+	line-height: var( --line-height-medium );
+}
+.alternate-font {
+	font-family: @font-alternate, serif;
+	font-size: var( --font-size-medium );
+	line-height: var( --line-height-medium );
+}
+.alternate-font-letter {
+	font-family: @font-letter, serif;
+	font-size: var( --font-size-medium );
+	line-height: var( --line-height-medium );
+}
+.continuum-font-test {
+	font-family: Continuum;
+	font-size: var( --font-size-medium );
+	line-height: var( --line-height-medium );
+}

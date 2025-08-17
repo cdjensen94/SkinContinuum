@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dinkawiki"
+		]
+	},
+	"continuum-languages": "Beléŋá",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 belé|$1 beléŋá}}",
+	"continuum-no-language-button-label": "Beléŋás jányi",
+	"continuum-action-addsection": "Belêŋta̠bʉs jányi",
+	"continuum-action-delete": "Jááso",
+	"continuum-action-move": "Ja̠wnyɨ́ŋɨ́s",
+	"continuum-action-protect": "Jaáno",
+	"continuum-view-create": "Jetéré",
+	"continuum-view-history": "Sime ja̠gɨ́l",
+	"continuum-more-actions": "Kerŋa",
+	"continuum-appearance-label": "Jalŋola",
+	"continuum-feature-limited-width-name": "Wa̠ssɨŋ",
+	"continuum-feature-limited-width-0-label": "Wa̠ssɨ́e",
+	"continuum-feature-limited-width-1-label": "Taraas",
+	"continuum-feature-custom-font-size-name": "Rim",
+	"continuum-feature-custom-font-size-0-label": "Ittî",
+	"continuum-feature-custom-font-size-1-label": "Taraas",
+	"continuum-feature-custom-font-size-2-label": "Appâ",
+	"skin-theme-name": "Ǔlu",
+	"skin-theme-day-label": "Hěrra",
+	"skin-theme-night-label": "Dɨkkô",
+	"skin-theme-os-label": "Dítíŋtáárípii",
+	"skin-theme-exclusion-notice": "In saŋgal kerreg hěrre-lé kee",
+	"continuum-searchsuggest-containing": "Saŋgala kila jʉrgʉ́ló asá <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>-sí ka̱ɨŋ.",
+	"continuum-toc-label": "Ótá",
+	"continuum-toc-beginning": "Juuŋ",
+	"continuum-main-menu-label": "Beera appâkʉŋo",
+	"continuum-feature-custom-font-size-exclusion-notice": "In saŋgal kerreg-si seebáaŋa̠ppɨŋ ittî-sí táárí pii",
+	"continuum-page-tools-label": "Táárí'ŋ ótá",
+	"continuum-page-tools-general-label": "Nyéttiŋ",
+	"continuum-page-tools-actions-label": "Ájíŋá",
+	"continuum-unpin-element-label": "jʉʉl-si"
+}

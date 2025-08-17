@@ -1,0 +1,33 @@
+// Ensure there is only 1 client prefs landmark at anytime
+.continuum-feature-appearance-pinned-clientpref-1 .continuum-user-links .continuum-appearance-landmark,
+.continuum-feature-appearance-pinned-clientpref-0 .continuum-column-end .continuum-appearance-landmark {
+	display: none;
+}
+
+#continuum-appearance-dropdown {
+	.continuum-dropdown-content {
+		.mixin-continuum-dropdown-content-flip();
+	}
+}
+
+.exclusion-notice {
+	color: @color-disabled;
+}
+
+/* If JS is disabled the menu should not render at all */
+.client-nojs .continuum-appearance-landmark {
+	display: none;
+}
+
+.skin-client-pref-exclusion-notice {
+	display: none;
+}
+
+@media ( max-width: 1399px ) {
+	// By default, limited width client pref should be hidden unless the breakpoint below is reached.
+	.continuum-feature-limited-width-clientpref-0 #skin-client-prefs-continuum-feature-limited-width {
+		.skin-client-pref-exclusion-notice {
+			display: block;
+		}
+	}
+}

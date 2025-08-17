@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amdf",
+			"Nadezhda"
+		]
+	},
+	"continuum-languages": "Йӹлмӹвлӓ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 йӹлмӹ}}",
+	"continuum-no-language-button-label": "Йӹлмӹвлӓм уштараш",
+	"continuum-action-addsection": "Темым уштараш",
+	"continuum-action-delete": "Карангдаш",
+	"continuum-action-move": "Лӹмӹм вашталташ",
+	"continuum-action-protect": "Перегӓш",
+	"continuum-view-create": "Ӹштӓш",
+	"continuum-view-edit": "Тӧрлӹмӓш",
+	"continuum-view-history": "Историм анжымаш",
+	"continuum-view-view": "Лыдаш",
+	"continuum-view-viewsource": "Сек пӹтӓриш кодым анжалаш",
+	"continuum-more-actions": "Эче",
+	"continuum-appearance-label": "Вӹлвӓл сӹн",
+	"continuum-feature-limited-width-name": "Кымдык",
+	"continuum-feature-limited-width-0-label": "Кымда",
+	"continuum-feature-limited-width-1-label": "Стандарт",
+	"continuum-feature-custom-font-size-name": "Текст",
+	"continuum-feature-custom-font-size-0-label": "Изи",
+	"continuum-feature-custom-font-size-1-label": "Стандартный",
+	"continuum-feature-custom-font-size-2-label": "Кого",
+	"skin-theme-name": "Цӹре",
+	"skin-theme-day-label": "Валгыды",
+	"skin-theme-night-label": "Шимӓлгӹ",
+	"skin-theme-os-label": "Автоматически",
+	"skin-theme-exclusion-notice": "Ти страницӓ соок валгыды режимӹштӹ ылеш.",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> шамакан страницӓвлӓм кӹчӓлмӓш",
+	"continuum-toc-label": "Контент",
+	"continuum-toc-beginning": "Тӹнгӓлтӹш",
+	"continuum-main-menu-label": "Тӹнг меню",
+	"continuum-feature-custom-font-size-exclusion-notice": "Ти страницӓшты соок изи шрифт кычылталтеш",
+	"continuum-page-tools-label": "Хӓдӹрвлӓ",
+	"continuum-page-tools-general-label": "Цымыр",
+	"continuum-unpin-element-label": "шӹлтӓш"
+}

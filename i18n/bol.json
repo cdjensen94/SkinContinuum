@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"El-hussain14"
+		]
+	},
+	"continuum-languages": "bòo",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 harshe|$1 bòo}}",
+	"continuum-no-language-button-label": "Sauwadi yare",
+	"continuum-action-addsection": "Sawwai labar",
+	"continuum-action-delete": "Gogo",
+	"continuum-action-move": "Zame",
+	"continuum-action-protect": "deito",
+	"continuum-view-create": "Algino",
+	"continuum-view-history": "Beyi ewe tarihi",
+	"continuum-more-actions": "Sauwadi",
+	"continuum-appearance-label": "Ringo",
+	"continuum-feature-limited-width-name": "Aam",
+	"continuum-feature-limited-width-0-label": "Bunko",
+	"continuum-feature-limited-width-1-label": "Monani",
+	"continuum-feature-custom-font-size-name": "Rubutu",
+	"continuum-feature-custom-font-size-0-label": "Dole",
+	"continuum-feature-custom-font-size-1-label": "Monani",
+	"continuum-feature-custom-font-size-2-label": "Siri",
+	"skin-theme-name": "Ammani",
+	"skin-theme-day-label": "Petile",
+	"skin-theme-night-label": "Buqi",
+	"skin-theme-os-label": "Ga konni",
+	"skin-theme-exclusion-notice": "This page is always in light mode.",
+	"continuum-searchsuggest-containing": "Inne ngafeka lagani gah<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Kanu labar",
+	"continuum-toc-beginning": "Zalshe",
+	"continuum-anon-user-menu-pages": "Shafe Fite nramu",
+	"continuum-main-menu-label": "Bayin usul",
+	"continuum-feature-custom-font-size-exclusion-notice": "This page always uses small font size",
+	"continuum-page-tools-label": "Karai ruta",
+	"continuum-page-tools-general-label": "Lele",
+	"continuum-page-tools-actions-label": "Ruta",
+	"continuum-unpin-element-label": "bunku"
+}

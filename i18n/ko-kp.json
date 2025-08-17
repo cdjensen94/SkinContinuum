@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Delim"
+		]
+	},
+	"continuum-skin-desc": "신선해 보이고 많은 사용성이 개선된 모노북의 현대 판본",
+	"continuum-action-addsection": "새 주제",
+	"continuum-action-delete": "삭제",
+	"continuum-action-move": "이동",
+	"continuum-action-protect": "보호",
+	"continuum-action-undelete": "지우기취소",
+	"continuum-action-unprotect": "보호 설정 바꾸기",
+	"continuum-view-create": "만들기",
+	"continuum-view-edit": "편집",
+	"continuum-view-history": "력사보기",
+	"continuum-view-view": "읽기",
+	"continuum-view-viewsource": "원본 보기",
+	"continuum-more-actions": "더 보기"
+}

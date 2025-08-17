@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"A R King",
+			"TimumachtikanNawat"
+		]
+	},
+	"continuum-languages": "Tajtaketzalis",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 taketzalis|$1 tajtaketzalis}}",
+	"continuum-no-language-button-label": "Shikintali Tajtaketzalis",
+	"continuum-action-addsection": "Yankwik temaj",
+	"continuum-action-delete": "Shikishti",
+	"continuum-action-move": "Shikijkwani",
+	"continuum-action-undelete": "Shalkwepa",
+	"continuum-view-create": "Shikchiwa",
+	"continuum-view-edit": "Shikpata",
+	"continuum-view-history": "Ken mupatak",
+	"continuum-view-view": "Shiamatachia",
+	"continuum-view-viewsource": "Shikita ne codigoj",
+	"continuum-more-actions": "Ukchupi",
+	"continuum-appearance-label": "Ken itachishka",
+	"continuum-feature-limited-width-name": "Patawak",
+	"continuum-feature-limited-width-0-label": "Wey Patawak",
+	"continuum-feature-limited-width-1-label": "Kia né",
+	"continuum-feature-custom-font-size-name": "Tajtajkwilulchichin",
+	"continuum-feature-custom-font-size-0-label": "Chikitik",
+	"continuum-feature-custom-font-size-1-label": "Kia né",
+	"continuum-feature-custom-font-size-2-label": "Tumak",
+	"skin-theme-name": "Tay itachishka",
+	"skin-theme-day-label": "Tawil",
+	"skin-theme-night-label": "Kunyua",
+	"skin-theme-os-label": "Isel muchiwa",
+	"skin-theme-exclusion-notice": "Ini amat ishtikaya kipia tawil",
+	"continuum-searchsuggest-containing": "Shiktemu amat iwan <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-main-menu-label": "Achtu shulun",
+	"continuum-feature-custom-font-size-exclusion-notice": "Ini amat ishtikaya yawi iwan chikitik tajkwilulchin",
+	"continuum-page-tools-label": "Tay iwan?",
+	"continuum-page-tools-general-label": "Anmumuchi",
+	"continuum-page-tools-actions-label": "Tay tiweli tikchiwa?",
+	"continuum-unpin-element-label": "Shikinaya"
+}

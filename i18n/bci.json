@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kjeanclaude"
+		]
+	},
+	"continuum-languages": "Aniein moun",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 aniein|$1 aniein moun}}",
+	"continuum-no-language-button-label": "Fa aniein moun goua sou",
+	"continuum-action-addsection": "Fa ndè ouflè goua sou",
+	"continuum-action-delete": "Nounnoun",
+	"continuum-action-move": "Katchi floua boué nga i douman",
+	"continuum-action-protect": "Sassawa",
+	"continuum-view-create": "Yi",
+	"continuum-view-edit": "Klè noun",
+	"continuum-view-history": "Nian laa sa",
+	"continuum-view-view": "Kanngan",
+	"continuum-more-actions": "Ouflè ékun",
+	"continuum-searchsuggest-containing": "Kounndè floué boué moun nga liké nga wo noun: <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-page-tools-label": "Liké moun",
+	"continuum-page-tools-general-label": "Lika ngba (liké kounndèlè)",
+	"continuum-unpin-element-label": "fa fia"
+}

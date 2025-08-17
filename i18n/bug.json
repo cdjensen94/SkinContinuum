@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kurniasan",
+			"Notanotheramy",
+			"Rdwnnr"
+		]
+	},
+	"continuum-no-language-button-label": "Tambai basabasa",
+	"continuum-action-addsection": "Tambai topiq",
+	"continuum-action-move": "Paléccéq",
+	"continuum-action-protect": "Pallénrung",
+	"continuum-view-create": "Ébbu",
+	"continuum-view-edit": "Padécéng",
+	"continuum-view-history": "Itai riwayaq",
+	"continuum-view-view": "Baca",
+	"continuum-view-viewsource": "Ita pabbéré",
+	"continuum-more-actions": "Tamba",
+	"continuum-searchsuggest-containing": "Sappa lempa malliseq <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-page-tools-label": "Pakkakkasaq",
+	"continuum-page-tools-actions-label": "Gaukkauq"
+}

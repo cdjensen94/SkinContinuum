@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"भारत्पराक्रमि"
+		]
+	},
+	"continuum-languages": "भाषाएँ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 भाषा|$1 भाषाएँ}}",
+	"continuum-no-language-button-label": "भाषाएँ जोड़ें",
+	"continuum-action-addsection": "विषय जोड़ें",
+	"continuum-action-delete": "हटाएँ",
+	"continuum-action-move": "स्थानांतरित करें",
+	"continuum-action-protect": "सुरक्षा करें",
+	"continuum-view-create": "बनावें",
+	"continuum-view-history": "इतिहास नै देखें",
+	"continuum-more-actions": "और भी",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> सी सहित पन्ने  खोजें",
+	"continuum-page-tools-label": "औजारें",
+	"continuum-page-tools-general-label": "सामान्य",
+	"continuum-unpin-element-label": "छिपावें"
+}

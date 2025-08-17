@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joeamj"
+		]
+	},
+	"continuum-more-actions": "enkuru",
+	"continuum-searchsuggest-containing": "Saka paji ziriho <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-page-tools-actions-label": "ibikowra"
+}

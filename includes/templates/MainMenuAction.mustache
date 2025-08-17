@@ -1,0 +1,9 @@
+{{! `heading` is optional. }}
+<div class="continuum-main-menu-action continuum-main-menu-action-{{action}}{{#class}} {{.}}{{/class}}">
+	<div class="continuum-main-menu-action-item">
+		{{#heading}}<div class="continuum-main-menu-action-heading continuum-menu-heading">{{.}}</div>{{/heading}}
+		<div class="continuum-main-menu-action-content continuum-menu-content">
+			{{{html-content}}}
+		</div>
+	</div>
+</div>

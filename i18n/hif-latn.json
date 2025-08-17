@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Girmitya",
+			"Thakurji"
+		]
+	},
+	"continuum-languages": "Bhasa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 bhasa}}",
+	"continuum-no-language-button-label": "Bhasa jorro",
+	"continuum-action-addsection": "Topic jorro",
+	"continuum-action-delete": "Mitao",
+	"continuum-action-move": "Naam badlo",
+	"continuum-action-protect": "Bachao",
+	"continuum-action-undelete": "Pahile jaise karo",
+	"continuum-action-unprotect": "Surakchha ke badlo",
+	"continuum-view-create": "Banao",
+	"continuum-view-edit": "Badlo",
+	"continuum-view-history": "Itihaas dekho",
+	"continuum-view-view": "Parrho",
+	"continuum-view-viewsource": "Source dekho",
+	"continuum-more-actions": "Aur",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> jisme hai, ke khojo",
+	"continuum-toc-label": "Vishay suchi",
+	"continuum-toc-beginning": "Suruwaat",
+	"continuum-main-menu-label": "Main menu",
+	"continuum-page-tools-label": "Aujaar",
+	"continuum-page-tools-general-label": "General",
+	"continuum-unpin-element-label": "lukao"
+}

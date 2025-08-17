@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zahirulnukman"
+		]
+	},
+	"continuum-languages": "Bahaso",
+	"continuum-language-button-label": "{{PLURAL:$1|bahaso-bahaso $1}}",
+	"continuum-no-language-button-label": "Tambah bahaso",
+	"continuum-view-create": "Buek",
+	"continuum-view-history": "Tengok sojarah",
+	"continuum-more-actions": "Lagi",
+	"continuum-feature-custom-font-size-name": "Teks",
+	"continuum-feature-custom-font-size-0-label": "Kocik",
+	"continuum-feature-custom-font-size-1-label": "Biaso",
+	"continuum-feature-custom-font-size-2-label": "Bosa",
+	"skin-theme-name": "Warno",
+	"skin-theme-day-label": "Coghah",
+	"skin-theme-night-label": "Golap",
+	"skin-theme-os-label": "Automatik",
+	"skin-theme-exclusion-notice": "Muko ini solalu dalam mod coghah",
+	"continuum-searchsuggest-containing": "Cari laman yang ado <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-main-menu-label": "Menu utamo",
+	"continuum-feature-custom-font-size-exclusion-notice": "Muko ini solalu guno fon saiz kocik",
+	"continuum-page-tools-label": "Pokakas",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-page-tools-actions-label": "Tingkah"
+}

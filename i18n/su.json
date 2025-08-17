@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akbar Soepadhi",
+			"Daud I.F. Argana",
+			"Kandar",
+			"Pijri Paijar"
+		]
+	},
+	"continuum-skin-desc": "MonoBook vérsi modéren dina pidangan anu leuwih anyar jeung leuwih hadé",
+	"continuum-languages": "Basa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 basa}}",
+	"continuum-no-language-button-label": "Tambahkeun basa",
+	"continuum-action-addsection": "Tambah jejer",
+	"continuum-action-delete": "Hapus",
+	"continuum-action-move": "Pindahkeun",
+	"continuum-action-protect": "Konci",
+	"continuum-action-undelete": "Bolaykeun ngahapus",
+	"continuum-action-unprotect": "Robah protéksi",
+	"continuum-view-create": "Jieun",
+	"continuum-view-edit": "Édit",
+	"continuum-view-history": "Témbongkeun jujutan",
+	"continuum-view-view": "Baca",
+	"continuum-view-viewsource": "Témbongkeun sumber",
+	"continuum-more-actions": "Lianna",
+	"continuum-appearance-label": "Pidangan",
+	"continuum-feature-limited-width-0-label": "Lebar",
+	"continuum-feature-custom-font-size-name": "Téks",
+	"continuum-feature-custom-font-size-0-label": "Leutik",
+	"continuum-feature-custom-font-size-1-label": "Standar",
+	"continuum-feature-custom-font-size-2-label": "Gedé",
+	"skin-theme-day-label": "Caang",
+	"skin-theme-night-label": "Poék",
+	"skin-theme-os-label": "Otomatis",
+	"continuum-searchsuggest-containing": "Paluruh kaca-kaca anu ngandung <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Eusi",
+	"continuum-toc-beginning": "Mimiti",
+	"continuum-main-menu-label": "Menu utama",
+	"continuum-page-tools-label": "Parabot",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-unpin-element-label": "sumputkeun"
+}

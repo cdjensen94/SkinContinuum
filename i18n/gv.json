@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"MacTire02",
+			"Shimmin Beg"
+		]
+	},
+	"continuum-action-addsection": "Cur cooish noa rish",
+	"continuum-action-delete": "Scryss",
+	"continuum-action-move": "Scugh",
+	"continuum-action-protect": "Coadee",
+	"continuum-action-undelete": "Jee-scryss",
+	"continuum-action-unprotect": "Caghlaa coadey",
+	"continuum-view-create": "Croo",
+	"continuum-view-edit": "Reagh",
+	"continuum-view-history": "Jeeagh er shennaghys",
+	"continuum-view-view": "Lhaih",
+	"continuum-view-viewsource": "Jeeagh er bun"
+}

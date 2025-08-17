@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bloomaround",
+			"ⲁϩⲙⲉⲧ"
+		]
+	},
+	"continuum-languages": "Ϩⲁⲛⲁⲥⲡⲓ",
+	"continuum-language-button-label": "{{PLURAL:$1|ⲟⲩⲁⲥⲡⲓ ⲛ̀ⲟⲩⲱⲧ|$1 ⲛ̀ⲁⲥⲡⲓ}}",
+	"continuum-no-language-button-label": "Ⲧⲟⲩϩⲟ ⲛ̀ϩⲁⲛⲁⲥⲡⲓ",
+	"continuum-action-addsection": "Ⲧⲟⲩϩⲟ ⲛ̀ⲟⲩϩⲩⲡⲟⲑⲉⲥⲓⲥ",
+	"continuum-action-delete": "Ⲥⲱⲗϫ",
+	"continuum-action-move": "Ⲕⲓⲙ",
+	"continuum-action-protect": "Ⲥⲕⲉⲡⲁⲍⲓⲛ",
+	"continuum-view-create": "Ⲑⲁⲙⲓⲟ̀",
+	"continuum-view-edit": "ϫⲓⲛⲫⲱⲛϩ",
+	"continuum-view-history": "Ⲁ̀ⲛⲁⲩ ⲉ̀ⲧϩⲓⲥⲧⲟⲣⲓⲁ̀",
+	"continuum-view-view": "ⲱϣ",
+	"continuum-more-actions": "Ⲛ̀ϩⲟⲩⲟ",
+	"continuum-appearance-label": "Ⲯⲁⲕ",
+	"continuum-feature-limited-width-name": "Ⲡⲟⲩⲱϣⲥ",
+	"continuum-feature-limited-width-0-label": "Ⲉϥⲟⲩⲟϣⲥ",
+	"continuum-feature-limited-width-1-label": "Ⲡⲣⲟⲭⲉⲓⲣⲟⲛ",
+	"continuum-feature-custom-font-size-name": "Ⲧⲅⲣⲁⲫⲏ",
+	"continuum-feature-custom-font-size-0-label": "Ⲕⲟⲩϫⲓ",
+	"continuum-feature-custom-font-size-1-label": "Ⲡⲣⲟⲭⲉⲓⲣⲟⲛ",
+	"continuum-feature-custom-font-size-2-label": "Ⲛⲓϣϯ",
+	"skin-theme-name": "Ⲡⲁⲟⲩⲁⲛ",
+	"skin-theme-day-label": "Ⲉϥϯⲙⲱⲟⲩⲓ̀",
+	"skin-theme-night-label": "Ⲉϥⲭⲏⲙ",
+	"skin-theme-os-label": "Ⲛ̀ⲟⲩⲁⲧϥ",
+	"skin-theme-exclusion-notice": "Ⲡⲁⲓϩⲟ ϥϯⲙⲱⲟⲩⲓ̀ ⲥⲟⲡ ⲛⲓⲃⲉⲛ.",
+	"continuum-searchsuggest-containing": "Ⲕⲱϯ ⲛ̀ⲥⲁϩⲟ ⲉ̀ⲥⲉⲱⲗⲓ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Ⲫⲙⲟϩ",
+	"continuum-toc-beginning": "Ⲧⲁⲣⲭⲏ",
+	"continuum-anon-user-menu-pages": "Ⲛⲓϩⲟ ⲉⲑⲃⲉⲛⲓⲣⲉϥϣⲉⲃⲓⲱ̀ ⲉⲧⲁⲩϫⲁⲓ ⲙ̀ⲙⲱⲟⲩ ⲉ̀ⲃⲟⲗ",
+	"continuum-main-menu-label": "Ⲡⲓϩⲟⲩⲓⲧ ⲛ̀ⲕⲁⲧⲁⲗⲟⲅⲟⲥ",
+	"continuum-feature-custom-font-size-exclusion-notice": "Ⲡⲁⲓϩⲟ ⲥⲉⲣⲭⲁⲥⲑⲉ ⲛ̀ⲟⲩⲕⲟⲩϫⲓ ⲛ̀ⲕⲁⲡ ⲥⲟⲡ ⲛⲓⲃⲉⲛ",
+	"continuum-page-tools-label": "Ϩⲁⲛⲥⲉⲑⲃⲁⲓⲟⲩ",
+	"continuum-page-tools-general-label": "Ⲡⲅⲉⲛⲓⲕⲟⲥ",
+	"continuum-page-tools-actions-label": "Ϩⲁⲛⲉⲣⲅⲟⲛ",
+	"continuum-unpin-element-label": "ⲕⲱⲡ"
+}

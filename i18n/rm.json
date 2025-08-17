@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gion-andri",
+			"Terfili"
+		]
+	},
+	"continuum-action-addsection": "Agiuntar chapitel",
+	"continuum-action-delete": "Stizzar",
+	"continuum-action-move": "Spustar",
+	"continuum-action-protect": "Bloccar",
+	"continuum-action-undelete": "Restituir",
+	"continuum-action-unprotect": "Midar la protecziun",
+	"continuum-view-create": "Crear",
+	"continuum-view-edit": "Modifitgar",
+	"continuum-view-history": "Cronologia",
+	"continuum-view-view": "Leger",
+	"continuum-view-viewsource": "Mussar il code",
+	"continuum-more-actions": "dapli"
+}

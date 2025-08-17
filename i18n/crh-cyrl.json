@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danvintius Bookix",
+			"Don Alessandro"
+		]
+	},
+	"continuum-languages": "Тиллер",
+	"continuum-action-addsection": "Мевзу къош",
+	"continuum-action-delete": "Ёкъ эт",
+	"continuum-action-move": "Адыны денъиштир",
+	"continuum-action-protect": "Къорчала",
+	"continuum-action-undelete": "Янъыдан ярат",
+	"continuum-action-unprotect": "Къорчалавны денъиштир",
+	"continuum-view-create": "Ярат",
+	"continuum-view-edit": "Денъиштир",
+	"continuum-view-history": "Кечмишини косьтер",
+	"continuum-view-view": "Окъу",
+	"continuum-view-viewsource": "Менба кодуны косьтер",
+	"continuum-more-actions": "Башкъа арекетлер"
+}

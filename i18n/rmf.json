@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Szonja"
+		]
+	},
+	"continuum-action-addsection": "Tilja topikos",
+	"continuum-action-delete": "Tšuu nikki",
+	"continuum-action-undelete": "Tšuu paale",
+	"continuum-view-create": "Luona",
+	"continuum-view-edit": "Muoka",
+	"continuum-view-history": "Sik histores",
+	"continuum-view-view": "Draba",
+	"continuum-view-viewsource": "Sik navasiinako koodos"
+}

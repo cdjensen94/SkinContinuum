@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gothicspeaker"
+		]
+	},
+	"continuum-languages": "𐍂𐌰𐌶𐌳𐍉𐍃",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 𐍂𐌰𐌶𐌳𐌰|$1 𐍂𐌰𐌶𐌳𐍉𐍃}}",
+	"continuum-no-language-button-label": "𐌰𐌽𐌰𐌰𐌹𐌰𐌿𐌺 𐍂𐌰𐌶𐌳𐍉𐍃",
+	"continuum-action-addsection": "𐌰𐌽𐌰𐌰𐌹𐌰𐌿𐌺 𐍄𐌰𐌿𐍀𐌹𐌺𐌰",
+	"continuum-action-delete": "𐍆𐍂𐌰𐌵𐌹𐍃𐍄𐌴𐌹",
+	"continuum-action-move": "𐌼𐌹𐌸𐍃𐌰𐍄𐌴𐌹",
+	"continuum-action-protect": "𐍆𐍂𐌹𐌸𐍉",
+	"continuum-view-create": "𐍃𐌺𐌰𐍀𐌴𐌹",
+	"continuum-view-edit": "𐌹𐌽𐌼𐌰𐌹𐌳𐌴𐌹",
+	"continuum-view-history": "𐍃𐌰𐌹 𐍃𐍀𐌹𐌻𐌻",
+	"continuum-view-view": "𐌿𐍃𐍃𐌹𐌲𐌲𐍅",
+	"continuum-view-viewsource": "𐍃𐌰𐌹𐍈 𐌱𐍂𐌿𐌽𐌽𐌰𐌽",
+	"continuum-more-actions": "𐌼𐌰𐌹𐍃",
+	"continuum-feature-limited-width-name": "𐌱𐍂𐌰𐌹𐌳𐌴𐌹",
+	"continuum-feature-limited-width-0-label": "𐌱𐍂𐌰𐌹𐌸",
+	"continuum-feature-limited-width-1-label": "𐌿𐍆𐍄𐌰 𐌱𐍂𐌿𐌷𐍄",
+	"continuum-feature-custom-font-size-name": "𐌱𐍉𐌺𐍉𐍃",
+	"continuum-feature-custom-font-size-0-label": "𐌻𐌴𐌹𐍄𐌹𐌻",
+	"continuum-feature-custom-font-size-1-label": "𐌿𐍆𐍄𐌰 𐌱𐍂𐌿𐌷𐍄",
+	"continuum-feature-custom-font-size-2-label": "𐌼𐌹𐌺𐌹𐌻",
+	"skin-theme-name": "𐍆𐌰𐍂𐍅𐌰",
+	"skin-theme-day-label": "𐌻𐌹𐌿𐌷𐌰𐌸",
+	"skin-theme-night-label": "𐍂𐌹𐌵𐌹𐍃",
+	"skin-theme-os-label": "𐍃𐌹𐌻𐌱𐌰𐍄𐌰𐌿𐌾𐌰𐌽𐌳𐍉",
+	"skin-theme-exclusion-notice": "𐍃𐌰 𐌻𐌰𐌿𐍆𐍃 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉 𐌹𐌽 𐌼𐍉𐌳𐌰𐌿 𐌻𐌹𐌿𐌷𐌰𐌳𐌹𐍃 𐌹𐍃𐍄.",
+	"continuum-searchsuggest-containing": "𐍃𐍉𐌺𐌴𐌹 𐌰𐌻𐌻𐌰𐌽𐍃 𐌻𐌰𐌿𐌱𐌰𐌽𐍃 𐌸𐌰𐌽𐌶𐌴𐌹 𐌷𐌰𐌱𐌰𐌽𐌳 <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-beginning": "𐌰𐌽𐌰𐍃𐍄𐍉𐌳𐌴𐌹𐌽𐍃",
+	"continuum-anon-user-menu-pages": "𐌻𐌰𐌿𐌱𐍉𐍃 𐌰𐍆𐌻𐌴𐌹𐌸𐌰𐌽𐌰𐌹𐌼 𐌹𐌽𐌼𐌰𐌹𐌳𐌾𐌰𐌽𐌳𐌰𐌼",
+	"continuum-main-menu-label": "𐌲𐌰𐌼𐌰𐌹𐌽𐌰 𐍅𐌹𐌺𐍉",
+	"continuum-feature-custom-font-size-exclusion-notice": "𐍃𐌰 𐌻𐌰𐌿𐍆𐍃 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉 𐌱𐍂𐌿𐌺𐌴𐌹𐌸 𐌼𐌹𐌺𐌹𐌻𐌴𐌹𐌽𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐌹𐍃 𐍆𐌰𐌿𐌽𐍄𐌹𐍃",
+	"continuum-page-tools-label": "𐍄𐍉𐌻𐍉𐍃",
+	"continuum-page-tools-general-label": "𐌲𐌰𐌼𐌰𐌹𐌽",
+	"continuum-page-tools-actions-label": "𐍄𐍉𐌾𐌰",
+	"continuum-unpin-element-label": "𐌰𐍆𐍆𐌹𐌻𐌷"
+}

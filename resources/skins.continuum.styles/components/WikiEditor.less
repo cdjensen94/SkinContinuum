@@ -1,0 +1,125 @@
+@import '../variables.less';
+
+.wikiEditor-ui .editor textarea {
+    background-color: @color-dark-navy;
+    color: @color-white;
+    border: 1px solid @color-bright-orange;
+    border-radius: 4px;
+    padding: 8px;
+    caret-color: @color-bright-orange;
+}
+
+.wikiEditor-ui-toolbar,
+.wikiEditor-ui-toolbar .group .tool a,
+.wikiEditor-ui-dialog {
+    font-family: 'Bona Nova', serif;
+    background-color: @color-deep-navy;
+    color: @color-white;
+    border: 1px solid @color-bright-orange;
+}
+
+.wikiEditor-ui .editor textarea::selection {
+    background-color: fade(@color-text-highlight, 50%);
+    color: @color-white;
+}
+
+/* Syntax Highlighting (these classnames may need JS plugin support!) */
+.wikiEditor-ui .editor .syntax-highlight {
+    background-color: @color-lighter-navy;
+    color: @color-soft-peach;
+}
+.wikiEditor-ui .editor .syntax-highlight.keyword { color: @color-bright-orange; }
+.wikiEditor-ui .editor .syntax-highlight.string  { color: @color-azure; }
+.wikiEditor-ui .editor .syntax-highlight.comment { color: @color-soft-gray; font-style: italic; }
+.wikiEditor-ui .editor .syntax-highlight.variable { color: @color-burnt-orange; }
+
+/* Toolbar buttons */
+.wikiEditor-ui-toolbar .group .tool a:hover {
+    background-color: @color-bright-orange;
+    color: @color-dark-navy;
+}
+.wikiEditor-ui-toolbar .group .tool a:active {
+    background-color: @color-burnt-orange;
+    color: @color-white;
+}
+#msupload-container {
+    background-color: @color-dark-navy;
+    color: @color-white;
+    border: 1px solid @color-bright-orange;
+    border-radius: 4px;
+}
+.oo-ui-fieldLayout.oo-ui-labelElement.oo-ui-fieldLayout-align-inline > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 12px;
+}
+.ext-forms-form-editor-element-picker {
+    width: 100%;
+    padding: 10px;
+    background-color: @color-dark-navy !important;
+    border-bottom: 1px solid @color-burnt-orange;
+    border-left: 1px solid @color-burnt-orange;
+    border-right: 1px solid @color-burnt-orange;
+    top: 46px;
+}
+.oo-ui-widget {
+    color: @color-white;
+    border: 1px solid @color-bright-orange;
+    border-radius: 4px;
+    .oo-ui-widget-enabled {
+        background-color: @color-bright-orange;
+        border: 1px solid @color-burnt-orange;
+        color: @color-white;
+        border: none;
+        border-radius: 4px;
+        .oo-ui-labelElement-label {
+            color: @color-white;
+            font-family: @font-code;
+            font-size: @font-size-medium;
+            background-color: transparent !important;
+        }
+    }
+    .editor-element .preview-area {
+        background-color: @color-dark-navy;
+        color: @color-white;
+        border: 1px solid @color-bright-orange;
+        border-radius: 4px;
+        padding: 10px;
+        min-height: 500px;
+        width:100%
+    }
+    .oo-ui-processDialog-errors {
+        background-color: @color-error;
+        color: @color-white;
+        border: 1px solid @color-bright-orange;
+        border-radius: 4px;
+        padding: 10px;
+    }
+    /*
+    .oo-ui-indicator-down {
+        background-color: @color-dark-navy;
+        color: @color-white;
+        border: 1px solid @color-burnt-orange;
+        border-radius: 4px;
+        padding: 5px;
+    }*/
+    .oo-ui-fieldLayout-field{
+        background-color: @color-dark-navy !important;
+        color: @color-white;
+        .oo-ui-inputWidget-input {
+            width: 100%;
+            background-color: @color-dark-navy !important;
+            background: @color-dark-navy !important;
+            color: @color-white;
+            border: 1px solid @color-burnt-orange !important;
+            border-radius: 8px;
+            padding: 12px;
+            font-family: @font-code;
+            font-size: @font-size-medium;
+        }
+        .oo-ui-iconElement-icon {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

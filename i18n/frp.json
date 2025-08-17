@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"skinname-continuum": "Vèctor",
+	"continuum.css": "/* Lo code CSS betâ ique afècterat los usanciérs de l’habelyâjo « Vèctor ». */",
+	"continuum.js": "/* Tot code JavaScript betâ ique serat chargiê per los usanciérs de l’habelyâjo « Vèctor ». */",
+	"continuum-languages": "Lengoues",
+	"continuum-language-button-label": "$1 lengou{{PLURAL:$1|a|es}}",
+	"continuum-no-language-button-label": "Apondre de lengoues",
+	"continuum-action-addsection": "Apondre na chousa",
+	"continuum-action-delete": "Suprimar",
+	"continuum-action-move": "Renomar",
+	"continuum-action-protect": "Protègiér",
+	"continuum-action-undelete": "Refâre",
+	"continuum-action-unprotect": "Changiér la protèccion",
+	"continuum-view-create": "Fâre",
+	"continuum-view-edit": "Changiér",
+	"continuum-view-history": "Vêre l’historico",
+	"continuum-view-view": "Liére",
+	"continuum-view-viewsource": "Vêre lo tèxto sôrsa",
+	"continuum-more-actions": "Més",
+	"continuum-searchsuggest-containing": "Rechèrchiér les pâges que contegnont <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Somèro",
+	"continuum-toc-beginning": "Comencement",
+	"continuum-main-menu-label": "Menu principâl",
+	"continuum-page-tools-label": "Outils",
+	"continuum-page-tools-general-label": "Gènèrâl",
+	"continuum-unpin-element-label": "cachiér"
+}

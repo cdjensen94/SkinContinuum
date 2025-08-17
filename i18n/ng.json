@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"!!asa,njgh"
+		]
+	},
+	"continuum-languages": "omaLaka",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 elaka|$1 omalaka}}",
+	"continuum-no-language-button-label": "Hoha omalaka",
+	"continuum-action-addsection": "Hoha otopiku",
+	"continuum-action-move": "Tembuka",
+	"continuum-view-create": "Shita",
+	"continuum-view-history": "Wete ondjokonona",
+	"continuum-more-actions": "oIndji",
+	"continuum-appearance-label": "oWete",
+	"continuum-feature-limited-width-name": "Uunene lyoombinga",
+	"continuum-feature-limited-width-0-label": "Andjuka",
+	"continuum-feature-limited-width-1-label": "oStanda",
+	"continuum-feature-custom-font-size-name": "iiTya",
+	"continuum-feature-custom-font-size-0-label": "oShona",
+	"continuum-feature-custom-font-size-1-label": "oStanda",
+	"continuum-feature-custom-font-size-2-label": "oNene",
+	"skin-theme-name": "oKoloru",
+	"skin-theme-day-label": "oYedhi",
+	"skin-theme-night-label": "oLuudha",
+	"skin-theme-os-label": "Otomatiiku",
+	"skin-theme-exclusion-notice": "ePandja eno aluhe moyedhi.",
+	"continuum-searchsuggest-containing": "Konga omapandja humbata<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "ooKondendi",
+	"continuum-toc-beginning": "oNtsapo",
+	"continuum-anon-user-menu-pages": "ePandja omulundululi ita omuakaundi",
+	"continuum-main-menu-label": "oMenu egama",
+	"continuum-feature-custom-font-size-exclusion-notice": "ePandja eno aluhe longitha uunene lyofondishona",
+	"continuum-page-tools-label": "iiLongitho",
+	"continuum-page-tools-general-label": "Jeneraali",
+	"continuum-page-tools-actions-label": "omaInyengo",
+	"continuum-unpin-element-label": "holama"
+}

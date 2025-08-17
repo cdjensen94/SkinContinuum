@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jjnzamah",
+			"Kambai Akau",
+			"Kuzayet"
+		]
+	},
+	"continuum-languages": "A̱ru̱ryem",
+	"continuum-language-button-label": "{{PLURAL:$1|duryem $1|a̱ruryem $1}}",
+	"continuum-no-language-button-label": "mbrang nwap",
+	"continuum-action-addsection": "Mbrang du̱ccu̱ ba̱ryat",
+	"continuum-action-delete": "Shok",
+	"continuum-action-move": "Shek a̱u shyei",
+	"continuum-action-protect": "Hwuun",
+	"continuum-view-create": "Yya",
+	"continuum-view-history": "Tyyei nkkang",
+	"continuum-more-actions": "Mbrang",
+	"continuum-appearance-label": "Ryyi",
+	"continuum-feature-limited-width-name": "Gbang",
+	"continuum-feature-limited-width-0-label": "pyinpyai",
+	"continuum-feature-limited-width-1-label": "Kidee",
+	"continuum-feature-custom-font-size-name": "Du̱jem",
+	"continuum-feature-custom-font-size-0-label": "Cincong",
+	"continuum-feature-custom-font-size-1-label": "Kidee",
+	"continuum-feature-custom-font-size-2-label": "A̱gba̱dang",
+	"skin-theme-name": "Du̱suuk",
+	"skin-theme-day-label": "A̱sai",
+	"skin-theme-night-label": "Ryin",
+	"skin-theme-os-label": "Yyit banying",
+	"skin-theme-exclusion-notice": "Ka̱zzu̱ kani kozan ka̱ram ka̱yat a̱sai ryen ba.",
+	"continuum-searchsuggest-containing": "Zop u̱ nazzu̱ na a̱kok ni for <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Nkyang nsshi",
+	"continuum-toc-beginning": "Ka̱tsu̱tsrang",
+	"continuum-anon-user-menu-pages": "Na̱zzu wwut Ba̱nyet shang",
+	"continuum-main-menu-label": "A̱gbadang a̱mainu",
+	"continuum-feature-custom-font-size-exclusion-notice": "Ka̱zzu̱ kani kozan ka̱ram an yya pfwong du̱ a̱ccwang a̱ssu̱ chei",
+	"continuum-page-tools-label": "Nkyang pfwong",
+	"continuum-page-tools-general-label": "Sarei kozankyai",
+	"continuum-page-tools-actions-label": "Pfwong, yya kyang yaan, kutyak.",
+	"continuum-unpin-element-label": "nyyat"
+}

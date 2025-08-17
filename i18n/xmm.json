@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mbee-wiki"
+		]
+	},
+	"continuum-languages": "Bahasa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 bahasa}}",
+	"continuum-no-language-button-label": "Kase tamba bahasa",
+	"continuum-action-delete": "Kase hapus",
+	"continuum-action-move": "Kase pinda",
+	"continuum-action-protect": "Kunci",
+	"continuum-view-create": "Beking",
+	"continuum-more-actions": "Yang laeng lagi",
+	"continuum-appearance-label": "Rupa",
+	"continuum-feature-limited-width-name": "Lebar",
+	"continuum-feature-limited-width-0-label": "Lebar",
+	"continuum-feature-limited-width-1-label": "Biasa",
+	"continuum-feature-custom-font-size-name": "Tulisan",
+	"continuum-feature-custom-font-size-0-label": "Kacili",
+	"continuum-feature-custom-font-size-1-label": "Biasa",
+	"continuum-feature-custom-font-size-2-label": "Basar",
+	"skin-theme-name": "Warna",
+	"skin-theme-day-label": "Tarang",
+	"skin-theme-night-label": "Galap",
+	"skin-theme-os-label": "Otomatis",
+	"continuum-main-menu-label": "Menu utama",
+	"continuum-feature-custom-font-size-exclusion-notice": "Ni laman ini jaga pake tulisan ukuran kacili",
+	"continuum-page-tools-label": "Alat-alat",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-unpin-element-label": "tutu"
+}

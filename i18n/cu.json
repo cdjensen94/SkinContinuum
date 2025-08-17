@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"NR Deblocked",
+			"Некто участник",
+			"ОйЛ"
+		]
+	},
+	"continuum-languages": "Ѩꙁꙑци",
+	"continuum-no-language-button-label": "множае ѩꙁꙑци сътворити",
+	"continuum-action-addsection": "новꙑ бєсѣдꙑ чѧсти сътворѥниѥ",
+	"continuum-action-delete": "поничьжєниѥ",
+	"continuum-action-move": "прѣимєнованиѥ",
+	"continuum-action-protect": "ꙁабранѥниѥ",
+	"continuum-action-unprotect": "иꙁмѣни ꙁабранѥниꙗ обраꙁъ",
+	"continuum-view-create": "сътворѥниѥ",
+	"continuum-view-edit": "исправлѥниѥ",
+	"continuum-view-history": "їсторїꙗ",
+	"continuum-view-view": "чьтѥниѥ",
+	"continuum-view-viewsource": "страницѧ источьнъ обраꙁъ",
+	"continuum-more-actions": "вѧщє",
+	"continuum-appearance-label": "Видъ",
+	"continuum-feature-custom-font-size-name": "Текстъ",
+	"continuum-feature-custom-font-size-0-label": "малъ",
+	"skin-theme-name": "Цвѣтъ",
+	"continuum-searchsuggest-containing": "исканиѥ страниц, сѥ дрьжащи <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-main-menu-tooltip": "​Главное​ ​меню​",
+	"continuum-main-menu-label": "Главьно меню",
+	"continuum-feature-custom-font-size-exclusion-notice": "Сь члѣнъ малымъ боукомъ пьсан",
+	"continuum-page-tools-label": "орѫдиꙗ",
+	"continuum-unpin-element-label": "съкрꙑи",
+	"tooltip-continuum-anon-user-menu-title": "Бо́льше ѻпцїй"
+}

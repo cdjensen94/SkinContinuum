@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assilidjoe",
+			"Ebenoffen1",
+			"Gregorynelsonmensah1",
+			"Leonard Nketsia"
+		]
+	},
+	"continuum-languages": "Kasahorow",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 kasa|$1 kasahorow}}",
+	"continuum-no-language-button-label": "Fa kasa afofor ka ho",
+	"continuum-action-addsection": "Fa tsirasɛm ka ho",
+	"continuum-action-delete": "Pepa fi hɔ",
+	"continuum-action-move": "Twe kɔ",
+	"continuum-action-protect": "Bambɔ",
+	"continuum-view-create": "Yɛ fofor",
+	"continuum-view-edit": "Sesa mu",
+	"continuum-view-history": "Hwɛ abakɔsɛm",
+	"continuum-view-view": "Kenkan",
+	"continuum-more-actions": "Pii",
+	"continuum-appearance-label": "Bɔbew",
+	"continuum-feature-limited-width-name": "Tɛtɛr mu",
+	"continuum-feature-limited-width-0-label": "Kɛse",
+	"continuum-feature-limited-width-1-label": "Pɛpɛɛpɛryɛ",
+	"continuum-feature-custom-font-size-name": "Akyerɛwsɛm",
+	"continuum-feature-custom-font-size-0-label": "Kakraba",
+	"continuum-feature-custom-font-size-2-label": "Kɛse",
+	"skin-theme-name": "Ahosu",
+	"skin-theme-day-label": "Kandza",
+	"skin-theme-night-label": "Sum",
+	"skin-theme-os-label": "Otomateke",
+	"skin-theme-exclusion-notice": "Dabiara dɛm krataafa yi wɔ kandza tsebea mu.",
+	"continuum-searchsuggest-containing": "Hwehwɛ nkrataafa a <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> wɔ mu",
+	"continuum-toc-label": "Dza ɔwɔ mu",
+	"continuum-toc-beginning": "Ahyɛase",
+	"continuum-main-menu-label": "Krataafa tsitsir",
+	"continuum-feature-custom-font-size-exclusion-notice": "Dɛm krataafa yi dze akyerɛwamba nkakramba dzi dwuma dabiara",
+	"continuum-page-tools-label": "Edwumadze",
+	"continuum-page-tools-general-label": "Kɛsemu",
+	"continuum-page-tools-actions-label": "Ndzeyɛɛ",
+	"continuum-unpin-element-label": "fa suma"
+}

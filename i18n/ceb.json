@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bentong Isles",
+			"Jordz",
+			"Như Gây Mê"
+		]
+	},
+	"continuum-languages": "Mga pinulongan",
+	"continuum-language-button-label": "{{PLURAL:$1| $1 nga pinulongan| $1 ka pinulongan}}",
+	"continuum-no-language-button-label": "Idugang ang mga pinulongan",
+	"continuum-action-addsection": "Pagdugang og topiko",
+	"continuum-action-delete": "Papasa",
+	"continuum-action-move": "Ibalhin",
+	"continuum-action-protect": "Protektahi",
+	"continuum-action-undelete": "Ayaw papasa",
+	"continuum-action-unprotect": "Ayaw protektahi",
+	"continuum-view-create": "Himoa",
+	"continuum-view-edit": "Usba",
+	"continuum-view-history": "Tan-awa ang kaagi",
+	"continuum-view-view": "Basaha",
+	"continuum-view-viewsource": "Tan-awa ang ginikanan",
+	"continuum-more-actions": "Uban pa...",
+	"continuum-searchsuggest-containing": "Pangitaa ang mga panid nga adunay<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Mga sulod",
+	"continuum-toc-beginning": "Sinugdanan",
+	"continuum-main-menu-label": "Panguna nga menu",
+	"continuum-page-tools-label": "Mga galamiton",
+	"continuum-page-tools-general-label": "Heneral",
+	"continuum-unpin-element-label": "tagoa"
+}

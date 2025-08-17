@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mbrt",
+			"StefanusRA"
+		]
+	},
+	"continuum-action-addsection": "Nambah topik",
+	"continuum-action-delete": "Busek",
+	"continuum-action-move": "Pindah",
+	"continuum-action-protect": "Reksa",
+	"continuum-action-undelete": "Batalna pambusakan",
+	"continuum-action-unprotect": "Owahi pangreksan",
+	"continuum-view-create": "Gawe",
+	"continuum-view-edit": "Sunting",
+	"continuum-view-history": "Sajarah kaca",
+	"continuum-view-view": "Waca",
+	"continuum-view-viewsource": "Deleng sumbere",
+	"continuum-more-actions": "Liane"
+}

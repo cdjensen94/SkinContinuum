@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiEditor50",
+			"Aristorkle",
+			"Noooote"
+		]
+	},
+	"continuum-languages": "Maga lenguaje",
+	"continuum-language-button-label": "$1 {{PLURAL:$1|lenguaje|maga lenguaje}}",
+	"continuum-no-language-button-label": "Aumenta lenguajes",
+	"continuum-action-addsection": "Aumenta topic",
+	"continuum-action-delete": "Borra",
+	"continuum-action-move": "Move",
+	"continuum-action-protect": "Protege",
+	"continuum-view-create": "Hace crea",
+	"continuum-view-edit": "Hace edit",
+	"continuum-view-history": "Mira con el historia",
+	"continuum-view-view": "Lee",
+	"continuum-more-actions": "Tiene pa",
+	"continuum-appearance-label": "Hechura",
+	"continuum-feature-limited-width-name": "Anchor",
+	"continuum-feature-limited-width-0-label": "Ancho",
+	"continuum-feature-limited-width-1-label": "Estandard",
+	"continuum-feature-custom-font-size-name": "Texto",
+	"continuum-feature-custom-font-size-0-label": "Diutay",
+	"continuum-feature-custom-font-size-1-label": "Estandard",
+	"continuum-feature-custom-font-size-2-label": "Grande",
+	"skin-theme-name": "Color",
+	"skin-theme-day-label": "Arde",
+	"skin-theme-night-label": "Escuro",
+	"skin-theme-os-label": "Automatico",
+	"skin-theme-exclusion-notice": "Este pagina firme na modo arde.",
+	"continuum-searchsuggest-containing": "Busca con el maga pagina aquel tiene <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-beginning": "Principio",
+	"continuum-main-menu-label": "Primero menu",
+	"continuum-page-tools-label": "Herramientas",
+	"continuum-page-tools-general-label": "General",
+	"continuum-page-tools-actions-label": "Maga accion",
+	"continuum-unpin-element-label": "esconde"
+}

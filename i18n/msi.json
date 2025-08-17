@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tofeiku"
+		]
+	},
+	"continuum-languages": "Bahasa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 bahasa}}",
+	"continuum-no-language-button-label": "Tambah bahasa",
+	"continuum-action-addsection": "Tambah topik",
+	"continuum-action-delete": "Padam",
+	"continuum-action-move": "Pindah",
+	"continuum-action-protect": "Kasih lindung",
+	"continuum-view-create": "Buat",
+	"continuum-view-history": "Nampak sajarah",
+	"continuum-more-actions": "Lagi",
+	"continuum-appearance-label": "Rupa",
+	"continuum-feature-limited-width-name": "Lebar",
+	"continuum-feature-limited-width-0-label": "Luas",
+	"continuum-feature-limited-width-1-label": "Biasa",
+	"continuum-feature-custom-font-size-name": "Tulisan",
+	"continuum-feature-custom-font-size-0-label": "Kicil",
+	"continuum-feature-custom-font-size-1-label": "Biasa",
+	"continuum-feature-custom-font-size-2-label": "Basar",
+	"skin-theme-name": "Warna",
+	"skin-theme-day-label": "Tarang",
+	"skin-theme-night-label": "Galap",
+	"skin-theme-os-label": "Sendiri",
+	"skin-theme-exclusion-notice": "Salalu tarang laman ni.",
+	"continuum-searchsuggest-containing": "Cari laman yang ada <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Isi",
+	"continuum-toc-beginning": "Mula",
+	"continuum-anon-user-menu-pages": "Laman untuk pengidit yang dikasih log keluar",
+	"continuum-main-menu-label": "Menu basar",
+	"continuum-feature-custom-font-size-exclusion-notice": "Salalu kicil fon laman ni",
+	"continuum-page-tools-label": "Alat",
+	"continuum-page-tools-general-label": "Biasa",
+	"continuum-page-tools-actions-label": "Buat",
+	"continuum-unpin-element-label": "tapuk"
+}

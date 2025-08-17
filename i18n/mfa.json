@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam Takuma",
+			"Mirlim"
+		]
+	},
+	"continuum-languages": "Bahaso",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 bahaso}}",
+	"continuum-no-language-button-label": "Ttamboh bahaso",
+	"continuum-action-addsection": "Tamboh topik",
+	"continuum-action-delete": "Hapuh",
+	"continuum-action-move": "Pindoh",
+	"continuum-action-protect": "Lindóng",
+	"continuum-view-create": "Buwak",
+	"continuum-view-history": "Keléh sjaroh",
+	"continuum-more-actions": "Lagi",
+	"continuum-appearance-label": "Rupo",
+	"continuum-feature-limited-width-name": "Leba",
+	"continuum-feature-limited-width-0-label": "Luwah",
+	"continuum-feature-limited-width-1-label": "Stendek",
+	"continuum-feature-custom-font-size-name": "Teks",
+	"continuum-feature-custom-font-size-0-label": "Kecik",
+	"continuum-feature-custom-font-size-1-label": "Stendek",
+	"continuum-feature-custom-font-size-2-label": "Besa",
+	"skin-theme-name": "Kala",
+	"skin-theme-day-label": "Ceroh",
+	"skin-theme-night-label": "Gelak",
+	"skin-theme-os-label": "Otometik",
+	"skin-theme-exclusion-notice": "Muko ni sokmo dale keadoe ceroh.",
+	"continuum-searchsuggest-containing": "Cari lame hok ado <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Kandónge",
+	"continuum-toc-beginning": "Mulo-mulo",
+	"continuum-anon-user-menu-pages": "Muko utók penyuténg hok log tubék",
+	"continuum-main-menu-label": "Menu utamo",
+	"continuum-feature-custom-font-size-exclusion-notice": "Muko ni sokmo gguno saéh fon hok kecik",
+	"continuum-page-tools-label": "Alakte",
+	"continuum-page-tools-general-label": "Umung",
+	"continuum-page-tools-actions-label": "Tindokke",
+	"continuum-unpin-element-label": "susuk"
+}

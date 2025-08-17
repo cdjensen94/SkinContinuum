@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"continuum-action-delete": "刪掉咯",
+	"continuum-action-move": "移動",
+	"continuum-action-protect": "保護",
+	"continuum-action-undelete": "取消刪除",
+	"continuum-action-unprotect": "改變保護"
+}

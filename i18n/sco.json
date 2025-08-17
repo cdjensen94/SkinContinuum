@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aursani",
+			"Avicennasis",
+			"C1614",
+			"CiphriusKane",
+			"John Reid",
+			"Macofe",
+			"Omnipaedista"
+		]
+	},
+	"continuum-skin-desc": "Modern version o MonoBook wi ae fresh luik n monie uisabeelitie impruivments",
+	"continuum-languages": "Leids",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 leid|$1 leids}}",
+	"continuum-no-language-button-label": "Eik leids",
+	"continuum-action-addsection": "Eik topic",
+	"continuum-action-delete": "Delete",
+	"continuum-action-move": "Muiv",
+	"continuum-action-protect": "Fend",
+	"continuum-action-undelete": "Undelete",
+	"continuum-action-unprotect": "Chynge protection",
+	"continuum-view-create": "Mak",
+	"continuum-view-edit": "Eedit",
+	"continuum-view-history": "See history",
+	"continuum-view-view": "Read",
+	"continuum-view-viewsource": "See Soorce",
+	"continuum-more-actions": "Mair",
+	"continuum-searchsuggest-containing": "Sairch fur pages containin <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Contents",
+	"continuum-page-tools-label": "Tuils",
+	"continuum-page-tools-general-label": "General",
+	"continuum-unpin-element-label": "Dern"
+}

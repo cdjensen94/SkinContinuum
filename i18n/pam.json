@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katimawan2005",
+			"Leeheonjin",
+			"Val2397"
+		]
+	},
+	"continuum-action-addsection": "Dagdagan ing pisasabian",
+	"continuum-action-delete": "Buran",
+	"continuum-action-move": "Iyalis",
+	"continuum-action-protect": "Protectan/kambilan",
+	"continuum-action-undelete": "Isubli/iurung ya pangabura",
+	"continuum-action-unprotect": "Idayu ya panga-protecta",
+	"continuum-view-create": "Maglalang",
+	"continuum-view-edit": "Alilan",
+	"continuum-view-history": "Lawen ya ing amlat",
+	"continuum-view-view": "Basan",
+	"continuum-view-viewsource": "Lawen ya ing pikuanan",
+	"continuum-more-actions": "Maki-mayigit pa"
+}

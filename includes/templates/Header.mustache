@@ -1,0 +1,12 @@
+<header class="continuum-header mw-header">
+	<div class="continuum-header-start">
+		<nav class="continuum-main-menu-landmark" aria-label="{{msg-continuum-site-nav-label}}">
+			{{>MainMenuDropdown}}
+		</nav>
+		{{#data-logos}}{{>Logo}}{{/data-logos}}
+	</div>
+	<div class="continuum-header-end">
+		{{#data-search-box}}{{>SearchBox}}{{/data-search-box}}
+		{{#data-continuum-user-links}}{{>UserLinks}}{{/data-continuum-user-links}}
+	</div>
+</header>

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Isevand",
+			"Mogoeilor"
+		]
+	},
+	"continuum-action-addsection": "داسۊن اْزاف کونین",
+	"continuum-action-delete": "پاکسا کردن",
+	"continuum-action-move": "جابجا کردن",
+	"continuum-action-protect": "هناڌاری ۉ پٱلڌاری",
+	"continuum-view-create": "راس كردن",
+	"continuum-view-edit": "آلشدکاری کردن",
+	"continuum-view-history": "ديڌن ڤیرگار",
+	"continuum-view-view": "خوندن",
+	"continuum-more-actions": "بیشتر"
+}

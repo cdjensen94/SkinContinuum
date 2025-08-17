@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katelem"
+		]
+	},
+	"continuum-languages": "Usem",
+	"continuum-language-button-label": "{{PLURAL:$1|Usem $1}}",
+	"continuum-no-language-button-label": "Tap usem sọkọ",
+	"continuum-action-addsection": "Tap Ibot-ikọ gbaalek",
+	"continuum-action-delete": "Chọk",
+	"continuum-action-move": "Nwene erieen̄",
+	"continuum-action-protect": "Bem",
+	"continuum-view-create": "Nama",
+	"continuum-view-edit": "Nen̄e ge",
+	"continuum-view-history": "Kpọ mfufuk",
+	"continuum-view-view": "Fuk",
+	"continuum-more-actions": "Ofifi si",
+	"continuum-appearance-label": "Ǹsibi",
+	"continuum-feature-limited-width-name": "Uwele",
+	"continuum-feature-limited-width-0-label": "Iwele",
+	"continuum-feature-limited-width-1-label": "Oke ekisa itọ",
+	"continuum-feature-custom-font-size-name": "Inu-nge",
+	"continuum-feature-custom-font-size-0-label": "sọntiik",
+	"continuum-feature-custom-font-size-1-label": "Oke ekisa itọ",
+	"continuum-feature-custom-font-size-2-label": "Ikpele",
+	"skin-theme-name": "Unwen",
+	"skin-theme-day-label": "Utoon̄",
+	"skin-theme-night-label": "Ndudun",
+	"skin-theme-os-label": "Me lek kan̄",
+	"skin-theme-exclusion-notice": "Akpọk yi ìkikup me utoon̄ mgbọ geelek.",
+	"continuum-searchsuggest-containing": "Wèek akpọk echi òkakaan̄ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Òkup me emen",
+	"continuum-toc-beginning": "Ibebene",
+	"continuum-main-menu-label": "Ibot Onineen̄",
+	"continuum-feature-custom-font-size-exclusion-notice": "Akpọk yi ìkisa sọntiik okike-nge",
+	"continuum-page-tools-label": "Nroon̄",
+	"continuum-page-tools-general-label": "Eyi otutuuk",
+	"continuum-page-tools-actions-label": "Inu-nrọ",
+	"continuum-unpin-element-label": "let"
+}

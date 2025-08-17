@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"3atbulletz",
+			"Fwolff",
+			"INgobemnyama",
+			"Irus",
+			"Nkankane"
+		]
+	},
+	"continuum-languages": "iziLimi",
+	"continuum-no-language-button-label": "engeza iziLimi",
+	"continuum-action-addsection": "Faka isihloko",
+	"continuum-view-create": "Qamba",
+	"continuum-view-edit": "Ukuhlela",
+	"continuum-view-history": "Bona umlando",
+	"continuum-view-view": "Funda",
+	"continuum-more-actions": "Okunye",
+	"continuum-toc-beginning": "ekuqaleni",
+	"continuum-unpin-element-label": "fihla"
+}

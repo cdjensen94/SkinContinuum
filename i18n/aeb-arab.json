@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csisc",
+			"Meno25",
+			"Michel Bakni",
+			"علاء"
+		]
+	},
+	"continuum-action-addsection": "أضف موضوعاً",
+	"continuum-action-delete": "احذف",
+	"continuum-action-move": "حوّل",
+	"continuum-action-protect": "احم",
+	"continuum-action-undelete": "استرجع الحذف",
+	"continuum-action-unprotect": "غير الحماية",
+	"continuum-view-create": "أنشئ",
+	"continuum-view-edit": "بدّل",
+	"continuum-view-history": "ورّي الپاج",
+	"continuum-view-view": "أقرا",
+	"continuum-view-viewsource": "عرض المصدر",
+	"continuum-more-actions": "زادة"
+}

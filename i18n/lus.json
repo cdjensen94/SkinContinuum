@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jokomarel",
+			"RMizo"
+		]
+	},
+	"continuum-languages": "Ṭawngte",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ṭawng|$1 ṭawngte}}",
+	"continuum-no-language-button-label": "Ṭawng belh tur",
+	"continuum-action-addsection": "Thupui belhna",
+	"continuum-action-delete": "Paihna",
+	"continuum-action-move": "Sawnna",
+	"continuum-action-protect": "Venhimna",
+	"continuum-action-undelete": "Lak kir lehna",
+	"continuum-action-unprotect": "Venhimna dinhmun tidanglam rawh",
+	"continuum-view-create": "Siamna",
+	"continuum-view-edit": "Siamţhatna",
+	"continuum-view-history": "Hunhlui-chanchin",
+	"continuum-view-view": "Chhiarna",
+	"continuum-view-viewsource": "A hnar enna",
+	"continuum-more-actions": "Belh",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> awmna phek zawng tur",
+	"continuum-toc-label": "A chhunga thu awmte",
+	"continuum-toc-beginning": "A ṭan",
+	"continuum-page-tools-label": "Hmanruate",
+	"continuum-page-tools-general-label": "Tlangpui",
+	"continuum-unpin-element-label": "tihbona"
+}

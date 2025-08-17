@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beyronvan",
+			"Lorestani",
+			"Mogoeilor"
+		]
+	},
+	"continuum-action-addsection": "سالفٱ اْزاف بٱکؽت",
+	"continuum-action-delete": "پاکسا کردن",
+	"continuum-action-move": "جا ڤ جا بۊئیت",
+	"continuum-action-protect": "پر ۉ پیم بٱکؽت",
+	"continuum-action-undelete": "حذف نبيئني",
+	"continuum-action-unprotect": "حمايت آلشت بكيد",
+	"continuum-view-create": "دۏرس كردن",
+	"continuum-view-edit": "ڤیرایش",
+	"continuum-view-history": "دیئن ڤیرگار",
+	"continuum-view-view": "ڤٱناْ",
+	"continuum-view-viewsource": "سرچشمه نه بوينيت",
+	"continuum-more-actions": "بؽشتر"
+}

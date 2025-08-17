@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dark Eagle"
+		]
+	},
+	"continuum-action-addsection": "Dalikt padaļu",
+	"continuum-action-delete": "Iztreit",
+	"continuum-action-move": "Puorceļt",
+	"continuum-action-protect": "Apsorguot",
+	"continuum-action-unprotect": "Puormeit apsardzeibu",
+	"continuum-view-edit": "Pataiseit",
+	"continuum-view-history": "Viesture",
+	"continuum-view-view": "Vērtīs"
+}

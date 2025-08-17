@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pintupi Luritja Guy"
+		]
+	},
+	"continuum-languages": "Wangka tjuṯa",
+	"continuum-language-button-label": "{{PLURAL:$1|wangka $1}}",
+	"continuum-no-language-button-label": "Wangka tuturrpuwa",
+	"continuum-action-addsection": "Kuwitjina tuturrpuwa",
+	"continuum-action-delete": "Yaḻuṉpuwa",
+	"continuum-action-move": "Mantji",
+	"continuum-action-protect": "Yangakanyila",
+	"continuum-view-create": "Palyala",
+	"continuum-view-history": "Yara nyawa",
+	"continuum-more-actions": "Piyuku",
+	"continuum-searchsuggest-containing": "Ngurrila piipaku <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>lawana",
+	"continuum-toc-label": "Yangkirraḻpa tjuṯa",
+	"continuum-toc-beginning": "Ngankirri",
+	"continuum-page-tools-label": "Tuula tjuṯa",
+	"continuum-page-tools-general-label": "Puḻka",
+	"continuum-unpin-element-label": "kumpitjurra"
+}

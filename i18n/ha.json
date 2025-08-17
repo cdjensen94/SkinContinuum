@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ammarpad",
+			"Bello Na'im",
+			"DonCamillo",
+			"Edith Nwobu",
+			"Em-em",
+			"Gwanki",
+			"Hamza DK",
+			"Moyogo",
+			"Salihu aliyu"
+		]
+	},
+	"continuum-language-button-aria-label": "Je zuwa maƙala domin wani harshen. Akwai a {{PLURAL:$1|$1 language|$1 languages}}",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 harshe|$1 harsuna}}",
+	"continuum-language-variant-switcher-label": "Sauya bambancin harshe",
+	"continuum-action-addsection": "Sabon sashe",
+	"continuum-action-delete": "Soke",
+	"continuum-action-move": "Gusarwa",
+	"continuum-action-protect": "A kare",
+	"continuum-view-create": "Ƙirƙira",
+	"continuum-view-edit": "Gyara",
+	"continuum-view-history": "Nuna tarihin",
+	"continuum-view-view": "Karanta",
+	"continuum-more-actions": "Mafi",
+	"continuum-feature-limited-width-name": "faɗi",
+	"continuum-feature-custom-font-size-name": "Rubutu",
+	"continuum-feature-custom-font-size-0-label": "Karami",
+	"continuum-feature-custom-font-size-2-label": "Mai girma",
+	"continuum-searchsuggest-containing": "Duba shafukan dake dauke da <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-intro-page": "Taimako:Gabatarwa",
+	"continuum-toc-beginning": "Farawa",
+	"continuum-toc-unpinned-popup": "Tebur na abubuwan da ke ciki ya koma nan.",
+	"continuum-page-tools-unpinned-popup": "Babban menu ya koma nan.",
+	"continuum-main-menu-unpinned-popup": "Babban menu ya koma nan.",
+	"continuum-appearance-unpinned-popup": "Babban menu ya koma nan.",
+	"continuum-beta-preview-label": "Samun damar Karatu (Continuum 2022)",
+	"continuum-beta-preview-description": "Samun dama da wuri zuwa sabbin fasalolin samun damar karatu, kamar haɓaka rubutun rubutu da yanayin dare."
+}

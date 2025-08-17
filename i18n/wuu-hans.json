@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benojan",
+			"Poiuyt",
+			"Subarupan",
+			"Winston Sung",
+			"飞舞回堂前"
+		]
+	},
+	"continuum.css": "/* 放勒伊𡍲个CSS会影响用Continuum皮肤个用户 */",
+	"continuum-action-addsection": "加话题",
+	"continuum-action-delete": "删除",
+	"continuum-action-move": "移动",
+	"continuum-action-protect": "保护",
+	"continuum-action-undelete": "取消删除",
+	"continuum-action-unprotect": "更改保护",
+	"continuum-view-create": "创建",
+	"continuum-view-edit": "编辑",
+	"continuum-view-history": "望历史",
+	"continuum-view-view": "阅读",
+	"continuum-view-viewsource": "望源码",
+	"continuum-more-actions": "更多"
+}

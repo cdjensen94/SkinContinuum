@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aey Tai Nuea",
+			"AeyTaiNuea",
+			"Dai Meng Mao Long",
+			"咽頭べさ"
+		]
+	},
+	"continuum-languages": "ᥚᥣᥱ ᥔᥣᥱ ᥑᥣᥛᥰ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ᥚᥣᥱ ᥔᥣᥱ|$1 ᥚᥣᥱ ᥔᥣᥱ ᥑᥣᥛᥰ}}",
+	"continuum-no-language-button-label": "ᥚᥣᥱ ᥔᥣᥱ ᥑᥣᥛᥰ ᥖᥒᥰ ᥔᥥᥒᥲ",
+	"continuum-action-addsection": "ᥗᥦᥛᥴ ᥔᥬᥱ ᥞᥨᥝᥴ ᥑᥨᥝᥲ",
+	"continuum-action-delete": "ᥛᥩᥖᥱ ᥙᥦᥖ",
+	"continuum-action-move": "ᥑᥣᥭᥳ",
+	"continuum-action-protect": "ᥞᥥᥳ ᥐᥒᥲ",
+	"continuum-view-create": "ᥔᥣᥒᥲ",
+	"continuum-view-edit": "ᥛᥨᥢᥳ ᥛᥥᥰ",
+	"continuum-view-history": "ᥖᥨᥭᥰ ᥙᥪᥢᥰ",
+	"continuum-view-view": "ᥚᥖᥴ ᥖᥨᥭᥰ",
+	"continuum-more-actions": "ᥘᥛᥴ ᥘᥫᥴ",
+	"continuum-searchsuggest-containing": "ᥔᥩᥐ ᥞᥣᥴ ᥖᥩᥢᥲ ᥖᥣᥱ ᥘᥣᥲ ᥘᥤᥐ ᥓᥫᥰ ᥑᥝᥲ ᥙᥣᥰ ᥝᥭᥳ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "ᥘᥣᥛᥰ ᥘᥬᥰ",
+	"continuum-toc-beginning": "ᥛᥫ ᥖᥥᥱ ᥛᥢᥰ",
+	"continuum-main-menu-label": "ᥛᥥ ᥘᥧ ᥖᥤ ᥘᥐᥴ",
+	"continuum-page-tools-label": "ᥑᥫᥒ ᥐᥛᥳ ᥐᥦᥛ",
+	"continuum-page-tools-general-label": "ᥐᥧ ᥓᥫᥰ",
+	"continuum-unpin-element-label": "ᥔᥫᥒᥱ ᥝᥭᥳ"
+}

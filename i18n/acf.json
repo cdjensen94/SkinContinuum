@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Suitcaseshoes"
+		]
+	},
+	"continuum-languages": "Sé langaj",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 langaj}}",
+	"continuum-no-language-button-label": "Ajouté sé langaj",
+	"continuum-action-addsection": "Ajouté an sijé",
+	"continuum-action-delete": "Éfasi",
+	"continuum-action-move": "Déplasé",
+	"continuum-action-protect": "Pwotéjé",
+	"continuum-view-create": "Kwéyé",
+	"continuum-view-history": "Gadé listwa",
+	"continuum-more-actions": "Pli",
+	"continuum-searchsuggest-containing": "Chaché sé paj ki ni <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Asou paj sala",
+	"continuum-toc-beginning": "Koumansman",
+	"continuum-main-menu-label": "Meni pwensipal",
+	"continuum-page-tools-label": "Zouti",
+	"continuum-page-tools-general-label": "jennéwal",
+	"continuum-unpin-element-label": "séwé"
+}

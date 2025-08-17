@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"GwikorFrank",
+			"Kernoweger",
+			"Kw-Moon",
+			"Nrowe"
+		]
+	},
+	"continuum-action-addsection": "Keworra testen",
+	"continuum-action-delete": "Dilea",
+	"continuum-action-move": "Gwaya",
+	"continuum-action-protect": "Difres",
+	"continuum-action-undelete": "Disdhilea",
+	"continuum-action-unprotect": "Chanjya difresans",
+	"continuum-view-create": "Gwruthyl",
+	"continuum-view-edit": "Golegi",
+	"continuum-view-history": "Gweles an istori",
+	"continuum-view-view": "Redya",
+	"continuum-view-viewsource": "Gweles an bennfenten",
+	"continuum-more-actions": "Moy"
+}

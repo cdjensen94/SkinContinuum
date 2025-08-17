@@ -1,0 +1,605 @@
+{
+	"name": "Continuum forked from Vector",
+	"version": "2.0.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/Readers/Web/Team Readers Web Team]",
+		"Trevor Parscal",
+		"Roan Kattouw",
+		"Alex Hollender",
+		"Bernard Wang",
+		"Clare Ming",
+		"Jan Drewniak",
+		"Jon Robson",
+		"Nick Ray",
+		"Sam Smith",
+		"Stephen Niedzielski",
+		"Volker E.",
+		"Christian Daniel Jensen",
+		"Thanks to Onika, Anita, and ChatGPT for instructions"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Continuum",
+	"descriptionmsg": "continuum-skin-desc",
+	"namemsg": "continuum-specialversion-name",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.43"
+	},
+	"attributes": {
+		"DarkMode": {
+			"Disabled": [
+				"continuum"
+			]
+		}
+	},
+	"ValidSkinNames": {
+		"continuum": {
+			"class": "MediaWiki\\Skins\\Continuum\\SkinContinuum",
+			"services": [
+				"LanguageConverterFactory",
+				"Continuum.FeatureManagerFactory"
+			],
+			"args": [
+				{
+					"name": "continuum",
+					"supportsMwHeading": true,
+					"wrapSiteNotice": true,
+					"templateDirectory": "includes/templates",
+					"template": "skin",
+					"tempUserBanner": true,
+					"responsive": true,
+					"toc": true,
+					"link": {
+						"text-wrapper": {
+							"tag": "span"
+						}
+					},
+					"bodyClasses": [
+						"skin--responsive",
+						"skin-continuum",
+						"skin-continuum-search-vue"
+					],
+					"clientPrefEnabled": true,
+					"menus": [
+						"user-interface-preferences",
+						"user-page",
+						"user-menu",
+						"notifications",
+						"views",
+						"actions",
+						"variants",
+						"associated-pages"
+					],
+					"scripts": [
+						"skins.continuum.js"
+					],
+					"styles": [
+						"skins.continuum.search.codex.styles",
+						"skins.continuum.styles",
+						"skins.continuum.icons"
+					],
+					"messages": [
+						"tooltip-p-logo",
+						"continuum-opt-out-tooltip",
+						"continuum-opt-out",
+						"continuum-action-toggle-sidebar",
+						"continuum-main-menu-tooltip",
+						"continuum-jumptosearch",
+						"continuum-jumptocontent",
+						"continuum-toc-beginning",
+						"continuum-toc-label",
+						"continuum-toc-menu-tooltip",
+						"continuum-toc-collapsible-button-label",
+						"continuum-pin-element-label",
+						"continuum-unpin-element-label",
+						"continuum-site-nav-label",
+						"search",
+						"searchbutton",
+						"searcharticle",
+						"searchsuggest-search",
+						"sitesubtitle",
+						"sitetitle",
+						"tagline",
+						"personaltools",
+						"namespaces",
+						"views",
+						"continuum-page-tools-nav-label",
+						"empty-language-selector-body",
+						"continuum-appearance-label"
+					]
+				}
+			]
+		}
+	},
+	"SkinLessImportPaths": {
+		"continuum": "resources/mediawiki.less/continuum"
+	},
+	"MessagesDirs": {
+		"Continuum": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Skins\\Continuum\\": "includes/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Skins\\Continuum\\": "includes/",
+		"MediaWiki\\Skins\\Continuum\\Tests\\": "tests/phpunit/"
+	},
+	"DefaultUserOptions": {
+		"continuum-limited-width": 1,
+		"continuum-page-tools-pinned": 1,
+		"continuum-main-menu-pinned": 1,
+		"continuum-toc-pinned": 1,
+		"continuum-appearance-pinned": 1,
+		"continuum-font-size": 0,
+		"continuum-theme": "day"
+	},
+	"HookHandlers": {
+		"ContinuumCentralAuthHooks": {
+			"class": "MediaWiki\\Skins\\Continuum\\CentralAuthHooks",
+			"services": [
+				"UserOptionsLookup"
+			]
+		},
+		"ContinuumHooks": {
+			"class": "MediaWiki\\Skins\\Continuum\\Hooks",
+			"services": [
+				"MainConfig",
+				"UserOptionsManager"
+			]
+		}
+	},
+	"Hooks": {
+		"CentralAuthIsUIReloadRecommended": "ContinuumCentralAuthHooks",
+		"GetPreferences": "ContinuumHooks",
+		"LocalUserCreated": "ContinuumHooks",
+		"SkinPageReadyConfig": "ContinuumHooks",
+		"GetBetaFeaturePreferences": "ContinuumHooks"
+	},
+	"@note": "When modifying skins.continuum.styles definition, make sure the installer still works",
+	"ResourceModules": {
+		"skins.continuum.search.codex.styles": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"codexStyleOnly": true,
+			"codexComponents": [
+				"CdxTypeaheadSearch",
+				"CdxSearchInput",
+				"CdxButton",
+				"CdxRadio",
+				"CdxMessage"
+			]
+		},
+		"skins.continuum.search.codex.scripts": {
+			"dependencies": [
+				"skins.continuum.search.codex.styles"
+			],
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"codexScriptOnly": true,
+			"codexComponents": [
+				"CdxTypeaheadSearch"
+			]
+		},
+		"skins.continuum.search": {
+			"dependencies": [
+				"web2017-polyfills",
+				"mediawiki.util",
+				"skins.continuum.search.codex.scripts"
+			],
+			"packageFiles": [
+				"resources/skins.continuum.search/skins.continuum.search.js",
+				"resources/skins.continuum.search/instrumentation.js",
+				"resources/skins.continuum.search/fetch.js",
+				"resources/skins.continuum.search/restSearchClient.js",
+				"resources/skins.continuum.search/urlGenerator.js",
+				"resources/skins.continuum.search/App.vue",
+				{
+					"name": "resources/skins.continuum.search/config.json",
+					"callback": "MediaWiki\\Skins\\Continuum\\Hooks::getContinuumSearchResourceLoaderConfig"
+				}
+			],
+			"messages": [
+				"searchbutton",
+				"searchresults",
+				"continuum-searchsuggest-containing"
+			]
+		},
+		"skins.continuum.styles": {
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
+			"features": {
+				"normalize": true,
+				"elements": true,
+				"content-links": false,
+				"content-links-external": false,
+				"content-media": true,
+				"content-tables": true,
+				"interface": false,
+				"interface-category": true,
+				"interface-edit-section-links": true,
+				"interface-indicators": false,
+				"interface-site-notice": false,
+				"interface-subtitle": false,
+				"interface-user-message": true,
+				"i18n-ordered-lists": true,
+				"i18n-headings": true,
+				"toc": true
+			},
+			"styles": [
+				"resources/skins.continuum.styles/skin.less",
+				"resources/skins.continuum.styles/CSSCustomProperties.less"
+			],
+			"lessMessages": [
+				"parentheses-start",
+				"parentheses-end",
+				"brackets-start",
+				"brackets-end"
+			]
+		},
+		"skins.continuum.icons.js": {
+			"selectorWithVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}-{variant}",
+			"selectorWithoutVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}",
+			"useDataURI": false,
+			"defaultColor": "#000",
+			"class": "MediaWiki\\ResourceLoader\\OOUIIconPackModule",
+			"useMaskImage": true,
+			"icons": [
+				"article",
+				"edit",
+				"editLock",
+				"exitFullscreen",
+				"fullScreen",
+				"history",
+				"speechBubbles",
+				"speechBubbleAdd",
+				"wikiText",
+				"appearance"
+			]
+		},
+		"skins.continuum.icons": {
+			"selectorWithVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}-{variant}",
+			"selectorWithoutVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}",
+			"useDataURI": false,
+			"defaultColor": "#000",
+			"class": "MediaWiki\\ResourceLoader\\OOUIIconPackModule",
+			"useMaskImage": true,
+			"icons": [
+				"tray",
+				"bell",
+				"menu",
+				"heart",
+				"language",
+				"ellipsis",
+				"userAvatar",
+				"userAdd",
+				"userTemporary",
+				"userTalk",
+				"sandbox",
+				"search",
+				"settings",
+				"labFlask",
+				"star",
+				"halfStar",
+				"unStar",
+				"watchlist",
+				"userContributions",
+				"logIn",
+				"logOut",
+				"imageGallery",
+				"userGroup",
+				"listBullet",
+				"close"
+			]
+		},
+		"skins.continuum.clientPreferences": {
+			"packageFiles": [
+				"resources/skins.continuum.clientPreferences/clientPreferences.js"
+			],
+			"messages": [
+				"skin-theme-name",
+				"skin-theme-description",
+				"skin-theme-day-label",
+				"skin-theme-night-label",
+				"skin-theme-os-label",
+				"skin-theme-exclusion-notice",
+				"continuum-feature-limited-width-name",
+				"continuum-feature-limited-width-0-label",
+				"continuum-feature-limited-width-1-label",
+				"continuum-feature-limited-width-exclusion-notice",
+				"continuum-feature-custom-font-size-name",
+				"continuum-feature-custom-font-size-0-label",
+				"continuum-feature-custom-font-size-1-label",
+				"continuum-feature-custom-font-size-2-label",
+				"continuum-feature-custom-font-size-exclusion-notice",
+				"continuum-night-mode-issue-reporting-notice-url",
+				"continuum-night-mode-issue-reporting-notice-tooltip",
+				"continuum-night-mode-issue-reporting-preload-title",
+				"continuum-night-mode-beta-tag",
+				"continuum-night-mode-issue-reporting-link-notification",
+				"continuum-night-mode-issue-reporting-link-label"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.user"
+			],
+			"styles": [
+				"resources/skins.continuum.clientPreferences/clientPreferences.less"
+			]
+		},
+		"skins.continuum.js": {
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
+			"styles": [
+				"resources/skins.continuum.js/index.less"
+			],
+			"packageFiles": [
+				"resources/skins.continuum.js/skin.js",
+				"resources/skins.continuum.js/setupIntersectionObservers.js",
+				"resources/skins.continuum.js/searchToggle.js",
+				"resources/skins.continuum.js/stickyHeader.js",
+				"resources/skins.continuum.js/scrollObserver.js",
+				"resources/skins.continuum.js/AB.js",
+				"resources/skins.continuum.js/tableOfContents.js",
+				"resources/skins.continuum.js/sectionObserver.js",
+				"resources/skins.continuum.js/deferUntilFrame.js",
+				"resources/skins.continuum.js/pinnableElement.js",
+				"resources/skins.continuum.js/userPreferences.js",
+				"resources/skins.continuum.js/features.js",
+				"resources/skins.continuum.js/popupNotification.js",
+				"resources/skins.continuum.js/clientPreferences.json",
+				{
+					"name": "resources/skins.continuum.js/activeABTest.json",
+					"callback": "MediaWiki\\Skins\\Continuum\\Hooks::getActiveABTest"
+				},
+				{
+					"name": "resources/skins.continuum.js/config.json",
+					"config": [
+						"ContinuumSearchApiUrl",
+						"ContinuumWrapTablesTemporary"
+					]
+				},
+				{
+					"name": "resources/skins.continuum.js/tableOfContentsConfig.json",
+					"config": [
+						"ContinuumTableOfContentsCollapseAtCount"
+					]
+				},
+				{
+					"name": "resources/skins.continuum.js/templates/TableOfContents__list.mustache",
+					"file": "includes/templates/TableOfContents__list.mustache",
+					"type": "text"
+				},
+				{
+					"name": "resources/skins.continuum.js/templates/TableOfContents__line.mustache",
+					"file": "includes/templates/TableOfContents__line.mustache",
+					"type": "text"
+				},
+				"resources/skins.continuum.js/watchstar.js",
+				"resources/skins.continuum.js/portlets.js",
+				"resources/skins.continuum.js/dropdownMenus.js",
+				"resources/skins.continuum.js/tables.js",
+				"resources/skins.continuum.js/languageButton.js",
+				"resources/skins.continuum.js/echo.js",
+				"resources/skins.continuum.js/searchLoader.js",
+				"resources/skins.continuum.js/menuTabs.js",
+				"resources/skins.continuum.js/disableNightModeIfGadget.js"
+			],
+			"dependencies": [
+				"skins.continuum.clientPreferences",
+				"mediawiki.user",
+				"mediawiki.page.watch.ajax",
+				"mediawiki.storage",
+				"mediawiki.cookie",
+				"mediawiki.experiments",
+				"skins.continuum.icons.js",
+				"mediawiki.util",
+				"mediawiki.jqueryMsg"
+			],
+			"messages": [
+				"continuum-search-loader",
+				"continuum-toc-beginning",
+				"continuum-toc-label",
+				"continuum-pin-element-label",
+				"continuum-unpin-element-label",
+				"continuum-toc-unpinned-popup",
+				"continuum-page-tools-unpinned-popup",
+				"continuum-main-menu-unpinned-popup",
+				"continuum-appearance-unpinned-popup",
+				"continuum-night-mode-gadget-names",
+				"continuum-night-mode-gadget-warning"
+			]
+		},
+		"ext.visualEditor.core": [
+			"ext.visualEditor.desktopArticleTarget.init",
+			"ext.visualEditor.content"
+		],
+		"skins.continuum.fontsizeCompat": {
+			"packageFiles": [
+				"resources/skins.continuum.js/fontsize-compat.js"
+			],
+			"targets": [ "desktop" ]
+		}
+	},
+
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Continuum"
+	},
+	"ResourceModuleSkinStyles": {
+		"continuum": {
+			"ext.echo.styles.badge": "skinStyles/ext.echo.styles.badge.less",
+			"+ext.echo.styles.alert": "skinStyles/ext.echo.styles.alert.less",
+			"+mediawiki.action.edit": "skinStyles/mediawiki.action.edit.less",
+			"+mediawiki.action.view.redirectPage": "skinStyles/mediawiki.action.view.redirectPage.less",
+			"+mediawiki.notification": "skinStyles/mediawiki.notification.less",
+			"+mediawiki.page.ready": "skinStyles/teleportTarget.less",
+			"+oojs-ui-core.styles": "skinStyles/ooui.less",
+			"mediawiki.special.search.interwikiwidget.styles": "skinStyles/mediawiki.special.search.interwikiwidget.less",
+			"+ext.relatedArticles.readMore": "skinStyles/ext.relatedArticles.readMore.less",
+			"+ext.uls.compactlinks": "skinStyles/ext.uls.compactlinks.less",
+			"+ext.uls.interface": "skinStyles/ext.uls.interface.less",
+			"+ext.uls.pt": "skinStyles/ext.uls.pt.less",
+			"+ext.visualEditor.base": "skinStyles/ext.visualEditor.less",
+			"jquery.ui": [
+				"skinStyles/jquery.ui/jquery.ui.core.css",
+				"skinStyles/jquery.ui/jquery.ui.theme.css",
+				"skinStyles/jquery.ui/jquery.ui.accordion.css",
+				"skinStyles/jquery.ui/jquery.ui.autocomplete.css",
+				"skinStyles/jquery.ui/jquery.ui.button.css",
+				"skinStyles/jquery.ui/jquery.ui.datepicker.css",
+				"skinStyles/jquery.ui/jquery.ui.dialog.css",
+				"skinStyles/jquery.ui/jquery.ui.menu.css",
+				"skinStyles/jquery.ui/jquery.ui.progressbar.css",
+				"skinStyles/jquery.ui/jquery.ui.resizable.css",
+				"skinStyles/jquery.ui/jquery.ui.selectable.css",
+				"skinStyles/jquery.ui/jquery.ui.slider.css",
+				"skinStyles/jquery.ui/jquery.ui.tabs.css",
+				"skinStyles/jquery.ui/jquery.ui.tooltip.css"
+			]
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteSkinPath": "Continuum",
+		"dependencies": [
+			"skins.continuum.clientPreferences"
+		],
+		"scripts": [
+			"tests/integration-qunit/integration.test.js"
+		]
+	},
+	"config": {
+		"ContinuumWrapTablesTemporary": {
+			"value": false,
+			"description": "@var bool temporary config variable for controlling role out of tables. When enabled certain tables will be wrapped with a div"
+		},
+		"ContinuumNightMode": {
+			"value": {
+				"logged_out": true,
+				"logged_in": true,
+				"beta": false
+			},
+			"description": "@var array enables dark/night mode."
+		},
+		"ContinuumFontSizeConfigurableOptions": {
+			"value": {
+				"exclude": {
+					"mainpage": false,
+					"pagetitles": [],
+					"namespaces": [ -1, 6, 14, 100, 710 ],
+					"querystring": { "action": "info|protect|delete|undelete|action|history" }
+				},
+				"include": []
+			},
+			"description": "@var array determines on which pages the font size is configurable."
+		},
+		"ContinuumNightModeOptions": {
+			"value": {
+				"exclude": {
+					"mainpage": false,
+					"pagetitles": [],
+					"namespaces": [],
+					"querystring": {}
+				},
+				"include": []
+			},
+			"description": "@var array determines which pages are compatible with night mode"
+		},
+		"ContinuumSearchApiUrl": {
+			"value": "",
+			"description": "To override the default search API, set this to the URL to rest.php on another wiki. Can be used with $wgDisableTextSearch and $wgSearchForwardUrl to mimic user experience on production."
+		},
+		"ContinuumUseIconWatch": {
+			"value": true
+		},
+		"ContinuumMaxWidthOptions": {
+			"value": {
+				"exclude": {
+					"mainpage": true,
+					"querystring": {
+						"action": "(history|edit|submit)",
+						"diff": ".+"
+					},
+					"namespaces": [
+						-1,
+						14
+					]
+				},
+				"include": [
+					"Special:Preferences"
+				]
+			},
+			"description": "options for configuring where where max-width should and should not apply. More details can be found in Hooks::shouldDisableMaxWidth PHP documentation."
+		},
+		"ContinuumResponsive": {
+			"value": false,
+			"description": "@var boolean turn Continuum-2022 into a responsive skin by applying a view port and disabling the min-width"
+		},
+		"ContinuumDefaultSkinVersionForExistingAccounts": {
+			"value": "1",
+			"description": "@var string:['2'|'1'] The version ('2' for latest, '1' for legacy) of the Continuum skin to use when an existing user has not specified a preference. This configuration is not used for new accounts (see ContinuumDefaultSkinVersionForNewAccounts) and is impermanent. In the future, this field may contains versions such as \"beta\" which when specified and the BetaFeatures extension is installed, and the user is enrolled, the latest version is used otherwise legacy. The value is _not_ persisted."
+		},
+		"ContinuumDefaultSkinVersionForNewAccounts": {
+			"value": null,
+			"description": "@var string|null The version ('2' for latest, '1' for legacy) of the Continuum skin to **set** for newly created user accounts. **The value is persisted as a user preference.** This configuration is not used for preexisting accounts (see ContinuumDefaultSkinVersionForExistingAccounts) and only ever executed once at new account creation time. If it is null, no user preference will be set."
+		},
+		"ContinuumWvuiSearchOptions": {
+			"value": {
+				"showThumbnail": true,
+				"showDescription": true
+			}
+		},
+		"ContinuumLanguageInHeader": {
+			"value": {
+				"logged_in": true,
+				"logged_out": true
+			},
+			"description": "@var array Moves the language links from the sidebar into a menu beside the page title. Also moves the indicators to the line below, next to the tagline (siteSub)."
+		},
+		"ContinuumLanguageInMainPageHeader": {
+			"value": {
+				"logged_in": false,
+				"logged_out": false
+			},
+			"description": "@var When `ContinuumLanguageInHeader` is enabled, determines whether the Main Page's language button should be at the top or bottom of the content. The default position on the main page is at the bottom."
+		},
+		"ContinuumStickyHeader": {
+			"value": {
+				"logged_in": true,
+				"logged_out": false
+			},
+			"description": "@var array Enables a persistent header that allows quick access to user links, editing tools, search and other links while scrolling down a page"
+		},
+		"ContinuumWebABTestEnrollment": {
+			"value": {
+				"name": "skin-Continuum-unnamed",
+				"enabled": false,
+				"buckets": {
+					"unsampled": {
+						"samplingRate": 0
+					},
+					"control": {
+						"samplingRate": 0.5
+					},
+					"treatment": {
+						"samplingRate": 0.5
+					}
+				}
+			},
+			"description": "An associative array of A/B test configs keyed by parameters noted in mediawiki.experiments.js. There must be an `unsampled` bucket that represents a population excluded from the experiment. Additionally, the treatment bucket(s) must include a case-insensitive `treatment` substring in their name (e.g. `treatment`, `stickyHeaderTreatment`, `sticky-header-treatment`)"
+		},
+		"ContinuumPromoteAddTopic": {
+			"value": true,
+			"description": "@var boolean Temporary feature flag that promotes the 'Add topic' link in the views menu, to a button in the page title bar."
+		},
+		"ContinuumTableOfContentsCollapseAtCount": {
+			"value": 28,
+			"description": "@var The minimum number of headings required to collapse all headings in the sticky table of contents by default."
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"VisualEditorSkinTargets": {
+		"continuum": "desktop"
+	},
+	"manifest_version": 2
+}

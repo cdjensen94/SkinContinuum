@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aguve",
+			"Amuzujoe",
+			"Azorbli",
+			"E4Esau",
+			"Natsubee"
+		]
+	},
+	"continuum-languages": "Gbegbɔgblɔwo",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 gbe|$1 gbeawo}}",
+	"continuum-no-language-button-label": "Tsɔ gbegbɔgblɔwo kpe ɖe eŋu",
+	"continuum-action-addsection": "Tsɔ tanya kpi",
+	"continuum-action-delete": "Tutui",
+	"continuum-action-move": "Ɖɔli eƒe nɔƒe",
+	"continuum-action-protect": "Kpɔ eta",
+	"continuum-view-create": "Dze egɔme",
+	"continuum-view-edit": "Trɔ asi le eŋu",
+	"continuum-view-history": "Kpɔ xoxoawo",
+	"continuum-view-view": "Xlẽ",
+	"continuum-view-viewsource": "Kpɔ alesi woŋlɔe",
+	"continuum-more-actions": "Bubuwo",
+	"continuum-appearance-label": "Dzedzeme",
+	"continuum-feature-custom-font-size-name": "Nuŋɔɖi",
+	"continuum-feature-custom-font-size-0-label": "Sue",
+	"continuum-feature-custom-font-size-1-label": "Dzidzenu",
+	"continuum-feature-custom-font-size-2-label": "Lolo",
+	"skin-theme-name": "Amadede",
+	"skin-theme-day-label": "Kekeli",
+	"skin-theme-os-label": "Ewɔa nu le eɖokui si",
+	"continuum-searchsuggest-containing": "Di axa siwo me<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> le",
+	"continuum-main-menu-label": "Menu vevitɔ",
+	"continuum-feature-custom-font-size-exclusion-notice": "Axa sia zãa ŋɔŋlɔdzesi suewo ɣesiaɣi",
+	"continuum-page-tools-label": "Dɔwɔnuwo",
+	"continuum-page-tools-general-label": "Gbadza",
+	"continuum-unpin-element-label": "ɣla"
+}

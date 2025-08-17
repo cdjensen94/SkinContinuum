@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Awangba Mangang",
+			"꯴꯰꯴"
+		]
+	},
+	"continuum-languages": "ꯂꯣꯟꯁꯤꯡ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ꯂꯣꯟ|$1 ꯂꯣꯟꯁꯤꯡ}}",
+	"continuum-no-language-button-label": "ꯂꯣꯟꯁꯤꯡ ꯍꯥꯞꯆꯤꯟꯕ",
+	"continuum-action-addsection": "ꯅꯩꯅꯕ ꯍꯤꯔꯝ ꯍꯥꯞꯆꯤꯟꯂꯨ",
+	"continuum-action-delete": "ꯀꯛꯊꯠꯄꯥ",
+	"continuum-action-move": "ꯂꯦꯡꯍꯟꯕꯥ",
+	"continuum-action-protect": "ꯉꯥꯛꯊꯣꯛꯂꯕꯥ",
+	"continuum-view-create": "ꯁꯥꯕꯥ",
+	"continuum-view-edit": "ꯁꯦꯝꯒꯠꯄꯥ",
+	"continuum-view-history": "ꯄꯨꯋꯥꯔꯤ ꯎꯠꯂꯨ",
+	"continuum-view-view": "ꯄꯥꯑꯣ",
+	"continuum-view-viewsource": "ꯍꯧꯔꯛꯐꯝ ꯌꯦꯡꯉꯨ",
+	"continuum-jumptosearch": "ꯊꯤꯕꯥ ꯗ ꯆꯣꯡꯉꯨ",
+	"continuum-more-actions": "ꯋꯥꯠꯂꯤ",
+	"continuum-searchsuggest-containing": "ꯂꯃꯥꯏꯁꯤꯡ ꯑꯁꯤ ꯌꯥꯎꯕ ꯊꯤꯕꯥ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "ꯃꯅꯨꯡꯒꯤ ꯑꯌꯥꯎꯕꯁꯤꯡ",
+	"continuum-toc-beginning": "ꯍꯧꯔꯛꯄ",
+	"continuum-anon-user-menu-pages-learn": "ꯍꯦꯟꯅ ꯇꯝꯁꯤꯟꯂꯨ",
+	"continuum-site-nav-label": "ꯃꯐꯝ",
+	"continuum-main-menu-label": "ꯃꯔꯨꯑꯣꯏꯕ ꯌꯦꯡꯐꯝ",
+	"continuum-page-tools-label": "ꯈꯨꯠꯂꯥꯏꯁꯤꯡ",
+	"continuum-page-tools-general-label": "ꯃꯌꯥꯝꯒꯤ ꯑꯣꯏꯕ",
+	"continuum-page-tools-actions-label": "ꯊꯕꯛ ꯄꯥꯡꯊꯣꯛꯄ",
+	"continuum-unpin-element-label": "ꯂꯣꯠꯂꯨ"
+}

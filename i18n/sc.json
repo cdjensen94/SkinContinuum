@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andria",
+			"L2212",
+			"Marzedu",
+			"Taxandru",
+			"Uharteko",
+			"Via maxima"
+		]
+	},
+	"continuum-languages": "Limbas",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 limba|$1 limbas}}",
+	"continuum-no-language-button-label": "Annanghe limbas",
+	"continuum-action-addsection": "Agiunghe cuntierra",
+	"continuum-action-delete": "Burra",
+	"continuum-action-move": "Move",
+	"continuum-action-protect": "Barda",
+	"continuum-action-undelete": "Recùpera",
+	"continuum-view-create": "Crea",
+	"continuum-view-edit": "Modìfica",
+	"continuum-view-history": "Càstia istòria",
+	"continuum-view-view": "Leghe",
+	"continuum-view-viewsource": "Càstia mitza",
+	"continuum-more-actions": "Prus",
+	"continuum-searchsuggest-containing": "Chirca pàginas chi cuntèngiant <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Ìnditze",
+	"continuum-toc-beginning": "Incumintzu",
+	"continuum-main-menu-label": "Menù printzipale",
+	"continuum-page-tools-label": "Ainas",
+	"continuum-page-tools-general-label": "Generale",
+	"continuum-unpin-element-label": "cua"
+}

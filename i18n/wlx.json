@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fadia",
+			"Zakaria Tunsung"
+		]
+	},
+	"continuum-languages": "Kɔkɔɛ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 kɔkɔre|$1 kɔkɔɛ}}",
+	"continuum-no-language-button-label": "Paahi kɔkɔɛ",
+	"continuum-action-addsection": "Paahi yeliju",
+	"continuum-action-delete": "Ihi bahi",
+	"continuum-action-move": "Gaa",
+	"continuum-action-protect": "gu",
+	"continuum-view-create": "Maali",
+	"continuum-view-history": "Kaa yelikori",
+	"continuum-more-actions": "mine meŋ",
+	"continuum-appearance-label": "Woree",
+	"continuum-feature-limited-width-name": "Yɛliŋu",
+	"continuum-feature-limited-width-0-label": "Yaari",
+	"continuum-feature-limited-width-1-label": "bung paalisigihaa",
+	"continuum-feature-custom-font-size-name": "Seure",
+	"continuum-feature-custom-font-size-0-label": "Bile",
+	"continuum-feature-custom-font-size-1-label": "bung paalisigihaa",
+	"continuum-feature-custom-font-size-2-label": "Kpoŋ",
+	"skin-theme-name": "Kala",
+	"skin-theme-day-label": "Kyaaŋ",
+	"skin-theme-night-label": "Soɔbu",
+	"skin-theme-os-label": "Tuna meŋaŋ",
+	"skin-theme-exclusion-notice": "A peeji ŋa maŋ kyaayɛŋ.",
+	"continuum-searchsuggest-containing": "Bɔ peejihi aŋ tare <strong class=\"cdx-sɛgebozu-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "puo buuhu",
+	"continuum-toc-beginning": "Piilee",
+	"continuum-anon-user-menu-pages": "Kpɛ kyɛ yi sɛosɛoreba Peegyihi",
+	"continuum-main-menu-label": "Yoe jumeŋa",
+	"continuum-feature-custom-font-size-exclusion-notice": "A peeji ŋa maŋ tuŋ yɛ tuma ne seubilii",
+	"continuum-page-tools-label": "Tuntuŋ buuhu",
+	"continuum-page-tools-general-label": "Yeli jaa lantaa",
+	"continuum-page-tools-actions-label": "Tuma tumbu",
+	"continuum-unpin-element-label": "Sɔgele"
+}

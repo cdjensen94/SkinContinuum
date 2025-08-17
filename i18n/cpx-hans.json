@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChoiChong",
+			"Kahin He",
+			"Winston Sung"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1语言}}",
+	"continuum-action-addsection": "添加话题",
+	"continuum-action-move": "移动",
+	"continuum-action-protect": "保护",
+	"continuum-view-history": "看历史",
+	"continuum-view-view": "读",
+	"continuum-more-actions": "価兮",
+	"continuum-searchsuggest-containing": "寻讨含有<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>兮页面"
+}

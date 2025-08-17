@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imdadb"
+		]
+	},
+	"continuum-action-addsection": "Púskun sarhál",
+	"continuum-action-delete": "Mesa",
+	"continuum-action-move": "Surif",
+	"continuum-action-protect": "Rakk",
+	"continuum-view-create": "Biná",
+	"continuum-view-edit": "Radbadal",
+	"continuum-view-history": "Lekav e ur",
+	"continuum-view-view": "Xuán",
+	"continuum-view-viewsource": "Bumpad e ur",
+	"continuum-more-actions": "Pen"
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"122112ê",
+			"Protostar"
+		]
+	},
+	"continuum-languages": "Langwejdɛm",
+	"continuum-language-button-label": "{{PLURAL:$1| $1 langwej| $1 langwejdɛm}}",
+	"continuum-no-language-button-label": "Ad langwejdɛm",
+	"continuum-action-addsection": "Add tòpik",
+	"continuum-action-delete": "Delet",
+	"continuum-action-move": "Muf",
+	"continuum-action-protect": "Protèkt",
+	"continuum-view-create": "Kreat",
+	"continuum-view-edit": "Chenj",
+	"continuum-view-history": "Luk di istri",
+	"continuum-view-view": "Rid",
+	"continuum-view-viewsource": "Luk dhi sòrs",
+	"continuum-more-actions": "Mɔ",
+	"continuum-appearance-label": "Apiarans",
+	"continuum-feature-limited-width-name": "Waydnɛs",
+	"continuum-feature-limited-width-0-label": "Wayd",
+	"continuum-feature-limited-width-1-label": "Standad",
+	"continuum-feature-custom-font-size-name": "Tɛks",
+	"continuum-feature-custom-font-size-0-label": "Smɔl",
+	"continuum-feature-custom-font-size-1-label": "Standad",
+	"continuum-feature-custom-font-size-2-label": "Big",
+	"skin-theme-name": "Kɔla",
+	"skin-theme-day-label": "Layt",
+	"skin-theme-night-label": "Dak",
+	"skin-theme-os-label": "Ɔtɔmatik",
+	"skin-theme-exclusion-notice": "Dis pej de na layt mod ɔltɛm .",
+	"continuum-searchsuggest-containing": "Sach fɔ pejdɛm we gɛt<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Kòntèntdèm",
+	"continuum-toc-beginning": "Bigin",
+	"continuum-main-menu-label": "Men mɛnyu",
+	"continuum-feature-custom-font-size-exclusion-notice": "Dis pej de yuz smɔl fɔnt sayz ɔltɛm",
+	"continuum-page-tools-label": "Tuldɛm",
+	"continuum-page-tools-general-label": "Jɛnɛral",
+	"continuum-unpin-element-label": "ayd"
+}

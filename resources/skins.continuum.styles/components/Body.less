@@ -1,0 +1,56 @@
+@import '../variables.less';
+@import '../typography.less';
+// Importing variables for colors, fonts, and other styles
+.continuum-body {
+    // Background color for the body
+    background-color: @color-accent-navy;
+    color: @color-white;
+    padding: 20px; // Add some padding for better spacing
+    border: 2px solid @color-bright-orange; // Add a border for emphasis
+    border-radius: 8px; // Rounded corners for a modern look
+    font-family: @font-content;
+}
+.mw-body, .mw-header, .mw-footer-container {
+    font-family: @font-content;
+}
+.localNotice {
+    font-family: @font-code, 'Courier New', monospace; /* Code font for local notices */
+}
+h1, h2, .mw-body h1,
+.mw-body .mw-heading1,
+.mw-body-content h1,
+.mw-body-content .mw-heading1,
+.mw-body-content h2,
+.mw-body-content .mw-heading2,
+.mw-logo-wordmark,
+#firstHeadingTitle {
+    color: @color-bright-orange; /* Bright Orange */
+    font-family: @font-header, 'Book Antiqua', serif !important; /* Header font */
+}
+
+h3, h4, h5, h6 {
+    color: @color-burnt-orange !important; /* Burnt Orange */
+    font-family: @font-alternate, 'Book Antiqua', serif !important; /* Alternate font for subheadings */
+}
+img {
+    background-color: transparent !important; /* Ensure images have a transparent background */
+}
+.continuum-main-menu {
+    font-family: @font-content;
+}
+table {
+    border-collapse: collapse; /* Ensures no gaps between table cells */
+    width: 100%; /* Full width for tables */
+    margin-bottom: 20px; /* Spacing below tables */
+}
+.oo-ui-widget .oo-ui-widget-enabled .mw-echo-ui-notificationItemWidget :hover {
+    background-color: @color-dark-navy; /* Soft Peach for hover state */
+    background: @color-dark-navy; /* Soft Peach background on hover */
+    color: @color-inverted; /* Inverted color for text */
+    border-color: @color-burnt-orange; /* Burnt Orange border on hover */
+}
+.oo-ui-widget .oo-ui-widget-enabled .mw-echo-ui-notificationItemWidget {
+    background-color: @color-dark-navy; /* Soft Peach for hover state */
+    color: @color-inverted; /* Inverted color for text */
+    border-color: @color-burnt-orange; /* Burnt Orange border on hover */
+}

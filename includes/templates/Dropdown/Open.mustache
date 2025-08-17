@@ -1,0 +1,34 @@
+{{!
+	See @typedef MenuDefinition
+}}
+{{! this template must be used with Dropdown/Close to avoid unclosed HTML tags }}
+<div id="{{id}}" class="continuum-dropdown{{#class}} {{.}}{{/class}}" {{{html-tooltip}}} {{{html-user-language-attributes}}}>
+	{{!
+		Dropdown menus use the checkbox hack and require `input` and `label` elements.
+		The `label` element functions as the "visual" button and is hidden from screenreader users (T325026)
+		while the `input` element is the actual semantic button for toggling the dropdown.
+		The `input` element will always have an `aria-label`, which will usually match the
+		text inside the `label` element, unless an alternative label is provided via the `#aria-label`
+		mustache template data.
+	}}
+	<input {{!
+		}}type="checkbox" {{!
+		}}id="{{id}}-checkbox" {{!
+		}}role="button" {{!
+		}}aria-haspopup="true" {{!
+		}}data-event-name="ui.dropdown-{{id}}" {{!--
+		}}class="continuum-dropdown-checkbox{{#checkbox-class}} {{.}}{{/checkbox-class}}" {{!
+		}}{{#aria-label}}aria-label="{{.}}"{{/aria-label}} {{!
+		}}{{^aria-label}}aria-label="{{label}}"{{/aria-label}} {{!
+		}}{{#html-continuum-menu-checkbox-attributes}} {{{.}}}{{/html-continuum-menu-checkbox-attributes}}>
+	<label {{!
+		}}id="{{id}}-label" {{!
+		}}for="{{id}}-checkbox" {{!
+		}}class="continuum-dropdown-label{{#label-class}} {{.}}{{/label-class}}" {{!
+		}}aria-hidden="true" {{!
+		}}{{#html-continuum-menu-label-attributes}} {{{.}}}{{/html-continuum-menu-label-attributes}}>{{!
+		}}{{#icon}}{{>Icon}}{{/icon}}{{!
+		}}<span class="continuum-dropdown-label-text">{{label}}</span>
+	</label>
+	<div class="continuum-dropdown-content">
+

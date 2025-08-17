@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iketsi",
+			"Wantok"
+		]
+	},
+	"continuum-action-delete": "Rausim",
+	"continuum-action-move": "Surikim",
+	"continuum-action-protect": "Tambuim",
+	"continuum-view-create": "Kirapim",
+	"continuum-view-edit": "Senisim",
+	"continuum-view-history": "Ol senis",
+	"continuum-view-view": "Rit",
+	"continuum-view-viewsource": "Lukim as tok"
+}

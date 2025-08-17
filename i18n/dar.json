@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saad Dargan",
+			"Soul Train"
+		]
+	},
+	"continuum-languages": "Мез",
+	"continuum-language-button-label": "{{PLURAL:$1|$1|мез $1 }}",
+	"continuum-no-language-button-label": "Мез чеимцIабарес",
+	"continuum-view-history": "БяхӀла тарих",
+	"continuum-view-view": "БелчӀес",
+	"continuum-more-actions": "ГӀурра",
+	"continuum-feature-limited-width-0-label": "ДигIянабарес",
+	"continuum-feature-limited-width-1-label": "Стандартчебси",
+	"continuum-feature-custom-font-size-name": "Текст",
+	"continuum-feature-custom-font-size-0-label": "НикIаси",
+	"continuum-feature-custom-font-size-1-label": "Стандартчебси",
+	"continuum-feature-custom-font-size-2-label": "Халаси",
+	"skin-theme-name": "Ранг",
+	"skin-theme-day-label": "Шаласи",
+	"skin-theme-night-label": "ЦIябси",
+	"skin-theme-os-label": "Автоматический",
+	"continuum-searchsuggest-containing": "УмцӀла багьанабар <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "БухIнабуц",
+	"continuum-toc-beginning": "БехIбихьуд",
+	"continuum-main-menu-label": "БекIлибиубси меню",
+	"continuum-page-tools-label": "ГIягIнихълуми",
+	"continuum-page-tools-general-label": "Лебталалра",
+	"continuum-page-tools-actions-label": "Баркьудлуми",
+	"continuum-unpin-element-label": "дигIянабарес"
+}

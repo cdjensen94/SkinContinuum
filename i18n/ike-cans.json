@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"MysticVoyager"
+		]
+	},
+	"continuum-languages": "ᐅᖃᕐᕕᐅᑎᔪᑦ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ᐅᖃᐅᓯᖅ|$1 ᐅᖃᐅᓯᑦ}}",
+	"continuum-no-language-button-label": "ᐅᖃᐅᓯᑦ ᐊᐃᑎᕐᓗᑎᑦ",
+	"continuum-action-addsection": "ᐃᓚᓕᐅᑎᓗᒍ ᐅᖃᐅᓯᒃᓴᖅ",
+	"continuum-action-delete": "ᐲᔭᖅᑕᐅᔪᖅ",
+	"continuum-action-move": "ᐅᐊᔪᖅ",
+	"continuum-action-protect": "ᓴᐳᔾᔨᓯᒪᓂᖅ",
+	"continuum-view-create": "ᓴᓇᓗᑎᑦ",
+	"continuum-view-history": "ᑕᑯᓗᒍ ᖃᓄᐃᓕᐅᕈᑕᐅᖃᑦᑕᖅᓯᒪᔪᖅ",
+	"continuum-more-actions": "ᓱᓕᒃᑲᓐᓂᖅ",
+	"continuum-appearance-label": "ᑕᑯᓐᓇᕐᓂᖓ",
+	"continuum-feature-limited-width-name": "ᓯᕕᑐᓂᖓ",
+	"continuum-feature-limited-width-0-label": "ᐃᔨᖅᐳᖅ",
+	"continuum-feature-limited-width-1-label": "ᓴᐃᒻᒪᑎ",
+	"continuum-feature-custom-font-size-name": "ᑎᑎᖅᑲᖅ",
+	"continuum-feature-custom-font-size-0-label": "ᒥᑭᑦᑐᖅ",
+	"continuum-feature-custom-font-size-1-label": "ᓴᐃᒻᒪᑎ",
+	"continuum-feature-custom-font-size-2-label": "ᐅᓄᖅᑐᖅ",
+	"skin-theme-name": "ᐊᒥᐊᖅ",
+	"skin-theme-day-label": "ᐅᕿᑦᑐᖅ",
+	"skin-theme-night-label": "ᑖᖅᑐᖅ",
+	"skin-theme-os-label": "ᐊᑕᕿᑎᐅᓂᖅ",
+	"skin-theme-exclusion-notice": "ᑖᓐᓇ ᒪᒃᐱᒐᖅ ᖃᐅᒪᐃᓐᓇᐅᔭᖅᑐᖅ.",
+	"continuum-searchsuggest-containing": "ᕿᓂᕐᓗᒋᑦ ᒪᒃᐱᒐᐃᑦ ᐃᓗᓕᖃᖅᑐᑦ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "ᐃᓗᓕᖏᑦ",
+	"continuum-toc-beginning": "ᐱᓇᓱᐊᖅ",
+	"continuum-anon-user-menu-pages": "ᒪᒃᐱᒐᐃᑦ ᐊᓂᓯᒪᔪᓄᑦ ᐋᖅᑭᒃᓱᐃᔨᓄᑦ",
+	"continuum-main-menu-label": "ᓂᕆᔭᒃᓴᓪᓗᐊᑕᐃᑦ",
+	"continuum-feature-custom-font-size-exclusion-notice": "ᐅᑉᓗᐊᑎᒃ ᐱᓇᓲᓇᖅ ᐅᓗᓕᕋᓛᖅᑐᖅ ᓯᕗᓕᐅᕈᑎᒃ",
+	"continuum-page-tools-label": "ᓴᓇᕐᕈᑎᑦ",
+	"continuum-page-tools-general-label": "ᑭᓱᑐᐃᓐᓇᑦ",
+	"continuum-page-tools-actions-label": "ᖃᓄᐃᓕᐅᕈᑕᐅᔪᑦ",
+	"continuum-unpin-element-label": "ᐃᔨᖅᐳᖅ"
+}

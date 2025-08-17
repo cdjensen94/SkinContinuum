@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mahuton"
+		]
+	},
+	"continuum-languages": "Gbé lɛ́",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 gbé|$1 gbé lɛ}}",
+	"continuum-no-language-button-label": "Gɔ gbé ɖévo lɛ na",
+	"continuum-action-addsection": "Gɔ́ xóta yɔ́yɔ́ ɖévo ná",
+	"continuum-action-delete": "Sunsun sin",
+	"continuum-action-move": "Ɖyɔ nyikɔ tɔn",
+	"continuum-action-protect": "Cyɔn alɔ do",
+	"continuum-view-create": "Blɔ",
+	"continuum-view-edit": "Wlǎn nú",
+	"continuum-view-history": "Nyín nukún ɖo ɖiɖyɔ tɛnmɛ tɛnmɛ wémá ɔ tɔn lɛ jí",
+	"continuum-view-view": "Xá",
+	"continuum-more-actions": "Susu",
+	"continuum-searchsuggest-containing": "Ba wéma é mɛ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> ɖé é",
+	"continuum-toc-label": "Xóta lɛ",
+	"continuum-toc-beginning": "Bibɛmɛ",
+	"continuum-page-tools-label": "Azɔwanú",
+	"continuum-page-tools-general-label": "Lɛ bǐ",
+	"continuum-unpin-element-label": "sɛxwe"
+}

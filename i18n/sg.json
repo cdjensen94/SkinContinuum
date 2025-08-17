@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel236",
+			"Mdkidiri"
+		]
+	},
+	"continuum-languages": "Yângâködörö",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 langue|$1 langues}}",
+	"continuum-no-language-button-label": "Zia â yângâ kôdrô dâ",
+	"continuum-action-addsection": "Zîa mbênî lilö daä",
+	"continuum-action-delete": "Lungûla",
+	"continuum-action-move": "Sanzêe ïrï",
+	"continuum-action-protect": "Funga",
+	"continuum-action-undelete": "Kîri na nî",
+	"continuum-action-unprotect": "Sanzêe fungä",
+	"continuum-view-create": "Seka",
+	"continuum-view-edit": "Sepe",
+	"continuum-view-history": "Tanda mbai nî",
+	"continuum-view-view": "Dîko",
+	"continuum-view-viewsource": "Fa ligbî nî",
+	"continuum-more-actions": "Ambeni ye mingi",
+	"continuum-searchsuggest-containing": "Gi alê ti lê ti mbeti so ayeke na <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-main-menu-label": "Kota menu ni",
+	"continuum-page-tools-label": "Akungba",
+	"continuum-page-tools-general-label": "Ä hon kwé",
+	"continuum-unpin-element-label": "Honde ni"
+}

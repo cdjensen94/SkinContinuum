@@ -1,0 +1,63 @@
+@import '../../variables.less';
+.continuum-column-start {
+	// Aligns the text of the sidebar TOC with the main menu.
+	// The negative margins must be applied here, because .continuum-column-start has
+	// contain: paint, which has an effect similar to 'overflow: hidden', and will prevent elements
+	// inside of the panel from being rendered outside of its bounding box, even when they would
+	// be positioned there using absolute positioning, negative margin, transforms, etc.
+	margin-left: -@toc-list-item-padding-start;
+
+	.continuum-main-menu-container {
+		margin-left: @toc-list-item-padding-start;
+	}
+	#toc, .continuum-toc, .continuum-toc-pinned {
+		background-color: var(--color-accent-navy);
+		border: 2px solid var(--color-bright-orange);
+		border-radius: 8px;
+		padding: 10px;
+		color: var(--color-white);
+	}
+	#toc h2, .continuum-pinnable-header-label h2 {
+		font-family: 'Modern Antiqua', cursive;
+		color: var(--color-deep-orange);
+		text-align: center;
+		margin-bottom: 8px;
+	}
+	// Only apply when ToC is pinned
+	.continuum-toc-pinned {
+		position: sticky;
+		top: 70px;         // Adjust for your header height
+		z-index: 1000;
+		background: @background-color-base; // Use your color var or hex
+		border: 1px solid @border-color;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+
+		// Responsive tweak: hide or collapse on mobile
+		@media (max-width: 900px) {
+			display: none;
+		}
+	}
+
+	// If you want ToC to be resizable or collapsible:
+	.continuum-toc-pinned.is-collapsed {
+		width: 40px;
+		overflow: hidden;
+	}
+
+	// Style for ToC links when pinned
+	.continuum-toc-pinned a {
+		color: @link-color;
+		font-weight: bold;
+		transition: color 0.2s;
+		&:hover {
+			color: @link-hover-color;
+		}
+	}
+
+	// Example: Highlight the active section
+	.continuum-toc-pinned .toc-active {
+		background: @active-bg;
+		border-left: 3px solid @active-color;
+	}
+
+}

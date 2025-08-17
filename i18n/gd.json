@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akerbeltz",
+			"GunChleoc"
+		]
+	},
+	"continuum-skin-desc": "Tionndadh ùr-nodha de MonoBook le dreach ùr air 's iomadh leasachadh air a sho-chleachdachd",
+	"continuum-languages": "Cànain",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 chànan|$1 chànan|$1 cànain|$1 cànan}}",
+	"continuum-no-language-button-label": "Cuir cànain ris",
+	"continuum-action-addsection": "Cuir ris cuspair",
+	"continuum-action-delete": "Sguab às",
+	"continuum-action-move": "Gluais",
+	"continuum-action-protect": "Dìon",
+	"continuum-action-undelete": "Neo-dhèan an sguabadh às",
+	"continuum-action-unprotect": "Atharraich an dìon",
+	"continuum-view-create": "Cruthaich",
+	"continuum-view-edit": "Deasaich",
+	"continuum-view-history": "Seall an eachdraidh",
+	"continuum-view-view": "Leugh",
+	"continuum-view-viewsource": "Seall an tùs",
+	"continuum-more-actions": "Barrachd",
+	"continuum-appearance-label": "Coltas",
+	"continuum-feature-custom-font-size-name": "Teacsa",
+	"continuum-feature-custom-font-size-0-label": "Beag",
+	"continuum-feature-custom-font-size-1-label": "Stannardach",
+	"continuum-feature-custom-font-size-2-label": "Mòr",
+	"skin-theme-name": "Dath",
+	"skin-theme-day-label": "Soilleir",
+	"skin-theme-night-label": "Dorcha",
+	"skin-theme-os-label": "Gu fèin-ghluasadach",
+	"continuum-searchsuggest-containing": "Lorg duilleagan sa bheil <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-main-menu-label": "Am prìomh-chlàr-taice",
+	"continuum-feature-custom-font-size-exclusion-notice": "Cleachdaidh an duilleag seo cruth-clò beag an-còmhnaidh",
+	"continuum-page-tools-label": "Innealan",
+	"continuum-page-tools-general-label": "Coitcheann",
+	"continuum-unpin-element-label": "falaich"
+}

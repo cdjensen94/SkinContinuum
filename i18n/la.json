@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adumbrativus",
+			"Laurentianus",
+			"UV"
+		]
+	},
+	"continuum-action-addsection": "Partem novam addere",
+	"continuum-action-delete": "Delere",
+	"continuum-action-move": "Movere",
+	"continuum-action-protect": "Protegere",
+	"continuum-action-undelete": "Restituere",
+	"continuum-action-unprotect": "Protectionem mutare",
+	"continuum-view-create": "Creare",
+	"continuum-view-edit": "Recensere",
+	"continuum-view-history": "Historiam inspicere",
+	"continuum-view-view": "Legere",
+	"continuum-view-viewsource": "Fontem inspicere",
+	"continuum-more-actions": "Plura",
+	"continuum-toc-label": "Index",
+	"continuum-toc-beginning": "Initium"
+}

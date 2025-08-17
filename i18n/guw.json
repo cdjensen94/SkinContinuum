@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anthonymodec",
+			"Atej2*",
+			"Gadarawamo",
+			"Hunpatinjob",
+			"Medaho",
+			"Misteld",
+			"Samatics"
+		]
+	},
+	"continuum-languages": "Ogbè lẹ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ogbè|$1 ogbè lẹ}}",
+	"continuum-no-language-button-label": "Yi ogbè lẹ dogọ",
+	"continuum-action-addsection": "Yi hosọ dogọ",
+	"continuum-action-delete": "Sunsunsẹ",
+	"continuum-action-move": "Sẹtẹn",
+	"continuum-action-protect": "Họ́",
+	"continuum-view-create": "Dá",
+	"continuum-view-edit": "Jlado",
+	"continuum-view-history": "Pọ́n kandai",
+	"continuum-view-view": "Hia",
+	"continuum-more-actions": "Dogọ",
+	"continuum-searchsuggest-containing": "Dín weda he bẹ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> hẹn lẹ",
+	"continuum-toc-label": "Nuhe e bẹhẹn lẹ",
+	"continuum-toc-beginning": "Bẹjẹeji",
+	"continuum-anon-user-menu-pages-learn": "Plọnnu dogọ",
+	"continuum-main-menu-label": "Todohukanji tangan",
+	"continuum-page-tools-label": "Azọ́nwanu lẹ",
+	"continuum-page-tools-general-label": "Dopọ",
+	"continuum-unpin-element-label": "whlá"
+}

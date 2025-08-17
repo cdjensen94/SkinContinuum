@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilja.mos",
+			"Likopiän tyttö",
+			"Mashoi7",
+			"Varvana"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 kieli|$1 kieltä}}",
+	"continuum-action-addsection": "Lisyä teema",
+	"continuum-action-delete": "Poissa",
+	"continuum-action-move": "Šiirrä",
+	"continuum-action-protect": "Šuojua",
+	"continuum-view-create": "Luaji",
+	"continuum-view-edit": "Kohentele",
+	"continuum-view-history": "Näytä istorija",
+	"continuum-view-view": "Luve",
+	"continuum-more-actions": "Vielä",
+	"continuum-searchsuggest-containing": "Eči šivuja, kumpašissa on <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>"
+}

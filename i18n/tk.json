@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanberke",
+			"TayfunEt.",
+			"Zolgoyo"
+		]
+	},
+	"continuum-opt-out": "Köne görnüşe geçiň",
+	"continuum-languages": "Diller",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 Dil}}",
+	"continuum-no-language-button-label": "Dil goşuň",
+	"continuum-no-language-button-aria-label": "Bu makala diňe şu dilde bar. Makalany başga diller üçin goşuň",
+	"continuum-language-variant-switcher-label": "Dil görnüşini üýtgediň",
+	"continuum-action-addsection": "Mowzuk goş",
+	"continuum-action-delete": "Öçür",
+	"continuum-action-move": "Adyny üýtget",
+	"continuum-action-protect": "Goraga al",
+	"continuum-action-undelete": "Öçürmäni yzyna al",
+	"continuum-action-unprotect": "Goragy üýtget",
+	"continuum-view-create": "Döret",
+	"continuum-view-edit": "Düzet",
+	"continuum-view-history": "Taryhy gör",
+	"continuum-view-view": "Oka",
+	"continuum-view-viewsource": "Çeşmäni gör",
+	"continuum-jumptonavigation": "Nawigasiýa geçiň",
+	"continuum-jumptosearch": "Gözleg geçiň",
+	"continuum-jumptocontent": "Mazmuna geçiň",
+	"continuum-more-actions": "Has köp",
+	"continuum-searchsuggest-containing": "Içindäki sahypalary gözläň <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Mazmuny",
+	"continuum-toc-beginning": "Başlangyç",
+	"continuum-anon-user-menu-pages-learn": "köpräk oka",
+	"continuum-anon-user-menu-pages-label": "Redaktirlemek barada has giňişleýin öwreniň",
+	"continuum-main-menu-tooltip": "Esasy menýu",
+	"continuum-toc-menu-tooltip": "Mazmuny",
+	"continuum-toc-collapsible-button-label": "Mazmunyň tablisasyny üýtgediň",
+	"continuum-site-nav-label": "Saýt",
+	"continuum-main-menu-label": "Esasy menýu",
+	"continuum-page-tools-label": "Gurallar",
+	"continuum-unpin-element-label": "gizle",
+	"tooltip-continuum-anon-user-menu-title": "Has köp wariant"
+}

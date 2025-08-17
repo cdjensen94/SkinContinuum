@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Coldfact",
+			"Gustave London",
+			"Maryam AlAkini",
+			"Tšepo"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 puo|$1 lipuo}}",
+	"continuum-view-edit": "Fetola",
+	"continuum-view-history": "Sheba histori",
+	"continuum-view-view": "Bala",
+	"continuum-more-actions": "Tse ling",
+	"continuum-searchsuggest-containing": "Batla maqephe a nang le <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>"
+}

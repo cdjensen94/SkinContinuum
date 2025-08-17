@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"SupaplexTW"
+		]
+	},
+	"continuum-languages": "语言",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 种语言}}",
+	"continuum-no-language-button-label": "加添语言",
+	"continuum-action-addsection": "加一个段落",
+	"continuum-view-create": "开新页",
+	"continuum-view-history": "看历史",
+	"continuum-more-actions": "阁看",
+	"continuum-appearance-label": "外观",
+	"continuum-feature-limited-width-name": "宽度",
+	"continuum-feature-limited-width-0-label": "阔",
+	"continuum-feature-limited-width-1-label": "标准",
+	"continuum-feature-custom-font-size-name": "文本",
+	"continuum-feature-custom-font-size-0-label": "细",
+	"continuum-feature-custom-font-size-1-label": "标准",
+	"continuum-feature-custom-font-size-2-label": "大",
+	"skin-theme-name": "色水",
+	"skin-theme-day-label": "浅色",
+	"skin-theme-night-label": "暗色",
+	"skin-theme-os-label": "自动",
+	"skin-theme-exclusion-notice": "这页通常是浅色模式。",
+	"continuum-searchsuggest-containing": "搜揣有<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>的页",
+	"continuum-toc-label": "目录",
+	"continuum-toc-beginning": "序言",
+	"continuum-main-menu-label": "主选单",
+	"continuum-feature-custom-font-size-exclusion-notice": "这页通常使用小字型大细",
+	"continuum-page-tools-label": "家私",
+	"continuum-page-tools-general-label": "一般",
+	"continuum-page-tools-actions-label": "操作",
+	"continuum-unpin-element-label": "覕"
+}

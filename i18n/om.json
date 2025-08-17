@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahrada2016",
+			"Maammee",
+			"Oromoo"
+		]
+	},
+	"continuum-action-addsection": "Mata duree ida'i",
+	"continuum-action-delete": "Balleessi",
+	"continuum-action-move": "Oofi",
+	"continuum-action-protect": "Eegumsa",
+	"continuum-action-undelete": "Hin balleessin",
+	"continuum-view-create": "Uumi",
+	"continuum-view-edit": "Gulaali",
+	"continuum-view-history": "Seenaa laali",
+	"continuum-view-view": "Dubbisi",
+	"continuum-view-viewsource": "Lakkaddaa laali",
+	"continuum-jumptonavigation": "Gara kallatti ce'i",
+	"continuum-jumptosearch": "Gara barbaadutti ce'i",
+	"continuum-more-actions": "Dabalata"
+}

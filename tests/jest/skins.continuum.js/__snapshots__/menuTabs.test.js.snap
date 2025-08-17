@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menuTabs adds continuum-tab-noicon class to li element when part of tabs 1`] = `
+"
+				<div id=\\"p-views\\" class=\\"continuum-menu mw-portlet mw-portlet-views continuum-menu-tabs\\">
+					<div class=\\"continuum-menu-content\\">
+						<ul class=\\"continuum-menu-content-list\\">
+							<li class=\\"mw-list-item mw-list-item-js continuum-tab-noicon\\" id=\\"test-id\\">
+								<a href=\\"#test-href\\">
+									<span>
+										test link content
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+		"
+`;
+
+exports[`menuTabs does not add continuum-tab-noicon class to li element when not part of tabs 1`] = `
+"
+			<div id=\\"p-variants\\" class=\\"continuum-menu mw-portlet mw-portlet-variants\\">
+				<div class=\\"continuum-menu-content\\">
+					<ul class=\\"continuum-menu-content-list\\">
+						<li class=\\"mw-list-item mw-list-item-js\\" id=\\"test-id\\">
+							<a href=\\"#test-href\\">
+								<span>
+									test link content
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		"
+`;

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fadli Idris",
+			"Si Gam Acèh"
+		]
+	},
+	"continuum-opt-out": "Gantoe u rupa awai",
+	"continuum-languages": "Bahsa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 bahsa}}",
+	"continuum-no-language-button-label": "Tamah bahsa",
+	"continuum-action-addsection": "Tamah bhaih",
+	"continuum-action-delete": "Sampôh",
+	"continuum-action-move": "Pupinah",
+	"continuum-action-protect": "Peulindông",
+	"continuum-action-undelete": "Bateuë sampôh",
+	"continuum-action-unprotect": "Gantoe neulindông",
+	"continuum-view-create": "Peugöt",
+	"continuum-view-edit": "Peusaneut",
+	"continuum-view-history": "Eu riwayat",
+	"continuum-view-view": "Beuet",
+	"continuum-view-viewsource": "Eu nè",
+	"continuum-more-actions": "Lom",
+	"continuum-appearance-tooltip": "Gantoe seunipat harah, rayek ngön wareuna ôn",
+	"continuum-searchsuggest-containing": "Mita ôn nyang na <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Asoe",
+	"continuum-toc-beginning": "Awai",
+	"continuum-page-tools-label": "Alat",
+	"continuum-page-tools-general-label": "Umom",
+	"continuum-page-tools-actions-label": "Buet",
+	"continuum-pin-element-label": "pinah u bateueng binèh",
+	"continuum-unpin-element-label": "som",
+	"continuum-prefs-talkpage": "[[mw:Talk:Reading/Web/Desktop_Improvements|Peugah haba]]",
+	"tooltip-continuum-anon-user-menu-title": "Peuniléh laén",
+	"continuum-appearance-unpinned-popup": "Menu tampilan ka geupinah keunoe"
+}

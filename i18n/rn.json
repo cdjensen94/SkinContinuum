@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gilbert Ndihokubwayo"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ururimi|$1 indimi}}",
+	"continuum-action-addsection": "Ongeraho ishingiro",
+	"continuum-action-delete": "Kuraho",
+	"continuum-action-move": "Imura",
+	"continuum-action-protect": "Gukinga",
+	"continuum-view-create": "Tanguza",
+	"continuum-view-edit": "Hinyanyura inyandiko",
+	"continuum-view-history": "Raba uko vyagiye birakurikirana",
+	"continuum-view-view": "Soma",
+	"continuum-more-actions": "Ibindi",
+	"continuum-searchsuggest-containing": "Rondera impapuro zirimwo <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>"
+}

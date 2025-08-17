@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agilight",
+			"Karak-Kyzyl",
+			"Mongush Salim",
+			"Riverman",
+			"Sborsody",
+			"Монгуш Салим"
+		]
+	},
+	"skinname-continuum": "Вектор",
+	"continuum-languages": "Дылдар",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 дыл}}",
+	"continuum-no-language-button-label": "Дылдар немээр",
+	"continuum-action-addsection": "Тема немээр",
+	"continuum-action-delete": "Казыыр",
+	"continuum-action-move": "Өскээр адаар",
+	"continuum-action-protect": "Камгалаары",
+	"continuum-action-undelete": "Эгидер",
+	"continuum-action-unprotect": "Камгалалды өскертири",
+	"continuum-view-create": "Чаяар",
+	"continuum-view-edit": "Эдер",
+	"continuum-view-history": "Төөгүнү көөр",
+	"continuum-view-view": "Номчуур",
+	"continuum-view-viewsource": "Дөзү бижиин көөрү",
+	"continuum-more-actions": "Оон",
+	"continuum-searchsuggest-containing": "Мындыг чүүлдерлиг арыннарны дилээри: <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Ишти",
+	"continuum-toc-beginning": "Эгези",
+	"continuum-main-menu-label": "Кол меню",
+	"continuum-page-tools-label": "Херекселдер",
+	"continuum-page-tools-general-label": "Ниити",
+	"continuum-unpin-element-label": "чажырар",
+	"continuum-appearance-unpinned-popup": "Даштыкы хевирниң менюзун бээр көжүрген."
+}

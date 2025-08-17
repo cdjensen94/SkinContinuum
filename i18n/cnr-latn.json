@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bellatrix10"
+		]
+	},
+	"continuum-action-addsection": "Dodaj temu",
+	"continuum-action-delete": "Izbriši",
+	"continuum-action-move": "Premjesti",
+	"continuum-action-protect": "Zaštiti",
+	"continuum-view-create": "Napravi",
+	"continuum-view-edit": "Uredi",
+	"continuum-view-history": "Pregledaj istoriju",
+	"continuum-view-view": "Čitaj",
+	"continuum-more-actions": "Više"
+}

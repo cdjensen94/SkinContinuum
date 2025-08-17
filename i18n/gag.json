@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cuman",
+			"Emperyan",
+			"Joseph"
+		]
+	},
+	"continuum-languages": "Diller",
+	"continuum-action-delete": "Sil",
+	"continuum-view-edit": "Diiştir",
+	"continuum-view-view": "Oku",
+	"continuum-toc-label": "İçindekilär",
+	"continuum-unpin-element-label": "sakla"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"RebecaRwanda",
+			"RebeccaRwanda",
+			"Vogone"
+		]
+	},
+	"continuum-languages": "Indimi",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ururimi|$1 indimi}}",
+	"continuum-no-language-button-label": "Ongeraho indimi",
+	"continuum-action-addsection": "Ongeramo Ingingo",
+	"continuum-action-delete": "Siba",
+	"continuum-action-move": "Imura",
+	"continuum-view-create": "Tangiza",
+	"continuum-view-edit": "Hindura",
+	"continuum-view-history": "Reba amateka",
+	"continuum-view-view": "Soma",
+	"continuum-more-actions": "Ibindi",
+	"continuum-feature-custom-font-size-name": "Inyandiko",
+	"skin-theme-name": "Ibara",
+	"continuum-toc-label": "Ibirimo",
+	"continuum-toc-beginning": "Itangiriro",
+	"continuum-page-tools-label": "Ibikoresho",
+	"continuum-unpin-element-label": "Hisha"
+}

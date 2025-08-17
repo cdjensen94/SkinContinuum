@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bua333",
+			"Joe Watzmo",
+			"Mucalexx",
+			"WikiBayer"
+		]
+	},
+	"continuum-languages": "Sproochen",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 Sprache|$1 Sproochen}}",
+	"continuum-no-language-button-label": "Sproochen dazuafiang",
+	"continuum-action-addsection": "An Obschnitt dazua doa",
+	"continuum-action-delete": "Leschn",
+	"continuum-action-move": "Vaschiabm",
+	"continuum-action-protect": "schitzn",
+	"continuum-action-undelete": "Wiederherstön",
+	"continuum-action-unprotect": "freigeem",
+	"continuum-view-create": "Aufbaun",
+	"continuum-view-edit": "Werkeln",
+	"continuum-view-history": "Gschicht åhschaun",
+	"continuum-view-view": "Leesen",
+	"continuum-view-viewsource": "Quejtext ozoagn",
+	"continuum-more-actions": "Meara",
+	"continuum-searchsuggest-containing": "Suach nooch Seiten, dé <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> énthoiden",
+	"continuum-page-tools-label": "Werkzeig",
+	"continuum-page-tools-general-label": "Oigmoah",
+	"continuum-unpin-element-label": "vastegga"
+}

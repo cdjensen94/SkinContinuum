@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rebelagent",
+			"Rosy Cleopatra",
+			"Sekhomba"
+		]
+	},
+	"continuum-languages": "Diteme",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 teme|$1 diteme}}",
+	"continuum-no-language-button-label": "Tsenya diteme",
+	"continuum-action-addsection": "Tsenya Setlhogo",
+	"continuum-action-delete": "Sutlha",
+	"continuum-action-move": "Sutisa",
+	"continuum-action-protect": "Sireletsa",
+	"continuum-view-create": "Dira",
+	"continuum-view-edit": "Fetola",
+	"continuum-view-history": "Bona Segologolo",
+	"continuum-view-view": "Bala",
+	"continuum-more-actions": "Bontsi",
+	"continuum-appearance-label": "Ponalo",
+	"continuum-feature-limited-width-name": "Bophara",
+	"continuum-feature-custom-font-size-name": "Mokwalo",
+	"continuum-feature-custom-font-size-0-label": "Tse Dinnye",
+	"continuum-feature-custom-font-size-1-label": "Se se Tlwaelegileng",
+	"continuum-feature-custom-font-size-2-label": "Kgolo",
+	"skin-theme-name": "Mmala",
+	"skin-theme-night-label": "Lefifi",
+	"skin-theme-os-label": "E itiragalelang",
+	"continuum-searchsuggest-containing": "Batla ditsebe tse di naleng <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Diteng",
+	"continuum-toc-beginning": "Tshimologo",
+	"continuum-main-menu-label": "Dintlha tsa konokono",
+	"continuum-feature-custom-font-size-exclusion-notice": "Tsebe eno ka metlha e dirisa bogolo jwa ditlhaka tse dinnye",
+	"continuum-page-tools-label": "Didirisiwa",
+	"continuum-page-tools-general-label": "Kakaretso",
+	"continuum-page-tools-actions-label": "Dikgato",
+	"continuum-unpin-element-label": "fitlha"
+}

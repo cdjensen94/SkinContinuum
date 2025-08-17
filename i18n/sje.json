@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bidumsábme",
+			"Olve Utne"
+		]
+	},
+	"continuum-languages": "Giela",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 giella|$1 giela}}",
+	"continuum-no-language-button-label": "Lasedä gielajt",
+	"continuum-action-addsection": "Lasedä ábdnasav",
+	"continuum-action-delete": "Gádodä",
+	"continuum-action-move": "Sirde",
+	"continuum-action-protect": "Várrjalä",
+	"continuum-view-create": "Álge",
+	"continuum-view-edit": "Rävvdadä",
+	"continuum-view-history": "Vuosedä histurjav",
+	"continuum-view-view": "Lågå",
+	"continuum-view-viewsource": "Vuosedä wikitiekstav",
+	"continuum-more-actions": "Ienap",
+	"continuum-searchsuggest-containing": "Åtså belijda májdne lä tjállám <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Sisadno",
+	"continuum-toc-beginning": "Állgo",
+	"continuum-page-tools-label": "Riejdo",
+	"continuum-page-tools-general-label": "Gájjkasatj",
+	"continuum-unpin-element-label": "tjiega"
+}

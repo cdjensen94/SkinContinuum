@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ewithu"
+		]
+	},
+	"continuum-languages": "Ла̄тӈыт",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ла̄тыӈ|$1 ла̄тӈыт}}",
+	"continuum-no-language-button-label": "Ла̄тӈыт тув-нё̄тэн",
+	"continuum-action-delete": "Э̄л урен",
+	"continuum-action-move": "Мо̄т намыл ла̄вен",
+	"continuum-action-protect": "Воянтап",
+	"continuum-view-create": "Ва̄рнэ ва̄рмаль",
+	"continuum-view-history": "Нэ̄пак история",
+	"continuum-more-actions": "Са̄внув",
+	"continuum-appearance-label": "На̄ӈкнэ",
+	"continuum-feature-limited-width-name": "Па̄ӈхвит",
+	"continuum-feature-limited-width-0-label": "Па̄хвыӈ",
+	"continuum-feature-limited-width-1-label": "Мо̄ртыс ва̄рмаль",
+	"continuum-feature-custom-font-size-name": "Текст",
+	"continuum-feature-custom-font-size-0-label": "Ма̄нь",
+	"continuum-feature-custom-font-size-1-label": "Мо̄ртыс ва̄рмаль",
+	"continuum-feature-custom-font-size-2-label": "Яныг",
+	"skin-theme-name": "Oспат",
+	"skin-theme-day-label": "Пос",
+	"skin-theme-night-label": "Турман",
+	"skin-theme-os-label": "Автоматически",
+	"skin-theme-exclusion-notice": "Ты нэ̄капн акваг посыӈ оспанэ о̄ньсиянэ.",
+	"continuum-toc-label": "О̄ньсилыт",
+	"continuum-toc-beginning": "Э̄лы-о̄выл",
+	"continuum-main-menu-label": "Яныг меню",
+	"continuum-feature-custom-font-size-exclusion-notice": "Ты нэ̄пакн акваг ма̄нь буква янытэ о̄ньси",
+	"continuum-page-tools-label": "Инструментыт",
+	"continuum-page-tools-general-label": "Котляртке̄м",
+	"continuum-unpin-element-label": "ёл тӯйтэн"
+}

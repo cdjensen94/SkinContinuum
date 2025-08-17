@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Manuae"
+		]
+	},
+	"continuum-action-addsection": "Abschnidd dzufiesche",
+	"continuum-action-delete": "Lesche",
+	"continuum-action-move": "Vaschiewe",
+	"continuum-action-protect": "Schidze",
+	"continuum-action-undelete": "Zriggbringe",
+	"continuum-view-create": "Oaleesche",
+	"continuum-view-edit": "Droa schaffe",
+	"continuum-view-history": "Dadaigschischd",
+	"continuum-view-view": "Lese",
+	"continuum-view-viewsource": "Gwelltegschd zaische",
+	"continuum-more-actions": "Mea"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akapochtli",
+			"Languaeditor",
+			"Ricardo gs",
+			"Taresi"
+		]
+	},
+	"continuum-action-addsection": "Xikpiwi tlanehnewilli",
+	"continuum-action-delete": "Xikixpolo",
+	"continuum-action-move": "Xiksaka",
+	"continuum-action-protect": "Xicpiya",
+	"continuum-action-undelete": "Xicmāquīxti",
+	"continuum-action-unprotect": "Xicpatla tlapiyaliztli",
+	"continuum-view-create": "Xikchiwa",
+	"continuum-view-edit": "Xikpatla",
+	"continuum-view-history": "Xikitta tlatololli",
+	"continuum-view-view": "Xikixpowa",
+	"continuum-view-viewsource": "Xiquitta tzintiliztli",
+	"continuum-more-actions": "Achiyok"
+}

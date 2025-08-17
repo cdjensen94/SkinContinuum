@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"고솜",
+			"Whatback11"
+		]
+	},
+	"continuum-languages": "언어",
+	"continuum-language-button-label": "{{PLURAL:$1|$1개 말}}",
+	"continuum-no-language-button-label": "말 추가",
+	"continuum-action-addsection": "새 이왁거리",
+	"continuum-action-delete": "밀기",
+	"continuum-action-move": "웽기기",
+	"continuum-action-protect": "ᄌᆞᆼ그기",
+	"continuum-view-create": "멩글기",
+	"continuum-view-edit": "바꼬기",
+	"continuum-view-history": "이력 베리기",
+	"continuum-view-view": "익기",
+	"continuum-more-actions": "더 베리기",
+	"continuum-appearance-label": "베기",
+	"continuum-feature-limited-width-name": "너비",
+	"continuum-feature-limited-width-0-label": "넓쥬",
+	"continuum-feature-limited-width-1-label": "표준",
+	"continuum-feature-custom-font-size-name": "글",
+	"continuum-feature-custom-font-size-0-label": "빠뜸",
+	"continuum-feature-custom-font-size-1-label": "표준",
+	"continuum-feature-custom-font-size-2-label": "큼",
+	"skin-theme-name": "빛깔",
+	"skin-theme-day-label": "ᄇᆞᆰ음",
+	"skin-theme-night-label": "어둑",
+	"skin-theme-os-label": "제냥",
+	"skin-theme-exclusion-notice": "이 문세는 니량 ᄇᆞᆰ음 모드입니다.",
+	"continuum-toc-label": "목차",
+	"continuum-toc-beginning": "처엄 자리",
+	"continuum-anon-user-menu-pages": "자국나간 씀꾼이 보도로기 ᄒᆞ는 문세",
+	"continuum-main-menu-label": "주 촐림",
+	"continuum-feature-custom-font-size-exclusion-notice": "이 문세는 니량 족은 글쪼 크기를 사용ᄒᆞ우다",
+	"continuum-page-tools-label": "도구",
+	"continuum-page-tools-general-label": "예점",
+	"continuum-page-tools-actions-label": "동작",
+	"continuum-unpin-element-label": "곱지기"
+}

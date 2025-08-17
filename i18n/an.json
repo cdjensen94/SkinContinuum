@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carlos Cristia",
+			"Juanpabl"
+		]
+	},
+	"skinname-continuum": "Continuum",
+	"continuum.css": "/* Os estilos CSS colocaus aquí s'aplicarán ta totz os usuarios que faigan servir l'apariencia Continuum */",
+	"continuum.js": "/* Qualsiquier codigo Javascript escrito aquí se cargará ta totz os usuarios que usen a piel Continuum */",
+	"continuum-action-addsection": "Adhibir nueva sección",
+	"continuum-action-delete": "Borrar",
+	"continuum-action-move": "Tresladar",
+	"continuum-action-protect": "Protecher",
+	"continuum-action-undelete": "Restaurar",
+	"continuum-action-unprotect": "Cambiar protección",
+	"continuum-view-create": "Creyar",
+	"continuum-view-edit": "Editar",
+	"continuum-view-history": "Amostrar l'historial",
+	"continuum-view-view": "Leyer",
+	"continuum-view-viewsource": "Veyer o codigo fuent",
+	"continuum-more-actions": "Mas"
+}

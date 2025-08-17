@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Biŋhai",
+			"Midleading",
+			"唐吉訶德的侍從"
+		]
+	},
+	"continuum-languages": "Vah",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 cungj vah}}",
+	"continuum-action-delete": "Ca",
+	"continuum-action-move": "Daen",
+	"continuum-action-protect": "Bauj",
+	"continuum-view-create": "Laeb",
+	"continuum-view-edit": "gaij",
+	"continuum-view-history": "Cazyawj lizsij",
+	"continuum-view-view": "Doeg",
+	"continuum-feature-limited-width-0-label": "Gvangq",
+	"continuum-feature-limited-width-1-label": "Biucinj",
+	"continuum-feature-custom-font-size-0-label": "Lwg",
+	"continuum-feature-custom-font-size-1-label": "Biucinj",
+	"continuum-feature-custom-font-size-2-label": "Hung",
+	"skin-theme-name": "Saek",
+	"continuum-page-tools-label": "Loengx",
+	"continuum-unpin-element-label": "cangz"
+}

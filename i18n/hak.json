@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anson2812",
+			"Hakka",
+			"Jetlag",
+			"唐吉訶德的侍從"
+		]
+	},
+	"continuum-action-addsection": "Kâ-ngi̍p fa-thì",
+	"continuum-action-delete": "San-chhù",
+	"continuum-action-move": "Yì-thûng",
+	"continuum-action-protect": "Pó-fu",
+	"continuum-action-undelete": "恢復",
+	"continuum-action-unprotect": "更改保護",
+	"continuum-view-create": "Kien-li̍p",
+	"continuum-view-edit": "Phiên-siá",
+	"continuum-view-history": "Khon li̍t-sṳ́",
+	"continuum-view-view": "Thu̍k",
+	"continuum-view-viewsource": "Khon ngièn-sṳ́-mâ",
+	"continuum-more-actions": "Kiên-tô"
+}

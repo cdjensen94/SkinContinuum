@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irus",
+			"ObaTango"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 idioma}}",
+	"continuum-action-addsection": "Añadí un tópiko",
+	"continuum-action-delete": "Kita",
+	"continuum-action-move": "Move",
+	"continuum-action-protect": "Protehá",
+	"continuum-view-create": "Krea",
+	"continuum-view-edit": "Editá",
+	"continuum-view-history": "Bista di e historia",
+	"continuum-view-view": "Lesa",
+	"continuum-more-actions": "Mas",
+	"continuum-searchsuggest-containing": "Buska página ku tin <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>"
+}

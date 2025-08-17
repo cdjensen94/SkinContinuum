@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Castillerian",
+			"Har-wradim",
+			"Joystick",
+			"Pacha Tchernof",
+			"וויקיפּעדלער",
+			"פוילישער"
+		]
+	},
+	"skinname-continuum": "וועקטאר אלט (2010)",
+	"continuum-skin-desc": "פֿארזארגט צוויי וועקטאר וואריאנטן:\n* 2011 - די מאדערנע ווערסיע פון מאנאבוק מיט פרישן אויסזען און א סך באניצער־פריינדלעכקייט פארבעסערונגען\n* 2022 - די נייעסטע ווערסיע, אנטוויקלט אלס טייל פונעם WMF [[mw:Desktop Improvements|דעסקטאפ פֿארבעסערונגען]] פראיעקט",
+	"prefs-continuum-enable-continuum-1-help": "במשך די קומענדיגע יארן וועט מען ביסלעכווייז דערהיינטיקן דעם וועקטאר באניצער־אייבערפֿלאך. קלאסישער וועקטאר וועט אייך לאזן באקוקן די אלטע ווערסיע פון וועקטאר (פֿון דעצעמבער 2019). To learn more about the updates, go to our [[mw:Reading/Web/Desktop_Improvements|project page]].",
+	"continuum.css": "/* אלע CSS דא וועל ווערן געלאדן פֿאר באניצער פונעם וועקטאר סקין */",
+	"continuum-languages": "שפּראַכן",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 שפּראַך|$1 שפּראַכן}}",
+	"continuum-no-language-button-label": "צולייגן שפראַכן",
+	"continuum-action-addsection": "צושטעלן טעמע",
+	"continuum-action-delete": "אויסמעקן",
+	"continuum-action-move": "באַוועגן",
+	"continuum-action-protect": "שיצן",
+	"continuum-action-undelete": "מבטל זיין אויסמעקן",
+	"continuum-action-unprotect": "ענדערונג באַשיצונג",
+	"continuum-view-create": "שאַפֿן",
+	"continuum-view-edit": "רעדאַקטירן",
+	"continuum-view-history": "ווייזן היסטאָריע",
+	"continuum-view-view": "לייענען",
+	"continuum-view-viewsource": "ווײַזן מקור",
+	"continuum-more-actions": "נאָך",
+	"continuum-searchsuggest-containing": "זוכן בלעטער מיט<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "אינהאַלט",
+	"continuum-toc-beginning": "אָנפֿאַנג",
+	"continuum-main-menu-tooltip": "הויפט־מעניו",
+	"continuum-toc-menu-tooltip": "אינהאַלט טאַבעלע",
+	"continuum-main-menu-label": "הויפט־מעניו",
+	"continuum-page-tools-label": "געצייג",
+	"continuum-page-tools-general-label": "אַלגעמיין",
+	"continuum-pin-element-label": "אַריבערפיֿרן צו זייט־פאַס",
+	"continuum-unpin-element-label": "באַהאַלטן",
+	"continuum-toc-unpinned-popup": "די אינהאַלט־טאַבעלע האט מען אַריבערגעפֿירט אַהער.",
+	"continuum-main-menu-unpinned-popup": "דעם הויפט־מעניו האט מען אַריבערגעפֿירט אַהער."
+}

@@ -1,0 +1,37 @@
+@import '../variables.less';
+
+.gallery {
+    background-color: @color-dark-navy;
+    color: var(--color-white);
+    border: 1px solid @color-burnt-orange;
+    border-radius: 12px;
+    padding: 24px !important;
+
+    .gallery-item {
+        margin-bottom: 16px;
+        border-bottom: 1px solid @color-bright-orange;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .gallery-item-title {
+            font-weight: bold;
+            color: @color-orange;
+        }
+
+        .gallery-item-description {
+            color: @color-soft-peach;
+        }
+    }
+    li.gallerybox div.thumb {
+    background-color: @color-accent-navy;
+    border: 1px solid @color-bright-orange;
+    border-radius: 8px;
+    }
+
+}
+
+li.gallerybox div.thumb img {
+    border-radius: 6px;
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carma Citrawati",
+			"Chinamoonroll",
+			"Tok Pisin"
+		]
+	},
+	"continuum-languages": "ᬪᬵᬱ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ᬪᬲ}}",
+	"continuum-no-language-button-label": "ᬯᭂᬯᭂᬄᬪᬱ",
+	"continuum-action-addsection": "ᬯᭂᬯᭂᬄᬢᭀᬧᬶᬓ᭄",
+	"continuum-action-delete": "ᬳᬸᬲᬧ᭄",
+	"continuum-action-move": "ᬕᬶᬗ᭄ᬲᬶᬭᬗ᭄",
+	"continuum-view-create": "ᬓᬃᬤᬶ",
+	"continuum-view-edit": "ᬳᬸᬳᬄ",
+	"continuum-view-history": "ᬘᬶᬗᬓ᭄ᬩᬩᬤ᭄",
+	"continuum-view-view": "ᬯᬘᬾᬦ᭄",
+	"continuum-more-actions": "ᬮᬶᬬᬦᬦ᭄",
+	"continuum-searchsuggest-containing": "ᬋᬋᬄ​ᬳᬦ᭄ᬢᬸᬓ᭄​ᬓᬘ​ᬫᬤᬕᬶᬂ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "ᬤᬕᬶᬂ",
+	"continuum-toc-beginning": "ᬧᬫᬄᬩᬄ",
+	"continuum-page-tools-label": "ᬧᬶᬭᬦ᭄ᬢᬶ",
+	"continuum-page-tools-general-label": "ᬳᬸᬫᬸᬫ᭄",
+	"continuum-unpin-element-label": "ᬳᭂᬂᬓᭂᬩᬂ"
+}

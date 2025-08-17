@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Soul Train"
+		]
+	},
+	"continuum-languages": "Мазру",
+	"continuum-action-addsection": "Мяъна ххи бан",
+	"continuum-action-delete": "Леххан дуван",
+	"continuum-action-move": "ЦӀа даххана даву",
+	"continuum-action-protect": "Ххассал дуван",
+	"continuum-view-create": "Ляхъан бан",
+	"continuum-view-edit": "Дакьин дуван",
+	"continuum-view-history": "Суратту дихьан дан",
+	"continuum-view-view": "Ккалан",
+	"continuum-more-actions": "Ттигу",
+	"continuum-page-tools-label": "Ярагъ"
+}

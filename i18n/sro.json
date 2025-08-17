@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"F Samaritani",
+			"Jaime Sulas"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 lìngua|$1 linguas}}",
+	"continuum-action-addsection": "Aciungi arraxonu",
+	"continuum-action-delete": "Burra",
+	"continuum-action-move": "Movi",
+	"continuum-action-protect": "Cadela",
+	"continuum-view-create": "Cria",
+	"continuum-view-edit": "Muda",
+	"continuum-view-history": "Càstia sa stòria",
+	"continuum-view-view": "Ligi",
+	"continuum-more-actions": "Àteru",
+	"continuum-searchsuggest-containing": "Circa is pàginas chi tenint <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-menu-tooltip": "Ìndixi"
+}

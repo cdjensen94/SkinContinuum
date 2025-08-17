@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arsenekoumyk",
+			"ArslanX"
+		]
+	},
+	"continuum-action-addsection": "Мавзу къошмакъ",
+	"continuum-action-delete": "Тайдырмакъ",
+	"continuum-action-move": "Атын алышдырмакъ",
+	"continuum-action-protect": "Якъламакъ",
+	"continuum-view-create": "Яратмакъ",
+	"continuum-view-edit": "Тюзлемек",
+	"continuum-view-history": "Тарихине къарамакъ",
+	"continuum-view-view": "Охумакъ",
+	"continuum-more-actions": "Дагъы"
+}

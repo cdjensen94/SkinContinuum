@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adehertogh"
+		]
+	},
+	"continuum-languages": "Čhiba",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 čhib|$1 čhiba}}",
+	"continuum-no-language-button-label": "Te prithovel čhiba",
+	"continuum-action-addsection": "Te prithovel dumakero koter",
+	"continuum-action-delete": "Tele te khosel",
+	"continuum-action-move": "Avrete te thovel",
+	"continuum-action-protect": "Tele te phandel",
+	"continuum-view-create": "Ker",
+	"continuum-view-edit": "Te pikerel",
+	"continuum-view-history": "Te dikhel čirlatuňipen",
+	"continuum-view-view": "Te genel",
+	"continuum-more-actions": "Buter",
+	"continuum-toc-label": "Pherďaripena",
+	"continuum-unpin-element-label": "Te garuvel"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Symane",
+			"ZhuofanWu"
+		]
+	},
+	"continuum-languages": "語言",
+	"continuum-language-button-label": "{{PLURAL:$1|$1種語言}}",
+	"continuum-no-language-button-label": "加個語言",
+	"continuum-action-addsection": "添主題",
+	"continuum-action-delete": "刪吥",
+	"continuum-action-move": "移吥",
+	"continuum-action-protect": "護到",
+	"continuum-action-undelete": "望下刪吥嗰頁面",
+	"continuum-action-unprotect": "解除保護",
+	"continuum-view-create": "創建",
+	"continuum-view-edit": "編輯",
+	"continuum-view-history": "望下歷史",
+	"continuum-view-view": "讀",
+	"continuum-view-viewsource": "望下原始碼",
+	"continuum-more-actions": "更多",
+	"continuum-searchsuggest-containing": "尋下包含 <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> 嗰頁面",
+	"continuum-toc-label": "目錄",
+	"continuum-toc-beginning": "序言",
+	"continuum-main-menu-label": "主菜單",
+	"continuum-page-tools-label": "家業盒",
+	"continuum-page-tools-general-label": "常規",
+	"continuum-unpin-element-label": "收到"
+}

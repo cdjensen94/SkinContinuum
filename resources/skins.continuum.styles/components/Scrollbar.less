@@ -1,0 +1,25 @@
+// scrollbar.less
+@import '../variables.less';
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: @color-bright-orange;
+    border-radius: 10px;
+    border: 3px solid @color-lighter-navy;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: @color-soft-peach;
+}
+::-webkit-scrollbar-track {
+    background-color: @color-dark-navy;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-track:hover {
+    background-color: @color-accent-navy;
+}
+::-webkit-scrollbar-corner {
+    background-color: @color-dark-navy;
+    border-radius: 12px;
+}

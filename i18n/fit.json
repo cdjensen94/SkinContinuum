@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mestos",
+			"Palmtree222",
+			"Pyscowicz"
+		]
+	},
+	"continuum-action-addsection": "Lissää aihe",
+	"continuum-action-delete": "Ota poies",
+	"continuum-action-move": "Siirä",
+	"continuum-action-protect": "Suojaa",
+	"continuum-action-undelete": "Pane takashiin",
+	"continuum-action-unprotect": "Muuta suojaa",
+	"continuum-view-create": "Luo",
+	"continuum-view-edit": "Mookkaa",
+	"continuum-view-history": "Näytä histuuria",
+	"continuum-view-view": "Lue",
+	"continuum-view-viewsource": "Näytä lähekooti"
+}

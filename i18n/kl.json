@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iketsi",
+			"Qaqqalik"
+		]
+	},
+	"continuum-action-addsection": "Imm. nutaaq",
+	"continuum-action-move": "Nuuguk",
+	"continuum-view-create": "Pilersiguk",
+	"continuum-view-edit": "Aaqqissoruk",
+	"continuum-view-history": "Oqalutt.",
+	"continuum-view-view": "Takuuk",
+	"continuum-view-viewsource": "Toqqavia takuuk"
+}

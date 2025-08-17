@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"continuum-action-addsection": "Új téma nyitása",
+	"continuum-action-delete": "Törlés",
+	"continuum-action-move": "Átnevezés",
+	"continuum-action-protect": "Lapvédelem",
+	"continuum-action-undelete": "Visszaállítás",
+	"continuum-action-unprotect": "Védelem módosítása",
+	"continuum-view-create": "Létrehozás",
+	"continuum-view-edit": "Szerkesztés",
+	"continuum-view-history": "Laptörténet",
+	"continuum-view-view": "Olvasás",
+	"continuum-view-viewsource": "A lap forrása"
+}

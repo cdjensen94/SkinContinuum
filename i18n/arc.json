@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"334a",
+			"Basharh",
+			"Michaelovic"
+		]
+	},
+	"continuum-action-addsection": "ܐܘܣܦ ܡܠܘܐܐ",
+	"continuum-action-delete": "ܫܘܦ",
+	"continuum-action-move": "ܫܢܝ",
+	"continuum-action-protect": "ܛܪ",
+	"continuum-action-undelete": "ܠܐ ܫܘܦ",
+	"continuum-action-unprotect": "ܫܚܠܦ ܢܛܝܪܘܬܐ",
+	"continuum-view-create": "ܒܪܝ",
+	"continuum-view-edit": "ܫܚܠܦ",
+	"continuum-view-history": "ܚܙܝ ܬܫܥܝܬܐ",
+	"continuum-view-view": "ܩܪܝ",
+	"continuum-view-viewsource": "ܚܙܝ ܡܒܘܥܐ"
+}

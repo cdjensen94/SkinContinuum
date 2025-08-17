@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Codex Sinaiticus",
+			"Elfalem",
+			"Hinstein",
+			"Teferra"
+		]
+	},
+	"continuum-action-addsection": "ርዕስ ጨምር",
+	"continuum-action-delete": "አጥፋ",
+	"continuum-action-move": "ለማዛወር",
+	"continuum-action-protect": "ለመቆለፍ",
+	"continuum-action-undelete": "አታጥፋ",
+	"continuum-action-unprotect": "አለመቆለፍ",
+	"continuum-view-create": "አዲስ ፍጠር",
+	"continuum-view-edit": "አርም",
+	"continuum-view-history": "ታሪኩን አሳይ",
+	"continuum-view-view": "ለማንበብ",
+	"continuum-view-viewsource": "ጥሬ ኮድ ለመመልከት",
+	"continuum-more-actions": "ተጨማሪ"
+}

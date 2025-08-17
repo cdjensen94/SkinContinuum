@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lezgia",
+			"Migraghvi",
+			"Namik",
+			"Soul Train"
+		]
+	},
+	"continuum-languages": "ЧӀалар",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 чӀал|$1 чӀалар}}",
+	"continuum-no-language-button-label": "ЧӀалар алава авун",
+	"continuum-action-addsection": "Тема алава авун",
+	"continuum-action-delete": "Алудун",
+	"continuum-action-move": "ТӀвар эхцигун",
+	"continuum-action-protect": "Хуьн",
+	"continuum-action-undelete": "ТуькӀуьр хъувун",
+	"continuum-action-unprotect": "Хуьн дегишарун",
+	"continuum-view-create": "ТуькӀуьрун",
+	"continuum-view-edit": "Дуьзарин",
+	"continuum-view-history": "Тарихдиз килигун",
+	"continuum-view-view": "КӀелун",
+	"continuum-view-viewsource": "Чешме къалурун",
+	"continuum-more-actions": "Мадни",
+	"continuum-toc-label": "Къене авайбур",
+	"continuum-toc-beginning": "Бине",
+	"continuum-main-menu-label": "Кьилин меню",
+	"continuum-page-tools-label": "Алатар",
+	"continuum-page-tools-general-label": "ЧӀехидин",
+	"continuum-unpin-element-label": "чуьнуьхун"
+}

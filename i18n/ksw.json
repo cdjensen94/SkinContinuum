@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaeminlovetaejoon",
+			"SawJaemin"
+		]
+	},
+	"continuum-action-addsection": "မၤအါထီၣ်တၢ်ဂ့ၢ်ခိၣ်တီ",
+	"continuum-action-delete": "ထူးသံကွံာ်",
+	"continuum-action-move": "သုး",
+	"continuum-action-protect": "ဒီသဒၢ",
+	"continuum-view-create": "တ့ထီၣ်",
+	"continuum-view-edit": "အဲးဒံၣ်",
+	"continuum-view-history": "ကွၢ်တၢ်စံၣ်စိၤတဲစိၤ",
+	"continuum-view-view": "ဖး",
+	"continuum-more-actions": "အါထီၣ်",
+	"tooltip-continuum-anon-user-menu-title": "တၢ်ဃုထၢအါထီၣ်"
+}

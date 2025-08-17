@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meerrahtar",
+			"Merrahtar"
+		]
+	},
+	"continuum-languages": "Кӣл",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 кӣлл|$1 кӣл|$1 кӣллэ}}",
+	"continuum-no-language-button-label": "Лажьхэ кӣлэтҍ",
+	"continuum-action-addsection": "Лажьхэ те̄ма",
+	"continuum-action-delete": "Вэ̄цксэ",
+	"continuum-action-move": "Воа̄йхэ нэ̄м",
+	"continuum-action-protect": "Пынне",
+	"continuum-view-create": "Лыһкэ",
+	"continuum-view-edit": "Воа̄йхэ",
+	"continuum-view-history": "Исторья",
+	"continuum-view-view": "Ло̄гкэ",
+	"continuum-more-actions": "Вя̄л",
+	"skin-theme-name": "Ыввьн",
+	"skin-theme-day-label": "Чӯввесь",
+	"continuum-searchsuggest-containing": "О̄дзэ лыстэнҍ, мэ̄йн лӣ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-main-menu-label": "Шурьмусс меню",
+	"continuum-page-tools-label": "Тӯййшэмка̄вьн",
+	"continuum-page-tools-general-label": "Э̄ххтса",
+	"continuum-pin-element-label": "лыгксаһтӭ е̄ҏҏьт паннле",
+	"continuum-unpin-element-label": "пе̄ҋҋтэ"
+}

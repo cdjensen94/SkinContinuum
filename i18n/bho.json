@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ganesh",
+			"Nepaboy",
+			"SatyamMishra"
+		]
+	},
+	"continuum-languages": "भाषा",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 भाषा|$1 भाषा सभ}}",
+	"continuum-no-language-button-label": "भाषा जोड़ीं",
+	"continuum-action-addsection": "बिसय जोड़ीं",
+	"continuum-action-delete": "मिटाईं",
+	"continuum-action-move": "स्थानांतरण",
+	"continuum-action-protect": "सुरक्षित करीं",
+	"continuum-action-undelete": "मत मिटाईं",
+	"continuum-action-unprotect": "सुरक्षा बदलीं",
+	"continuum-view-create": "बनाईं",
+	"continuum-view-edit": "संपादन",
+	"continuum-view-history": "इतिहास देखीं",
+	"continuum-view-view": "पढ़ीं",
+	"continuum-view-viewsource": "स्रोत देखीं",
+	"continuum-more-actions": "अधिका",
+	"continuum-searchsuggest-containing": "पन्ना खोजीं जिनहन में <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> होखे",
+	"continuum-page-tools-label": "औजार",
+	"continuum-page-tools-general-label": "जनरल",
+	"continuum-unpin-element-label": "लुकवाईं"
+}

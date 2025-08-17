@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Gts-tg",
+			"Omnipaedista"
+		]
+	},
+	"continuum-action-addsection": "Θέμα προστιθέναι",
+	"continuum-action-delete": "Σβεννύναι",
+	"continuum-action-move": "Κινεῖν",
+	"continuum-action-protect": "Φυλάττειν",
+	"continuum-action-undelete": "Ἀποκαθιστάναι",
+	"continuum-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
+	"continuum-view-create": "Ποιεῖν",
+	"continuum-view-edit": "Μεταγράφειν",
+	"continuum-view-history": "Ἱστορίαν ὁρᾶν",
+	"continuum-view-view": "Ἀναγνῶναι",
+	"continuum-view-viewsource": "Ὁρᾶν τὴν πηγήν",
+	"continuum-more-actions": "Πλεῖον"
+}

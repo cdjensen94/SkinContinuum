@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adam-Yourist",
+			"AlexandrL714",
+			"Oxianboal",
+			"Андрей Саг.",
+			"Матыр"
+		]
+	},
+	"continuum-languages": "Тіллер",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 тiл}}",
+	"continuum-no-language-button-label": "Тіллер хозарға",
+	"continuum-action-addsection": "Тема хозыбызарға",
+	"continuum-action-delete": "Чох идерге",
+	"continuum-action-move": "Адын алыстырарға",
+	"continuum-action-protect": "Арачылирға",
+	"continuum-view-create": "Идерге",
+	"continuum-view-edit": "Тӱзедерге",
+	"continuum-view-history": "Тархынны кӧзідерге",
+	"continuum-view-view": "Хығырарға",
+	"continuum-more-actions": "Паза пасхазы",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> пар страницаларны тілирi",
+	"continuum-toc-label": "Таптырғас",
+	"continuum-toc-beginning": "Пасталғаны",
+	"continuum-main-menu-label": "Ӧӧн меню",
+	"continuum-page-tools-label": "Тиріглер",
+	"continuum-page-tools-general-label": "Тиксі",
+	"continuum-unpin-element-label": "чазырарға"
+}

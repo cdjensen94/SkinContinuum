@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beunice",
+			"Ebe123",
+			"Hangmanwa7id"
+		]
+	},
+	"continuum-action-delete": "Supprimer",
+	"continuum-action-move": "Renommer",
+	"continuum-action-protect": "Protéger",
+	"continuum-view-create": "Créer",
+	"continuum-view-edit": "Changer",
+	"continuum-view-history": "Voir l’historique",
+	"continuum-view-view": "Lire",
+	"continuum-view-viewsource": "Regarder la source",
+	"continuum-more-actions": "Plus"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25",
+			"Ramsis II"
+		]
+	},
+	"continuum.css": "/* CSS اللى هنا حتأثر على اليوزرز اللى بيستخدموا واجهة فكتور */",
+	"continuum.js": "/* اى جافاسكريبت هنا حتتحمل لكل يوزر بيستخدم واجهة فكتور */",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 لغه|$1 لغات}}",
+	"continuum-action-addsection": "ضيف موضوع",
+	"continuum-action-delete": "مسح",
+	"continuum-action-move": "نقل",
+	"continuum-action-protect": "حمايه",
+	"continuum-action-undelete": "الغى المسح",
+	"continuum-action-unprotect": "غير الحمايه",
+	"continuum-view-create": "اعمل",
+	"continuum-view-edit": "تعديل",
+	"continuum-view-history": "استعراض التاريخ",
+	"continuum-view-view": "قرايه",
+	"continuum-view-viewsource": "استعراض المصدر",
+	"continuum-more-actions": "اكتر"
+}

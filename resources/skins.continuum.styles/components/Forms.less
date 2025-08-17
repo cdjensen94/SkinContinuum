@@ -1,0 +1,241 @@
+@import '../variables.less';
+@import '../typography.less';
+
+textarea {
+    background-color: @color-deep-navy;
+    color: @color-white;
+    border: 1px solid @color-burnt-orange;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: @font-code;
+    font-size: @font-size-medium;
+	width: 100% !important;
+	display: block;
+}
+/* your normal styles (kept) */
+input.mw-userlogin-username,
+input.mw-userlogin-password,
+.cdx-text-input__input:enabled,
+#wpName1, #wpPassword1,
+.logintext, .loginpassword {
+  background-color: var(--color-dark-navy) !important;
+  background: var(--color-dark-navy) !important;
+  color: var(--color-base) !important;
+  border: 1px solid var(--color-burnt-orange);
+  border-radius: 8px !important;
+  padding: 12px;
+  font-family: 'Libertinus Mono','Courier Prime','Courier New',monospace;
+  font-size: var(--font-size-medium);
+  caret-color: var(--color-base);
+}
+
+/* specifically catch password inputs */
+input[type="password"],
+#wpPassword1,
+input.mw-userlogin-password,
+.cdx-text-input__input[type="password"] {
+  background-color: var(--color-dark-navy) !important;
+  color: var(--color-base) !important;
+}
+
+/* —— Chrome/Edge/Safari (WebKit/Blink) autofill fix —— */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  /* paint over the blue */
+  -webkit-box-shadow: 0 0 0 1000px var(--color-dark-navy) inset !important;
+  box-shadow:        0 0 0 1000px var(--color-dark-navy) inset !important;
+
+  /* keep your text color */
+  -webkit-text-fill-color: var(--color-base) !important;
+
+  /* stop the yellow-ish flash */
+  transition: background-color 9999s ease-out 0s !important;
+}
+
+/* Firefox autofill */
+input:-moz-autofill {
+  box-shadow: 0 0 0 1000px var(--color-dark-navy) inset !important;
+  -moz-text-fill-color: var(--color-base) !important;
+}
+
+/* Optional: tighten Codex defaults if they leak through */
+.cdx-text-input__input {
+  background-color: var(--color-dark-navy) !important;
+  color: var(--color-base) !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="username"],
+input[type="password"] {
+    background-color: @color-dark-navy;
+    color: @color-white;
+    border: 1px solid @color-burnt-orange;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: @font-code;
+    font-size: var(--font-size-medium);
+}
+input[type="checkbox"] {
+	appearance: none;
+	-webkit-appearance: none; // for Safari
+	width: 1.2em;
+	height: 1.2em;
+	border: 2px solid @color-bright-orange;
+	border-radius: 4px;
+	background-color: @color-deep-navy !important;
+    background: @color-dark-navy !important;
+	cursor: pointer;
+	position: relative;
+	vertical-align: middle;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+input[type="checkbox"]:checked {
+	background-color: @color-burnt-orange;
+    background: @color-burnt-orange !important;
+	border-color: @color-bright-orange;
+/*
+	&::after {
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 5px;
+		width: 8px;
+		height: 8px;
+		border: solid white;
+		border-width: 0 2px 2px 0;
+		transform: rotate(45deg);
+	}
+*/
+
+}
+input[type="file"] {
+	background-color: @color-bright-orange;
+	color: @color-white;
+	border: 1px solid @color-burnt-orange;
+	border-radius: 8px;
+	padding: 12px;
+	font-family: @font-code;
+	font-size: @font-size-medium;
+}
+input[type="submit"],
+input[type="button"] {
+	background-color: @color-deep-navy;
+	color: @color-white;
+	border: 1px solid @color-burnt-orange;
+	border-radius: 8px;
+	padding: 12px 24px;
+	font-family: @font-code;
+	font-size: @font-size-medium;
+	cursor: pointer;
+}
+form .upload {
+	background-color: @color-dark-navy;
+	color: @color-white;
+	border: 1px solid @color-burnt-orange;
+	border-radius: 8px;
+	padding: 12px;
+	font-family: @font-code;
+	font-size: @font-size-medium;
+
+	legend {
+		font-weight: bold;
+		color: @color-soft-peach;
+	}
+}
+select {
+    background-color: @color-dark-navy;
+    color: @color-white;
+    border: 1px solid @color-burnt-orange;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: @font-code;
+    font-size: @font-size-medium;
+}
+.oo-ui-toggleButtonWidget {
+	&.oo-ui-widget-enabled {
+		background-color: transparent;
+		border: 1px solid @color-deep-navy;
+		color: @color-bright-orange;
+
+		&[aria-pressed="true"] {
+			background-color: @color-deep-navy;
+			color: #fff;
+			border-color: @color-burnt-orange;
+		}
+	}
+}
+.oo-ui-labelElement-label
+{
+	color: @color-white;
+	font-family: @font-code;
+	font-size: @font-size-medium;
+	background-color: transparent !important;
+}
+.site-button {
+	background-color: @color-deep-navy;
+	color: @color-white;
+	border: 1px solid @color-burnt-orange;
+	border-radius: 8px;
+	padding: 12px 24px;
+	font-family: @font-code;
+	font-size: @font-size-medium;
+	cursor: pointer;
+
+	&:hover {
+		background-color: @color-bright-orange;
+		color: @color-progressive--hover;
+		border-color: @color-burnt-orange;
+		box-shadow: inset 0 0 0 1px @color-burnt-orange, inset 0 0 0 2px @color-bright-orange;
+	}
+
+	&:active {
+		background-color: @color-soft-peach;
+		color: @color-inverted;
+		border-color: @color-burnt-orange;
+		box-shadow: inset 0 0 0 1px @color-burnt-orange, inset 0 0 0 2px @color-soft-peach;
+	}
+}
+.create-poll-top {
+	background-color: @color-dark-navy;
+	color: @color-white;
+	border: 1px solid @color-burnt-orange;
+	border-radius: 8px;
+	padding: 12px;
+	font-family: @font-code;
+	font-size: @font-size-medium;
+
+	.wrapper-sort-handle {
+		&.handle-in-tool {
+			background-color: transparent;
+			display: inline-block;
+			width: 40px;
+			height: 100%;
+			cursor: move;
+
+			&.oo-ui-widget-enabled {
+				background-color: #cecece;
+				border-radius: 0;
+				border: none;
+				padding: 0 !important;
+			}
+		}
+	}
+}
+.cdx-checkbox:not(.cdx-checkbox--inline) {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 12px;
+}

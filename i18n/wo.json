@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibou"
+		]
+	},
+	"continuum-action-addsection": "Yokkuw tëriit",
+	"continuum-action-delete": "Far",
+	"continuum-action-move": "Tuddewaat",
+	"continuum-action-protect": "Aar",
+	"continuum-action-undelete": "Delloowaat",
+	"continuum-action-unprotect": "Aaradi",
+	"continuum-view-create": "Sos",
+	"continuum-view-edit": "Soppi",
+	"continuum-view-history": "Wone jaar-jaaram",
+	"continuum-view-view": "Jàng",
+	"continuum-view-viewsource": "Wone gongikuwaayam",
+	"continuum-more-actions": "Yeneen"
+}

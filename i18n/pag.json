@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang",
+			"Exec8"
+		]
+	},
+	"continuum-languages": "Saray lenguahe",
+	"continuum-language-button-label": "{{PLURAL:$1| $1 lenguahe| $1 ya lenguahe}}",
+	"continuum-no-language-button-label": "Ipasakbay iray lenguahe",
+	"continuum-action-delete": "Buralen",
+	"continuum-action-move": "Iyales",
+	"continuum-action-protect": "Iyagel",
+	"continuum-view-create": "Palsaen",
+	"continuum-view-edit": "Dumaen",
+	"continuum-view-history": "Nengnengen so awaran",
+	"continuum-view-view": "Basaen",
+	"continuum-more-actions": "Lalo",
+	"continuum-appearance-label": "Say Itsura",
+	"continuum-feature-limited-width-name": "Kaawang",
+	"continuum-feature-limited-width-0-label": "Maawang",
+	"continuum-feature-limited-width-1-label": "Estandarte",
+	"continuum-feature-custom-font-size-name": "Teksto",
+	"continuum-feature-custom-font-size-0-label": "Melag",
+	"continuum-feature-custom-font-size-1-label": "Estandarte",
+	"continuum-feature-custom-font-size-2-label": "Baleg",
+	"skin-theme-name": "Kolor",
+	"skin-theme-day-label": "Silew",
+	"skin-theme-night-label": "Ambelunget",
+	"skin-theme-os-label": "Automatiko",
+	"skin-theme-exclusion-notice": "Sayan pahina et lanang ya walad light mode.",
+	"continuum-searchsuggest-containing": "Mananap na saray pahina ya wala ed <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-main-menu-label": "Manunan menu",
+	"continuum-feature-custom-font-size-exclusion-notice": "Diad sayan pahina et lanang ya uusaren so melag ya font size",
+	"continuum-page-tools-label": "Saray Kagawaan",
+	"continuum-page-tools-general-label": "General",
+	"continuum-page-tools-actions-label": "Saray Aksion",
+	"continuum-unpin-element-label": "iyamot"
+}

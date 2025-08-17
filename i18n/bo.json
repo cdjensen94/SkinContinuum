@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Freeyak",
+			"Phurbutsering",
+			"ཁ་བཏགས་ནག་པོ"
+		]
+	},
+	"continuum-action-addsection": "བརྗོད་གཞི་ཁ་སྣོན།",
+	"continuum-action-delete": "སུབས།",
+	"continuum-action-move": "སྤོར་བ།",
+	"continuum-action-protect": "འགོག་སྲུང།",
+	"continuum-action-undelete": "མི་བསུབས་",
+	"continuum-action-unprotect": "སྲུང་སྐྱོབ་གློད་པ།",
+	"continuum-view-create": "གསར་བཟོ།",
+	"continuum-view-edit": "རྩོམ་སྒྲིག",
+	"continuum-view-history": "ལོ་རྒྱུས་ལ་ལྟ་བ།",
+	"continuum-view-view": "ཀློག་པ།",
+	"continuum-view-viewsource": "ཁུངས་ལ་ལྟ་བ།",
+	"continuum-more-actions": "དེ་ལས་མང་བ།"
+}

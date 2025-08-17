@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Han4299"
+		]
+	},
+	"continuum-languages": "Basa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 basana}}",
+	"continuum-no-language-button-label": "Tamba basa",
+	"continuum-action-addsection": "Tawang beru",
+	"continuum-action-delete": "Pelak",
+	"continuum-action-move": "Palettek",
+	"continuum-action-protect": "Linrungi",
+	"continuum-view-create": "Parek",
+	"continuum-view-edit": "Pinra",
+	"continuum-view-history": "Cinik riwayakna",
+	"continuum-view-view": "Baca",
+	"continuum-more-actions": "Maraengangna",
+	"continuum-appearance-label": "Rupanna",
+	"continuum-feature-limited-width-name": "Labbak",
+	"continuum-feature-limited-width-0-label": "Labbak",
+	"continuum-feature-limited-width-1-label": "Pappadongkokang",
+	"continuum-feature-custom-font-size-name": "Ukirang",
+	"continuum-feature-custom-font-size-0-label": "Caddi",
+	"continuum-feature-custom-font-size-1-label": "Pappadongkokang",
+	"continuum-feature-custom-font-size-2-label": "Lompo",
+	"skin-theme-name": "Cora",
+	"skin-theme-day-label": "Singarak",
+	"skin-theme-night-label": "Sassang",
+	"skin-theme-os-label": "Otomatisik",
+	"skin-theme-exclusion-notice": "Anne barambanga tulusuki ri mode singarak.",
+	"continuum-searchsuggest-containing": "Boya barambang na ambonei <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Bone-bonena",
+	"continuum-toc-beginning": "Uru-uruna",
+	"continuum-main-menu-label": "Ulu barambang",
+	"continuum-feature-custom-font-size-exclusion-notice": "Anne barambanga tulusuk ammake ukirang caddi",
+	"continuum-page-tools-label": "Parewa",
+	"continuum-page-tools-general-label": "Ammang",
+	"continuum-page-tools-actions-label": "Panggaukang",
+	"continuum-unpin-element-label": "pacokkoi"
+}

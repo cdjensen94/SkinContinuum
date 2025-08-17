@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"AgnesAbah",
+			"Beracy",
+			"Jerryjaymi"
+		]
+	},
+	"continuum-opt-out": "Dabi tí alù kí eju ñwu de kwobí",
+	"continuum-opt-out-tooltip": "Fí settings kpaílo todù kí dabi akwobi",
+	"continuum-action-toggle-sidebar": "Sibebar Toggle",
+	"continuum-languages": "Amí ichí",
+	"continuum-language-button-aria-label": "Lotí articlu efí ichi omone. Kí de efí {{PLURAL:$1|ichi|$1 amí ichi }}",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 íchi|$1 amí íchi}}",
+	"continuum-no-language-button-label": "Dí amí ichí manwu",
+	"continuum-no-language-button-aria-label": "Ola kí de yí ché de efí ichi kí deyi kété. Dí ola kí de yi dama kpaí amí ichi omone",
+	"continuum-action-addsection": "Dí óla manyu",
+	"continuum-action-delete": "Dukwó",
+	"continuum-action-move": "Tẹlo",
+	"continuum-action-protect": "Dída",
+	"continuum-view-create": "Nyí",
+	"continuum-view-edit": "Nwọ́che",
+	"continuum-view-history": "Gọ ọ́là īgbálá",
+	"continuum-view-view": "Gbá",
+	"continuum-view-viewsource": "gí été",
+	"continuum-jumptosearch": "Lo ti ugbo ke neke téné énwu",
+	"continuum-jumptocontent": "Lotí ogba ogbolo",
+	"continuum-more-actions": "Mànyú",
+	"continuum-appearance-label": "Egbá ehuté",
+	"continuum-feature-custom-font-size-0-label": "Kéké",
+	"continuum-searchsuggest-containing": "Téné amí ogbá kí gwonwú <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Èyo ùkóló",
+	"continuum-toc-beginning": "Uchane",
+	"continuum-anon-user-menu-pages-learn": "Koche tógba",
+	"continuum-anon-user-menu-pages-label": "Koche tógba alù kù mà nwoche",
+	"continuum-main-menu-tooltip": "Ogba ogbolo",
+	"continuum-page-tools-label": "Amí ewñ ane",
+	"continuum-page-tools-general-label": "Ochakadu",
+	"continuum-unpin-element-label": "dúmája",
+	"continuum-page-tools-nav-label": "Amí eñwu ekwu ogba"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geoleplubo"
+		]
+	},
+	"continuum-action-addsection": "Rajouter un sujeut",
+	"continuum-action-delete": "Défacer",
+	"continuum-action-move": "Canger ch'nom",
+	"continuum-action-protect": "Garantir",
+	"continuum-action-undelete": "N'poin défacher",
+	"continuum-action-unprotect": "Canger l'garantie",
+	"continuum-view-create": "Créer",
+	"continuum-view-edit": "Éditer",
+	"continuum-view-history": "Vir l'histoère",
+	"continuum-view-view": "Lire",
+	"continuum-view-viewsource": "Vir l'source",
+	"continuum-more-actions": "Pus"
+}

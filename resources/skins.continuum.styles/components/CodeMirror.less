@@ -1,0 +1,93 @@
+@import '../variables.less';
+
+.ve-ce-surface-source.CodeMirror {
+    background: @color-deep-navy;
+    background-color: @color-black;
+    color: @color-white;
+    border: 1px solid @color-bright-orange;
+    //border-radius: 4px;
+    padding: 0 !important;
+	width: 100% !important;
+	min-height: 100% !important;
+	display: block;
+	box-sizing: border-box;
+}
+.ve-ui-surface-source .CodeMirror pre {
+	font-family: "Fira Code", "JetBrains Mono", "Courier New", monospace !important;
+}
+
+.CodeMirror-scroll {
+    padding: 0 !important;
+}
+.ve-ui-surface-source {
+	min-height: 300px !important;
+	display: block;
+}
+.CodeMirror pre, .CodeMirror-lines {
+    font-family: "Libertinus Mono", "Source Code Pro", monospace !important;
+	font-size: 14px !important;
+	line-height: 1.4 !important;
+}
+.cm-keyword { color: @color-bright-orange; font-weight: bold; }
+.cm-string  { color: @color-azure; }
+.cm-comment { color: @color-soft-gray; font-style: italic; }
+.cm-number  { color: @color-gold; }
+.cm-variable { color: @color-soft-peach; }
+.cm-def     { color: @color-burnt-orange; }
+.cm-mw-section-header { color: @color-blue; font-weight: bold; }
+.CodeMirror-cursor { border-left: 1px solid @color-orange; }
+.CodeMirror-gutters, .CodeMirror-linenumbers {
+    background-color: @color-dark-navy !important;
+    color: @color-soft-peach !important;
+    border-right: 1px solid @color-orange !important;
+}
+.cm-def{
+    color: #cb4b16 !important; /* example color for definitions */
+}
+.cm-comment{
+    color: #93a1a1 !important; /* example color for comments */
+}
+.cm-keyword{
+    color: #859900 !important; /* example color for keywords */
+}
+.cm-string{
+    color: #2aa198 !important; /* example color for strings */
+}
+.cm-number{
+    color: #b58900 !important; /* example color for numbers */
+}
+.cm-mw-section-header{
+    color: #268bd2 !important; /* example color for section headers */
+}
+.cm-mw-template{
+    color: #6c71c4 !important; /* example color for templates */
+}
+.cm-mw-parserfunction-name{
+    color: #d33682 !important; /* example color for parser function names */
+}
+.cm-mw-htmltag-attribute{
+    color: #dc322f !important; /* example color for HTML tag attributes */
+}
+.cm-mw-link-brackets{
+    color: #657b83 !important; /* example color for link brackets */
+}
+.cm-mw-link-pagename{
+    color: #839496 !important; /* example color for link page names */
+}
+.cm-mw-link-text{
+    color: #c4c4c4 !important; /* example color for link text */
+}
+.cm-mw-exttag-attribute{
+    color: #b58900 !important; /* example color for external tag attributes */
+}
+.cm-mw-exttag-name{
+    color: #cb4b16 !important; /* example color for external tag names */
+}
+.cm-mw-exttag-brackets{
+    color: #268bd2 !important; /* example color for external tag brackets */
+}
+.cm-mw-exttag{
+    color: #2aa198 !important; /* example color for external tag content */
+}
+/* Insert rules from lightbulb.css here, adjusting selectors */
+.CodeMirror-cursor { border-left: 1px solid @color-burnt-orange !important; }

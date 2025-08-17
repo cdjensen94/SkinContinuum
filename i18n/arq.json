@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda",
+			"GeekEmad",
+			"Oldstoneage"
+		]
+	},
+	"continuum-skin-desc": "طبعة جديدة تاع مونوبوك، ب شبحة جديدة و تحسانات فل إستعماليّة",
+	"continuum-action-addsection": "زيد موضوع",
+	"continuum-action-delete": "امحي",
+	"continuum-action-move": "حول",
+	"continuum-action-protect": "بروجي",
+	"continuum-action-undelete": "ردّ كيما كان",
+	"continuum-action-unprotect": "بدّل الـحماية",
+	"continuum-view-create": "أصنع",
+	"continuum-view-edit": "بدّل",
+	"continuum-view-history": "شوف التاريخ",
+	"continuum-view-view": "اقرى",
+	"continuum-view-viewsource": "شوف المصدر",
+	"continuum-more-actions": "اكثر"
+}

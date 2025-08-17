@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jumpy01",
+			"Jun Misugi",
+			"Paulu"
+		]
+	},
+	"continuum-opt-out": "Vultà à l'aspettu di nanzu",
+	"continuum-languages": "Lingue",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 lingua|$1 lingue}}",
+	"continuum-no-language-button-label": "Aghjunghje lingue",
+	"continuum-action-addsection": "Aghjunghje discussione",
+	"continuum-action-delete": "Supprimà",
+	"continuum-action-move": "Cullucà",
+	"continuum-action-protect": "Pruteghje",
+	"continuum-action-unprotect": "Cambià a prutezzione",
+	"continuum-view-create": "Creà",
+	"continuum-view-edit": "Mudificà",
+	"continuum-view-history": "Vede a cronolugia",
+	"continuum-view-view": "Leghje",
+	"continuum-view-viewsource": "Vede a surghjente",
+	"continuum-more-actions": "Più",
+	"continuum-appearance-label": "Apparenza",
+	"continuum-feature-limited-width-name": "Larghezza",
+	"continuum-feature-limited-width-0-label": "Maiò",
+	"continuum-feature-custom-font-size-name": "Testu",
+	"continuum-feature-custom-font-size-0-label": "Minutu",
+	"continuum-feature-custom-font-size-2-label": "Grossu",
+	"continuum-toc-label": "Cuntenuti",
+	"continuum-toc-beginning": "Principiu",
+	"continuum-page-tools-label": "Strumenti",
+	"continuum-page-tools-general-label": "Generali",
+	"continuum-unpin-element-label": "piattà"
+}

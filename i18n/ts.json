@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Thuvack"
+		]
+	},
+	"continuum-action-addsection": "Veka nholoko ya mhaka",
+	"continuum-action-delete": "Sula",
+	"continuum-action-move": "Yi sa kunwana",
+	"continuum-action-protect": "Sirhelela",
+	"continuum-action-undelete": "Cinca kusula",
+	"continuum-action-unprotect": "Cinca kusirhelela",
+	"continuum-view-create": "Tumbuluxa",
+	"continuum-view-edit": "Lulamisa",
+	"continuum-view-history": "Languta matimu",
+	"continuum-view-view": "Hlaya",
+	"continuum-view-viewsource": "Languta xihlovo"
+}

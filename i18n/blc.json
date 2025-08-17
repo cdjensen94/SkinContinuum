@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muskwatch"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|smawiixw wa slhk'msta|$1 wa slhk'msta}}",
+	"continuum-action-move": "sasttxw",
+	"continuum-view-create": "sikstucw ti umat t'ayc",
+	"continuum-view-edit": "qw'lasiitucw",
+	"continuum-view-history": "sik'cicw ti s7alh7ayts ti umat t'ayc alh tu patsalh txw",
+	"continuum-view-view": "sipaapqanu",
+	"continuum-more-actions": "inic7acwlh"
+}

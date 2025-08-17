@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Przemub",
+			"Schläsinger",
+			"Timpul",
+			"Äberlausitzer"
+		]
+	},
+	"continuum-action-addsection": "Obschniet hinzufiega",
+	"continuum-action-delete": "Läscha",
+	"continuum-action-move": "Verschieba",
+	"continuum-action-protect": "Schitza",
+	"continuum-action-undelete": "Wiederherstella",
+	"continuum-action-unprotect": "Freigahn",
+	"continuum-view-create": "Erstella",
+	"continuum-view-edit": "Beoarbeeta",
+	"continuum-view-history": "Versionsgeschichte",
+	"continuum-view-view": "Lasa",
+	"continuum-view-viewsource": "Quelltext siehn",
+	"continuum-more-actions": "Meh"
+}

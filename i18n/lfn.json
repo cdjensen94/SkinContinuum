@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cgboeree",
+			"Chabi",
+			"Elefentiste",
+			"Katxis"
+		]
+	},
+	"continuum-languages": "Linguas",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 lingua|$1 linguas}}",
+	"continuum-no-language-button-label": "Ajunta linguas",
+	"continuum-action-addsection": "Ajunta un tema",
+	"continuum-action-delete": "Sutrae",
+	"continuum-action-move": "Move",
+	"continuum-action-protect": "Proteje",
+	"continuum-view-create": "Crea",
+	"continuum-view-edit": "Edita",
+	"continuum-view-history": "Mostra istoria",
+	"continuum-view-view": "Leje",
+	"continuum-more-actions": "Plu",
+	"continuum-appearance-label": "Aspeta",
+	"continuum-feature-limited-width-name": "Largia",
+	"continuum-feature-limited-width-0-label": "Larga",
+	"continuum-feature-limited-width-1-label": "Normal",
+	"continuum-feature-custom-font-size-name": "Testo",
+	"continuum-feature-custom-font-size-0-label": "Peti",
+	"continuum-feature-custom-font-size-1-label": "Normal",
+	"continuum-feature-custom-font-size-2-label": "Grande",
+	"skin-theme-name": "Color",
+	"skin-theme-day-label": "Pal",
+	"skin-theme-night-label": "Oscur",
+	"skin-theme-os-label": "Automata",
+	"continuum-toc-beginning": "Comensa",
+	"continuum-main-menu-label": "Menu xef",
+	"continuum-feature-custom-font-size-exclusion-notice": "Esta paje usa sempre tipo peti",
+	"continuum-page-tools-label": "Utiles",
+	"continuum-page-tools-general-label": "Jeneral",
+	"continuum-unpin-element-label": "asconde"
+}

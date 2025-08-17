@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar",
+			"Arslan",
+			"Bgo eiu",
+			"Khalid Mahmood"
+		]
+	},
+	"continuum-opt-out": "پرانی وضع اُتے پرتو",
+	"continuum-languages": "بولیاں",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 بولی|$1 بولیاں}}",
+	"continuum-no-language-button-label": "بولیاں جوڑو",
+	"continuum-action-addsection": "مضمون پایو",
+	"continuum-action-delete": "مٹاؤ",
+	"continuum-action-move": "لے چلو",
+	"continuum-action-protect": "بچاؤ",
+	"continuum-action-undelete": "واپس لیاؤ",
+	"continuum-action-unprotect": "تبدیلی بچاؤ",
+	"continuum-view-create": "بݨاؤ",
+	"continuum-view-edit": "سودھو",
+	"continuum-view-history": "تریخ ویکھو",
+	"continuum-view-view": "پڑھو",
+	"continuum-view-viewsource": "سورس ویکھو",
+	"continuum-more-actions": "ہور",
+	"continuum-searchsuggest-containing": "اس ٹرم نوں صفحےآں وچ کھوجو <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-page-tools-label": "سند",
+	"continuum-page-tools-general-label": "عام",
+	"continuum-unpin-element-label": "لُکاؤ"
+}

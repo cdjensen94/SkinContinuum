@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sauit"
+		]
+	},
+	"continuum-languages": "Тыллар",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 тыл|$1 тыллар}}",
+	"continuum-no-language-button-label": "Тылы эп",
+	"continuum-action-addsection": "Тиэмэни эп",
+	"continuum-action-delete": "Һоттор",
+	"continuum-action-move": "Аатын уларыт",
+	"continuum-action-protect": "Көмүскээ",
+	"continuum-view-create": "Тэрий",
+	"continuum-view-history": "Историятын көрүү",
+	"continuum-more-actions": "Өссүө",
+	"continuum-appearance-label": "Тас көстүүтэ",
+	"continuum-feature-limited-width-name": "Иэнэ",
+	"continuum-feature-limited-width-0-label": "Иэнэ",
+	"continuum-feature-limited-width-1-label": "Стандарт",
+	"continuum-feature-custom-font-size-name": "Тиэкис",
+	"continuum-feature-custom-font-size-0-label": "Кыра",
+	"continuum-feature-custom-font-size-1-label": "Стандартнай",
+	"continuum-feature-custom-font-size-2-label": "Бөдөӈ",
+	"skin-theme-name": "Һибиэт",
+	"skin-theme-day-label": "Һырдык",
+	"skin-theme-night-label": "Караӈа",
+	"skin-theme-os-label": "Автомааттыы",
+	"skin-theme-exclusion-notice": "Бу һырай биэк һырдык",
+	"continuum-toc-label": "Ис коһооно",
+	"continuum-toc-beginning": "Сагаланыы",
+	"continuum-anon-user-menu-pages": "Киирбэтэк кыттыылаактар һырайдара",
+	"continuum-main-menu-label": "Һүрүн меню",
+	"continuum-feature-custom-font-size-exclusion-notice": "Бу һырай биэк кыра һуругу туттар",
+	"continuum-page-tools-label": "Һэптэр",
+	"continuum-page-tools-general-label": "Уопсай",
+	"continuum-page-tools-actions-label": "Действиялар",
+	"continuum-unpin-element-label": "кистээ"
+}

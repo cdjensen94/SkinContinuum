@@ -1,0 +1,23 @@
+<li id="toc-{{anchor}}"
+	class="continuum-toc-list-item continuum-toc-level-{{toclevel}}{{#is-top-level-section}}{{^continuum-is-collapse-sections-enabled}} continuum-toc-list-item-expanded{{/continuum-is-collapse-sections-enabled}}{{/is-top-level-section}}">
+	<a class="continuum-toc-link" href="#{{linkAnchor}}">
+		<div class="continuum-toc-text">
+			<span class="continuum-toc-numb">{{number}}</span>
+			<span>{{{line}}}</span>
+		</div>
+	</a>
+	{{#extensionData.DiscussionTools-html-summary}}
+	{{{.}}}
+	{{/extensionData.DiscussionTools-html-summary}}
+	{{#is-top-level-section}}{{#is-parent-section}}
+		<button aria-controls="toc-{{anchor}}-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only continuum-toc-toggle">
+			<span class="continuum-icon mw-ui-icon-wikimedia-expand"></span>
+			<span>{{{continuum-button-label}}}</span>
+		</button>
+	{{/is-parent-section}}{{/is-top-level-section}}
+	<ul id="toc-{{anchor}}-sublist" class="continuum-toc-list">
+		{{#array-sections}}
+		{{>TableOfContents__line}}
+		{{/array-sections}}
+	</ul>
+</li>

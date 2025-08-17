@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghiutun",
+			"Jyllanj"
+		]
+	},
+	"continuum-action-addsection": "Ny emn",
+	"continuum-action-move": "Flytt",
+	"continuum-action-protect": "Beskøtt",
+	"continuum-view-create": "Oprett",
+	"continuum-view-edit": "Redigiir",
+	"continuum-view-history": "Sie historik",
+	"continuum-view-view": "Läs",
+	"continuum-more-actions": "Mier"
+}

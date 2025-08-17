@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Apundung",
+			"IHLubis",
+			"Simartampua",
+			"Veracious"
+		]
+	},
+	"continuum-languages": "Saro",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 saro}}",
+	"continuum-no-language-button-label": "Manambai saro",
+	"continuum-action-addsection": "Baen tema",
+	"continuum-action-delete": "Apus",
+	"continuum-action-move": "Pindah",
+	"continuum-action-protect": "Jagoon",
+	"continuum-view-create": "Baen",
+	"continuum-view-edit": "Pature",
+	"continuum-view-history": "Sise sejarah",
+	"continuum-view-view": "Baca",
+	"continuum-more-actions": "Lainna",
+	"continuum-searchsuggest-containing": "Jalaki tompat na marisi <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "isi",
+	"continuum-toc-beginning": "lobi parjolo",
+	"continuum-main-menu-label": "manu na paling utamo",
+	"continuum-page-tools-label": "Peralatan",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-unpin-element-label": "onjabkon"
+}

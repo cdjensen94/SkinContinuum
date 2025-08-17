@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"ColumbaBush",
+			"ܐܢܐ"
+		]
+	},
+	"continuum-languages": "ܠܫܢ̈ܐ",
+	"continuum-no-language-button-label": "ܐܘܣܦ ܠܫܢ̈ܐ",
+	"continuum-action-addsection": "ܐܘܣܦ ܡܠܘܐܐ",
+	"continuum-action-move": "ܫܢܝ",
+	"continuum-action-protect": "ܢܛܘܪ",
+	"continuum-view-create": "ܒܪܝ",
+	"continuum-view-history": "ܚܙܝ ܬܫܥܝܬܐ",
+	"continuum-more-actions": "ܝܬܝܪ",
+	"continuum-appearance-label": "ܚܙܘܐ",
+	"continuum-feature-limited-width-name": "ܦܬܘܐ",
+	"continuum-feature-limited-width-0-label": "ܪܘܝܚܐ",
+	"continuum-feature-custom-font-size-0-label": "ܙܥܘܪܐ",
+	"continuum-feature-custom-font-size-2-label": "ܪܒܐ",
+	"skin-theme-name": "ܨܘܒܥܐ",
+	"skin-theme-day-label": "ܒܗܘܪܐ",
+	"skin-theme-night-label": "ܚܘܫܟܢܐ",
+	"continuum-searchsuggest-containing": "ܒܨܝ ܠܦܬܘܬ̈ܐ ܕܐܝܬ ܒܗܘܢ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "ܚܒܝܫ̈ܬܐ",
+	"continuum-toc-beginning": "ܫܘܪܝܐ",
+	"continuum-page-tools-label": "ܡܐܢ̈ܐ",
+	"continuum-page-tools-general-label": "ܟܠܢܝܐ",
+	"continuum-page-tools-actions-label": "ܥܒܕ̈ܐ",
+	"continuum-unpin-element-label": "ܛܫܝ"
+}

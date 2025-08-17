@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Glacious",
+			"Glaisher",
+			"MAL MALDIVE",
+			"Ushau97"
+		]
+	},
+	"continuum-languages": "ބަސްބަސް",
+	"continuum-action-addsection": "ޚިޔާލެއް އިތުރުކުރައްވާ",
+	"continuum-action-delete": "ފޮހެލައްވާ",
+	"continuum-action-move": "ތަން ބަދަލުކުރައްވާ",
+	"continuum-action-protect": "ދިފާޢުކުރައްވާ",
+	"continuum-action-undelete": "އިޔާދަކުރައްވާ",
+	"continuum-action-unprotect": "ދިފާޢުކުރުން ބަދަލުކުރައްވާ",
+	"continuum-view-create": "ފަށްޓަވާ",
+	"continuum-view-edit": "އުނިއިތުރު ގެންނަވާ",
+	"continuum-view-history": "ޞަފްޙާގެ ތާރީޚް",
+	"continuum-view-view": "ކިޔުއްވާ",
+	"continuum-view-viewsource": "މަސްދަރު ބައްލަވާ",
+	"continuum-more-actions": "އިތުރަށް",
+	"continuum-feature-limited-width-name": "ފުޅާމިން",
+	"continuum-feature-limited-width-0-label": "ފޮރުވާ",
+	"continuum-feature-custom-font-size-name": "ލިޔުން",
+	"continuum-feature-custom-font-size-0-label": "ކުޑަ",
+	"skin-theme-name": "ކުލަ",
+	"skin-theme-day-label": "އަލި",
+	"skin-theme-night-label": "އަނދިރި",
+	"skin-theme-os-label": "އޮޓޮމެޓިކް",
+	"continuum-toc-label": "ފިހުރިސްތު",
+	"continuum-toc-beginning": "ފެށުން",
+	"continuum-page-tools-general-label": "އާންމު",
+	"continuum-unpin-element-label": "ފޮރުއްވާ"
+}

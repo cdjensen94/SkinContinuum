@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Duke of Wikipädia",
+			"Karapananguasú Kururú Teremembé",
+			"Maracajá Teremembé"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 nhẽẽga|$1 nhẽẽga'etá}}",
+	"continuum-action-addsection": "Add topic",
+	"continuum-action-delete": "Muçaká",
+	"continuum-action-move": "Yatimana",
+	"continuum-action-protect": "Uçupirũ",
+	"continuum-view-create": "Umunhã",
+	"continuum-view-edit": "Murupiawa",
+	"continuum-view-history": "E-maã marãduwapawa",
+	"continuum-view-view": "Mugetá",
+	"continuum-more-actions": "Yawá píri",
+	"continuum-searchsuggest-containing": "Sikari papera-itá pitasuka supé <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>"
+}

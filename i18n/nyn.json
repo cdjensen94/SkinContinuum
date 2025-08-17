@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kakonjo"
+		]
+	},
+	"continuum-language-button-label": "{{PLURAL:$1|$1 orurimi|$1 endimi}}",
+	"continuum-action-addsection": "Taho omuhajaano",
+	"continuum-action-delete": "Sangura",
+	"continuum-action-move": "Tambuza",
+	"continuum-action-protect": "Tsiba",
+	"continuum-view-create": "Hangaho",
+	"continuum-view-edit": "Gorora",
+	"continuum-view-history": "Reba ebi'kozirwe",
+	"continuum-view-view": "Shoma",
+	"continuum-more-actions": "Ebikukiraho",
+	"continuum-toc-toggle-button-label": "Rabyamu $1 Akacweeka"
+}

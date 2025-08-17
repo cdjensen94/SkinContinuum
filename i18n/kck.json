@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"MthulisiNcube"
+		]
+	},
+	"continuum-languages": "Ndimi",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 lulimi|$1 ndimi}}",
+	"continuum-no-language-button-label": "Longa ndimi",
+	"continuum-action-addsection": "Eda thophiki",
+	"continuum-view-create": "Bumba",
+	"continuum-view-history": "Linga kwakapinda",
+	"continuum-more-actions": "Kumwe",
+	"continuum-searchsuggest-containing": "Haka mapheji ana <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Zwiyapo",
+	"continuum-toc-beginning": "Kutanga",
+	"continuum-main-menu-label": "Menyu whulu",
+	"continuum-page-tools-label": "Mathuluzi",
+	"continuum-page-tools-general-label": "Kumwe",
+	"continuum-pin-element-label": "sodzedza musayidi bha",
+	"continuum-unpin-element-label": "sumbika"
+}

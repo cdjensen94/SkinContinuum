@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harvzsf",
+			"JinJian"
+		]
+	},
+	"continuum-languages": "Mga pinulongan",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ka pinulongan|$1 ka mga pinulongan}}",
+	"continuum-no-language-button-label": "Dugngi hin mga pinulongan",
+	"continuum-action-addsection": "Igdugang hin himangrawon",
+	"continuum-action-delete": "Para-a",
+	"continuum-action-move": "Balhina",
+	"continuum-action-protect": "Panalipda",
+	"continuum-action-undelete": "Igbalik an ginpara",
+	"continuum-action-unprotect": "Liwani an panalipod",
+	"continuum-view-create": "Himo-a",
+	"continuum-view-edit": "Igliwat",
+	"continuum-view-history": "Kitaa an kaagi",
+	"continuum-view-view": "Basaha",
+	"continuum-view-viewsource": "Kitaa an ginkuhaan",
+	"continuum-more-actions": "Damo pa",
+	"continuum-searchsuggest-containing": "Pamiling hin mga pakli nga nagsusulod hin <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Mga sulod",
+	"continuum-toc-beginning": "Tinikangan",
+	"continuum-main-menu-label": "Panguna nga menu",
+	"continuum-page-tools-label": "Mga tool",
+	"continuum-page-tools-general-label": "Kasahiran",
+	"continuum-unpin-element-label": "Tago-i"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akamycoco",
+			"Benel",
+			"Bunukwiki",
+			"Tokoabibi"
+		]
+	},
+	"continuum-skin-desc": "ayzaay a MonoBook, izaw baluhayay a nuhekalan atu yadah pisaungayay a sakapahay.",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 kamu}}",
+	"continuum-action-addsection": "micunus sasakamuen",
+	"continuum-action-delete": "misipu",
+	"continuum-action-move": "milimad",
+	"continuum-action-protect": "midiput",
+	"continuum-action-undelete": "palawpes tu masipuay",
+	"continuum-action-unprotect": "misumad tu midiputay",
+	"continuum-view-create": "patizeng",
+	"continuum-view-edit": "mikawaway-kalumyiti",
+	"continuum-view-history": "ciwsace nazipa’an",
+	"continuum-view-view": "miasip",
+	"continuum-view-viewsource": "ciwsace yuensma-kodo",
+	"continuum-more-actions": "yadah"
+}

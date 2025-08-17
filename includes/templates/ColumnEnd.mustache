@@ -1,0 +1,20 @@
+<div class="continuum-column-end">
+	<div class="continuum-sticky-pinned-container">
+		<nav class="continuum-page-tools-landmark" aria-label="{{msg-continuum-page-tools-nav-label}}">
+			{{#data-page-tools}}
+			{{>PinnableContainer/Pinned/Open}}
+				{{! Use `#continuum-page-tools-pinned-container .continuum-page-tools` to target styles at this element}}
+				{{#is-pinned}}{{>PageTools}}{{/is-pinned}}
+			{{>PinnableContainer/Close}}
+			{{/data-page-tools}}
+		</nav>
+		<nav class="continuum-appearance-landmark" aria-label="{{msg-continuum-appearance-label}}">
+			{{#data-appearance}}
+			{{>PinnableContainer/Pinned/Open}}
+				{{! Use `#continuum-appearance-pinned-container .continuum-appearance` to target styles at this element}}
+				{{#is-pinned}}{{>Appearance}}{{/is-pinned}}
+			{{>PinnableContainer/Close}}
+			{{/data-appearance}}
+		</nav>
+	</div>
+</div>

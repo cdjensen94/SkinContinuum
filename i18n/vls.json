@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"DasRakel"
+		]
+	},
+	"continuum-action-delete": "Wegdoen",
+	"continuum-action-move": "Ernoemn",
+	"continuum-view-create": "Anmoakn",
+	"continuum-view-edit": "Bewerkn",
+	"continuum-view-history": "Geschiedenisse bekykn",
+	"continuum-view-view": "Leezn",
+	"continuum-view-viewsource": "Brontekst bekykn"
+}

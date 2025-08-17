@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"DaSupremo",
+			"Pintupi Luritja Guy"
+		]
+	},
+	"continuum-languages": "Languages",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 language|$1 languages}}",
+	"continuum-no-language-button-label": "Add languages",
+	"continuum-action-addsection": "Add topic",
+	"continuum-action-delete": "Delete",
+	"continuum-action-move": "Move am",
+	"continuum-action-protect": "Protect",
+	"continuum-view-create": "Create",
+	"continuum-view-edit": "Edit",
+	"continuum-view-history": "View history",
+	"continuum-view-view": "Read",
+	"continuum-more-actions": "More",
+	"continuum-searchsuggest-containing": "Search for pages wey dey contain <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Contents",
+	"continuum-toc-beginning": "Dey begin",
+	"continuum-page-tools-label": "Tools",
+	"continuum-page-tools-general-label": "General",
+	"continuum-unpin-element-label": "hide am"
+}

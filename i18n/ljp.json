@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"DedeKurnn"
+		]
+	},
+	"continuum-languages": "Bahasa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1|$1 basa}}",
+	"continuum-no-language-button-label": "Tambah basa",
+	"continuum-action-addsection": "Tambah topik",
+	"continuum-action-delete": "Hapus",
+	"continuum-action-move": "Alihko",
+	"continuum-action-protect": "Lindungi",
+	"continuum-view-create": "Guwai",
+	"continuum-view-history": "Liyak riwayat",
+	"continuum-more-actions": "Barihni",
+	"continuum-appearance-label": "Keliyakan",
+	"continuum-feature-limited-width-name": "Berak",
+	"continuum-feature-limited-width-0-label": "Berak",
+	"continuum-feature-limited-width-1-label": "Standar",
+	"continuum-feature-custom-font-size-name": "Tulisan",
+	"continuum-feature-custom-font-size-0-label": "Lunik",
+	"continuum-feature-custom-font-size-1-label": "Standar",
+	"continuum-feature-custom-font-size-2-label": "Balak",
+	"skin-theme-name": "Warna",
+	"skin-theme-day-label": "Wawwah",
+	"skin-theme-night-label": "Kelom",
+	"skin-theme-os-label": "Otomatis",
+	"skin-theme-exclusion-notice": "Halaman hinji inggal-inggal lom mode wawwah.",
+	"continuum-searchsuggest-containing": "Sepok halaman sai buisi <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Daptar isi",
+	"continuum-toc-beginning": "Mula",
+	"continuum-anon-user-menu-pages": "Halaman pakai pedandan sai luwah log",
+	"continuum-main-menu-label": "Menu utama",
+	"continuum-feature-custom-font-size-exclusion-notice": "Halaman hinji inggal-inggal makai pon buukoran lunik",
+	"continuum-page-tools-label": "Pekakas",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-page-tools-actions-label": "Gawi",
+	"continuum-unpin-element-label": "segokko"
+}

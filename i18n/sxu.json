@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jun Misugi"
+		]
+	},
+	"continuum-languages": "Schbroochn",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 Sprooche|$1 Sproochn}}",
+	"continuum-no-language-button-label": "Schbroochn henzufiechn",
+	"continuum-action-addsection": "Abschnidd hinzufüchen",
+	"continuum-action-move": "Forschie'm",
+	"continuum-view-create": "Ärschdelln",
+	"continuum-view-edit": "Ändorn",
+	"continuum-view-history": "Fersionsgeschischde",
+	"continuum-view-view": "Lesn",
+	"continuum-more-actions": "Mehr",
+	"continuum-searchsuggest-containing": "Gugge nach Seidn, die <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> drinne hamm",
+	"continuum-toc-label": "Inhalde",
+	"continuum-toc-beginning": "Anfang",
+	"continuum-main-menu-label": "Haubdmenü",
+	"continuum-page-tools-label": "Wärgzeisch",
+	"continuum-page-tools-general-label": "Allgemeen",
+	"continuum-unpin-element-label": "vorbärschn"
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Es Krim 5 Juta Rasa"
+		]
+	},
+	"continuum-languages": "Basa",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 basa}}",
+	"continuum-no-language-button-label": "Tambah basa",
+	"continuum-action-addsection": "Tambah topik",
+	"continuum-action-delete": "Hapus",
+	"continuum-action-move": "Alihko",
+	"continuum-action-protect": "Lindungi",
+	"continuum-view-create": "Guway",
+	"continuum-view-history": "Liyak riwayat",
+	"continuum-more-actions": "Barihna",
+	"continuum-appearance-label": "Tampilan",
+	"continuum-feature-limited-width-name": "Borak",
+	"continuum-feature-limited-width-0-label": "Borak",
+	"continuum-feature-limited-width-1-label": "Standar",
+	"continuum-feature-custom-font-size-name": "Tulisan",
+	"continuum-feature-custom-font-size-0-label": "Ronik",
+	"continuum-feature-custom-font-size-1-label": "Standar",
+	"continuum-feature-custom-font-size-2-label": "Balak",
+	"skin-theme-name": "Warna",
+	"skin-theme-day-label": "Wah-wah",
+	"skin-theme-night-label": "Manom",
+	"skin-theme-os-label": "Otomatis",
+	"skin-theme-exclusion-notice": "Halaman hasa salalu makai mode wah-wah.",
+	"continuum-searchsuggest-containing": "Sopok'i halaman sai buisi <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Daftar isi",
+	"continuum-toc-beginning": "Awal",
+	"continuum-anon-user-menu-pages": "Halaman pandandanan say kok luwah log",
+	"continuum-main-menu-label": "Monu utamo",
+	"continuum-feature-custom-font-size-exclusion-notice": "Halaman hasa salalu makai font buukuran ronik",
+	"continuum-page-tools-label": "Pakakas",
+	"continuum-page-tools-general-label": "Umum",
+	"continuum-page-tools-actions-label": "Gawi",
+	"continuum-unpin-element-label": "Jamotko"
+}

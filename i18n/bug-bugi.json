@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rdwnnr"
+		]
+	},
+	"continuum-languages": "ᨅᨔ",
+	"continuum-language-button-label": "{{PLURAL:$1|$1 ᨅᨔ}}",
+	"continuum-no-language-button-label": "ᨈᨅᨕᨗ ᨅᨔ",
+	"continuum-action-addsection": "ᨈᨅᨕᨗ ᨅᨅ",
+	"continuum-action-move": "ᨒᨙᨌᨙ",
+	"continuum-view-create": "ᨕᨙᨅᨘ",
+	"continuum-view-history": "ᨕᨗᨈ ᨑᨗᨓᨐ",
+	"continuum-view-view": "ᨅᨌ",
+	"continuum-more-actions": "ᨒᨙᨂᨙ",
+	"continuum-appearance-label": "ᨈᨍ",
+	"continuum-feature-limited-width-name": "ᨒᨛᨅ",
+	"continuum-feature-limited-width-0-label": "ᨒᨛᨅ",
+	"continuum-feature-limited-width-1-label": "ᨅᨗᨐᨔ",
+	"continuum-feature-custom-font-size-name": "ᨕᨚᨀᨗ",
+	"continuum-feature-custom-font-size-0-label": "ᨅᨗᨌᨘ",
+	"continuum-feature-custom-font-size-1-label": "ᨅᨗᨐᨔ",
+	"continuum-feature-custom-font-size-2-label": "ᨒᨚᨄᨚ",
+	"skin-theme-name": "ᨌᨚᨑ",
+	"skin-theme-day-label": "ᨌᨀ",
+	"skin-theme-night-label": "ᨄᨛᨈ",
+	"skin-theme-os-label": "ᨕᨕᨘᨈᨚ",
+	"continuum-searchsuggest-containing": "ᨔᨄ ᨒᨛᨇᨑ ᨆᨒᨗᨔᨛ <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "ᨒᨗᨔᨛ",
+	"continuum-toc-beginning": "ᨄᨆᨘᨒ",
+	"continuum-anon-user-menu-pages": "ᨒᨛᨇᨑ ᨀᨘ ᨄᨄᨉᨙᨌᨙ ᨈᨔᨘ ᨒᨚ",
+	"continuum-main-menu-label": "ᨓᨈ ᨆᨛᨊᨘ",
+	"continuum-page-tools-label": "ᨄᨀᨀᨔ",
+	"continuum-page-tools-general-label": "ᨕᨘᨆᨘ",
+	"continuum-page-tools-actions-label": "ᨁᨕᨀᨕᨘ",
+	"continuum-unpin-element-label": "ᨔᨘᨅᨘᨓᨗ",
+	"continuum-page-tools-nav-label": "ᨄᨀᨀᨔ ᨒᨛᨇ"
+}

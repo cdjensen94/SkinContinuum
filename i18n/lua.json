@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisdanielkazadi",
+			"Shayi ngolu"
+		]
+	},
+	"continuum-languages": "Miakulu",
+	"continuum-language-button-label": "{{PLURAL:$1|$1muakulu|\n$1miakulu}}",
+	"continuum-no-language-button-label": "Kukumbaja miakulu",
+	"continuum-action-addsection": "KuKumbaja tshiena bualu",
+	"continuum-action-delete": "Kumbusha",
+	"continuum-action-move": "Ku fila kabidi dina",
+	"continuum-action-protect": "kulama",
+	"continuum-view-create": "Kufuka",
+	"continuum-view-history": "Kumona maalu aa kala",
+	"continuum-more-actions": "Malu makuabu",
+	"continuum-appearance-label": "Tshimuenekelu",
+	"continuum-feature-limited-width-name": "Bunena",
+	"continuum-feature-limited-width-0-label": "Bunena",
+	"continuum-feature-limited-width-1-label": "Tshidi muaba onso",
+	"continuum-feature-custom-font-size-name": "Mifundu",
+	"continuum-feature-custom-font-size-0-label": "Tshikesa",
+	"continuum-feature-custom-font-size-1-label": "Tshidi muaba onso",
+	"continuum-feature-custom-font-size-2-label": "Tshinena",
+	"skin-theme-name": "Makala",
+	"skin-theme-day-label": "Bunkeka",
+	"skin-theme-night-label": "Bufika Anyi miidima",
+	"skin-theme-os-label": "bienzeka ngaya",
+	"skin-theme-exclusion-notice": "Dibeji edi Didi anu ditoka",
+	"continuum-searchsuggest-containing": "kuKeba pa mabeji adi ne <strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong>",
+	"continuum-toc-label": "Bidi munda",
+	"continuum-toc-beginning": "Bangilu anyi ntuadijilu",
+	"continuum-anon-user-menu-pages": "Djibeji wa bafundi kabayi bafumina mu mudimu",
+	"continuum-main-menu-label": "Bulongolodi bua kumpala Anyi bua mushinga",
+	"continuum-feature-custom-font-size-exclusion-notice": "Dibeji edi Didi anu di kuata midimu ne maleta makesa",
+	"continuum-page-tools-label": "Bia ku kuata nabi mudimu",
+	"continuum-page-tools-general-label": "Mu tshibunyi",
+	"continuum-page-tools-actions-label": "Maalu adi benza",
+	"continuum-unpin-element-label": "Kusokoka"
+}

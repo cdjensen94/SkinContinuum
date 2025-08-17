@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bogups",
+			"Rhdtranslate",
+			"Тамэ Балъкъэрхэ"
+		]
+	},
+	"continuum-languages": "Бзэхэр",
+	"continuum-language-button-label": "‎{{PLURAL:$1|$1 бзэр|$1 бзэхэр}}",
+	"continuum-no-language-button-label": "Бзэхэр щӀыгъун",
+	"continuum-action-addsection": "Темэр хэлъхьэн",
+	"continuum-action-delete": "ИгъэкӀын",
+	"continuum-action-move": "‎ЦӀэр хъуэжын",
+	"continuum-action-protect": "Хъумэн",
+	"continuum-action-undelete": "ЗыфӀэгъэувэжын",
+	"continuum-action-unprotect": "Хъумэныр техыжын",
+	"continuum-view-create": "ЩӀын",
+	"continuum-view-edit": "Зэгъэзэхуэжын",
+	"continuum-view-history": "Тхыдэм еплъын",
+	"continuum-view-view": "Еджэн",
+	"continuum-view-viewsource": "КъызхэкӀам еплъын",
+	"continuum-more-actions": "Нэхъыбэу",
+	"continuum-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> иту напэкӀуэцӀ лъыхъуэн",
+	"continuum-page-tools-label": "Ӏэмэпсымэхэр",
+	"continuum-page-tools-general-label": "Зэдайр",
+	"continuum-unpin-element-label": "гъэпщкӀун"
+}

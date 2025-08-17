@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"1AnuraagPandey"
+		]
+	},
+	"continuum-action-addsection": "शिर्षक जोडा जाय",
+	"continuum-action-delete": "मेटावा जाय",
+	"continuum-action-move": "घुस्कावा जाय",
+	"continuum-action-protect": "सुरक्षित करा जाय",
+	"continuum-action-undelete": "हटाइब वापस लिहा जाय",
+	"continuum-action-unprotect": "सुरक्षा परिवर्तन करा जाय",
+	"continuum-view-create": "बनावा जाय",
+	"continuum-view-edit": "सम्पादन",
+	"continuum-view-history": "इतिहास देखा जाय",
+	"continuum-view-view": "पढा जाय",
+	"continuum-view-viewsource": "स्रोत देखा जाय",
+	"continuum-more-actions": "अउर"
+}
