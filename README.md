@@ -4,7 +4,7 @@ Vector Skin
 Installation
 ------------
 
-See <https://www.mediawiki.org/wiki/Skin:Vector>.
+See <https://www.mediawiki.org/wiki/Skin:Continuum>.
 
 ### Configuration options
 
