@@ -15,7 +15,7 @@ use MediaWiki\Skins\Continuum\Constants;
 use MediaWiki\User\User;
 use RuntimeException;
 use SkinTemplate;
-
+use Skin;
 /**
  * Presentation hook handlers for Continuum skin.
  *
@@ -51,7 +51,17 @@ class Hooks implements
 			$skinName === Constants::SKIN_NAME_MODERN
 		);
 	}
-
+    public static function onSkinBuildSidebar( Skin $skin, array &$bar ): bool {
+        if ( !$skin->getUser()->isRegistered() ) {
+            $msg = wfMessage( 'guestsidebar' )->inContentLanguage();
+            if ( $msg->exists() ) {
+                $bar = MediaWikiServices::getInstance()
+                    ->getSidebarMessageParser()
+                    ->parse( $msg->text() );
+            }
+        }
+        return true;
+    }
 	/**
 	 * @param RL\Context $context
 	 * @param Config $config

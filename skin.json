@@ -155,7 +155,8 @@
 		"GetPreferences": "ContinuumHooks",
 		"LocalUserCreated": "ContinuumHooks",
 		"SkinPageReadyConfig": "ContinuumHooks",
-		"GetBetaFeaturePreferences": "ContinuumHooks"
+		"GetBetaFeaturePreferences": "ContinuumHooks",
+    	"SkinBuildSidebar": "MediaWiki\\Skins\\Continuum\\Hooks::onSkinBuildSidebar"
 	},
 	"@note": "When modifying skins.continuum.styles definition, make sure the installer still works",
 	"ResourceModules": {
