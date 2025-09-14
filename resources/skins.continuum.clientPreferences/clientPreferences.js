@@ -16,6 +16,18 @@
  * @property {string} label
  * @property {string} value
  */
+function getActivePrefValueFromClass(feature) {
+  const prefix = feature + '-clientpref-';
+  for (const c of document.documentElement.classList) {
+    if (c.indexOf(prefix) === 0) return c.slice(prefix.length);
+  }
+  return null;
+}
+
+function safeMsgText(key, fallback) {
+  const m = mw.message(key);
+  return m.exists() ? m.text() : fallback;
+}
 
 /**
  * Get the list of client preferences that are active on the page, including hidden.
@@ -45,10 +57,11 @@ function isFeatureExcluded( featureName ) {
  * @return {string[]} of user facing client preferences
  */
 function getVisibleClientPreferences( config ) {
-	const active = getClientPreferences();
-	// Order should be based on key in config.json
-	return Object.keys( config ).filter( ( key ) => active.indexOf( key ) > -1 );
+	const active = new Set( getClientPreferences() );
+	// preserve order of config keys but only keep keys present in active set
+	return Object.keys( config ).filter( ( key ) => active.has( key ) );
 }
+
 
 /**
  * @param {string} featureName
@@ -121,12 +134,13 @@ function makeInputElement( type, featureName, value ) {
  * @return {HTMLLabelElement}
  */
 function makeLabelElement( featureName, value ) {
-	const label = document.createElement( 'label' );
-	// eslint-disable-next-line mediawiki/msg-doc
-	label.textContent = mw.msg( `${ featureName }-${ value }-label` );
-	label.setAttribute( 'for', getInputId( featureName, value ) );
-	return label;
+  const label = document.createElement( 'label' );
+  const key = `${ featureName }-${ value }-label`;
+  label.textContent = safeMsgText( key, value ); // 👈 fallback to raw value
+  label.setAttribute( 'for', getInputId( featureName, value ) );
+  return label;
 }
+
 
 /**
  * Create an element that informs users that a feature is not functional
@@ -240,47 +254,45 @@ const getFeatureLabelMsg = ( featureName ) => mw.message( `${ featureName }-name
  * @return {Element|null}
  */
 function makeControl( featureName, config, userPreferences ) {
-	const pref = config[ featureName ];
-	const isExcluded = isFeatureExcluded( featureName );
+  const pref = config[ featureName ];
+  const isExcluded = isFeatureExcluded( featureName );
+  if ( !pref ) return null;
 
-	if ( !pref ) {
-		return null;
-	}
-	const currentValue = mw.user.clientPrefs.get( featureName );
-	// The client preference was invalid. This shouldn't happen unless a gadget
-	// or script has modified the documentElement or client preference is excluded.
-	if ( typeof currentValue === 'boolean' && !isExcluded ) {
-		return null;
-	}
-	const row = createRow( '' );
-	const form = document.createElement( 'form' );
-	const type = pref.type || 'radio';
-	switch ( type ) {
-		case 'radio':
-			pref.options.forEach( ( value ) => {
-				appendRadioToggle(
-					form, featureName, value, String( currentValue ), config, userPreferences
-				);
-			} );
-			break;
-		case 'switch': {
-			const labelElement = document.createElement( 'label' );
-			labelElement.textContent = getFeatureLabelMsg( featureName ).text();
-			appendToggleSwitch(
-				form, featureName, labelElement, String( currentValue ), config, userPreferences
-			);
-			break;
-		} default:
-			throw new Error( 'Unknown client preference! Only switch or radio are supported.' );
-	}
-	row.appendChild( form );
+  // Get current value safely
+  let currentValue = mw.user.clientPrefs.get( featureName );
+  if ( typeof currentValue === 'boolean' ) {
+    // Derive from the <html> class or default to the first option
+    currentValue = getActivePrefValueFromClass( featureName ) ||
+      (pref.options && pref.options[0]) || 'imperial-night';
+  }
 
-	if ( isExcluded ) {
-		const exclusionNotice = makeExclusionNotice( featureName );
-		row.appendChild( exclusionNotice );
-	}
-	return row;
+  const row = createRow( '' );
+  const form = document.createElement( 'form' );
+  const type = pref.type || 'radio';
+  switch ( type ) {
+    case 'radio':
+      pref.options.forEach( ( value ) => {
+        appendRadioToggle( form, featureName, value, String( currentValue ), config, userPreferences );
+      } );
+      break;
+    case 'switch': {
+      const labelElement = document.createElement( 'label' );
+      labelElement.textContent = safeMsgText( `${ featureName }-name`, featureName );
+      appendToggleSwitch( form, featureName, labelElement, String( currentValue ), config, userPreferences );
+      break;
+    }
+    default:
+      throw new Error( 'Unknown client preference! Only switch or radio are supported.' );
+  }
+  row.appendChild( form );
+
+  if ( isExcluded ) {
+    const exclusionNotice = makeExclusionNotice( featureName );
+    row.appendChild( exclusionNotice );
+  }
+  return row;
 }
+
 
 /**
  * @param {Element} parent
@@ -289,67 +301,38 @@ function makeControl( featureName, config, userPreferences ) {
  * @param {UserPreferencesApi} userPreferences
  */
 function makeClientPreference( parent, featureName, config, userPreferences ) {
-	const labelMsg = getFeatureLabelMsg( featureName );
-	// If the user is not debugging messages and no language exists,
-	// exit as its a hidden client preference.
-	if ( !labelMsg.exists() && mw.config.get( 'wgUserLanguage' ) !== 'qqx' ) {
-		return;
-	} else {
-		const id = `skin-client-prefs-${ featureName }`;
-		// @ts-ignore TODO: upstream patch URL
-		const portlet = mw.util.addPortlet( id, labelMsg.text() );
+  const labelMsg = getFeatureLabelMsg( featureName );
+  const labelText = labelMsg.exists() ? labelMsg.text() : 'Theme'; // 👈 fallback
 
-		const labelElement = portlet.querySelector( 'label' );
+  const id = `skin-client-prefs-${ featureName }`;
+  // @ts-ignore
+  const portlet = mw.util.addPortlet( id, labelText );
+  if ( document.getElementById( id ) ) {
+    return;
+  }
 
-		// Add additional description for mobile
-		// eslint-disable-next-line mediawiki/msg-doc
-		const descriptionMsg = mw.message( `${ featureName }-description` );
-		if ( descriptionMsg.exists() ) {
-			const desc = document.createElement( 'span' );
-			desc.classList.add( 'skin-client-pref-description' );
-			desc.textContent = descriptionMsg.text();
-			if ( labelElement && labelElement.parentNode ) {
-				labelElement.appendChild( desc );
-			}
-		}
+  const descriptionMsg = mw.message( `${ featureName }-description` );
+  const labelElement = portlet.querySelector( 'label' );
+  if ( descriptionMsg.exists() ) {
+    const desc = document.createElement( 'span' );
+    desc.classList.add( 'skin-client-pref-description' );
+    desc.textContent = descriptionMsg.text();
+    if ( labelElement && labelElement.parentNode ) {
+      labelElement.appendChild( desc );
+    }
+  }
 
-		// Add exclusion notice for desktop
-		// eslint-disable-next-line mediawiki/msg-doc
-		const exclusionNoticeMsg = mw.message( `${ featureName }-exclusion-notice` );
-		if ( exclusionNoticeMsg.exists() ) {
-			const content = portlet.querySelector( '.vector-menu-content' );
-			const notice = document.createElement( 'span' );
-			notice.classList.add( 'skin-client-pref-exclusion-notice' );
-			notice.textContent = exclusionNoticeMsg.text();
-			if ( content ) {
-				content.appendChild( notice );
-			}
-		}
-
-		parent.appendChild( portlet );
-		const row = makeControl( featureName, config, userPreferences );
-		if ( row ) {
-			const tmp = mw.util.addPortletLink( id, '', '' );
-			// create a dummy link
-			if ( tmp ) {
-				const link = tmp.querySelector( 'a' );
-				if ( link ) {
-					link.replaceWith( row );
-				}
-			}
-
-			if ( config[ featureName ].betaMessage && !isFeatureExcluded( featureName ) ) {
-				const betaMessageElement = document.createElement( 'span' );
-				betaMessageElement.id = `${ featureName }-beta-notice`;
-				// per requirements: only logged in users can report errors (T372754)
-				if ( !mw.user.isAnon() ) {
-					makeFeedbackLink( betaMessageElement );
-				}
-				row.appendChild( betaMessageElement );
-			}
-		}
-	}
+  parent.appendChild( portlet );
+  const row = makeControl( featureName, config, userPreferences );
+  if ( row ) {
+    const tmp = mw.util.addPortletLink( id, '', '' );
+    if ( tmp ) {
+      const link = tmp.querySelector( 'a' );
+      if ( link ) link.replaceWith( row );
+    }
+  }
 }
+
 
 /**
  * Fills the client side preference dropdown with controls.
