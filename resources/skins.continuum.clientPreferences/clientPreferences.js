@@ -151,13 +151,12 @@ function makeInputElement( type, featureName, value ) {
  * @return {HTMLLabelElement}
  */
 function makeLabelElement( featureName, value ) {
-  const label = document.createElement( 'label' );
-  const key = `${ featureName }-${ value }-label`;
-  label.textContent = safeMsgText( key, value ); // 👈 fallback to raw value
-  label.setAttribute( 'for', getInputId( featureName, value ) );
-  return label;
+	const label = document.createElement( 'label' );
+	// eslint-disable-next-line mediawiki/msg-doc
+	label.textContent = mw.msg( `${ featureName }-${ value }-label` );
+	label.setAttribute( 'for', getInputId( featureName, value ) );
+	return label;
 }
-
 
 /**
  * Create an element that informs users that a feature is not functional
@@ -176,6 +175,17 @@ function makeExclusionNotice( featureName ) {
 	return p;
 }
 
+/**
+ * @return {HTMLElement}
+ */
+function makeBetaInfoTag() {
+	const infoTag = document.createElement( 'span' );
+	// custom style to avoid moving heading bottom border.
+	const infoTagText = document.createElement( 'span' );
+	infoTagText.textContent = mw.message( 'continuum-night-mode-beta-tag' ).text();
+	infoTag.appendChild( infoTagText );
+	return infoTag;
+}
 
 /**
  * @param {Element} parent
@@ -209,6 +219,40 @@ function appendRadioToggle( parent, featureName, value, currentValue, config, us
 	input.addEventListener( 'change', () => {
 		toggleDocClassAndSave( featureName, value, config, userPreferences );
 	} );
+}
+
+/**
+ * @param {HTMLElement} betaMessageElement
+ */
+function makeFeedbackLink( betaMessageElement ) {
+	const pageWikiLink = `[https://${ window.location.hostname + mw.util.getUrl( mw.config.get( 'wgPageName' ) ) } ${ mw.config.get( 'wgTitle' ) }]`;
+	const preloadTitle = mw.message( 'continuum-night-mode-issue-reporting-preload-title', pageWikiLink ).text();
+	const link = mw.msg( 'continuum-night-mode-issue-reporting-notice-url', window.location.host, preloadTitle );
+	const linkLabel = mw.message( 'continuum-night-mode-issue-reporting-link-label' ).text();
+	const anchor = document.createElement( 'a' );
+	anchor.setAttribute( 'href', link );
+	anchor.setAttribute( 'target', '_blank' );
+	anchor.setAttribute( 'title', mw.msg( 'continuum-night-mode-issue-reporting-notice-tooltip' ) );
+	anchor.textContent = linkLabel;
+
+	/**
+	 * Shows the success message after clicking the beta feedback link.
+	 * Note: event.stopPropagation(); is required to show the success message
+	 * without closing the Appearance menu when it's in a dropdown.
+	 *
+	 * @param {Event} event
+	 */
+	const showSuccessFeedback = function ( event ) {
+		event.stopPropagation();
+		const icon = document.createElement( 'span' );
+		icon.classList.add( 'continuum-icon', 'continuum-icon--heart' );
+		anchor.textContent = mw.msg( 'continuum-night-mode-issue-reporting-link-notification' );
+		anchor.classList.add( 'skin-theme-beta-notice-success' );
+		anchor.prepend( icon );
+		anchor.removeEventListener( 'click', showSuccessFeedback );
+	};
+	anchor.addEventListener( 'click', ( event ) => showSuccessFeedback( event ) );
+	betaMessageElement.appendChild( anchor );
 }
 
 /**
@@ -317,27 +361,43 @@ function makeControl( featureName, config, userPreferences ) {
  * @param {UserPreferencesApi} userPreferences
  */
 function makeClientPreference( parent, featureName, config, userPreferences ) {
-  const labelText = safeMsgText( `${featureName}-name`, 'Theme' );
+  const labelMsg = getFeatureLabelMsg( featureName );
+  const labelText = labelMsg.exists() ? labelMsg.text() : 'Theme'; // 👈 fallback
 
-  // Wrapper for this preference group
-  const group = document.createElement( 'div' );
-  group.id = `skin-client-prefs-${ featureName }`;
-  group.className = 'ct-pref';
+  const id = `skin-client-prefs-${ featureName }`;
+  // @ts-ignore
+  const portlet = mw.util.addPortlet( id, labelText );
 
-  // Heading
-  const heading = document.createElement( 'div' );
-  heading.className = 'ct-pref-heading';
-  heading.textContent = labelText;
-  group.appendChild( heading );
-
-  // Controls
-  const row = makeControl( featureName, config, userPreferences );
-  if ( row ) {
-    group.appendChild( row );
+  if ( config[ featureName ].betaMessage ) {
+    const betaInfoTag = makeBetaInfoTag();
+    const heading = portlet.querySelector( '.continuum-menu-heading' );
+    if ( heading && !heading.querySelector( 'span' ) ) {
+      heading.appendChild( betaInfoTag );
+    }
   }
 
-  parent.appendChild( group );
+  const descriptionMsg = mw.message( `${ featureName }-description` );
+  const labelElement = portlet.querySelector( 'label' );
+  if ( descriptionMsg.exists() ) {
+    const desc = document.createElement( 'span' );
+    desc.classList.add( 'skin-client-pref-description' );
+    desc.textContent = descriptionMsg.text();
+    if ( labelElement && labelElement.parentNode ) {
+      labelElement.appendChild( desc );
+    }
+  }
+
+  parent.appendChild( portlet );
+  const row = makeControl( featureName, config, userPreferences );
+  if ( row ) {
+    const tmp = mw.util.addPortletLink( id, '', '' );
+    if ( tmp ) {
+      const link = tmp.querySelector( 'a' );
+      if ( link ) link.replaceWith( row );
+    }
+  }
 }
+
 
 /**
  * Fills the client side preference dropdown with controls.
@@ -393,16 +453,30 @@ function bind( clickSelector, renderSelector, config, userPreferences ) {
 		} );
 	}
 }
-function whenAvailable( selector, cb ) {
-  const node = document.querySelector( selector );
-  if ( node ) { cb( node ); return; }
-  const mo = new MutationObserver( () => {
-    const n = document.querySelector( selector );
-    if ( n ) { mo.disconnect(); cb( n ); }
-  } );
-  mo.observe( document.body, { childList: true, subtree: true } );
-}
+/* === Continuum: prime the theme clientpref & body class on load === */
+(function () {
+  var feature = 'continuum-theme';
+  try {
+    var value = null;
+    if ( mw.user.isNamed && mw.user.isNamed() ) {
+      value = mw.user.options && mw.user.options.get ? mw.user.options.get( 'continuum-theme' ) : null;
+    } else {
+      value = mw.user.clientPrefs.get( feature ) ||
+        mw.storage.get( 'continuum-theme' ) ||
+        mw.cookie.get( 'continuum-theme' );
+    }
+    if ( !value ) value = 'imperial-night';
 
+    var root = document.documentElement;
+    if ( !Array.from( root.classList ).some( c => c.indexOf( feature + '-clientpref-' ) === 0 || c.includes( feature + '-clientpref-' ) ) ) {
+      root.classList.add( feature + '-clientpref-' + value );
+    }
+
+    document.body.className = document.body.className.replace( /(^|\s)theme-\S+/g, '' ).trim();
+    document.body.classList.add( 'theme-' + value );
+  } catch ( e ) {}
+})();
+/* === Continuum: wire the Appearance dropdown so controls actually render === */
 (function (mw, $) {
   'use strict';
   var ui = { bind, render };
@@ -411,22 +485,11 @@ function whenAvailable( selector, cb ) {
     preferenceKey: 'continuum-theme',
     type: 'radio'
   } };
-
-  function doRender() {
+  function mount() {
     ui.render('#p-appearance .continuum-menu-content', cfg).catch(function(){});
   }
-
-  function mount() {
-    whenAvailable('#p-appearance .continuum-menu-content', function () {
-      // Avoid double-mounting
-      if (!document.getElementById('skin-client-prefs-continuum-theme')) {
-        doRender();
-      }
-    });
-  }
-
-  $( mount );
-  mw.hook('wikipage.content').add( mount );
+  $(mount);
+  mw.hook('wikipage.content').add(mount);
 })(mediaWiki, jQuery);
 
 
