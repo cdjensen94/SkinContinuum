@@ -1,12 +1,21 @@
 @import '../variables.less';
 @import '../typography.less';
 // Importing variables for colors, fonts, and other styles
+body {
+    background-color: @bg-panel; // Main background color
+    color: @text-base;          // Base text color
+    font-family: @font-content; // Content font
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: var(--font-size-medium);
+}
 .continuum-body {
     // Background color for the body
-    background-color: @color-accent-navy;
-    color: @color-white;
+    background-color: @bg-main;
+    color: @text-base;
     padding: 20px; // Add some padding for better spacing
-    border: 2px solid @color-bright-orange; // Add a border for emphasis
+    border: 2px solid @accent-primary; // Add a border for emphasis
     border-radius: 8px; // Rounded corners for a modern look
     font-family: @font-content;
 }
@@ -24,12 +33,12 @@ h1, h2, .mw-body h1,
 .mw-body-content .mw-heading2,
 .mw-logo-wordmark,
 #firstHeadingTitle {
-    color: @color-bright-orange; /* Bright Orange */
+    color: @accent-primary; /* Bright Orange */
     font-family: @font-header, 'Book Antiqua', serif !important; /* Header font */
 }
 
 h3, h4, h5, h6 {
-    color: @color-burnt-orange !important; /* Burnt Orange */
+    color: @accent-alt !important; /* Burnt Orange */
     font-family: @font-alternate, 'Book Antiqua', serif !important; /* Alternate font for subheadings */
 }
 img {
@@ -44,13 +53,13 @@ table {
     margin-bottom: 20px; /* Spacing below tables */
 }
 .oo-ui-widget .oo-ui-widget-enabled .mw-echo-ui-notificationItemWidget :hover {
-    background-color: @color-dark-navy; /* Soft Peach for hover state */
-    background: @color-dark-navy; /* Soft Peach background on hover */
+    background-color: @bg-alt; /* Soft Peach for hover state */
+    background: @bg-alt; /* Soft Peach background on hover */
     color: @color-inverted; /* Inverted color for text */
-    border-color: @color-burnt-orange; /* Burnt Orange border on hover */
+    border-color: @accent-alt; /* Burnt Orange border on hover */
 }
 .oo-ui-widget .oo-ui-widget-enabled .mw-echo-ui-notificationItemWidget {
-    background-color: @color-dark-navy; /* Soft Peach for hover state */
+    background-color: @bg-alt; /* Soft Peach for hover state */
     color: @color-inverted; /* Inverted color for text */
-    border-color: @color-burnt-orange; /* Burnt Orange border on hover */
+    border-color: @accent-alt; /* Burnt Orange border on hover */
 }

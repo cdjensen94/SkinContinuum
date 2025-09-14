@@ -1,0 +1,88 @@
+/* ================== ÛBLÂ — Day ================== */
+body.skin-continuum.theme-ubla-day {
+  /* Atmosphere & surfaces (deep cyan slate) */
+  --bg-main:        #0B1E28;
+  --bg-alt:         #0F2A39;
+  --bg-panel:       #0A1A25;
+  --bg-interactive: #113446;
+
+  /* Type */
+  --text-base:      #E8FAFF;   /* airy, readable */
+  --text-subtle:    #A7C7D1;
+  --text-accent:    #20E3FF;   /* cyan highlights */
+  --text-error:     #FF4D9A;
+  --text-hover:     #15e7a8;
+
+  /* Accents (flora = blues, sky/water = teal-cyan) */
+  --accent-primary: #18C8FF;   /* links/buttons */
+  --accent-hover:   #5BE1FF;
+  --accent-active:  #20E3FF;
+  --accent-alt:     #6FA8FF;   /* azure flora */
+  --accent-violet:  #A78BFA;   /* alien minerals */
+
+  /* Links */
+  --link:           var(--accent-primary);
+  --link-hover:     var(--accent-hover);
+  --link-active:    var(--accent-active);
+  --link-visited:   #B084FF;
+
+  /* UI chrome */
+  --border:         rgba(32,227,255,.45);
+  --border-hover:   rgba(32,227,255,.65);
+  --border-active:  rgba(32,227,255,.85);
+  --border-error:   rgba(255,77,154,.85);
+  --border-notice:  rgba(255,193,77,.85);
+  --border-warning: rgba(245,158,11,.85);
+  --border-success: rgba(52,211,153,.85);
+
+  /* Status */
+  --status-success: #2dd4bf;   /* mint-teal */
+  --status-warning: #F59E0B;   /* amber spores */
+  --status-error:   #FF4D9A;
+
+  /* Code (cool daylight) */
+  --code-bg:        #0D1D28;
+  --code-number:    #8BE9FD;
+  --code-string:    #A0E9A5;
+  --code-keyword:   #78A6FF;
+  --code-comment:   #7AA0AE;
+  --code-function:  #20E3FF;
+  --code-variable:  #FFCA85;
+}
+/* Day */
+.theme-ubla-day .mw-body {
+  background:
+    radial-gradient(120px 80px at 10% 15%, rgba(32,227,255,.10), transparent 65%),
+    radial-gradient(160px 100px at 85% 12%, rgba(255,77,154,.08), transparent 60%),
+    var(--bg-main);
+}
+
+body.skin-continuum.theme-ubla-day   { --icon-color: #18C8FF; }
+/* one rule to tint all masked icons */
+.continuum-icon,
+.mw-ui-icon { color: var(--icon-color); }
+
+/* Mask-based icons use background-color or color. Set both. */
+.theme-ubla-day .mw-ui-icon,
+.theme-ubla-day .mw-ui-icon-element .mw-ui-icon{
+  background-color: var(--icon-color) !important; /* older modules */
+  color: var(--icon-color) !important;            /* newer ones using currentColor */
+}
+
+/* Hover/focus variant (optional) */
+.theme-ubla-day a:hover .mw-ui-icon,
+.theme-ubla-day .oo-ui-buttonWidget:hover .oo-ui-iconElement-icon {
+  filter: drop-shadow(0 0 6px rgba(32,227,255,.35));
+}
+
+.theme-ubla-day .cdx-icon,
+.theme-ubla-day .cdx-button .cdx-icon,
+.theme-ubla-day .cdx-menu__icon {
+  color: var(--icon-color);
+}
+
+.theme-ubla-day svg,
+.theme-ubla-day .ct-icon svg {
+  color: var(--icon-color);
+}
+.theme-ubla-day svg [fill="#000"] { fill: var(--icon-color) !important; }

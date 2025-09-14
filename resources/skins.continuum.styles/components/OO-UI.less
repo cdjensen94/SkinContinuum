@@ -1,0 +1,133 @@
+.oo-ui-menuLayout-menu {
+    border-radius: 12px;
+    border: 2px solid @accent-primary;
+    background-color: @bg-alt;
+    box-shadow: 0 2px 4px @shadow-color;
+}
+/*
+.oo-ui-widget-enabled {
+    background-color: @bg-button;
+    color: var(--color-white);
+    border: 1px solid @accent-alt;
+    border-radius: 8px;
+    font-family: @font-code;
+    
+    .oo-ui-menuOptionWidget {
+       color: @accent-primary;
+    }
+    .oo-ui-menuOptionWidget:hover {
+        background-color: @accent-primary;
+        color: @accent-hover;
+    }
+}
+
+.oo-ui-widget {
+    background-color: @bg-alt;
+    color: var(--color-white);
+    border: 1px solid @accent-alt;
+    border-radius: 8px;
+}
+*/
+.oo-ui-tabSelectWidget-framed {
+    background-color: @bg-interactive !important;
+    
+    .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
+        background-color: @accent-primary !important;
+        color: var(--color-white) !important;
+        border-color: @accent-alt !important;
+    }
+}
+.oo-ui-fieldsetLayout-group {
+    background-color: @bg-alt;
+    border: 1px solid @accent-primary;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.oo-ui-radioInputWidget [type='radio'] + span {
+    background-color: @bg-panel;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    width: 1.42857143em;
+    height: 1.42857143em;
+    border-color: @accent-alt;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 1px;
+}
+.oo-ui-radioInputWidget.oo-ui-widget-enabled 
+[type='radio']:checked + span {
+    border-color: @bg-button;
+}
+.oo-ui-dropdownWidget {
+    .oo-ui-dropdownWidget-handle {
+        background-color: @bg-alt;
+        color: var(--color-white);
+        border: 1px solid @accent-alt;
+        border-radius: 8px;
+    }
+    .oo-ui-dropdownWidget-handle:hover {
+        background-color: @accent-primary;
+        color: var(--color-white);
+        border-color: @accent-alt;
+    }
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled {
+    .oo-ui-dropdownWidget-handle {
+        background-color: @bg-panel;
+        color: @text-base;
+        transition-property: background-color, border-color, box-shadow;
+        transition-duration: 100ms;
+    }
+    .oo-ui-dropdownWidget-handle:hover {
+        background-color: @accent-primary;
+        color: @text-base;
+        border-color: @accent-alt;
+    }
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled {
+    .oo-ui-dropdownWidget-menu {
+        background-color: @bg-alt;
+        border: 2px solid @accent-primary;
+        border-radius: 12px;
+        box-shadow: 0 2px 4px @shadow-color;
+    }
+    .oo-ui-dropdownWidget-menu .oo-ui-menuOptionWidget:hover {
+        background-color: @accent-primary;
+        color: @text-base;
+        border-radius: 8px;
+    }
+
+}
+.oo-ui-menuOptionWidget:hover {
+    border-radius: 8px;
+}
+.oo-ui-optionWidget-selected {
+        background: @accent-alt !important;
+        color: @text-base;
+        border-radius: 8px;
+    .oo-ui-optionWidget-highlighted {
+            background-color: @accent-hover !important;
+            color: @text-base;
+            border-radius: 8px;
+    }
+}
+.oo-ui-optionWidget-highlighted {
+        background-color: @accent-primary !important;
+        color: @text-base;
+        border-radius: 8px;
+}
+.oo-ui-tool:hover {
+    background-color: @accent-primary !important;
+    color: @color-white;
+    border-radius: 8px;
+}
+.oo-ui-tool.oo-ui-widget-enabled.oo-ui-tool-active > .oo-ui-tool-link {
+    background-color: @icon-color !important;
+    color: @color-white;
+    border-radius: 8px;
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open .oo-ui-dropdownWidget-handle {
+    background-color: @accent-alt !important;
+}

@@ -1,6 +1,6 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": ["Christian Daniel Jensen"]
 	},
 	"skinname-continuum": "Continuum",
 	"continuum-specialversion-name": "Continuum",
@@ -87,5 +87,19 @@
 	"continuum-night-mode-issue-reporting-link-notification": "Report received!",
 	"continuum-night-mode-issue-reporting-preload-title": "$1 dark mode error",
 	"continuum-night-mode-issue-reporting-preload-content": "<!--\nInstructions\nPlease describe how the dark mode colors are making Wikipedia difficult to read.\nPlease include the section of the article where you found the issue.\n-->\n'''Issue Description'''",
-	"continuum-night-mode-beta-tag": "(beta)"
+	"continuum-night-mode-beta-tag": "(beta)",
+	"continuum-theme-label": "Continuum theme",
+	"continuum-theme-switcher-heading": "Theme",
+	"continuum-theme-imperial-night": "Imperial Night",
+	"continuum-theme-ubla-day": "Ûblâ (Day)",
+	"continuum-theme-ubla-night": "Ûblâ (Night)",
+	"continuum-theme-verdant": "Verdant",
+	"continuum-theme-saved": "Theme set to $1.",
+	"continuum-theme-applied-temp": "Theme applied (this device): $1.",
+	"continuum-theme-name": "Theme",
+	"continuum-theme-imperial-night-label": "Imperial Night",
+	"continuum-theme-ubla-day-label": "Ûblâ (Day)",
+	"continuum-theme-ubla-night-label": "Ûblâ (Night)",
+	"continuum-theme-verdant-label": "Verdant"
 }
+	

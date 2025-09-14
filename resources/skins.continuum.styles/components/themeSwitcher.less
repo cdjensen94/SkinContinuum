@@ -1,0 +1,33 @@
+#ct-theme-switcher {
+  display: flex; gap: .5rem; align-items: center; margin-left: .75rem;
+  padding: .25rem; border-radius: .75rem; background: transparent;
+}
+#ct-theme-switcher .ct-theme-btn {
+  display: inline-flex; align-items: center; gap: .4rem;
+  padding: .3rem .55rem; border-radius: .6rem; border: 1px solid transparent;
+  background: rgba(255,255,255,.04); color: var(--text-base);
+  cursor: pointer; font: inherit; line-height: 1; transition: filter .15s ease, border-color .15s ease, background .15s ease;
+}
+#ct-theme-switcher .ct-theme-btn:hover { filter: saturate(1.1) brightness(1.05); }
+#ct-theme-switcher .ct-theme-btn.is-active {
+  border-color: var(--border);
+  box-shadow: 0 0 10px rgba(255,255,255,.07) inset;
+}
+#ct-theme-switcher .ct-theme-swatch {
+  width: .9rem; height: .9rem; border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.15);
+}
+#ct-theme-switcher .ct-theme-label { font-size: .85em; opacity: .9; }
+
+/* Small screens: show only swatches */
+@media (max-width: 720px) {
+  #ct-theme-switcher .ct-theme-label { display: none; }
+}
+
+/* Fancy glow in Ûblâ Night */
+.theme-ubla-night #ct-theme-switcher .ct-theme-btn.is-active {
+  box-shadow:
+    0 0 0 1px rgba(32,227,255,.55) inset,
+    0 0 12px rgba(32,227,255,.25);
+  border-color: rgba(32,227,255,.65);
+}

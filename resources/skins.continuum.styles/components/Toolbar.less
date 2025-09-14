@@ -1,62 +1,31 @@
 @import '../variables.less';
 
-// Toolbar styles for Continuum skin
-.oo-ui-icon-listBullet, .oo-ui-indicator-down,
-.oo-ui-icon-undo, .oo-ui-icon-redo,
-.oo-ui-icon-bold, .oo-ui-icon-italic,
-.oo-ui-icon-textStyle, .oo-ui-icon-subscript,
-.oo-ui-icon-superscript, .oo-ui-icon-strikethrough,
-.oo-ui-icon-link, .oo-ui-icon-unlink,
-.oo-ui-icon-underline, .oo-ui-icon-big,
-.oo-ui-icon-small, .oo-ui-icon-language,
-.oo-ui-icon-collapse, .oo-ui-icon-add,
-.oo-ui-icon-image, .oo-ui-icon-puzzle,
-.oo-ui-icon-speechBubbleNotice, .oo-ui-icon-table,
-.oo-ui-icon-markup, .oo-ui-icon-tabber,
-.oo-ui-icon-labFlask, .oo-ui-icon-imageGallery,
-.oo-ui-icon-mathematics, .oo-ui-icon-signature,
-.oo-ui-icon-references, .oo-ui-icon-help,
-.oo-ui-icon-specialCharacter,.oo-ui-icon-edit,
-.oo-ui-icon-eye, .oo-ui-icon-wikiText,
-.oo-ui-icon-articleSearch, .oo-ui-icon-textDirRTL,
-.oo-ui-icon-highlight, .oo-ui-icon-textLanguage,
-.oo-ui-icon-settings, .oo-ui-icon-pageSettings,
-.oo-ui-icon-tag, .oo-ui-icon-window,
-.oo-ui-icon-menu, .oo-ui-icon-alert, .oo-ui-icon-search,
-.oo-ui-icon-ellipsis, .oo-ui-icon-gear,
-.oo-ui-icon-listNumbered, .oo-ui-icon-noWikiText,
-.oo-ui-icon-newline, .oo-ui-icon-bigger,
-.oo-ui-icon-smaller, .oo-ui-icon-articleRedirect,
-.oo-ui-icon-reference, .oo-ui-icon-info{
-    filter: brightness(0) saturate(100%) invert(54%) sepia(100%) saturate(748%) hue-rotate(-12deg) brightness(95%) contrast(91%);
-}
-.oo-ui-icon-cancel, .oo-ui-icon-close {
-    filter: brightness(0) saturate(100%) invert(54%) sepia(100%) saturate(100%) hue-rotate(0deg) brightness(95%) contrast(91%);
-}
+
 /*
 .oo-ui-fieldLayout-field {
-    background-color: @color-dark-navy;
+    background-color: @bg-alt;
     color: @color-white;
-    border: 1px solid @color-bright-orange;
+    border: 1px solid @accent-primary;
     border-radius: 4px;
 }
 */
 .skin-invert {
-    color: @color-burnt-orange !important;
+    color: @accent-alt !important;
 }
 #msupload-dropzone {
-    background-color: @color-dark-navy;
+    background-color: @bg-alt;
     color: @color-white;
-    border: 1px solid @color-bright-orange;
+    border: 1px solid @accent-primary;
     border-radius: 4px;
 }
 #msupload-div
 {
-    background: @color-dark-navy !important;
-    border-top: 1px solid @color-bright-orange !important;
+    background: @bg-alt !important;
+    border-top: 1px solid @accent-primary !important;
     padding: 0;
     z-index: 0;
 }
+/*
 .oo-ui-widget label {
     border: none;
 }
@@ -68,6 +37,44 @@
     border: none;
     border-radius: 0;
 }
+*/
 .oo-ui-fieldsetLayout-group{
     padding: 12px;
+}
+.oo-ui-buttonElement-button {
+    background-color: @icon-color;
+    background: @icon-color !important;
+    color: @color-white;
+    border: 1px solid @accent-alt;
+    cursor: pointer;
+
+    &:hover {
+        background-color: @accent-primary;
+        color: @accent-hover;
+        border-color: @accent-alt;
+        box-shadow: inset 0 0 0 1px @accent-alt, inset 0 0 0 2px @accent-primary;
+    }
+
+    &:active {
+        background-color: @accent-hover;
+        color: @accent-active;
+        border-color: @accent-alt;
+        box-shadow: inset 0 0 0 1px @accent-alt, inset 0 0 0 2px @accent-hover;
+    }
+}
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:checked + span, .oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:indeterminate + span {
+    background-color: @icon-color !important;
+    border-color: @bg-button;
+}
+.oo-ui-checkboxInputWidget [type='checkbox'] + span {
+    background-color: @bg-panel;
+    position: absolute;
+    border: 1px solid @accent-alt;
+    border-radius: 4px;
+}
+.oo-ui-menuSelectWidget {
+    background-color: @bg-alt !important;
+}
+.mw-htmlform-submit-buttons {
+    background-color: @bg-interactive !important;
 }

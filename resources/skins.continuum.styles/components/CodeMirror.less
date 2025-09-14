@@ -1,10 +1,10 @@
 @import '../variables.less';
 
 .ve-ce-surface-source.CodeMirror {
-    background: @color-deep-navy;
+    background: @bg-panel;
     background-color: @color-black;
     color: @color-white;
-    border: 1px solid @color-bright-orange;
+    border: 1px solid @accent-primary;
     //border-radius: 4px;
     padding: 0 !important;
 	width: 100% !important;
@@ -28,66 +28,28 @@
 	font-size: 14px !important;
 	line-height: 1.4 !important;
 }
-.cm-keyword { color: @color-bright-orange; font-weight: bold; }
-.cm-string  { color: @color-azure; }
-.cm-comment { color: @color-soft-gray; font-style: italic; }
-.cm-number  { color: @color-gold; }
-.cm-variable { color: @color-soft-peach; }
-.cm-def     { color: @color-burnt-orange; }
-.cm-mw-section-header { color: @color-blue; font-weight: bold; }
+.cm-keyword { color: @code-keyword; font-weight: bold; }
+.cm-string  { color: @code-string; }
+.cm-comment { color: @code-comment; font-style: italic; }
+.cm-number  { color: @code-number; }
+.cm-variable { color: @code-variable; }
+.cm-def     { color: @code-def; }
+.cm-mw-template { color: @code-template; }
+.cm-mw-parserfunction-name { color: @code-parserfunction; }
+.cm-mw-section-header { color: @code-section-header; font-weight: bold; }
+.cm-mw-htmltag-attribute { color: @code-htmltag-attribute; }
+.cm-mw-link-brackets { color: @code-link-brackets; }
+.cm-mw-link-pagename { color: @code-link-pagename; text-decoration: underline; }
+.cm-mw-link-text { color: @code-link-text; }
+.cm-mw-exttag-attribute { color: @code-exttag-attribute; }
+.cm-mw-exttag-name { color: @code-exttag-name; }
+.cm-mw-exttag-brackets { color: @code-exttag-brackets; }
+.cm-mw-exttag { color: @code-exttag; }
 .CodeMirror-cursor { border-left: 1px solid @color-orange; }
 .CodeMirror-gutters, .CodeMirror-linenumbers {
-    background-color: @color-dark-navy !important;
-    color: @color-soft-peach !important;
-    border-right: 1px solid @color-orange !important;
-}
-.cm-def{
-    color: #cb4b16 !important; /* example color for definitions */
-}
-.cm-comment{
-    color: #93a1a1 !important; /* example color for comments */
-}
-.cm-keyword{
-    color: #859900 !important; /* example color for keywords */
-}
-.cm-string{
-    color: #2aa198 !important; /* example color for strings */
-}
-.cm-number{
-    color: #b58900 !important; /* example color for numbers */
-}
-.cm-mw-section-header{
-    color: #268bd2 !important; /* example color for section headers */
-}
-.cm-mw-template{
-    color: #6c71c4 !important; /* example color for templates */
-}
-.cm-mw-parserfunction-name{
-    color: #d33682 !important; /* example color for parser function names */
-}
-.cm-mw-htmltag-attribute{
-    color: #dc322f !important; /* example color for HTML tag attributes */
-}
-.cm-mw-link-brackets{
-    color: #657b83 !important; /* example color for link brackets */
-}
-.cm-mw-link-pagename{
-    color: #839496 !important; /* example color for link page names */
-}
-.cm-mw-link-text{
-    color: #c4c4c4 !important; /* example color for link text */
-}
-.cm-mw-exttag-attribute{
-    color: #b58900 !important; /* example color for external tag attributes */
-}
-.cm-mw-exttag-name{
-    color: #cb4b16 !important; /* example color for external tag names */
-}
-.cm-mw-exttag-brackets{
-    color: #268bd2 !important; /* example color for external tag brackets */
-}
-.cm-mw-exttag{
-    color: #2aa198 !important; /* example color for external tag content */
+    background-color: @bg-alt !important;
+    color: @accent-hover !important;
+    border-right: 1px solid @accent-primary !important;
 }
 /* Insert rules from lightbulb.css here, adjusting selectors */
-.CodeMirror-cursor { border-left: 1px solid @color-burnt-orange !important; }
+.CodeMirror-cursor { border-left: 1px solid @accent-alt !important; }

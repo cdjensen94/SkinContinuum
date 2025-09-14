@@ -3,188 +3,19 @@
  * See '../common/common.less' for common screen and print Continuum stylesheets.
  */
 
-:root, .skin-continuum {
 
-    /* Core Colors */
-    --color-deep-navy: #001A33;       /* Header Background */
-    --color-navy: #001F3F;            /* Page Background */
-    --color-dark-navy: #001933;       /* Footer, Panels */
-    --color-lighter-navy: #002855;    /* Sidebar */
-    --color-accent-navy: #002B5C;     /* TOC */
-    --color-bright-orange: #FF851B;   /* Primary Accent */
-    --color-deep-orange: #FF6300;     /* Headers */
-    --color-soft-peach: #FFB84D;      /* Hover Effects */
-    --color-burnt-orange: #FF4500;    /* Alerts */
-    --color-light-orange: #FF6347;    /* Buttons */
-    --color-orange: #FF4500;     /* Button Hover */
-    --color-soft-gray: #AAAAAA;       /* Subtle Text */
-    --color-white: #FFFFFF;           /* Base Text */
-    --color-error-red: #FF6347;       /* Error States */
-    --color-visited-link: #B86BFF;    /* Visited Links */
-    --color-dark-gray: #1E1E1E;       /* Code Block BG */
-    --color-gold: #FFD700;            /* Code Numbers */
-    --color-azure: #7FDBFF;           /* Code Strings */
-    
-    /* Base Colors */
-    --color-base: #FFFFFF; /* White for primary text */
-    --color-base-fixed: #FFFFFF;
-    --color-base--hover: #FFB84D; /* Soft Peach for hover */
-    --color-emphasized: #FFFFFF;
-    --color-subtle: #FF851B; /* Bright Orange for subtle text */
-    --color-placeholder: #FFB84D;
-    --color-disabled: #72777d;
-    --color-inverted: #FFFFFF;
-    --color-inverted-fixed: #FFFFFF;
-
-    /* Progressive Colors (Links, Highlights) */
-    --color-progressive: #FF851B; /* Bright Orange */
-    --color-progressive--hover: #FFB84D; /* Soft Peach */
-    --color-progressive--active: #FF6300; /* Deep Orange */
-    --color-progressive--focus: #FF851B;
-
-    /* Destructive/Warning/Success */
-    --color-destructive: #FF4500; /* Burnt Orange */
-    --color-destructive--hover: #FF6347; /* Tomato */
-    --color-destructive--active: #9F3526; /* Deep Burnt Orange */
-    --color-destructive--focus: #FF851B;
-    --color-visited: #B86BFF; /* Lavender for visited links */
-    --color-destructive--visited: #FF6347;
-    --color-error: #FF4500;
-    --color-warning: #FFB84D;
-    --color-success: #0d503f;
-    --color-notice: #FFFFFF;
-
-    /* Link Color */
-    --color-link: #FF851B;
-    --color-link--hover: #FFB84D;
-    --color-link--active: #FF6300;
-    --color-link--focus: #FF851B;
-    --color-link--visited: #B86BFF;
-    --color-link--visited--hover: #E89BFF;
-
-    /* Content Changes */
-    --color-content-added: #006400;
-    --color-content-removed: #8B0000;
-
-    /* Shadows & Filters */
-    --filter-invert-icon: 0;
-    --filter-invert-primary-button-icon: 1;
-    --box-shadow-color-base: #000;
-    --box-shadow-color-progressive--active: #FF6300;
-    --box-shadow-color-progressive--focus: #FF851B;
-    --box-shadow-color-progressive-selected: #FF851B;
-    --box-shadow-color-progressive-selected--hover: #FFB84D;
-    --box-shadow-color-progressive-selected--active: #FF6300;
-    --box-shadow-color-destructive--focus: #FF851B;
-    --box-shadow-color-inverted: #FFFFFF;
-    --box-shadow-color-transparent: transparent;
-
-    /* Background Colors */
-    --background-color-base: #001F3F; /* Navy */
-    --background-color-base-fixed: #001F3F;
-    --background-color-neutral: #002855;
-    --background-color-neutral-subtle: #001933;
-    --background-color-interactive: #002B5C;
-    --background-color-interactive-subtle: #001933;
-    --background-color-disabled: #54595d;
-    --background-color-disabled-subtle: #3A3D42;
-    --background-color-inverted: #101418;
-
-    /* Background - Progressive */
-    --background-color-progressive: #FF851B;
-    --background-color-progressive--hover: #FFB84D;
-    --background-color-progressive--active: #FF6300;
-    --background-color-progressive--focus: #FF851B;
-    --background-color-progressive-subtle: rgba(255, 133, 27, 0.1);
-
-    /* Background - Destructive */
-    --background-color-destructive: #FF4500;
-    --background-color-destructive--hover: #FF6347;
-    --background-color-destructive--active: #9F3526;
-    --background-color-destructive--focus: #FF851B;
-    --background-color-destructive-subtle: rgba(255, 69, 0, 0.1);
-
-    /* Background - Error/Warning/Success */
-    --background-color-error: #FF4500;
-    --background-color-error--hover: #FF6347;
-    --background-color-error--active: #9F3526;
-    --background-color-error-subtle: rgba(255, 69, 0, 0.1);
-    --background-color-warning-subtle: rgba(255, 184, 77, 0.2);
-    --background-color-success-subtle: #dff2eb;
-    --background-color-notice-subtle: #001933;
-    --background-color-content-added: #a3d3ff;
-    --background-color-content-removed: #ffe49c;
-    --background-color-transparent: transparent;
-    --background-color-backdrop-light: rgba(255, 255, 255, 0.65);
-    --background-color-backdrop-dark: rgba(0, 0, 0, 0.65);
-    --background-color-button-quiet--hover: rgba(255, 133, 27, 0.1);
-    --background-color-button-quiet--active: rgba(255, 133, 27, 0.2);
-    --background-color-input-binary--checked: #FF851B;
-    --background-color-tab-list-item-framed--hover: rgba(255, 255, 255, 0.3);
-    --background-color-tab-list-item-framed--active: rgba(255, 255, 255, 0.65);
-
-    /* Opacity */
-    --opacity-icon-base: 0.87;
-    --opacity-icon-base--hover: 0.74;
-    --opacity-icon-base--selected: 1;
-    --opacity-icon-base--disabled: 0.51;
-    --opacity-icon-placeholder: 0.51;
-    --opacity-icon-subtle: 0.67;
-
-    /* Borders */
-    --border-color-base: #FF851B;
-    --border-color-subtle: #FFB84D;
-    --border-color-muted: #FFB84D;
-    --border-color-interactive: #FF851B;
-    --border-color-disabled: #54595d;
-    --border-color-inverted: #FFFFFF;
-    --border-color-progressive: #FF851B;
-    --border-color-progressive--hover: #FFB84D;
-    --border-color-progressive--active: #FF6300;
-    --border-color-progressive--focus: #FF851B;
-    --border-color-destructive: #FF4500;
-    --border-color-destructive--hover: #FF6347;
-    --border-color-destructive--active: #9F3526;
-    --border-color-destructive--focus: #FF851B;
-    --border-color-error: #FF4500;
-    --border-color-error--hover: #FF6347;
-    --border-color-warning: #FFB84D;
-    --border-color-success: #177860;
-    --border-color-notice: #001933;
-    --border-color-content-added: #a3d3ff;
-    --border-color-content-removed: #ffe49c;
-    --border-color-transparent: transparent;
-    --border-color-divider: #FF851B;
-
-    /* Outline */
-    --outline-color-progressive--focus: #FF851B;
-
-    /* Link Overrides */
-    --color-link-red: var(--color-destructive);
-    --color-link-red--hover: var(--color-destructive--hover);
-    --color-link-red--active: var(--color-destructive--active);
-    --color-link-red--focus: var(--color-destructive--focus);
-    --color-link-red--visited: var(--color-destructive--visited);
-
-    /* Input Borders */
-    --border-color-input--hover: var(--border-color-interactive);
-    --border-color-input-binary: var(--border-color-interactive);
-    --border-color-input-binary--hover: var(--border-color-progressive--hover);
-    --border-color-input-binary--active: var(--border-color-progressive--active);
-    --border-color-input-binary--focus: var(--border-color-progressive--focus);
-    --border-color-input-binary--checked: var(--border-color-progressive);
-
-    /* Subtle Text */
-    --color-base--subtle: #FF851B;
-
-    /* Icon Colors */
-    --ooui-icon-color: #ffa726; /* your bright orange hex */
-}
 
 @import './variables.less';
 @import './mixins.less';
 
 @media screen {
+
+	// Theme styles
+	@import './themes/theme-imperial-night.less';
+	@import './themes/theme-ubla-day.less';
+	@import './themes/theme-ubla-night.less';
+	@import './themes/theme-verdant.less';
+
 	// Common styles
 	@import './layouts/screen.less';
 	@import './layouts/grid.less';
@@ -242,6 +73,18 @@
     @import './components/VoteNY.less';
     @import './components/Misc.less';
     @import './components/AceEditor.less';
+    @import './components/Breadcrumbs.less';
+    @import './components/Links.less';
+    @import './components/CategoryLinks.less';
+    @import './components/Thumbnail.less';
+    @import './components/Blog.less';
+    @import './components/LoreSpotlightWidget.less';
+    @import './components/Main.less';
+    @import './components/CDX.less';
+    @import './components/Icons.less';
+    @import './components/VisualEditor.less';
+
+
 	// JS only features. These should be hidden by default but will
 	// be displayed by skins.continuum.js when loaded.
 	.continuum-sticky-header-container {

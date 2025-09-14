@@ -44,7 +44,7 @@
 @padding-blockquote: 8px 32px;
 
 @background-color-secondary--modern: @background-color-neutral-subtle;
-@background-color-page-container: @background-color-base;
+@background-color-page-container: @bg-main;
 
 // Navigation
 // Navigation `line-height` has to be set in `em`s due to a rendering calculation issue.
@@ -157,111 +157,9 @@
 @grid-template-column-desktop-wide: ~'@{width-column-desktop-wide} @{width-page-content}';
 
 // --- CUSTOM DARK PALETTE, MAPPED TO CSS VARIABLES ---
-@background-color-base: var(--background-color-base);
-@background-color-neutral-subtle: var(--background-color-neutral-subtle);
-@background-color-interactive: var(--background-color-interactive);
-@color-base: var(--color-base);
-@color-link: var(--color-progressive);
-@color-link-selected: var(--color-bright-orange);
-@border-color-muted: var(--border-color-muted);
 @box-shadow-drop-medium: 0 2px 8px var(--box-shadow-color-base);
-@color-error: var(--color-error-red);
-@color-warning: var(--color-warning);
-
-
-// Core Colors Variables
-@background-color: var(--background-color-base);
-@background-color-secondary: var(--background-color-neutral-subtle);
-@color-progressive: var(--color-progressive);
-@color-progressive--hover: var(--color-progressive--hover);
-@color-progressive--active: var(--color-progressive--active);
-@color-progressive--focus: var(--color-progressive--focus);
-@color-destructive: var(--color-destructive);
-@color-destructive--hover: var(--color-destructive--hover);
-@color-destructive--active: var(--color-destructive--active);
-@color-destructive--focus: var(--color-destructive--focus);
-@color-visited: var(--color-visited);
-@color-destructive--visited: var(--color-destructive--visited);
-@color-error: var(--color-error);
-@color-warning: var(--color-warning);
-@color-success: var(--color-success);
-@color-notice: var(--color-notice);
-@color-content-added: var(--color-content-added);
-@color-content-removed: var(--color-content-removed);
-@filter-invert-icon: var(--filter-invert-icon);
-@filter-invert-primary-button-icon: var(--filter-invert-primary-button-icon);
-@box-shadow-color-base: var(--box-shadow-color-base);
-@box-shadow-color-progressive--active: var(--box-shadow-color-progressive--active);
-@box-shadow-color-progressive--focus: var(--box-shadow-color-progressive--focus);
-@box-shadow-color-progressive-selected: var(--box-shadow-color-progressive-selected);
-@box-shadow-color-progressive-selected--hover: var(--box-shadow-color-progressive-selected--hover);
-@box-shadow-color-progressive-selected--active: var(--box-shadow-color-progressive-selected--active);
-@box-shadow-color-destructive--focus: var(--box-shadow-color-destructive--focus);
-@box-shadow-color-inverted: var(--box-shadow-color-inverted);
-@box-shadow-color-transparent: var(--box-shadow-color-transparent);
-// Border Colors
-@border-color-muted: var(--border-color-muted);
-@border-color: var(--border-color-base);
-
-// Link Colors
-@link-color: var(--color-link);
-@link-hover-color: var(--color-link--hover);
-@link-active-color: var(--color-link--active);
-@link-focus-color: var(--color-link--focus);
-@link-visited-color: var(--color-link--visited);
-@link-visited-hover-color: var(--color-link--visited--hover);
-
-// Background Colors
-@active-bg: var(--background-color-progressive);
-@active-bg-hover: var(--background-color-progressive--hover);
-@active-bg-active: var(--background-color-progressive--active);
-@active-bg-focus: var(--background-color-progressive--focus);
-@destructive-bg: var(--background-color-destructive);
-@destructive-bg-hover: var(--background-color-destructive--hover);
-@destructive-bg-active: var(--background-color-destructive--active);
-@destructive-bg-focus: var(--background-color-destructive--focus);
-@destructive-bg-subtle: var(--background-color-destructive-subtle);
-@error-bg: var(--background-color-error);
-@error-bg-hover: var(--background-color-error--hover);
-@error-bg-active: var(--background-color-error--active);
-@warning-bg: var(--background-color-warning);
-@success-bg: var(--background-color-success);
-@notice-bg: var(--background-color-notice);
-
-// More Colors
-@color-base: var(--color-base);
-@color-muted: var(--color-muted);
-@color-emphasized: var(--color-emphasized);
-@color-inverted: var(--color-inverted);
-@color-inverted-subtle: var(--color-inverted-subtle);
-@active-color: var(--color-active);
-@active-color-hover: var(--color-active--hover);
-@active-color-active: var(--color-active--active);
-@active-color-focus: var(--color-active--focus);
-
-// NO SHIT COLORS
-@color-black: var(--color-black);
-@color-white: var(--color-base);
-@color-gray: var(--color-gray);
-@color-red: var(--color-red);
-@color-green: var(--color-green);
-@color-blue: var(--color-blue);
-@color-yellow: var(--color-yellow);
-@color-purple: var(--color-purple);
 @color-orange: #ff7300;
-@color-pink: var(--color-pink);
-@color-bright-orange: var(--color-bright-orange);
-@color-azure: var(--color-azure);
-@color-indigo: var(--color-indigo);
-@color-soft-gray: var(--color-soft-gray);
-@color-gold: var(--color-gold);
-@color-soft-peach: var(--color-soft-peach);
-@color-burnt-orange: var(--color-burnt-orange);
 @color-text-highlight: #ffc800;
-@color-accent-navy: var(--color-accent-navy);
-@color-dark-navy: var(--color-dark-navy);
-@color-lighter-navy: var(--color-lighter-navy);
-@color-deep-navy: var(--color-deep-navy);
 // ... add more as needed ...
 
 @shadow-color: rgba(0, 0, 0, 0.5);
@@ -275,3 +173,97 @@
 @spacing-lg: 24px;
 @spacing-xl: 32px;
 @spacing-xxl: 48px;
+
+
+/* Backgrounds */
+@bg-main:        var(--bg-main);
+@bg-alt:         var(--bg-alt);
+@bg-panel:       var(--bg-panel);
+@bg-interactive: var(--bg-interactive);
+@bg-button:      var(--bg-button);
+
+/* ===== Imperial Accent Palette ===== */
+@accent-primary:   var(--accent-primary); // bright orange
+@accent-alt:       var(--accent-alt); // burnt orange
+@accent-hover:     var(--accent-hover); // soft peach / hover
+@accent-active:    var(--accent-active); // deep orange
+@accent-gold:      var(--accent-gold); // regal highlight
+
+
+/* Text */
+@text-base:      var(--text-base);
+@text-subtle:    var(--text-subtle);
+@text-alt:       var(--text-alt);
+@text-accent:    var(--accent-primary);
+@text-error:     var(--text-error);
+@text-hover:     var(--text-hover);
+
+/* Links */
+@link:           var(--accent-primary);
+@link-hover:     var(--accent-hover);
+@link-active:    var(--accent-active);
+@link-alt:       var(--accent-alt);
+@link-visited:   var(--link-visited);
+
+/* Buttons */
+@btn-bg:         var(--accent-primary);
+@btn-hover:      var(--accent-hover);
+@btn-active:     var(--accent-active);
+
+/* Status */
+@status-success: #0d503f;
+@status-warning: var(--status-warning);
+@status-error:   var(--status-error);
+@status-notice:  var(--status-notice);
+
+/* Borders */
+@border:         var(--accent-primary);
+@border-hover:   var(--accent-hover);
+@border-active:  var(--accent-active);
+@border-error:   var(--accent-danger);
+@border-success: #177860;
+@border-warning: var(--border-warning);
+@border-notice:  var(--border-notice);
+
+/* Code Highlighting */
+@code-bg:        var(--code-bg);
+@code-number:    var(--code-number);
+@code-string:    var(--code-string);
+@code-keyword:   var(--code-keyword);
+@code-comment:   var(--code-comment);
+@code-function:  var(--code-function);
+@code-variable:  var(--code-variable);
+@code-operator:  var(--code-operator);
+@code-constant:  var(--code-constant);
+@code-type:      var(--code-type);
+@code-class:     var(--code-class);
+@code-interface: var(--code-interface);
+@code-bg-highlight: var(--code-bg-highlight);
+@code-number: var(--code-number);
+@code-def: var(--code-def);
+@code-template: var(--code-template);
+@code-parserfunction: var(--code-parser-function);
+@code-htmltag-attribute: var(--code-html-attribute);
+@code-link-brackets: var(--code-link-brackets);
+@code-link-pagename: var(--code-link-pagename);
+@code-link-text: var(--code-link-text);
+@code-exttag: var(--code-exttag);
+@code-exttag-attribute: var(--code-exttag-attribute);
+@code-exttag-name: var(--code-exttag-name);
+@code-exttag-brackets: var(--code-exttag-brackets);
+@code-section-header: var(--code-section-header);
+@code-identifier: var(--code-identifier);
+@code-type: var(--code-type);
+@code-underline: var(--code-underline);
+@code-other: var(--code-other);
+@code-function-builtin: var(--code-function-builtin);
+@code-list: var(--code-list);
+@code-tag: var(--code-tag);
+@code-attribute: var(--code-attribute);
+@code-language: var(--code-language);
+@color-white:      #FFFFFF;
+@color-black:      #000000;
+
+@shadow-color: var(--shadow);
+
+@icon-color: var(--icon-color);

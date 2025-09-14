@@ -39,7 +39,6 @@ class Hooks implements
 		$this->config = $config;
 		$this->userOptionsManager = $userOptionsManager;
 	}
-
 	/**
 	 * Checks if the current skin is a variant of Continuum
 	 *
@@ -536,8 +535,29 @@ class Hooks implements
 		$featureManagerFactory = $services->getService( 'Continuum.FeatureManagerFactory' );
 		$featureManager = $featureManagerFactory->createFeatureManager( RequestContext::getMain() );
 		$isNightModeEnabled = $featureManager->isFeatureEnabled( Constants::FEATURE_NIGHT_MODE );
+		$uol = $services->getUserOptionsLookup();
+		$skinName = $uol->getOption( $user, 'skin', 'continuum' );
 
+		if ( $skinName !== 'continuum' ) {
+			return;
+		}
+		$prefs = array_merge( $prefs, [
+			// inside your $continuumPrefs
+			'continuum-theme' => [
+			'type' => 'select',
+			'label-message' => 'continuum-theme-label',
+			'section' => 'rendering/skin/skin-prefs',
+			'options-messages' => [
+				'continuum-theme-imperial-night' => 'imperial-night',
+				'continuum-theme-ubla-day'       => 'ubla-day',
+				'continuum-theme-ubla-night'     => 'ubla-night',
+				'continuum-theme-verdant'        => 'verdant',
+			],
+			'hide-if' => [ '!==', 'skin', 'continuum' ],
+			],
+		] );
 		$continuumPrefs = [
+		
 			Constants::PREF_KEY_LIMITED_WIDTH => [
 				'type' => 'toggle',
 				'label-message' => 'continuum-prefs-limited-width',
@@ -556,32 +576,14 @@ class Hooks implements
 				],
 				'hide-if' => [ '!==', 'skin', Constants::SKIN_NAME_MODERN ],
 			],
-			Constants::PREF_KEY_PAGE_TOOLS_PINNED => [
-				'type' => 'api'
-			],
-			Constants::PREF_KEY_MAIN_MENU_PINNED => [
-				'type' => 'api'
-			],
-			Constants::PREF_KEY_TOC_PINNED => [
-				'type' => 'api'
-			],
-			Constants::PREF_KEY_APPEARANCE_PINNED => [
-				'type' => 'api'
-			],
-			Constants::PREF_KEY_NIGHT_MODE => [
-				'type' => $isNightModeEnabled ? 'select' : 'api',
-				'label-message' => 'skin-theme-name',
-				'help-message' => 'skin-theme-description',
-				'section' => 'rendering/skin/skin-prefs',
-				'options-messages' => [
-					'skin-theme-day-label' => 'day',
-					'skin-theme-night-label' => 'night',
-					'skin-theme-os-label' => 'os',
-				],
-				'hide-if' => [ '!==', 'skin', Constants::SKIN_NAME_MODERN ],
-			],
+			Constants::PREF_KEY_PAGE_TOOLS_PINNED => [ 'type' => 'api' ],
+			Constants::PREF_KEY_MAIN_MENU_PINNED => [ 'type' => 'api' ],
+			Constants::PREF_KEY_TOC_PINNED       => [ 'type' => 'api' ],
+			Constants::PREF_KEY_APPEARANCE_PINNED=> [ 'type' => 'api' ],
+			// === Your custom theme selector ===
+			// Your theme selector
 		];
-		$prefs += $continuumPrefs;
+		$prefs = array_merge( $prefs, $continuumPrefs );
 	}
 
 

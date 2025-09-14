@@ -149,11 +149,9 @@ class OverridableConfigRequirement implements Requirement {
 			$thisConfig[ 'default' ] :
 			$thisConfig[ $this->user->isRegistered() ? 'logged_in' : 'logged_out' ];
 		// Check if use has enabled beta features
-		$betaFeatureConfig = array_key_exists( 'beta', $thisConfig ) && $thisConfig[ 'beta' ];
-		$betaFeatureEnabled = in_array( $this->configName, Constants::CONTINUUM_BETA_FEATURES ) &&
-			$betaFeatureConfig && $this->isContinuum2022BetaFeatureEnabled();
+	
 		// If user has enabled beta features, use beta config
-		return $betaFeatureEnabled ? $betaFeatureConfig : $userConfig;
+		return $userConfig;
 	}
 
 	/**

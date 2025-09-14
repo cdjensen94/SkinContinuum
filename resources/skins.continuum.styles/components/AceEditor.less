@@ -7,7 +7,7 @@
 .ace_editor {
     background: @color-black;
     color: @color-white;
-    border: 1px solid @color-bright-orange;
+    border: 1px solid @accent-primary;
     box-sizing: border-box;
     width: 100% !important;
     min-height: 300px !important;
@@ -17,14 +17,14 @@
 
 /* gutter / line numbers */
 .ace_gutter {
-    background: @color-dark-navy !important;
-    color: @color-soft-peach !important;
-    border-right: 1px solid @color-burnt-orange !important;
+    background: @bg-alt !important;
+    color: @accent-hover !important;
+    border-right: 1px solid @accent-alt !important;
 }
 
 /* cursor */
 .ace_cursor {
-    border-left: 1px solid @color-burnt-orange !important;
+    border-left: 1px solid @accent-alt !important;
 }
 
 /* selection */
@@ -32,7 +32,7 @@
     background: fade(#40a0ff, 22%);
 }
 .ace_multiselect .ace_selection.ace_start {
-    box-shadow: 0 0 0 1px @color-azure;
+    box-shadow: 0 0 0 1px @accent-alt;
 }
 
 /* active line & matching bracket */
@@ -43,46 +43,46 @@
 .ace_invisible { color: fade(#AAAAAA, 40%); }
 
 /* token colors — mapping your CodeMirror classes to Ace token classes */
-.ace_keyword           { color: @color-bright-orange; font-weight: bold; }  // .cm-keyword
-.ace_string            { color: @color-azure; }
-.ace_comment           { color: @color-soft-gray; font-style: italic; }
-.ace_constant.ace_numeric { color: @color-gold; }                            // .cm-number
-.ace_variable,
-.ace_identifier        { color: @color-soft-peach; }
+.ace_keyword           { color: @code-keyword; font-weight: bold; }  // .cm-keyword
+.ace_string            { color: @code-string; }
+.ace_comment           { color: @code-comment; font-style: italic; }
+.ace_constant.ace_numeric { color: @code-number; }                            // .cm-number
+.ace_variable.ace_language { color: @code-variable; }
+.ace_identifier        { color: @code-identifier; }
 .ace_storage,          /* defs / storage words */
 .ace_entity.ace_name,
-.ace_support.ace_type  { color: @color-burnt-orange; }
+.ace_support.ace_type  { color: @code-type; }
 
 /* “MediaWiki-like” extras (best-effort mapping) */
-.ace_markup.ace_heading             { color: @color-blue; font-weight: bold; }   // .cm-mw-section-header
-.ace_support.ace_function           { color: #cb4b16 !important; }               // .cm-def example
-.ace_meta.ace_tag                   { color: #cb4b16 !important; }               // exttag-name
-.ace_meta.ace_tag.ace_attribute     { color: #dc322f !important; }               // htmltag-attribute
-.ace_markup.ace_link                { color: #657b83 !important; }               // link-brackets
-.ace_string.ace_other               { color: #839496 !important; }               // link pagename-ish
-.ace_markup.ace_underline           { color: #c4c4c4 !important; }               // link text-ish
-.ace_support.ace_constant           { color: #b58900 !important; }               // exttag-attribute
-.ace_variable.ace_language          { color: #6c71c4 !important; }               // mw-template-ish
-.ace_support.ace_function.ace_builtin { color: #d33682 !important; }             // parserfunction-name-ish
-.ace_markup.ace_list                { color: #268bd2 !important; }               // exttag-brackets
-.ace_markup.ace_other               { color: #2aa198 !important; }               // exttag content-ish
+.ace_markup.ace_heading             { color: @code-section-header; font-weight: bold; }   // .cm-mw-section-header
+.ace_support.ace_function           { color: @code-function !important; }               // .cm-def example
+.ace_meta.ace_tag                   { color: @code-tag !important; }               // exttag-name
+.ace_meta.ace_tag.ace_attribute     { color: @code-attribute !important; }               // htmltag-attribute
+.ace_markup.ace_link                { color: @code-link-text !important; }               // link-brackets
+.ace_string.ace_other               { color: @code-other !important; }               // link pagename-ish
+.ace_markup.ace_underline           { color: @code-underline !important; }               // link text-ish
+.ace_support.ace_constant           { color: @code-constant !important; }               // exttag-attribute
+.ace_variable.ace_language          { color: @code-language !important; }               // mw-template-ish
+.ace_support.ace_function.ace_builtin { color: @code-function-builtin !important; }             // parserfunction-name-ish
+.ace_markup.ace_list                { color: @code-list !important; }               // exttag-brackets
+.ace_markup.ace_other               { color: @code-other !important; }               // exttag content-ish
 
 /* assuming your editor element has class "ace-continuum" */
 /* base gutter bg + text color */
 .ace-tm .ace_gutter {
-    background: @color-dark-navy !important;
-    color: @color-soft-peach !important;
+    background: @bg-alt !important;
+    color: @accent-hover !important;
 }
 /* make sure individual cells inherit/override as needed */
 .ace_gutter .ace_gutter-cell {
-    color: @color-soft-peach !important;
+    color: @accent-hover !important;
 }
 
 /* active line number */
 .ace_gutter .ace_gutter-active-line,
 .ace_gutter .ace_gutter-cell.ace_gutter-active-line {
     background: fade(#002B5C, 35%) !important;
-    color: @color-bright-orange !important;
+    color: @accent-primary !important;
 }
 
 /* annotations (errors/warnings/info) can override color—pin them */
@@ -93,5 +93,5 @@
 /* fold widgets live inside gutter; keep them visible on dark bg */
 .ace_gutter .ace_fold-widget,
 .ace_gutter .ace_fold-widget:hover {
-    color: @color-soft-peach !important;
+    color: @accent-hover !important;
 }

@@ -2,9 +2,9 @@
 @import '../typography.less';
 
 textarea {
-    background-color: @color-deep-navy;
+    background-color: @bg-panel;
     color: @color-white;
-    border: 1px solid @color-burnt-orange;
+    border: 1px solid @accent-alt;
     border-radius: 8px;
     padding: 12px;
     font-family: @font-code;
@@ -18,15 +18,15 @@ input.mw-userlogin-password,
 .cdx-text-input__input:enabled,
 #wpName1, #wpPassword1,
 .logintext, .loginpassword {
-  background-color: var(--color-dark-navy) !important;
-  background: var(--color-dark-navy) !important;
-  color: var(--color-base) !important;
-  border: 1px solid var(--color-burnt-orange);
+  background-color: @bg-main !important;
+  background: @bg-main !important;
+  color: @text-base !important;
+  border: 1px solid @accent-alt;
   border-radius: 8px !important;
   padding: 12px;
   font-family: 'Libertinus Mono','Courier Prime','Courier New',monospace;
   font-size: var(--font-size-medium);
-  caret-color: var(--color-base);
+  caret-color: @text-base;
 }
 
 /* specifically catch password inputs */
@@ -34,8 +34,8 @@ input[type="password"],
 #wpPassword1,
 input.mw-userlogin-password,
 .cdx-text-input__input[type="password"] {
-  background-color: var(--color-dark-navy) !important;
-  color: var(--color-base) !important;
+  background-color: @bg-main !important;
+  color: @text-base !important;
 }
 
 /* —— Chrome/Edge/Safari (WebKit/Blink) autofill fix —— */
@@ -43,11 +43,11 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   /* paint over the blue */
-  -webkit-box-shadow: 0 0 0 1000px var(--color-dark-navy) inset !important;
-  box-shadow:        0 0 0 1000px var(--color-dark-navy) inset !important;
+  -webkit-box-shadow: 0 0 0 1000px @bg-main inset !important;
+  box-shadow:        0 0 0 1000px @bg-main inset !important;
 
   /* keep your text color */
-  -webkit-text-fill-color: var(--color-base) !important;
+  -webkit-text-fill-color: @text-base !important;
 
   /* stop the yellow-ish flash */
   transition: background-color 9999s ease-out 0s !important;
@@ -55,14 +55,31 @@ input:-webkit-autofill:focus {
 
 /* Firefox autofill */
 input:-moz-autofill {
-  box-shadow: 0 0 0 1000px var(--color-dark-navy) inset !important;
-  -moz-text-fill-color: var(--color-base) !important;
+  box-shadow: 0 0 0 1000px @bg-main inset !important;
+  -moz-text-fill-color: @text-base !important;
+}
+.cdx-text-input {
+  background-color: @bg-main !important;
+  color: @text-base !important;
+  border: 1px solid @accent-alt !important;
+  border-radius: 8px !important;
+}
+#searchform {
+	background-color: @bg-panel;
+	border: 1px solid @accent-alt;
+	border-radius: 8px;
+	.cdx-button {
+		background-color: @accent-active !important;
+		color: @color-white !important;
+		border: 1px solid @accent-alt !important;
+		border-radius: 8px !important;
+	}
 }
 
 /* Optional: tighten Codex defaults if they leak through */
 .cdx-text-input__input {
-  background-color: var(--color-dark-navy) !important;
-  color: var(--color-base) !important;
+  background-color: @bg-main !important;
+  color: @text-base !important;
 }
 
 input[type="text"],
@@ -76,9 +93,10 @@ input[type="date"],
 input[type="time"],
 input[type="username"],
 input[type="password"] {
-    background-color: @color-dark-navy;
-    color: @color-white;
-    border: 1px solid @color-burnt-orange;
+    background-color: @bg-alt;
+	background: @bg-alt !important;
+    color: @text-base;
+    border: 1px solid @accent-alt !important;
     border-radius: 8px;
     padding: 12px;
     font-family: @font-code;
@@ -89,10 +107,10 @@ input[type="checkbox"] {
 	-webkit-appearance: none; // for Safari
 	width: 1.2em;
 	height: 1.2em;
-	border: 2px solid @color-bright-orange;
+	border: 2px solid @accent-primary;
 	border-radius: 4px;
-	background-color: @color-deep-navy !important;
-    background: @color-dark-navy !important;
+	background-color: @bg-panel !important;
+    background: @bg-alt !important;
 	cursor: pointer;
 	position: relative;
 	vertical-align: middle;
@@ -103,9 +121,9 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-	background-color: @color-burnt-orange;
-    background: @color-burnt-orange !important;
-	border-color: @color-bright-orange;
+	background-color: @accent-alt;
+    background: @accent-alt !important;
+	border-color: @accent-primary;
 /*
 	&::after {
 		content: '';
@@ -121,10 +139,20 @@ input[type="checkbox"]:checked {
 */
 
 }
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:checked:focus + span {
+	background-color: @accent-alt;
+	background: @accent-alt !important;
+	border-color: @accent-primary;
+}
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled input[type="checkbox"]:checked:hover + span {
+	border-color: @accent-hover;
+	background: @bg-button;
+	background-color: @bg-button;
+}
 input[type="file"] {
-	background-color: @color-bright-orange;
+	background-color: @accent-primary;
 	color: @color-white;
-	border: 1px solid @color-burnt-orange;
+	border: 1px solid @accent-alt;
 	border-radius: 8px;
 	padding: 12px;
 	font-family: @font-code;
@@ -132,9 +160,9 @@ input[type="file"] {
 }
 input[type="submit"],
 input[type="button"] {
-	background-color: @color-deep-navy;
+	background-color: @bg-panel;
 	color: @color-white;
-	border: 1px solid @color-burnt-orange;
+	border: 1px solid @accent-alt;
 	border-radius: 8px;
 	padding: 12px 24px;
 	font-family: @font-code;
@@ -142,9 +170,9 @@ input[type="button"] {
 	cursor: pointer;
 }
 form .upload {
-	background-color: @color-dark-navy;
+	background-color: @bg-alt;
 	color: @color-white;
-	border: 1px solid @color-burnt-orange;
+	border: 1px solid @accent-alt;
 	border-radius: 8px;
 	padding: 12px;
 	font-family: @font-code;
@@ -152,13 +180,13 @@ form .upload {
 
 	legend {
 		font-weight: bold;
-		color: @color-soft-peach;
+		color: @accent-hover;
 	}
 }
 select {
-    background-color: @color-dark-navy;
+    background-color: @bg-alt;
     color: @color-white;
-    border: 1px solid @color-burnt-orange;
+    border: 1px solid @accent-alt;
     border-radius: 8px;
     padding: 12px;
     font-family: @font-code;
@@ -167,13 +195,13 @@ select {
 .oo-ui-toggleButtonWidget {
 	&.oo-ui-widget-enabled {
 		background-color: transparent;
-		border: 1px solid @color-deep-navy;
-		color: @color-bright-orange;
+		border: 1px solid @bg-panel;
+		color: @accent-primary;
 
 		&[aria-pressed="true"] {
-			background-color: @color-deep-navy;
+			background-color: @bg-panel;
 			color: #fff;
-			border-color: @color-burnt-orange;
+			border-color: @accent-alt;
 		}
 	}
 }
@@ -185,9 +213,9 @@ select {
 	background-color: transparent !important;
 }
 .site-button {
-	background-color: @color-deep-navy;
+	background-color: @bg-panel;
 	color: @color-white;
-	border: 1px solid @color-burnt-orange;
+	border: 1px solid @accent-alt;
 	border-radius: 8px;
 	padding: 12px 24px;
 	font-family: @font-code;
@@ -195,23 +223,23 @@ select {
 	cursor: pointer;
 
 	&:hover {
-		background-color: @color-bright-orange;
+		background-color: @accent-primary;
 		color: @color-progressive--hover;
-		border-color: @color-burnt-orange;
-		box-shadow: inset 0 0 0 1px @color-burnt-orange, inset 0 0 0 2px @color-bright-orange;
+		border-color: @accent-alt;
+		box-shadow: inset 0 0 0 1px @accent-alt, inset 0 0 0 2px @accent-primary;
 	}
 
 	&:active {
-		background-color: @color-soft-peach;
+		background-color: @accent-hover;
 		color: @color-inverted;
-		border-color: @color-burnt-orange;
-		box-shadow: inset 0 0 0 1px @color-burnt-orange, inset 0 0 0 2px @color-soft-peach;
+		border-color: @accent-alt;
+		box-shadow: inset 0 0 0 1px @accent-alt, inset 0 0 0 2px @accent-hover;
 	}
 }
 .create-poll-top {
-	background-color: @color-dark-navy;
+	background-color: @bg-alt;
 	color: @color-white;
-	border: 1px solid @color-burnt-orange;
+	border: 1px solid @accent-alt;
 	border-radius: 8px;
 	padding: 12px;
 	font-family: @font-code;
@@ -238,4 +266,9 @@ select {
     display: block;
     flex-direction: column;
     margin-bottom: 12px;
+}
+#wpSummary {
+	color: @text-subtle;
+	border: 1px solid @accent-alt !important;
+	border-radius: 8px;
 }

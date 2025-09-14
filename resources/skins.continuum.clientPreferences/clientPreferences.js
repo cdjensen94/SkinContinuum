@@ -37,6 +37,18 @@ function getClientPreferences() {
 function isFeatureExcluded( featureName ) {
 	return document.documentElement.classList.contains( featureName + '-clientpref--excluded' );
 }
+function getActivePrefValueFromClass(feature) {
+  const prefix = feature + '-clientpref-';
+  for (const c of document.documentElement.classList) {
+    if (c.indexOf(prefix) === 0) return c.slice(prefix.length);
+  }
+  return null;
+}
+
+function safeMsgText(key, fallback) {
+  const m = mw.message(key);
+  return m.exists() ? m.text() : fallback;
+}
 
 /**
  * Get the list of client preferences that are active on the page and not hidden.
@@ -59,32 +71,50 @@ function getVisibleClientPreferences( config ) {
 function toggleDocClassAndSave( featureName, value, config, userPreferences ) {
 	const pref = config[ featureName ];
 	const callback = pref.callback || ( () => {} );
-	if ( mw.user.isNamed() ) {
-		// FIXME: Ideally this would be done in mw.user.clientprefs API.
-		// mw.user.clientPrefs.get is marked as being only stable for anonymous and temporary users.
-		// So instead we have to keep track of all the different possible values and remove them
-		// before adding the new class.
+
+	if ( mw.user.isNamed && mw.user.isNamed() ) {
+		// Logged-in: update <html> classes for this feature
 		config[ featureName ].options.forEach( ( possibleValue ) => {
 			document.documentElement.classList.remove( `${ featureName }-clientpref-${ possibleValue }` );
 		} );
 		document.documentElement.classList.add( `${ featureName }-clientpref-${ value }` );
-		// Client preferences often change the layout of the page significantly, so emit
-		// a window resize event for other apps that need to update (T374092).
+
 		window.dispatchEvent( new Event( 'resize' ) );
-		// Ideally this should be taken care of via a single core helper function.
+
 		mw.util.debounce( () => {
 			userPreferences = userPreferences || new mw.Api();
 			userPreferences.saveOptions( { [ pref.preferenceKey ]: value } ).then( () => {
 				callback();
 			} );
 		}, 100 )();
-		// END FIXME.
 	} else {
-		// This case is much simpler, the API transparently takes care of classes as well as storage
+		// Anon: let clientPrefs handle storage, then reflect immediately in <html>
 		mw.user.clientPrefs.set( featureName, value );
+		config[ featureName ].options.forEach( ( possibleValue ) => {
+			document.documentElement.classList.remove( `${ featureName }-clientpref-${ possibleValue }` );
+		} );
+		document.documentElement.classList.add( `${ featureName }-clientpref-${ value }` );
 		callback();
 	}
+
+	// === Special case: theme should flip the <body> class instantly for everyone ===
+	if ( featureName === 'continuum-theme' ) {
+		// Remove any existing theme-* classes safely
+		var toRemove = [];
+		document.body.classList.forEach( ( c ) => { if ( c.indexOf( 'theme-' ) === 0 ) toRemove.push( c ); } );
+		toRemove.forEach( ( c ) => document.body.classList.remove( c ) );
+		document.body.classList.add( 'theme-' + value );
+
+		// For anons, also persist so the server hook can read it on next request
+		try {
+			if ( !( mw.user.isNamed && mw.user.isNamed() ) ) {
+				mw.storage.set( 'continuum-theme', value );
+				mw.cookie.set( 'continuum-theme', value, 365 );
+			}
+		} catch ( e ) {}
+	}
 }
+
 
 /**
  * @param {string} featureName
@@ -121,12 +151,13 @@ function makeInputElement( type, featureName, value ) {
  * @return {HTMLLabelElement}
  */
 function makeLabelElement( featureName, value ) {
-	const label = document.createElement( 'label' );
-	// eslint-disable-next-line mediawiki/msg-doc
-	label.textContent = mw.msg( `${ featureName }-${ value }-label` );
-	label.setAttribute( 'for', getInputId( featureName, value ) );
-	return label;
+  const label = document.createElement( 'label' );
+  const key = `${ featureName }-${ value }-label`;
+  label.textContent = safeMsgText( key, value ); // 👈 fallback to raw value
+  label.setAttribute( 'for', getInputId( featureName, value ) );
+  return label;
 }
+
 
 /**
  * Create an element that informs users that a feature is not functional
@@ -145,17 +176,6 @@ function makeExclusionNotice( featureName ) {
 	return p;
 }
 
-/**
- * @return {HTMLElement}
- */
-function makeBetaInfoTag() {
-	const infoTag = document.createElement( 'span' );
-	// custom style to avoid moving heading bottom border.
-	const infoTagText = document.createElement( 'span' );
-	infoTagText.textContent = mw.message( 'continuum-night-mode-beta-tag' ).text();
-	infoTag.appendChild( infoTagText );
-	return infoTag;
-}
 
 /**
  * @param {Element} parent
@@ -189,40 +209,6 @@ function appendRadioToggle( parent, featureName, value, currentValue, config, us
 	input.addEventListener( 'change', () => {
 		toggleDocClassAndSave( featureName, value, config, userPreferences );
 	} );
-}
-
-/**
- * @param {HTMLElement} betaMessageElement
- */
-function makeFeedbackLink( betaMessageElement ) {
-	const pageWikiLink = `[https://${ window.location.hostname + mw.util.getUrl( mw.config.get( 'wgPageName' ) ) } ${ mw.config.get( 'wgTitle' ) }]`;
-	const preloadTitle = mw.message( 'continuum-night-mode-issue-reporting-preload-title', pageWikiLink ).text();
-	const link = mw.msg( 'continuum-night-mode-issue-reporting-notice-url', window.location.host, preloadTitle );
-	const linkLabel = mw.message( 'continuum-night-mode-issue-reporting-link-label' ).text();
-	const anchor = document.createElement( 'a' );
-	anchor.setAttribute( 'href', link );
-	anchor.setAttribute( 'target', '_blank' );
-	anchor.setAttribute( 'title', mw.msg( 'continuum-night-mode-issue-reporting-notice-tooltip' ) );
-	anchor.textContent = linkLabel;
-
-	/**
-	 * Shows the success message after clicking the beta feedback link.
-	 * Note: event.stopPropagation(); is required to show the success message
-	 * without closing the Appearance menu when it's in a dropdown.
-	 *
-	 * @param {Event} event
-	 */
-	const showSuccessFeedback = function ( event ) {
-		event.stopPropagation();
-		const icon = document.createElement( 'span' );
-		icon.classList.add( 'continuum-icon', 'continuum-icon--heart' );
-		anchor.textContent = mw.msg( 'continuum-night-mode-issue-reporting-link-notification' );
-		anchor.classList.add( 'skin-theme-beta-notice-success' );
-		anchor.prepend( icon );
-		anchor.removeEventListener( 'click', showSuccessFeedback );
-	};
-	anchor.addEventListener( 'click', ( event ) => showSuccessFeedback( event ) );
-	betaMessageElement.appendChild( anchor );
 }
 
 /**
@@ -284,47 +270,45 @@ const getFeatureLabelMsg = ( featureName ) => mw.message( `${ featureName }-name
  * @return {Element|null}
  */
 function makeControl( featureName, config, userPreferences ) {
-	const pref = config[ featureName ];
-	const isExcluded = isFeatureExcluded( featureName );
+  const pref = config[ featureName ];
+  const isExcluded = isFeatureExcluded( featureName );
+  if ( !pref ) return null;
 
-	if ( !pref ) {
-		return null;
-	}
-	const currentValue = mw.user.clientPrefs.get( featureName );
-	// The client preference was invalid. This shouldn't happen unless a gadget
-	// or script has modified the documentElement or client preference is excluded.
-	if ( typeof currentValue === 'boolean' && !isExcluded ) {
-		return null;
-	}
-	const row = createRow( '' );
-	const form = document.createElement( 'form' );
-	const type = pref.type || 'radio';
-	switch ( type ) {
-		case 'radio':
-			pref.options.forEach( ( value ) => {
-				appendRadioToggle(
-					form, featureName, value, String( currentValue ), config, userPreferences
-				);
-			} );
-			break;
-		case 'switch': {
-			const labelElement = document.createElement( 'label' );
-			labelElement.textContent = getFeatureLabelMsg( featureName ).text();
-			appendToggleSwitch(
-				form, featureName, labelElement, String( currentValue ), config, userPreferences
-			);
-			break;
-		} default:
-			throw new Error( 'Unknown client preference! Only switch or radio are supported.' );
-	}
-	row.appendChild( form );
+  // Get current value safely
+  let currentValue = mw.user.clientPrefs.get( featureName );
+  if ( typeof currentValue === 'boolean' ) {
+    // Derive from the <html> class or default to the first option
+    currentValue = getActivePrefValueFromClass( featureName ) ||
+      (pref.options && pref.options[0]) || 'imperial-night';
+  }
 
-	if ( isExcluded ) {
-		const exclusionNotice = makeExclusionNotice( featureName );
-		row.appendChild( exclusionNotice );
-	}
-	return row;
+  const row = createRow( '' );
+  const form = document.createElement( 'form' );
+  const type = pref.type || 'radio';
+  switch ( type ) {
+    case 'radio':
+      pref.options.forEach( ( value ) => {
+        appendRadioToggle( form, featureName, value, String( currentValue ), config, userPreferences );
+      } );
+      break;
+    case 'switch': {
+      const labelElement = document.createElement( 'label' );
+      labelElement.textContent = safeMsgText( `${ featureName }-name`, featureName );
+      appendToggleSwitch( form, featureName, labelElement, String( currentValue ), config, userPreferences );
+      break;
+    }
+    default:
+      throw new Error( 'Unknown client preference! Only switch or radio are supported.' );
+  }
+  row.appendChild( form );
+
+  if ( isExcluded ) {
+    const exclusionNotice = makeExclusionNotice( featureName );
+    row.appendChild( exclusionNotice );
+  }
+  return row;
 }
+
 
 /**
  * @param {Element} parent
@@ -333,74 +317,26 @@ function makeControl( featureName, config, userPreferences ) {
  * @param {UserPreferencesApi} userPreferences
  */
 function makeClientPreference( parent, featureName, config, userPreferences ) {
-	const labelMsg = getFeatureLabelMsg( featureName );
-	// If the user is not debugging messages and no language exists,
-	// exit as its a hidden client preference.
-	if ( !labelMsg.exists() && mw.config.get( 'wgUserLanguage' ) !== 'qqx' ) {
-		return;
-	} else {
-		const id = `skin-client-prefs-${ featureName }`;
-		// @ts-ignore TODO: upstream patch URL
-		const portlet = mw.util.addPortlet( id, labelMsg.text() );
+  const labelText = safeMsgText( `${featureName}-name`, 'Theme' );
 
-		if ( config[ featureName ].betaMessage ) {
-			const betaInfoTag = makeBetaInfoTag();
-			if ( !portlet.querySelector( '.continuum-menu-heading span' ) ) {
-				portlet.querySelector( '.continuum-menu-heading' ).textContent += ' ';
-				portlet.querySelector( '.continuum-menu-heading' ).appendChild( betaInfoTag );
-			}
-		}
+  // Wrapper for this preference group
+  const group = document.createElement( 'div' );
+  group.id = `skin-client-prefs-${ featureName }`;
+  group.className = 'ct-pref';
 
-		const labelElement = portlet.querySelector( 'label' );
+  // Heading
+  const heading = document.createElement( 'div' );
+  heading.className = 'ct-pref-heading';
+  heading.textContent = labelText;
+  group.appendChild( heading );
 
-		// Add additional description for mobile
-		// eslint-disable-next-line mediawiki/msg-doc
-		const descriptionMsg = mw.message( `${ featureName }-description` );
-		if ( descriptionMsg.exists() ) {
-			const desc = document.createElement( 'span' );
-			desc.classList.add( 'skin-client-pref-description' );
-			desc.textContent = descriptionMsg.text();
-			if ( labelElement && labelElement.parentNode ) {
-				labelElement.appendChild( desc );
-			}
-		}
+  // Controls
+  const row = makeControl( featureName, config, userPreferences );
+  if ( row ) {
+    group.appendChild( row );
+  }
 
-		// Add exclusion notice for desktop
-		// eslint-disable-next-line mediawiki/msg-doc
-		const exclusionNoticeMsg = mw.message( `${ featureName }-exclusion-notice` );
-		if ( exclusionNoticeMsg.exists() ) {
-			const content = portlet.querySelector( '.continuum-menu-content' );
-			const notice = document.createElement( 'span' );
-			notice.classList.add( 'skin-client-pref-exclusion-notice' );
-			notice.textContent = exclusionNoticeMsg.text();
-			if ( content ) {
-				content.appendChild( notice );
-			}
-		}
-
-		parent.appendChild( portlet );
-		const row = makeControl( featureName, config, userPreferences );
-		if ( row ) {
-			const tmp = mw.util.addPortletLink( id, '', '' );
-			// create a dummy link
-			if ( tmp ) {
-				const link = tmp.querySelector( 'a' );
-				if ( link ) {
-					link.replaceWith( row );
-				}
-			}
-
-			if ( config[ featureName ].betaMessage && !isFeatureExcluded( featureName ) ) {
-				const betaMessageElement = document.createElement( 'span' );
-				betaMessageElement.id = `${ featureName }-beta-notice`;
-				// per requirements: only logged in users can report errors (T372754)
-				if ( !mw.user.isAnon() ) {
-					makeFeedbackLink( betaMessageElement );
-				}
-				row.appendChild( betaMessageElement );
-			}
-		}
-	}
+  parent.appendChild( group );
 }
 
 /**
@@ -457,6 +393,43 @@ function bind( clickSelector, renderSelector, config, userPreferences ) {
 		} );
 	}
 }
+function whenAvailable( selector, cb ) {
+  const node = document.querySelector( selector );
+  if ( node ) { cb( node ); return; }
+  const mo = new MutationObserver( () => {
+    const n = document.querySelector( selector );
+    if ( n ) { mo.disconnect(); cb( n ); }
+  } );
+  mo.observe( document.body, { childList: true, subtree: true } );
+}
+
+(function (mw, $) {
+  'use strict';
+  var ui = { bind, render };
+  var cfg = { 'continuum-theme': {
+    options: ['imperial-night','ubla-day','ubla-night','verdant'],
+    preferenceKey: 'continuum-theme',
+    type: 'radio'
+  } };
+
+  function doRender() {
+    ui.render('#p-appearance .continuum-menu-content', cfg).catch(function(){});
+  }
+
+  function mount() {
+    whenAvailable('#p-appearance .continuum-menu-content', function () {
+      // Avoid double-mounting
+      if (!document.getElementById('skin-client-prefs-continuum-theme')) {
+        doRender();
+      }
+    });
+  }
+
+  $( mount );
+  mw.hook('wikipage.content').add( mount );
+})(mediaWiki, jQuery);
+
+
 module.exports = {
 	bind,
 	toggleDocClassAndSave,

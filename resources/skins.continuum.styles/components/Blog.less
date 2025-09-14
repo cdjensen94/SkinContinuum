@@ -1,0 +1,35 @@
+#blog-page-right {
+	background-color: var(--color-accent-navy);
+}
+/* Layout */
+#blog-page-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;           /* space between columns */
+}
+
+/* Reset any old floats from legacy CSS */
+#blog-page-left,
+#blog-page-middle,
+#blog-page-right {
+  float: none !important;
+}
+
+/* Column sizing + order */
+#blog-page-left  { flex: 0 0 260px; order: 1; }
+#blog-page-middle{ flex: 1 1 auto;  min-width: 0; order: 2; }
+#blog-page-right { flex: 0 0 300px; order: 3; }
+
+/* Make sure the clear div doesn't nuke the layout */
+#blog-page-container .visualClear { display: none; }
+
+/* Responsive stack on narrow screens */
+@media (max-width: 1000px) {
+  #blog-page-container { flex-direction: column; }
+  #blog-page-left,
+  #blog-page-right,
+  #blog-page-middle { flex: 1 1 auto; order: initial; }
+}
+.c-form-title {
+	color: white;
+}

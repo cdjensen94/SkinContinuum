@@ -1,0 +1,112 @@
+/* ================== ÛBLÂ — Night (bioluminescent) ================== */
+body.skin-continuum.theme-ubla-night {
+  /* Darker substrate with room for glow */
+  --bg-main:        #070A14;
+  --bg-alt:         #0B0F1F;
+  --bg-panel:       #060A18;
+  --bg-interactive: #0E1430;
+
+  --text-base:      #D9F8FF;
+  --text-subtle:    #9BC9D5;
+  --text-accent:    #69F7FF;
+  --text-error:     #FF5FA8;
+  --text-hover:     #A8F0FF;
+
+  /* Biolum palette */
+  --accent-primary: #20E3FF;     /* cyan glow */
+  --accent-hover:   #7BF0FF;
+  --accent-active:  #4DEBFF;
+  --accent-alt:     #6FA8FF;
+  --accent-magenta: #FF4D9A;     /* fungal glow */
+  --accent-violet:  #A78BFA;
+
+  --link:           var(--accent-primary);
+  --link-hover:     var(--accent-hover);
+  --link-active:    var(--accent-active);
+  --link-visited:   #C49BFF;
+
+  --border:         rgba(32,227,255,.40);
+  --border-hover:   rgba(32,227,255,.65);
+  --border-active:  rgba(32,227,255,.85);
+  --border-error:   rgba(255,77,154,.85);
+  --border-notice:  rgba(255,193,77,.85);
+  --border-warning: rgba(245,158,11,.85);
+  --border-success: rgba(52,211,153,.85);
+
+  --status-success: #34d399;
+  --status-warning: #F59E0B;
+  --status-error:   #FF5FA8;
+
+  /* Code (night neon) */
+  --code-bg:        #0A0F1E;
+  --code-number:    #7DF0FF;
+  --code-string:    #6EE7B7;
+  --code-keyword:   #80A8FF;
+  --code-comment:   #6E8D9A;
+  --code-function:  #69F7FF;
+  --code-variable:  #FFD08A;
+
+  /* Optional: glow tokens for fancy bits */
+  --glow-cyan:      0 0 0 1px rgba(32,227,255,.25), 0 12px 40px rgba(32,227,255,.20);
+  --glow-magenta:   0 0 0 1px rgba(255,77,154,.25), 0 12px 36px rgba(255,77,154,.18);
+  --glow-rgb: 32,227,255; /* cyan as R,G,B */
+  --glow-line: rgba(32,227,255,.55);  /* the crisp line */
+  --glow-soft: rgba(32,227,255,.25);  /* the bloom */
+  --glow-outer-shadow: 0 0 0 1px var(--glow-line), 0 0 18px 2px var(--glow-soft);
+
+}
+
+/* reusable helper */
+.ct-glow {
+  box-shadow: var(--glow-cyan, 0 0 0 1px rgba(255,255,255,.08));
+}
+
+/* animated shimmer for badges/labels */
+@keyframes ublaPulse {
+  0%,100% { filter: drop-shadow(0 0 0 rgba(0,0,0,0)); }
+  50%     { filter: drop-shadow(0 0 8px rgba(32,227,255,.45)); }
+}
+.theme-ubla-night .ct-biolume {
+  animation: ublaPulse 3.5s ease-in-out infinite;
+}
+
+/* Night */
+.theme-ubla-night .mw-body {
+  background:
+    radial-gradient(140px 90px at 12% 10%, rgba(32,227,255,.10), transparent 58%),
+    radial-gradient(200px 120px at 82% 8%, rgba(167,139,250,.10), transparent 60%),
+    var(--bg-main);
+}
+/* theme tokens */
+body.skin-continuum.theme-ubla-night { --icon-color: var(--accent-primary); }
+
+
+/* one rule to tint all masked icons */
+.continuum-icon,
+.mw-ui-icon { color: var(--icon-color); }
+
+
+/* Mask-based icons use background-color or color. Set both. */
+.theme-ubla-night .mw-ui-icon,
+.theme-ubla-night .mw-ui-icon-element .mw-ui-icon{
+  background-color: var(--icon-color) !important; /* older modules */
+  color: var(--icon-color) !important;            /* newer ones using currentColor */
+}
+
+/* Hover/focus variant (optional) */
+.theme-ubla-night a:hover .mw-ui-icon,
+.theme-ubla-night .oo-ui-buttonWidget:hover .oo-ui-iconElement-icon {
+  filter: drop-shadow(0 0 6px rgba(32,227,255,.35));
+}
+
+.theme-ubla-night .cdx-icon,
+.theme-ubla-night .cdx-button .cdx-icon,
+.theme-ubla-night .cdx-menu__icon {
+  color: var(--icon-color);
+}
+
+.theme-ubla-night svg,
+.theme-ubla-night .ct-icon svg {
+  color: var(--icon-color);
+}
+.theme-ubla-night svg [fill="#000"] { fill: var(--icon-color) !important; }

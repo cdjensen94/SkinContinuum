@@ -2,9 +2,9 @@
 @import '../variables.less';
 
 th.mw-wikiforum-title, th.mw-wikiforum-value, th.mw-wikiforum-lastpost  {
-    background-color: var(--color-accent-navy);
-    border-top: 2px solid var(--color-deep-orange);
-    border-bottom: 2px solid var(--color-deep-orange);
+    background-color: @bg-interactive;
+    border-top: 2px solid @accent-active;
+    border-bottom: 2px solid @accent-active;
 }
 td.mw-wikiforum-title {
     background-color: var(--color-navy);
@@ -13,30 +13,30 @@ td.mw-wikiforum-title {
 table.mw-wikiforum-frame {
     clear: both;
     width: 100%;
-    background: @color-dark-navy;
-    border: 3px solid @color-burnt-orange;
+    background: @bg-alt;
+    border: 3px solid @accent-alt;
     border-radius: 12px;
     border-collapse: separate;   /* allow radius */
     overflow: hidden;            /* clip inner cells */
 }
 #mw-wikiforum-searchbox-border {
-    border: 1px solid @color-bright-orange;
+    border: 1px solid @accent-primary;
     width: 200px;
     text-align: left;
-    background: @color-dark-navy;
+    background: @bg-alt;
     border-radius: 8px;
 }
 .mw-wikiforum-admin, .mw-wikiforum-value, .mw-wikiforum-lastpost {
-    background: @color-accent-navy;
+    background: @bg-interactive;
     color: @color-white;
 }
 td.mw-wikiforum-thread-main {
-    border: 1px solid @color-burnt-orange;
-    background: @color-accent-navy;
+    border: 1px solid @accent-alt;
+    background: @bg-interactive;
 }
 th.mw-wikiforum-thread-top{
-    border: 1px solid @color-burnt-orange;
-    background: @color-deep-navy;
+    border: 1px solid @accent-alt;
+    background: @bg-panel;
 }
 td.mw-wikiforum-thread-main, td.mw-wikiforum-thread-sub {
     word-wrap: break-word;
@@ -49,5 +49,5 @@ td.mw-wikiforum-value {
     text-align: center;
     font-family: 'Verdana', 'Arial', sans-serif;
     font-size: 10px;
-    background-color: @color-dark-navy;
+    background-color: @bg-alt;
 }

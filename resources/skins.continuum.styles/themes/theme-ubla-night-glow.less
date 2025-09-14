@@ -1,0 +1,36 @@
+@import './theme-ubla-night.less';
+/* Page chrome that should glow without changing markup */
+.theme-ubla-night .toc,
+.theme-ubla-night .mw-parser-output .infobox,
+.theme-ubla-night .wikitable,
+.theme-ubla-night .mw-message-box,
+.theme-ubla-night .vector-page-titlebar,
+.theme-ubla-night .vector-sticky-header {
+  position: relative; border: 0;
+}
+.theme-ubla-night .toc::before,
+.theme-ubla-night .mw-parser-output .infobox::before,
+.theme-ubla-night .wikitable::before,
+.theme-ubla-night .mw-message-box::before,
+.theme-ubla-night .vector-page-titlebar::before,
+.theme-ubla-night .vector-sticky-header::before {
+  content: ""; position: absolute; inset: -1px;
+  border: 1px solid var(--glow-line);
+  border-radius: inherit; pointer-events: none;
+  box-shadow: 0 0 14px 2px var(--glow-soft);
+}
+/* Headings underline */
+.theme-ubla-night .mw-parser-output h2,
+.theme-ubla-night .mw-parser-output h3 { border-bottom: 0; position: relative; padding-bottom:.25rem; }
+.theme-ubla-night .mw-parser-output h2::after,
+.theme-ubla-night .mw-parser-output h3::after {
+  content:""; position:absolute; left:0; right:0; bottom:0; height:1px;
+  background: var(--glow-line); box-shadow: 0 0 10px var(--glow-soft);
+}
+
+/* Horizontal rules */
+.theme-ubla-night hr { border:0; height:0; position:relative; margin:1.25rem 0; }
+.theme-ubla-night hr::after {
+  content:""; position:absolute; left:0; right:0; top:50%; height:1px; transform:translateY(-50%);
+  background: var(--glow-line); box-shadow: 0 0 12px 2px var(--glow-soft);
+}

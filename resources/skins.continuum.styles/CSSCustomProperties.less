@@ -24,45 +24,6 @@
 	}
 
 	/**
-	 * Forced night mode.
-	 *
-	 * Applies the night mode color palette per the users explicit preference,
-	 * regardless of system settings.
-	 */
-	html.skin-theme-clientpref-night {
-		color-scheme: dark;
-		.cdx-mode-dark();
-	}
-
-	/**
-	 * Inverted Dark-mode
-	 * Creates a dark-mode effect on elements by flipping their color,
-	 * (usually from black to white).
-	 * Applied as a last resort when using CSS variables is not possible.
-	 * NOTE: `.skin-invert` is used in templates and user generated content.
-	 *
-	 * - T365102 invert class specifically for image related element
-	 * - T365764 special treatment of inverted OOUI icons
-	 */
-	html.skin-theme-clientpref-night .skin-invert-image img,
-	html.skin-theme-clientpref-night .skin-invert,
-	html.skin-theme-clientpref-night @{OOUIIconSelectors},
-	html.skin-theme-clientpref-night @{OOUIIndicatorSelectors} {
-		color-scheme: light;
-		filter: invert( 1 ) hue-rotate( 180deg );
-	}
-
-	/**
-	 * Forced light mode.
-	 * Makes elements appear in light-mode when dark-mode is enabled.
-	 * NOTE: might be used in templates and user generated content.
-	 */
-	html.skin-theme-clientpref-night .notheme {
-		color-scheme: light;
-		color: var( --color-base );
-	}
-
-	/**
 	 * Prevent double inversion.
 	 * Do not apply invert to elements that are inside a notheme or a skin-invert class to avoid inversion in light theme or
 	 * double inversion in an already inverted element
@@ -98,28 +59,3 @@
 	}
 }
 
-/**
- * Auto night mode.
- *
- * Applies the night mode color palette only in response to system settings.
- */
-@media screen and ( prefers-color-scheme: dark ) {
-	html.skin-theme-clientpref-os {
-		color-scheme: light dark;
-		.cdx-mode-dark();
-	}
-
-	html.skin-theme-clientpref-os .notheme {
-		color-scheme: light;
-		color: var( --color-base );
-	}
-
-	// T365102 invert class specifically for image related elements
-	html.skin-theme-clientpref-os .skin-invert-image img,
-	html.skin-theme-clientpref-os .skin-invert,
-	html.skin-theme-clientpref-os @{OOUIIconSelectors},
-	html.skin-theme-clientpref-os @{OOUIIndicatorSelectors} {
-		color-scheme: light;
-		filter: invert( 1 ) hue-rotate( 180deg );
-	}
-}

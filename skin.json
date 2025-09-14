@@ -105,7 +105,12 @@
 						"views",
 						"continuum-page-tools-nav-label",
 						"empty-language-selector-body",
-						"continuum-appearance-label"
+						"continuum-appearance-label",
+						"continuum-theme-name",
+						"continuum-theme-imperial-night-label",
+						"continuum-theme-ubla-day-label",
+						"continuum-theme-ubla-night-label",
+						"continuum-theme-verdant-label"
 					]
 				}
 			]
@@ -133,7 +138,7 @@
 		"continuum-toc-pinned": 1,
 		"continuum-appearance-pinned": 1,
 		"continuum-font-size": 0,
-		"continuum-theme": "day"
+		"continuum-theme": "imperial-night"
 	},
 	"HookHandlers": {
 		"ContinuumCentralAuthHooks": {
@@ -156,7 +161,8 @@
 		"LocalUserCreated": "ContinuumHooks",
 		"SkinPageReadyConfig": "ContinuumHooks",
 		"GetBetaFeaturePreferences": "ContinuumHooks",
-    	"SkinBuildSidebar": "MediaWiki\\Skins\\Continuum\\Hooks::onSkinBuildSidebar"
+    	"SkinBuildSidebar": "MediaWiki\\Skins\\Continuum\\Hooks::onSkinBuildSidebar",
+		"BeforePageDisplay": "MediaWiki\\Skins\\Continuum\\ThemeHooks::onBeforePageDisplay"
 	},
 	"@note": "When modifying skins.continuum.styles definition, make sure the installer still works",
 	"ResourceModules": {
@@ -240,7 +246,7 @@
 			"selectorWithVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}-{variant}",
 			"selectorWithoutVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}",
 			"useDataURI": false,
-			"defaultColor": "#000",
+			"defaultColor": "currentColor",
 			"class": "MediaWiki\\ResourceLoader\\OOUIIconPackModule",
 			"useMaskImage": true,
 			"icons": [
@@ -260,7 +266,7 @@
 			"selectorWithVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}-{variant}",
 			"selectorWithoutVariant": ".continuum-icon.mw-ui-icon-wikimedia-{name}",
 			"useDataURI": false,
-			"defaultColor": "#000",
+			"defaultColor": "currentColor",
 			"class": "MediaWiki\\ResourceLoader\\OOUIIconPackModule",
 			"useMaskImage": true,
 			"icons": [
@@ -293,7 +299,8 @@
 		},
 		"skins.continuum.clientPreferences": {
 			"packageFiles": [
-				"resources/skins.continuum.clientPreferences/clientPreferences.js"
+				"resources/skins.continuum.clientPreferences/clientPreferences.js",
+				"resources/skins.continuum.clientPreferences/init.js"
 			],
 			"messages": [
 				"skin-theme-name",
