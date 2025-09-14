@@ -96,10 +96,14 @@
 	"continuum-theme-verdant": "Verdant",
 	"continuum-theme-saved": "Theme set to $1.",
 	"continuum-theme-applied-temp": "Theme applied (this device): $1.",
-	"continuum-theme-name": "Theme",
-	"continuum-theme-imperial-night-label": "Imperial Night",
-	"continuum-theme-ubla-day-label": "Ûblâ (Day)",
-	"continuum-theme-ubla-night-label": "Ûblâ (Night)",
-	"continuum-theme-verdant-label": "Verdant"
+	"continuum-theme-imperial-night-label": "Imperial Night (navy/orange)",
+	"continuum-theme-ubla-day-label": "Ûblâ — Day (azure flora, teal sky)",
+	"continuum-theme-ubla-night-label": "Ûblâ — Night (bioluminescent)",
+	"continuum-theme-verdant-label": "Verdant (green/forest)",
+	"imperial-night": "Imperial Night",
+	"ubla-day": "Ûblâ (Day)",
+	"ubla-night": "Ûblâ (Night)",
+	"verdant": "Verdant"
+
 }
 	

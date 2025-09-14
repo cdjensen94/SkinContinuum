@@ -387,8 +387,7 @@
 				"resources/skins.continuum.js/languageButton.js",
 				"resources/skins.continuum.js/echo.js",
 				"resources/skins.continuum.js/searchLoader.js",
-				"resources/skins.continuum.js/menuTabs.js",
-				"resources/skins.continuum.js/disableNightModeIfGadget.js"
+				"resources/skins.continuum.js/menuTabs.js"
 			],
 			"dependencies": [
 				"skins.continuum.clientPreferences",

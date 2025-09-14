@@ -2,30 +2,30 @@
 // Ensure your variables are imported first!
 @import 'mediawiki.skin.variables.less';
 
-@pi-header-bg:        @background-color-interactive;  // #002B5C
-@pi-bg:               @background-color-neutral-subtle; // #001933
-@pi-title-color:      @color-progressive;              // #FF851B
-@pi-title-bg:         @background-color-interactive;   // #002B5C
-@pi-tab-color:        @background-color-interactive;   // #002B5C
-@pi-tab-active:       @color-progressive;              // #FF851B
-@pi-tab-border:       @color-base;                     // #FFF
-@pi-label-color:      @color-progressive--active;      // #FF6300
-@pi-border:           @color-progressive;              // #FF851B
+@pi-header-bg:        @bg-interactive;  // #002B5C
+@pi-bg:               @bg-panel; // #001933
+@pi-title-color:      @accent-primary;              // #FF851B
+@pi-title-bg:         @bg-interactive;   // #002B5C
+@pi-tab-color:        @bg-interactive;   // #002B5C
+@pi-tab-active:       @accent-alt;              // #FF851B
+@pi-tab-border:       @accent-primary;                     // #FFF
+@pi-label-color:      @accent-alt;      // #FF6300
+@pi-border:           @accent-primary;              // #FF851B
 @pi-footer-bg:        @bg-main;          // #001F3F
 @pi-data-bg:          @bg-main;          // #001F3F
-@pi-data-hover-bg:    @background-color-interactive;   // #002B5C
-@pi-divider:          #003366;
-@pi-image-bg:         @background-color-neutral-subtle; // #001933
-@pi-scroll-thumb:     @color-progressive;              // #FF851B
-@pi-scroll-thumb-hover: @color-progressive--hover;     // #FFB84D
-@pi-scroll-track:     @background-color-neutral-subtle; // #001933
+@pi-data-hover-bg:    @bg-interactive;   // #002B5C
+@pi-divider:          @accent-alt;
+@pi-image-bg:         @bg-alt; // #001933
+@pi-scroll-thumb:     @accent-alt;              // #FF851B
+@pi-scroll-thumb-hover: @accent-alt;     // #FFB84D
+@pi-scroll-track:     @bg-alt; // #001933
 
 .portable-infobox {
     width: 100%;
     max-width: 340px;
     margin: 0 auto;
     background-color: @pi-bg;
-    color: @color-base;
+    color: @text-base;
     border: 2px solid @pi-border;
     border-radius: 12px;
     padding: 12px;
@@ -67,7 +67,7 @@
     // Data Fields
     .pi-data {
         background-color: @pi-data-bg;
-        color: @color-base;
+        color: @text-base;
         border-top: 1px solid @pi-divider;
         &:hover {
             background-color: @pi-data-hover-bg;
@@ -102,7 +102,7 @@
     // Footer
     .pi-footer {
         background-color: @pi-footer-bg;
-        color: @color-base;
+        color: @text-base;
         border-top: 1px solid @pi-border;
     }
 
@@ -132,7 +132,7 @@
 // VisualEditor exception
 body:not(.ve-active) .portable-infobox {
     background-color: @pi-bg;
-    color: @color-base;
+    color: @text-base;
     border: 1px solid @pi-border;
 }
 

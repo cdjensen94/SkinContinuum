@@ -12,7 +12,6 @@ const languageButton = require( './languageButton.js' ),
 	setupIntersectionObservers = require( './setupIntersectionObservers.js' ),
 	menuTabs = require( './menuTabs.js' ),
 	userPreferences = require( './userPreferences.js' ),
-	{ isNightModeGadgetEnabled, disableNightModeForGadget, alterExclusionMessage, removeBetaNotice } = require( './disableNightModeIfGadget.js' ),
 	teleportTarget = /** @type {HTMLElement} */require( /** @type {string} */ ( 'mediawiki.page.ready' ) ).teleportTarget;
 
 /**
@@ -46,6 +45,76 @@ const languageButton = require( './languageButton.js' ),
 function enableCssAnimations( document ) {
 	document.documentElement.classList.add( 'continuum-animations-ready' );
 }
+mw.loader.using( 'skins.continuum.clientPreferences' ).then( function () {
+  var ui = mw.loader.require( 'skins.continuum.clientPreferences' );
+
+  // Render exactly the prefs we want in the sidebar
+  var cfg = {
+    'continuum-theme': {
+      options: [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant' ],
+      preferenceKey: 'continuum-theme',
+      type: 'radio'
+    },
+    'continuum-feature-limited-width': {
+      options: [ '0', '1' ],
+      preferenceKey: 'continuum-limited-width',
+      type: 'switch'
+    },
+    'continuum-feature-custom-font-size': {
+      options: [ '0', '1', '2' ],
+      preferenceKey: 'continuum-font-size',
+      type: 'radio'
+    }
+  };
+
+  var rendered = false;
+
+  function getContainer() {
+    return document.querySelector('#p-appearance .continuum-menu-content') ||
+           document.querySelector('#continuum-appearance-panel');
+  }
+
+  function mount() {
+    if (rendered) return;
+    var container = getContainer();
+    if (!container) return;
+
+    // Don’t double-render if controls already exist
+    if (document.getElementById('skin-client-prefs-continuum-theme')) {
+      rendered = true;
+      return;
+    }
+    ui.render( container, cfg ).catch( function () {} );
+    rendered = true;
+  }
+
+  function bindToToggle() {
+    // The checkbox that opens the appearance panel (your markup may use this id)
+    var toggle = document.getElementById('continuum-appearance-toggle') ||
+                 document.querySelector('#p-appearance input[type=checkbox]');
+    if (!toggle) {
+      // No toggle = static panel; render now
+      mount();
+      return;
+    }
+    // If already open, render immediately; otherwise render on first open
+    if (toggle.checked) {
+      mount();
+    } else {
+      toggle.addEventListener('input', function onFirstOpen() {
+        mount();
+        toggle.removeEventListener('input', onFirstOpen);
+      });
+    }
+  }
+
+  // Run once per page view
+  if (!window.__CT_PREFS_MOUNTED__) {
+    window.__CT_PREFS_MOUNTED__ = true;
+    jQuery(bindToToggle);
+    mw.hook('wikipage.content').add(bindToToggle);
+  }
+});
 
 /**
  * @param {Window} window

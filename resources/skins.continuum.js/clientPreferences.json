@@ -7,13 +7,6 @@
 		"options": [ "1", "0" ],
 		"preferenceKey": "continuum-limited-width"
 	},
-	"skin-theme": {
-		"options": [ "os", "day", "night" ],
-		"preferenceKey": "continuum-theme",
-		"betaMessage": "continuum-night-mode-beta-tag",
-		"linkLabelMessage": "continuum-night-mode-issue-reporting-link-label",
-		"linkLabelUrl": "continuum-night-mode-issue-reporting-notice-url"
-	},
 	"continuum-theme": {
 		"options": ["imperial-night", "ubla-day", "ubla-night", "verdant"],
 		"preferenceKey": "continuum-theme",
