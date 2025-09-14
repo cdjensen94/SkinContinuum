@@ -299,8 +299,7 @@
 		},
 		"skins.continuum.clientPreferences": {
 			"packageFiles": [
-				"resources/skins.continuum.clientPreferences/clientPreferences.js",
-				"resources/skins.continuum.clientPreferences/init.js"
+				"resources/skins.continuum.clientPreferences/clientPreferences.js"
 			],
 			"messages": [
 				"skin-theme-name",
@@ -317,13 +316,10 @@
 				"continuum-feature-custom-font-size-0-label",
 				"continuum-feature-custom-font-size-1-label",
 				"continuum-feature-custom-font-size-2-label",
-				"continuum-feature-custom-font-size-exclusion-notice",
-				"continuum-night-mode-issue-reporting-notice-url",
-				"continuum-night-mode-issue-reporting-notice-tooltip",
-				"continuum-night-mode-issue-reporting-preload-title",
-				"continuum-night-mode-beta-tag",
-				"continuum-night-mode-issue-reporting-link-notification",
-				"continuum-night-mode-issue-reporting-link-label"
+				"continuum-theme-imperial-night-label",
+				"continuum-theme-ubla-day-label",
+				"continuum-theme-ubla-night-label",
+				"continuum-theme-verdant-label"
 			],
 			"dependencies": [
 				"mediawiki.api",

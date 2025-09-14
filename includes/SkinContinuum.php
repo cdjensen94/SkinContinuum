@@ -286,19 +286,11 @@ class SkinContinuum extends SkinMustache {
 		$original = parent::getHtmlElementAttributes();
 
 		$featureManager = $this->getFeatureManager();
-		// add after your existing $original['class'] .= … theme code
-		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
-
 		$original['class'] .= ' ' . implode( ' ', $featureManager->getFeatureBodyClass() );
+		
 		// Use UserOptionsManager service
+		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 		$theme = $userOptionsManager->getOption( $this->getUser(), 'continuum-theme', 'imperial-night' );
-
-		$width  = (int)$userOptionsManager->getOption( $this->getUser(), 'continuum-limited-width', 1 );
-		$fs     = (int)$userOptionsManager->getOption( $this->getUser(), 'continuum-font-size', 0 );
-
-		// These names must match the JSON keys (minus the value suffix)
-		$original['class'] .= ' continuum-feature-limited-width-clientpref-' . $width;
-		$original['class'] .= ' continuum-feature-custom-font-size-clientpref-' . $fs;
 
 		$validThemes = [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant' ];
 		if ( in_array( $theme, $validThemes, true ) ) {

@@ -555,6 +555,7 @@ class Hooks implements
 			],
 			'hide-if' => [ '!==', 'skin', 'continuum' ],
 			],
+
 		] );
 		$continuumPrefs = [
 		

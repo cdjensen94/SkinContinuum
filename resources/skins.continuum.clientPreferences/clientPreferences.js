@@ -16,24 +16,6 @@
  * @property {string} label
  * @property {string} value
  */
-// Put this near the top (or where your existing cfg lives)
-var cfg = {
-  'continuum-theme': {
-    options: [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant' ],
-    preferenceKey: 'continuum-theme',
-    type: 'radio'
-  },
-  'continuum-feature-limited-width': {
-    options: [ '0', '1' ],
-    preferenceKey: 'continuum-limited-width',
-    type: 'switch'
-  },
-  'continuum-feature-custom-font-size': {
-    options: [ '0', '1', '2' ],
-    preferenceKey: 'continuum-font-size',
-    type: 'radio'
-  }
-};
 
 /**
  * Get the list of client preferences that are active on the page, including hidden.
@@ -55,18 +37,6 @@ function getClientPreferences() {
 function isFeatureExcluded( featureName ) {
 	return document.documentElement.classList.contains( featureName + '-clientpref--excluded' );
 }
-function getActivePrefValueFromClass(feature) {
-  const prefix = feature + '-clientpref-';
-  for (const c of document.documentElement.classList) {
-    if (c.indexOf(prefix) === 0) return c.slice(prefix.length);
-  }
-  return null;
-}
-
-function safeMsgText(key, fallback) {
-  const m = mw.message(key);
-  return m.exists() ? m.text() : fallback;
-}
 
 /**
  * Get the list of client preferences that are active on the page and not hidden.
@@ -75,14 +45,10 @@ function safeMsgText(key, fallback) {
  * @return {string[]} of user facing client preferences
  */
 function getVisibleClientPreferences( config ) {
-  const active = getClientPreferences();
-  const keys = Object.keys( config );
-  if ( active.length === 0 ) {
-    return keys; // <- render even if the -clientpref- class isn’t present yet
-  }
-  return keys.filter( key => active.indexOf( key ) > -1 );
+	const active = getClientPreferences();
+	// Order should be based on key in config.json
+	return Object.keys( config ).filter( ( key ) => active.indexOf( key ) > -1 );
 }
-
 
 /**
  * @param {string} featureName
@@ -93,50 +59,32 @@ function getVisibleClientPreferences( config ) {
 function toggleDocClassAndSave( featureName, value, config, userPreferences ) {
 	const pref = config[ featureName ];
 	const callback = pref.callback || ( () => {} );
-
-	if ( mw.user.isNamed && mw.user.isNamed() ) {
-		// Logged-in: update <html> classes for this feature
+	if ( mw.user.isNamed() ) {
+		// FIXME: Ideally this would be done in mw.user.clientprefs API.
+		// mw.user.clientPrefs.get is marked as being only stable for anonymous and temporary users.
+		// So instead we have to keep track of all the different possible values and remove them
+		// before adding the new class.
 		config[ featureName ].options.forEach( ( possibleValue ) => {
 			document.documentElement.classList.remove( `${ featureName }-clientpref-${ possibleValue }` );
 		} );
 		document.documentElement.classList.add( `${ featureName }-clientpref-${ value }` );
-
+		// Client preferences often change the layout of the page significantly, so emit
+		// a window resize event for other apps that need to update (T374092).
 		window.dispatchEvent( new Event( 'resize' ) );
-
+		// Ideally this should be taken care of via a single core helper function.
 		mw.util.debounce( () => {
 			userPreferences = userPreferences || new mw.Api();
 			userPreferences.saveOptions( { [ pref.preferenceKey ]: value } ).then( () => {
 				callback();
 			} );
 		}, 100 )();
+		// END FIXME.
 	} else {
-		// Anon: let clientPrefs handle storage, then reflect immediately in <html>
+		// This case is much simpler, the API transparently takes care of classes as well as storage
 		mw.user.clientPrefs.set( featureName, value );
-		config[ featureName ].options.forEach( ( possibleValue ) => {
-			document.documentElement.classList.remove( `${ featureName }-clientpref-${ possibleValue }` );
-		} );
-		document.documentElement.classList.add( `${ featureName }-clientpref-${ value }` );
 		callback();
 	}
-
-	// === Special case: theme should flip the <body> class instantly for everyone ===
-	if ( featureName === 'continuum-theme' ) {
-		// Remove any existing theme-* classes safely
-		var toRemove = [];
-		document.body.classList.forEach( ( c ) => { if ( c.indexOf( 'theme-' ) === 0 ) toRemove.push( c ); } );
-		toRemove.forEach( ( c ) => document.body.classList.remove( c ) );
-		document.body.classList.add( 'theme-' + value );
-
-		// For anons, also persist so the server hook can read it on next request
-		try {
-			if ( !( mw.user.isNamed && mw.user.isNamed() ) ) {
-				mw.storage.set( 'continuum-theme', value );
-				mw.cookie.set( 'continuum-theme', value, 365 );
-			}
-		} catch ( e ) {}
-	}
 }
-
 
 /**
  * @param {string} featureName
@@ -166,51 +114,19 @@ function makeInputElement( type, featureName, value ) {
 	input.setAttribute( 'data-event-name', id );
 	return input;
 }
-function safeMsgText(key, fallback) {
-  var m = mw.message(key);
-  return m.exists() ? m.text() : fallback;
-}
+
 /**
  * @param {string} featureName
  * @param {string} value
  * @return {HTMLLabelElement}
  */
-
-function makeLabelElement(featureName, value) {
-  const label = document.createElement('label');
-  label.classList.add('ct-labelwrap');
-  label.setAttribute('for', getInputId(featureName, value));
-
-  const text = (mw.message(`${featureName}-${value}-label`).exists())
-    ? mw.msg(`${featureName}-${value}-label`)
-    : value;
-
-  if (featureName === 'continuum-theme') {
-    const swatch = document.createElement('span');
-    swatch.className = 'ct-swatch -duo';
-    const SW = {
-      'imperial-night': ['#001F3F', '#FF851B'],
-      'ubla-day':       ['#7bd3cf', '#3167ff'],
-      'ubla-night':     ['#0b1930', '#8cf6ff'],
-      'verdant':        ['#0c2a1b', '#5ee37a']
-    };
-    const [c1, c2] = SW[value] || ['#222', '#888'];
-    const i1 = document.createElement('i'); i1.style.background = c1;
-    const i2 = document.createElement('i'); i2.style.background = c2;
-    swatch.append(i1, i2);
-    label.appendChild(swatch);
-  }
-
-  const span = document.createElement('span');
-  span.className = 'ct-label';
-  span.textContent = text;
-  label.appendChild(span);
-  return label;
+function makeLabelElement( featureName, value ) {
+	const label = document.createElement( 'label' );
+	// eslint-disable-next-line mediawiki/msg-doc
+	label.textContent = mw.msg( `${ featureName }-${ value }-label` );
+	label.setAttribute( 'for', getInputId( featureName, value ) );
+	return label;
 }
-
-
-
-
 
 /**
  * Create an element that informs users that a feature is not functional
@@ -229,17 +145,6 @@ function makeExclusionNotice( featureName ) {
 	return p;
 }
 
-/**
- * @return {HTMLElement}
- */
-function makeBetaInfoTag() {
-	const infoTag = document.createElement( 'span' );
-	// custom style to avoid moving heading bottom border.
-	const infoTagText = document.createElement( 'span' );
-	infoTagText.textContent = mw.message( 'continuum-night-mode-beta-tag' ).text();
-	infoTag.appendChild( infoTagText );
-	return infoTag;
-}
 
 /**
  * @param {Element} parent
@@ -275,39 +180,6 @@ function appendRadioToggle( parent, featureName, value, currentValue, config, us
 	} );
 }
 
-/**
- * @param {HTMLElement} betaMessageElement
- */
-function makeFeedbackLink( betaMessageElement ) {
-	const pageWikiLink = `[https://${ window.location.hostname + mw.util.getUrl( mw.config.get( 'wgPageName' ) ) } ${ mw.config.get( 'wgTitle' ) }]`;
-	const preloadTitle = mw.message( 'continuum-night-mode-issue-reporting-preload-title', pageWikiLink ).text();
-	const link = mw.msg( 'continuum-night-mode-issue-reporting-notice-url', window.location.host, preloadTitle );
-	const linkLabel = mw.message( 'continuum-night-mode-issue-reporting-link-label' ).text();
-	const anchor = document.createElement( 'a' );
-	anchor.setAttribute( 'href', link );
-	anchor.setAttribute( 'target', '_blank' );
-	anchor.setAttribute( 'title', mw.msg( 'continuum-night-mode-issue-reporting-notice-tooltip' ) );
-	anchor.textContent = linkLabel;
-
-	/**
-	 * Shows the success message after clicking the beta feedback link.
-	 * Note: event.stopPropagation(); is required to show the success message
-	 * without closing the Appearance menu when it's in a dropdown.
-	 *
-	 * @param {Event} event
-	 */
-	const showSuccessFeedback = function ( event ) {
-		event.stopPropagation();
-		const icon = document.createElement( 'span' );
-		icon.classList.add( 'continuum-icon', 'continuum-icon--heart' );
-		anchor.textContent = mw.msg( 'continuum-night-mode-issue-reporting-link-notification' );
-		anchor.classList.add( 'skin-theme-beta-notice-success' );
-		anchor.prepend( icon );
-		anchor.removeEventListener( 'click', showSuccessFeedback );
-	};
-	anchor.addEventListener( 'click', ( event ) => showSuccessFeedback( event ) );
-	betaMessageElement.appendChild( anchor );
-}
 
 /**
  * @param {Element} form
@@ -368,45 +240,47 @@ const getFeatureLabelMsg = ( featureName ) => mw.message( `${ featureName }-name
  * @return {Element|null}
  */
 function makeControl( featureName, config, userPreferences ) {
-  const pref = config[ featureName ];
-  const isExcluded = isFeatureExcluded( featureName );
-  if ( !pref ) return null;
+	const pref = config[ featureName ];
+	const isExcluded = isFeatureExcluded( featureName );
 
-  // Get current value safely
-  let currentValue = mw.user.clientPrefs.get( featureName );
-  if ( typeof currentValue === 'boolean' ) {
-    // Derive from the <html> class or default to the first option
-    currentValue = getActivePrefValueFromClass( featureName ) ||
-      (pref.options && pref.options[0]) || 'imperial-night';
-  }
+	if ( !pref ) {
+		return null;
+	}
+	const currentValue = mw.user.clientPrefs.get( featureName );
+	// The client preference was invalid. This shouldn't happen unless a gadget
+	// or script has modified the documentElement or client preference is excluded.
+	if ( typeof currentValue === 'boolean' && !isExcluded ) {
+		return null;
+	}
+	const row = createRow( '' );
+	const form = document.createElement( 'form' );
+	const type = pref.type || 'radio';
+	switch ( type ) {
+		case 'radio':
+			pref.options.forEach( ( value ) => {
+				appendRadioToggle(
+					form, featureName, value, String( currentValue ), config, userPreferences
+				);
+			} );
+			break;
+		case 'switch': {
+			const labelElement = document.createElement( 'label' );
+			labelElement.textContent = getFeatureLabelMsg( featureName ).text();
+			appendToggleSwitch(
+				form, featureName, labelElement, String( currentValue ), config, userPreferences
+			);
+			break;
+		} default:
+			throw new Error( 'Unknown client preference! Only switch or radio are supported.' );
+	}
+	row.appendChild( form );
 
-  const row = createRow( '' );
-  const form = document.createElement( 'form' );
-  const type = pref.type || 'radio';
-  switch ( type ) {
-    case 'radio':
-      pref.options.forEach( ( value ) => {
-        appendRadioToggle( form, featureName, value, String( currentValue ), config, userPreferences );
-      } );
-      break;
-    case 'switch': {
-      const labelElement = document.createElement( 'label' );
-      labelElement.textContent = safeMsgText( `${ featureName }-name`, featureName );
-      appendToggleSwitch( form, featureName, labelElement, String( currentValue ), config, userPreferences );
-      break;
-    }
-    default:
-      throw new Error( 'Unknown client preference! Only switch or radio are supported.' );
-  }
-  row.appendChild( form );
-
-  if ( isExcluded ) {
-    const exclusionNotice = makeExclusionNotice( featureName );
-    row.appendChild( exclusionNotice );
-  }
-  return row;
+	if ( isExcluded ) {
+		const exclusionNotice = makeExclusionNotice( featureName );
+		row.appendChild( exclusionNotice );
+	}
+	return row;
 }
-
 
 /**
  * @param {Element} parent
@@ -414,30 +288,68 @@ function makeControl( featureName, config, userPreferences ) {
  * @param {Record<string,ClientPreference>} config
  * @param {UserPreferencesApi} userPreferences
  */
-function makeClientPreference(parent, featureName, config, userPreferences) {
-  const labelMsg = getFeatureLabelMsg(featureName);
-  const headingText = labelMsg.exists() ? labelMsg.text() : featureName;
+function makeClientPreference( parent, featureName, config, userPreferences ) {
+	const labelMsg = getFeatureLabelMsg( featureName );
+	// If the user is not debugging messages and no language exists,
+	// exit as its a hidden client preference.
+	if ( !labelMsg.exists() && mw.config.get( 'wgUserLanguage' ) !== 'qqx' ) {
+		return;
+	} else {
+		const id = `skin-client-prefs-${ featureName }`;
+		// @ts-ignore TODO: upstream patch URL
+		const portlet = mw.util.addPortlet( id, labelMsg.text() );
 
-  // One block per pref
-  const block = document.createElement('div');
-  block.id = `skin-client-prefs-${featureName}`;
-  block.className = 'continuum-preference-block';
+		const labelElement = portlet.querySelector( 'label' );
 
-  // Subheading
-  const h = document.createElement('div');
-  h.className = 'continuum-menu-subheading';
-  h.textContent = headingText;
+		// Add additional description for mobile
+		// eslint-disable-next-line mediawiki/msg-doc
+		const descriptionMsg = mw.message( `${ featureName }-description` );
+		if ( descriptionMsg.exists() ) {
+			const desc = document.createElement( 'span' );
+			desc.classList.add( 'skin-client-pref-description' );
+			desc.textContent = descriptionMsg.text();
+			if ( labelElement && labelElement.parentNode ) {
+				labelElement.appendChild( desc );
+			}
+		}
 
-  // The controls (radios/switch)
-  const row = makeControl(featureName, config, userPreferences);
-  if (!row) return; // nothing to add
+		// Add exclusion notice for desktop
+		// eslint-disable-next-line mediawiki/msg-doc
+		const exclusionNoticeMsg = mw.message( `${ featureName }-exclusion-notice` );
+		if ( exclusionNoticeMsg.exists() ) {
+			const content = portlet.querySelector( '.vector-menu-content' );
+			const notice = document.createElement( 'span' );
+			notice.classList.add( 'skin-client-pref-exclusion-notice' );
+			notice.textContent = exclusionNoticeMsg.text();
+			if ( content ) {
+				content.appendChild( notice );
+			}
+		}
 
-  block.appendChild(h);
-  block.appendChild(row);
-  parent.appendChild(block);
+		parent.appendChild( portlet );
+		const row = makeControl( featureName, config, userPreferences );
+		if ( row ) {
+			const tmp = mw.util.addPortletLink( id, '', '' );
+			// create a dummy link
+			if ( tmp ) {
+				const link = tmp.querySelector( 'a' );
+				if ( link ) {
+					link.replaceWith( row );
+				}
+			}
+
+			if ( config[ featureName ].betaMessage && !isFeatureExcluded( featureName ) ) {
+				const betaMessageElement = document.createElement( 'span' );
+				betaMessageElement.id = `${ featureName }-beta-notice`;
+				// per requirements: only logged in users can report errors (T372754)
+				if ( !mw.user.isAnon() ) {
+					makeFeedbackLink( betaMessageElement );
+				}
+				row.appendChild( betaMessageElement );
+			}
+		}
+	}
 }
-
-
 
 /**
  * Fills the client side preference dropdown with controls.
@@ -493,158 +405,6 @@ function bind( clickSelector, renderSelector, config, userPreferences ) {
 		} );
 	}
 }
-(function () {
-  var feature = 'continuum-theme';
-  var v = (mw.user.options && mw.user.options.get && mw.user.options.get('continuum-theme'))
-       || mw.user.clientPrefs.get(feature)
-       || mw.storage.get('continuum-theme')
-       || 'imperial-night';
-
-  // remove any old continuum-theme-clientpref-* classes
-  Array.from(document.documentElement.classList)
-    .filter(c => c.indexOf(feature + '-clientpref-') === 0)
-    .forEach(c => document.documentElement.classList.remove(c));
-
-  document.documentElement.classList.add(feature + '-clientpref-' + v);
-})();
-function getConfig() {
-  let base = {};
-  try {
-    base = mw.loader.require('skins.continuum.js/clientPreferences.json') || {};
-  } catch (e) {}
-
-  delete base['continuum-night-mode'];
-  delete base['vector-night-mode'];
-  delete base['skin-theme'];
-
-  base['continuum-theme'] = {
-    options: ['imperial-night','ubla-day','ubla-night','verdant'],
-    preferenceKey: 'continuum-theme',
-    type: 'radio'
-  };
-  return base;
-}
-(function primeFeatureClasses() {
-  var pairs = [
-    ['continuum-feature-limited-width', 'continuum-limited-width', '1'],
-    ['continuum-feature-custom-font-size', 'continuum-font-size', '0'],
-    ['continuum-feature-appearance-pinned', 'continuum-appearance-pinned', '1']
-  ];
-  var root = document.documentElement;
-  pairs.forEach(function (p) {
-    var feature = p[0], prefKey = p[1], defVal = p[2], val = null;
-    try {
-      if (mw.user.isNamed && mw.user.isNamed()) {
-        val = (mw.user.options && mw.user.options.get) ? String(mw.user.options.get(prefKey)) : null;
-      } else {
-        val = mw.user.clientPrefs.get(feature);
-      }
-      if (val === null || val === '' || typeof val === 'boolean') val = defVal;
-
-      Array.from(root.classList).forEach(function (c) {
-        if (c.indexOf(feature + '-clientpref-') === 0) root.classList.remove(c);
-      });
-      root.classList.add(feature + '-clientpref-' + val);
-    } catch (e) {}
-  });
-})();
-/* === Continuum: minimal render to ensure THEME buttons appear === */
-( function ( mw, $ ) {
-  'use strict';
-
-  function primeThemeClass() {
-    var feature = 'continuum-theme';
-    var root = document.documentElement;
-    // Find current value
-    var value = null;
-    try {
-      value = (mw.user.isNamed && mw.user.isNamed())
-        ? (mw.user.options && mw.user.options.get ? mw.user.options.get('continuum-theme') : null)
-        : (mw.user.clientPrefs.get(feature) || mw.storage.get('continuum-theme') || mw.cookie.get('continuum-theme'));
-    } catch (e) {}
-    if (!value) value = 'imperial-night';
-
-    // Ensure <html> has e.g. "continuum-theme-clientpref-imperial-night"
-    var has = Array.from(root.classList).some(function(c){ return c.indexOf(feature + '-clientpref-') === 0; });
-    if (!has) root.classList.add(feature + '-clientpref-' + value);
-
-    // Snap <body> theme class so the page paints correctly
-    var toRemove = [];
-    document.body.classList.forEach(function (c) { if (c.indexOf('theme-') === 0) toRemove.push(c); });
-    toRemove.forEach(function (c) { document.body.classList.remove(c); });
-    document.body.classList.add('theme-' + value);
-  }
-
-  function buildThemeRadiosFallback(panel, ui) {
-    // Manual minimal radios (no fancy Codex required)
-    var opts = ['imperial-night','ubla-day','ubla-night','verdant'];
-    var form = document.createElement('form');
-    form.style.display = 'grid'; form.style.gap = '6px';
-
-    opts.forEach(function(v){
-      var id = 'skin-client-pref-continuum-theme-value-' + v;
-      var wrap = document.createElement('label'); wrap.htmlFor = id; wrap.style.display = 'flex'; wrap.style.alignItems = 'center'; wrap.style.gap = '8px';
-
-      var input = document.createElement('input');
-      input.type = 'radio';
-      input.name = 'skin-client-pref-continuum-theme-group';
-      input.id = id;
-      input.value = v;
-
-      var txt = document.createElement('span');
-      txt.textContent = v;
-
-      input.addEventListener('change', function () {
-        // Use your exported helper so it also saves for logged-in users
-        var cfg = { 'continuum-theme': { options: opts, preferenceKey: 'continuum-theme', type: 'radio' } };
-        ui.toggleDocClassAndSave('continuum-theme', v, cfg, new mw.Api());
-      });
-
-      wrap.appendChild(input);
-      wrap.appendChild(txt);
-      form.appendChild(wrap);
-    });
-
-    panel.appendChild(form);
-  }
-
-  function mountThemeButtons() {
-    primeThemeClass();
-
-    var panel = document.querySelector('#continuum-appearance-panel');
-    if (!panel) return;
-
-    // Try the general renderer first (nice radios + your label builder)
-    var ui = mw.loader.require('skins.continuum.clientPreferences');
-    var cfg = {
-      'continuum-theme': {
-        options: ['imperial-night','ubla-day','ubla-night','verdant'],
-        preferenceKey: 'continuum-theme',
-        type: 'radio'
-      }
-    };
-
-    // If already rendered, bail
-    if (panel.querySelector('#skin-client-prefs-continuum-theme .cdx-radio, #skin-client-prefs-continuum-theme input[type="radio"]')) return;
-
-    ui.render('#continuum-appearance-panel', cfg).then(function () {
-      // If for some reason nothing appeared, build fallback
-      if (!panel.querySelector('#skin-client-prefs-continuum-theme .cdx-radio, #skin-client-prefs-continuum-theme input[type="radio"]')) {
-        buildThemeRadiosFallback(panel, ui);
-      }
-    }).catch(function () {
-      buildThemeRadiosFallback(panel, ui);
-    });
-  }
-
-  $(mountThemeButtons);
-  mw.hook('wikipage.content').add(mountThemeButtons);
-})(mediaWiki, jQuery);
-
-
-
-
-
 module.exports = {
 	bind,
 	toggleDocClassAndSave,

@@ -284,6 +284,22 @@ final class Constants {
 	];
 
 	/**
+	 * @var string
+	 */
+	public const THEME_IMPERIAL_NIGHT = 'imperial-night';
+	/**
+	 * @var string
+	 */
+	public const THEME_UBLA_DAY = 'ubla-day';
+	/**
+	 * @var string
+	 */
+	public const THEME_UBLA_NIGHT = 'ubla-night';
+	/**
+	 * @var string
+	 */
+	public const THEME_VERDANT = 'verdant';
+	/**
 	 * This class is for namespacing constants only. Forbid construction.
 	 * @throws FatalError
 	 * @return never

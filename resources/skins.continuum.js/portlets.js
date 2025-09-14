@@ -110,7 +110,7 @@ function addPortletHandler( portlet, before ) {
 		const pageToolsMarker = pageToolsDropdown ? pageToolsDropdown.parentNode : null;
 		// Guard against unexpected changes to HTML.
 		if ( pageToolsMarker === null || !pageToolsMarker.parentNode ) {
-			throw new Error( 'Continuum 2022 addPortletLink: No #continuum-page-tools-dropdown element in the DOM.' );
+			throw new Error( 'continuum 2022 addPortletLink: No #continuum-page-tools-dropdown element in the DOM.' );
 		}
 		const dropdown = makeDropdown( transformedPortlet );
 		pageToolsMarker.parentNode.insertBefore( dropdown, pageToolsMarker );

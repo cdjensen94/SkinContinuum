@@ -1,157 +1,33 @@
-/* Scope hard to the portlet so we don’t accidentally restyle other radios */
-#p-appearance {
-  .continuum-menu-heading {
-    font-weight: 700;
-    font-size: 0.95rem;
-    letter-spacing: .02em;
-    margin-bottom: .25rem;
-  }
+@import 'mediawiki.skin.variables.less';
 
-  .continuum-menu-content {
-    /* Panel chrome */
-    padding: .5rem .75rem .75rem;
-    border-radius: 12px;
-    background: var(--bg-panel, #0d1117);
-    box-shadow:
-      0 1px 0 rgba(255,255,255,.04) inset,
-      0 8px 24px rgba(0,0,0,.28);
+#continuum-appearance {
+	form {
+		font-size: 0.875rem;
+		padding: 6px 0;
+	}
 
-    /* prevent “tiny dot” syndrome + overflow */
-    min-width: 260px;
-    max-width: 360px;
-    max-height: 70vh;
-    overflow: auto;
-  }
+	a.skin-theme-beta-notice-success {
+		color: @color-success;
+		pointer-events: none;
+	}
 
-  /* Block for each client pref (we only render theme for now) */
-  #skin-client-prefs-continuum-theme {
-    margin-top: .35rem;
-  }
-
-  /* Put the options in a neat grid */
-  #skin-client-prefs-continuum-theme form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: .5rem .6rem;
-  }
-
-  /* Codex radio restyle with glow-on-select */
-  .cdx-radio {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    padding: .55rem .6rem;
-    border-radius: 10px;
-    background: var(--bg-alt, rgba(255,255,255,.03));
-    outline: 1px solid rgba(255,255,255,.06);
-    transition: outline-color .15s ease, box-shadow .15s ease, transform .06s ease;
-
-    &:hover {
-      outline-color: var(--border, rgba(255,255,255,.16));
-    }
-    &:active {
-      transform: translateY(1px);
-    }
-
-    /* selected state */
-    input:checked ~ .cdx-radio__label,
-    input:checked ~ .cdx-radio__icon {
-      filter: none;
-    }
-    input:checked ~ .cdx-radio__label::after {
-      content: "";
-      position: absolute;
-      inset: -1px;
-      border-radius: 12px;
-      pointer-events: none;
-      /* neon ring using your accent color */
-      box-shadow:
-        0 0 0 1px var(--accent-primary, #4cc2ff),
-        0 0 12px 2px color-mix(in oklab, var(--accent-primary, #4cc2ff) 70%, transparent);
-    }
-  }
-
-  .cdx-radio__input { /* keep it visually hidden, but accessible */ }
-  .cdx-radio__icon { display: none; } /* we’ll use our own swatch visual */
-
-  .cdx-radio__label {
-    display: flex;
-    align-items: center;
-    gap: .6rem;
-    font-size: .92rem;
-    color: var(--text-base, #e6edf3);
-    filter: opacity(.92);
-
-    .ct-swatch {
-      width: 26px;
-      height: 26px;
-      border-radius: 999px;
-      outline: 1px solid rgba(255,255,255,.12);
-      box-shadow: inset 0 0 0 2px rgba(0,0,0,.25);
-      flex: 0 0 26px;
-    }
-	.ct-labelwrap { display:flex; align-items:center; gap:.5rem; }
-	.ct-swatch.-duo { display:inline-flex; overflow:hidden; border-radius:4px; width:22px; height:14px; }
-	.ct-swatch.-duo i { flex:1 0 50%; display:block; }
-
-    .ct-label {
-      line-height: 1.1;
-      letter-spacing: .01em;
-    }
-  }
-
-  /* Limited width + font size (when you add them) */
-  #skin-client-prefs-continuum-feature-limited-width,
-  #skin-client-prefs-continuum-feature-custom-font-size {
-    margin-top: .9rem;
-
-    form { display: flex; gap: .6rem; flex-wrap: wrap; }
-    .cdx-radio { grid-column: 1 / -1; } /* switches often want full width */
-  }
-
-  /* Subtle focus for keyboard users */
-  .cdx-radio:focus-within {
-    outline-color: var(--accent-hover, #7dd3ff);
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .cdx-radio { transition: none; }
-  }
-}
-#p-appearance .ct-subhead {
-  margin: .35rem .1rem .35rem;
-  font-size: .78rem;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-  color: var(--text-subtle, #9aa4ad);
-}
-/* Container of the dropdown in the top bar */
-#continuum-appearance-dropdown {
-  position: relative;
+	.continuum-icon.continuum-icon--heart {
+		.cdx-mixin-css-icon( @cdx-icon-heart, @color-success, @size-icon-small );
+	}
 }
 
-/* The panel itself */
-#continuum-appearance-panel {
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-  min-width: 260px;
-  max-width: 360px;
-  max-height: 70vh;
-  overflow: auto;
-  border-radius: 12px;
-  background: var(--bg-panel, #0d1117);
-  box-shadow:
-    0 1px 0 rgba(255,255,255,.04) inset,
-    0 8px 24px rgba(0,0,0,.28);
-  z-index: 10050; /* over sticky header */
-  display: none;  /* hidden by default */
+// Only display feedback notice in dark mode.
+// https://phabricator.wikimedia.org/T367871#10003064
+#skin-theme-beta-notice {
+	display: none;
 }
-/* Appearance panel tidy */
-#p-appearance .continuum-menu-heading label { display:block; cursor:pointer; }
-#p-appearance .continuum-menu-content .mw-portlet { margin:.5rem 0; }
-#p-appearance .continuum-menu-content .cdx-radio,
-#p-appearance .continuum-menu-content .cdx-toggle-switch {
-  display:flex; align-items:center; gap:.5rem; margin:.25rem 0;
+
+@media screen and ( prefers-color-scheme: dark ) {
+	html.skin-theme-clientpref-os #skin-theme-beta-notice {
+		display: block;
+	}
+}
+
+html.skin-theme-clientpref-night #skin-theme-beta-notice {
+	display: block;
 }
