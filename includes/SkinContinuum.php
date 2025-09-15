@@ -65,7 +65,7 @@ class SkinContinuum extends SkinMustache {
 		// Grab user preference, fallback to imperial-night
 		$theme = $this->getUser()->getOption( 'continuum-theme', 'imperial-night' );
 
-		$validThemes = [ 'imperial-night', 'ubla', 'verdant' ];
+		$validThemes = [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant', 'adams-chaos' ];
 		if ( in_array( $theme, $validThemes, true ) ) {
 			$classes[] = "theme-$theme";
 		} else {
@@ -292,7 +292,7 @@ class SkinContinuum extends SkinMustache {
 		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 		$theme = $userOptionsManager->getOption( $this->getUser(), 'continuum-theme', 'imperial-night' );
 
-		$validThemes = [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant' ];
+		$validThemes = [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant', 'adams-chaos' ];
 		if ( in_array( $theme, $validThemes, true ) ) {
 			$original['class'] .= ' theme-' . $theme;
 		} else {

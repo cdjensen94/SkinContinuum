@@ -41,7 +41,7 @@
     background-color: @bg-alt;
     border: 1px solid @accent-primary;
     border-radius: 12px;
-    padding: 16px;
+    //padding: 16px;
     margin-bottom: 16px;
 }
 .oo-ui-radioInputWidget [type='radio'] + span {
@@ -130,4 +130,71 @@
 }
 .oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open .oo-ui-dropdownWidget-handle {
     background-color: @accent-alt !important;
+}
+.oo-ui-processDialog-location, .oo-ui-panelLayout {
+    background-color: @bg-main;
+    border: 2px solid @accent-primary;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px @shadow-color;
+}
+.ve-ui-mwParameterPage-label 
+{
+    color: @text-base;
+}
+.oo-ui-textInputWidget .oo-ui-inputWidget-input {
+    background-color: @bg-panel !important;
+    color: @text-subtle !important;
+    margin: 0;
+    border: 1px solid @accent-alt !important;
+}
+.ve-ui-mwParameterPage-info {
+    border: none;
+}
+/* Put this in your skins.continuum.styles / visual editor less file */
+.skin-continuum {
+  /* provide a CSS variable so themes can override */
+  --ve-toolbar-bg:   rgba(255,255,255,0.06);
+  --ve-toolbar-border: rgba(0,0,0,0.12);
+  --ve-toolbar-hover: rgba(255,255,255,0.10);
+
+  /* Broad OOUI/VE toolbar widget rule (applies to buttons, tool groups, panels) */
+  .ve-ui-toolbar-group-pageMenu,
+  .ve-ui-toolbar-group-editMode,
+  .ve-ui-toolbar-group-help,
+  .ve-ui-toolbar-group-insert,
+  .ve-ui-toolbar-group-format,
+  .ve-ui-toolbar-group-advanced,
+  .ve-ui-toolbar-group-history,
+  .ve-ui-toolbar-group-structure,
+  .ve-ui-toolbar-group-layout,
+  .ve-ui-toolbar-group-annotate,
+  .ve-ui-toolbar-group-others,
+  .ve-ui-toolbar-group-cite,
+  .ve-ui-toolbar-group-style,
+  .oo-ui-tool-link, .tab-characters,
+  .tab-advanced, .tab-help,
+  .oo-ui-popupToolGroup-handle{
+    background: @ve-toolbar-bg;
+    border-color: @ve-toolbar-border;
+    box-shadow: none;                  /* optional: remove default OOUI shadow */
+    transition: background-color .12s ease, box-shadow .12s ease;
+  }
+
+  /* Hover / active states for buttons */
+  .ve-ui-toolbar .oo-ui-buttonElement:hover,
+  .ve-ui-toolbar .oo-ui-tool:hover,
+  .ve-ui-panel .oo-ui-buttonElement:hover {
+    background: @ve-toolbar-hover;
+  }
+
+  .ve-ui-toolbar .oo-ui-buttonElement:active,
+  .ve-ui-toolbar .oo-ui-tool:active {
+    /* a slightly darker pressed state */
+    background: @ve-toolbar-background-active;
+  }
+
+  /* Ensure popup contents match */
+  .oo-ui-popupWidget .oo-ui-widget {
+    background: @ve-toolbar-bg;
+  }
 }

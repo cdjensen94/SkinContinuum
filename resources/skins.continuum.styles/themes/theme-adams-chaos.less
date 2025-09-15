@@ -1,0 +1,99 @@
+/* === Adam's Chaos === */
+body.skin-continuum.theme-adams-chaos {
+  /* Core palette */
+  --bg-main:                #070607;   /* near-black page background */
+  --bg-alt:                 #0c0b0b;   /* alt panels */
+  --bg-panel:               #090808;   /* deep panel bg */
+  --bg-interactive:         linear-gradient(90deg, #160606, #2a0606); /* interactive elements */
+  --bg-light:               #3a1a1a;   /* lighter surfaces */
+  
+  --text-base:              #F6F6F6;   /* soft white */
+  --text-subtle:            #bdbdbd;   /* muted */
+  --text-accent:            #FF5A5A;   /* bright red highlight */
+  --text-error:             #FF3B3B;
+
+  /* Accent palette (metallic red theme) */
+  --accent-primary:         #c31b1b;   /* metallic crimson */
+  --accent-hover:           #ff3b3b;   /* hot hover */
+  --accent-active:          #a51010;   /* pressed */
+  --accent-danger:          #ff3b3b;
+  --accent-metal:           linear-gradient(135deg,#6b0f0f 0%,#a31b1b 40%,#e63b3b 100%);
+
+  /* Links */
+  --link:                    var(--accent-primary);
+  --link-hover:              var(--accent-hover);
+  --link-active:             var(--accent-active);
+  --link-visited:            #b34a4a;
+
+  /* Status */
+  --status-success:          #114422;
+  --status-warning:          #ff944d;
+  --status-error:            var(--accent-danger);
+  --status-notice:           var(--text-base);
+
+  /* Borders */
+  --border:                  rgba(195,27,27,0.8);
+  --border-hover:            rgba(255,59,59,0.85);
+  --border-active:           rgba(165,16,16,0.9);
+
+  /* Code blocks / codemirror */
+  --code-bg:                 #0b0b0b;
+  --code-bg-highlight:       #1a0f0f;
+  --code-identifier:         #f6f6f6;
+  --code-string:             #ffa3a3;
+  --code-number:             #ffb86b;
+  --code-keyword:            #ff7b7b;
+  --code-comment:            #7f7f7f;
+  --code-function:           #ffd5d5;
+  --code-variable:           #ffb86b;
+  --code-operator:           #ff6b6b;
+  --code-constant:           #ff9a00;
+  --code-type:               #ffb86b;
+  --code-class:              #ff8fa3;
+  --code-tag:                #ff78a3;
+  --code-attribute:          #ffb86b;
+  --code-exttag:             #ff6b6b;
+  --code-section-header:     #ff6b6b;
+  --code-list:               #c15b00;
+  --code-language:           #a05a00;
+  --code-underline:          #ffbdbd;
+  --code-other:              #f6f6f6;
+  --code-function-builtin:   #ff9a9a;
+
+  --cursor-color:            #ff4d4d;
+
+  --icon-color:              var(--accent-active);
+
+  /* Glow & accents for UI */
+  --code-glow:               rgba(255,50,50,0.22);
+  --accent-glow:             rgba(255,60,60,0.28);
+  --metallic-sheen:          rgba(255,255,255,0.03);
+}
+/* use existing utility but provide a stronger red variant */
+.theme-adams-chaos .ct-glow-outline::after {
+  background: radial-gradient(circle at 20% 10%,
+    rgba(255,80,80,0.18),
+    rgba(255,40,40,0.08) 40%,
+    transparent 70%);
+  filter: blur(14px) saturate(1.2);
+  opacity: 0.95;
+}
+.theme-adams-chaos .ct-glow-outline {
+  box-shadow: 0 0 12px rgba(200,30,30,0.22), 0 1px 0 rgba(255,255,255,0.02) inset;
+}
+/* VisualEditor toolbar / toolbars */
+.theme-adams-chaos .ve-ui-toolbar,
+.theme-adams-chaos .ve-toolbar,
+.theme-adams-chaos .ve-ui-toolbar .oo-ui-toolbar { 
+  background: linear-gradient(180deg, rgba(50,10,10,0.95), rgba(15,6,6,0.85));
+  border-color: var(--border);
+  color: var(--text-base);
+  box-shadow: 0 2px 10px rgba(150,20,20,0.14);
+}
+
+/* icons inside VE */
+.theme-adams-chaos .ve-ui-toolbar .oo-ui-iconWidget-icon,
+.theme-adams-chaos .ve-toolbar .oo-ui-iconWidget-icon {
+  color: var(--accent-primary);
+  fill: currentColor;
+}

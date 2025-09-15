@@ -20,7 +20,7 @@ class ThemeHooks {
 			}
 		}
 
-		$valid = [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant' ];
+		$valid = [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant', 'adams-chaos' ];
 		if ( !in_array( $theme, $valid, true ) ) {
 			$theme = 'imperial-night';
 		}

@@ -1,0 +1,117 @@
+body.skin-continuum.theme-verdant {
+  /* Core palette */
+  --bg-panel:       #0a2012; /* darker panel */
+  --bg-main:        #0b1f12; /* deep forest floor */
+  --bg-alt:         #0f2b18; /* sidebar, panels */
+  --bg-interactive: #143923; /* highlights, toc */
+  --bg-light:       #28613b; /* lighter surfaces */
+  --bg-button:      #40C057; /* bright green buttons */
+
+  --text-base:      #E9F8EE; /* soft off-white */
+  --text-subtle:    #9FC9A8; /* muted text */
+  --text-accent:    #CFFFB0; /* pale leaf-ish */
+  --text-error:     #FF6B6B; /* destructive */
+
+  /* Accent palette */
+  --accent-primary: #40C057; /* bright green (links/buttons) */
+  --accent-hover:   #7DE39A; /* soft hover */
+  --accent-active:  #2EA44F; /* darker active */
+  --accent-danger:  #FF6B6B;
+  --accent-gold:    #D6E6A2; /* soft gold/leaf */
+
+  /* Links */
+  --link:           var(--accent-primary);
+  --link-hover:     var(--accent-hover);
+  --link-active:    var(--accent-active);
+  --link-visited:   #6BAF88;
+
+  /* Status */
+  --status-success: #1f6f4b;
+  --status-warning: #9ecf87;
+  --status-error:   var(--accent-danger);
+  --status-notice:  var(--text-base);
+
+  /* Borders */
+  --border:         rgba(64,192,87,0.35);
+  --border-hover:   rgba(125,227,154,0.35);
+  --border-active:  rgba(46,164,79,0.4);
+
+   --code-bg:                 #0a1710; /* very dark forest ground */
+  --code-bg-highlight:       #163022;
+  --code-identifier:         #ecf7ee; /* soft off-white */
+  --code-number:             #b5e07f; /* mossy numbers */
+  --code-string:             #69d19a; /* warm mint strings */
+  --code-keyword:            #7dd28b; /* leafy keywords */
+  --code-comment:            #7a8b7a; /* muted green-gray */
+  --code-function:           #bfe8a8; /* pale leaf green */
+  --code-function-builtin:   #a8df86;
+  --code-variable:           #e7f7e6;
+  --code-operator:           #c7ffb3;
+  --code-constant:           #d0a6ff;
+  --code-type:               #9bd89d;
+  --code-class:              #8ee6b3;
+  --code-interface:          #95e0a2;
+  --code-def:                #ffd39a;
+  --code-template:           #89c3a5;
+  --code-parser-function:    #e86fa4;
+  --code-html-attribute:     #6cb28f;
+  --code-link-brackets:      #7c9b86;
+  --code-link-pagename:      #93b09b;
+  --code-link-text:          #dfeee2;
+  --code-exttag:             #2aa198;
+  --code-exttag-attribute:   #b58900;
+  --code-exttag-name:        #9ad07b;
+  --code-exttag-brackets:    #5aa47a;
+  --code-section-header:     #6fb37e;
+  --code-underline:          #ecf7ee;
+  --code-other:              #ecf7ee;
+  --code-list:               #a17400;
+  --code-tag:                #e86fa4;
+  --code-attribute:          #6cb28f;
+  --code-language:           #7aa97a;
+  --code-glow:               rgba(155,216,157,0.12);
+  
+  --cursor-color:  var(--accent-primary);
+
+  /* visual editor */
+  --ve-toolbar-bg:   rgb(0, 255, 89);
+  --ve-toolbar-border: rgb(0, 255, 47);
+  --ve-toolbar-hover: rgb(64, 192, 87);
+  --ve-toolbar-background-active: rgb(18, 53, 30);
+
+  /* glow */
+  --glow-color:     rgba(76, 220, 124, 0.95);
+  --icon-color:     var(--accent-primary);
+}
+body.skin-continuum.theme-verdant { --icon-color: var(--accent-primary); }
+
+
+/* one rule to tint all masked icons */
+.continuum-icon,
+.mw-ui-icon { color: var(--icon-color); }
+
+
+/* Mask-based icons use background-color or color. Set both. */
+.theme-verdant .mw-ui-icon,
+.theme-verdant .mw-ui-icon-element .mw-ui-icon{
+  background-color: var(--icon-color) !important; /* older modules */
+  color: var(--icon-color) !important;            /* newer ones using currentColor */
+}
+
+/* Hover/focus variant (optional) */
+.theme-verdant a:hover .mw-ui-icon,
+.theme-verdant .oo-ui-buttonWidget:hover .oo-ui-iconElement-icon {
+  filter: drop-shadow(0 0 6px rgba(32,227,255,.35));
+}
+
+.theme-verdant .cdx-icon,
+.theme-verdant .cdx-button .cdx-icon,
+.theme-verdant .cdx-menu__icon {
+  color: var(--icon-color);
+}
+
+.theme-verdant svg,
+.theme-verdant .ct-icon svg {
+  color: var(--icon-color);
+}
+.theme-verdant svg [fill="#000"] { fill: var(--icon-color) !important; }

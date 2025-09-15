@@ -114,7 +114,7 @@ function main( window ) {
         // Inline fallback — keep this synchronized with your PHP ThemeManager
         return {
             'continuum-theme': {
-                options: [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant' ],
+                options: [ 'imperial-night', 'ubla-day', 'ubla-night', 'verdant', 'adams-chaos' ],
                 preferenceKey: 'continuum-theme',
                 betaMessage: false,
                 type: 'radio'

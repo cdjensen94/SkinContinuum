@@ -28,28 +28,26 @@
 	font-size: 14px !important;
 	line-height: 1.4 !important;
 }
-.cm-keyword { color: @code-keyword; font-weight: bold; }
-.cm-string  { color: @code-string; }
-.cm-comment { color: @code-comment; font-style: italic; }
-.cm-number  { color: @code-number; }
-.cm-variable { color: @code-variable; }
-.cm-def     { color: @code-def; }
-.cm-mw-template { color: @code-template; }
-.cm-mw-parserfunction-name { color: @code-parserfunction; }
-.cm-mw-section-header { color: @code-section-header; font-weight: bold; }
-.cm-mw-htmltag-attribute { color: @code-htmltag-attribute; }
-.cm-mw-link-brackets { color: @code-link-brackets; }
-.cm-mw-link-pagename { color: @code-link-pagename; text-decoration: underline; }
-.cm-mw-link-text { color: @code-link-text; }
-.cm-mw-exttag-attribute { color: @code-exttag-attribute; }
-.cm-mw-exttag-name { color: @code-exttag-name; }
-.cm-mw-exttag-brackets { color: @code-exttag-brackets; }
-.cm-mw-exttag { color: @code-exttag; }
-.CodeMirror-cursor { border-left: 1px solid @color-orange; }
+.cm-keyword { color: @code-keyword; font-weight: bold !important; }
+.cm-string  { color: @code-string !important;}
+.cm-comment { color: @code-comment !important; font-style: italic !important; }
+.cm-number  { color: @code-number !important; }
+.cm-variable { color: @code-variable !important; }
+.cm-def     { color: @code-def !important; }
+.cm-mw-template { color: @code-template !important; }
+.cm-mw-parserfunction-name { color: @code-parserfunction !important; }
+.cm-mw-section-header { color: @code-section-header !important; font-weight: bold !important; }
+.cm-mw-htmltag-attribute { color: @code-htmltag-attribute !important; }
+.cm-mw-link-brackets { color: @code-link-brackets !important; }
+.cm-mw-link-pagename { color: @code-link-pagename !important; text-decoration: underline !important; }
+.cm-mw-link-text { color: @code-link-text !important; }
+.cm-mw-exttag-attribute { color: @code-exttag-attribute !important; }
+.cm-mw-exttag-name { color: @code-exttag-name !important; }
+.cm-mw-exttag-brackets { color: @code-exttag-brackets !important; }
+.cm-mw-exttag { color: @code-exttag !important; }
+.CodeMirror-cursor { border-left: 1px solid @cursor-color !important; }
 .CodeMirror-gutters, .CodeMirror-linenumbers {
-    background-color: @bg-alt !important;
+    background-color: @code-bg !important;
     color: @accent-hover !important;
     border-right: 1px solid @accent-primary !important;
 }
-/* Insert rules from lightbulb.css here, adjusting selectors */
-.CodeMirror-cursor { border-left: 1px solid @accent-alt !important; }

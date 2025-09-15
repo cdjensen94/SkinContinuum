@@ -1,10 +1,12 @@
 /* ================== ÛBLÂ — Night (bioluminescent) ================== */
 body.skin-continuum.theme-ubla-night {
   /* Darker substrate with room for glow */
+  --bg-panel:       #060A18;
   --bg-main:        #070A14;
   --bg-alt:         #0B0F1F;
-  --bg-panel:       #060A18;
   --bg-interactive: #0E1430;
+  --bg-light:       #192f4e;   /* lighter surfaces */
+  --bg-button:      #20E3FF;   /* glowing cyan buttons */
 
   --text-base:      #D9F8FF;
   --text-subtle:    #9BC9D5;
@@ -38,13 +40,48 @@ body.skin-continuum.theme-ubla-night {
   --status-error:   #FF5FA8;
 
   /* Code (night neon) */
-  --code-bg:        #0A0F1E;
-  --code-number:    #7DF0FF;
-  --code-string:    #6EE7B7;
-  --code-keyword:   #80A8FF;
-  --code-comment:   #6E8D9A;
-  --code-function:  #69F7FF;
-  --code-variable:  #FFD08A;
+  --code-bg:                 #051022; /* deep indigo/near-black */
+  --code-bg-highlight:       #082034;
+  --code-identifier:         #dff8fb; /* pale, readable text */
+  --code-number:             #7ef0d8; /* aqua numbers */
+  --code-string:             #7de3ff; /* glowing cyan strings */
+  --code-keyword:            #79bfff; /* cool sky keywords */
+  --code-comment:            #4c6b7a; /* muted teal-gray */
+  --code-function:           #8ef7b6; /* neon leaf green */
+  --code-function-builtin:   #6ee0a4;
+  --code-variable:           #9be6ff;
+  --code-operator:           #7de3ff;
+  --code-constant:           #caa3ff;
+  --code-type:               #6ad1c8;
+  --code-class:              #5ae0ff;
+  --code-interface:          #3bf0d8;
+  --code-def:                #ff9ec9;
+  --code-template:           #9aa7ff;
+  --code-parser-function:    #ff66b8;
+  --code-html-attribute:     #4fe6b8;
+  --code-link-brackets:      #3b6070;
+  --code-link-pagename:      #6fb2b7;
+  --code-link-text:          #cfeff0;
+  --code-exttag:             #2aa198;
+  --code-exttag-attribute:   #b58900;
+  --code-exttag-name:        #2fcfff;
+  --code-exttag-brackets:    #2ea7ff;
+  --code-section-header:     #2ea7ff;
+  --code-underline:          #dff8fb;
+  --code-other:              #dff8fb;
+  --code-list:               #9aa819;
+  --code-tag:                #ff66b8;
+  --code-attribute:          #4fe6b8;
+  --code-language:           #5ae0ff;
+  --code-glow:               rgba(125,227,255,0.22);
+
+  --cursor-color:  var(--accent-primary);
+  
+  /* visual editor */
+  --ve-toolbar-bg:   rgb(0, 60, 255);
+  --ve-toolbar-border: rgb(32, 225, 255);
+  --ve-toolbar-hover: rgb(32, 225, 255);
+  --ve-toolbar-background-active: rgb(7, 10, 20);
 
   /* Optional: glow tokens for fancy bits */
   --glow-cyan:      0 0 0 1px rgba(32,227,255,.25), 0 12px 40px rgba(32,227,255,.20);

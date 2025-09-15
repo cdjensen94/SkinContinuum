@@ -1,7 +1,7 @@
 @import '../variables.less';
 .cdx-message--error {
     background-color: @status-error !important;
-    color: @color-white !important;
+    color: @text-base !important;
     border: 1px solid @accent-alt !important;
     border-radius: 8px;
     padding: 12px;
@@ -11,7 +11,7 @@
 }
 .cdx-message--warning {
     background-color: @status-warning !important;
-    color: @color-white !important;
+    color: @text-base !important;
     border: 1px solid @accent-alt !important;
     border-radius: 8px;
     padding: 12px;
@@ -21,11 +21,15 @@
 }
 .cdx-button {
     background-color: @icon-color;
-    color: @color-white;
+    color: @text-base;
     border: 1px solid @accent-alt;
     border-radius: 8px;
     padding: 12px 24px;
     font-family: @font-code;
     font-size: @font-size-medium;
     cursor: pointer;
+}
+.uls-trigger.cdx-button span {
+    color: @text-base;
+
 }

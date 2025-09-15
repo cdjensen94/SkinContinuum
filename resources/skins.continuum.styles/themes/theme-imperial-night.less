@@ -1,9 +1,10 @@
 body.skin-continuum.theme-imperial-night {
      /* Core palette */
+  --bg-panel:       #001933;  /* deep panels, footer */
   --bg-main:        #001F3F;  /* page background navy */
   --bg-alt:         #002855;  /* sidebar, alt panels */
-  --bg-panel:       #001933;  /* deep panels, footer */
   --bg-interactive: #002B5C;  /* toc, highlights */
+  --bg-light:       #1c4a7a;  /* lighter surfaces */
   --bg-button:      #FF851B;  /* bright orange buttons */
 
   --text-base:      #FFFFFF;  /* default text */
@@ -43,42 +44,50 @@ body.skin-continuum.theme-imperial-night {
   --border-warning: #FFB84D;
   --border-notice:  #FFFFFF;
 
-  /* Code blocks */
-  --code-bg:        #1E1E1E;
-  --code-number:    var(--accent-gold);
-  --code-string:    #7FDBFF;  /* azure */
-  --code-keyword:   #FF4136;  /* red */
-  --code-comment:   #AAAAAA;  /* gray */
-  --code-function:  #2ECC40;  /* green */
-  --code-variable:  #FFDC00;  /* yellow */
-  --code-operator:  #FF851B;  /* orange */
-  --code-constant:  #B10DC9;  /* purple */
-  --code-type:      #FFB84D;  /* light orange */
-  --code-class:     #FF69B4;  /* pink */
-  --code-interface:#FF6347;  /* tomato */
-  --code-bg-highlight: #333333; /* dark gray for highlights */
-  --code-number: #FFD700; /* gold for numbers */
-  --code-def: #FF4136; /* red for definitions */
-  --code-template: #6c71c4; /* violet for templates */
-  --code-parser-function: #d33682; /* rose for parser functions */
-  --code-html-attribute: #dc322f; /* vermilion for HTML attributes */
-  --code-link-brackets: #657b83; /* slate gray for link brackets */
-  --code-link-pagename: #839496; /* light slate gray for link page names */
-  --code-link-text: #c4c4c4; /* light gray for link text */
-  --code-exttag: #2aa198; /* cyan for ext tags */
-  --code-exttag-attribute: #b58900; /* mustard yellow for ext tag attributes */
-  --code-exttag-name: #cb4b16; /* sienna for ext tag names */
-  --code-exttag-brackets: #268bd2; /* blue for ext tag brackets */
-  --code-section-header: #268bd2; /* blue for section headers */
-  --code-identifier: #FFFFFF; /* white for identifiers */
-  --code-type: #FFB84D; /* light orange for types */
-  --code-underline: #FFFFFF; /* white for underline */
-  --code-other: #FFFFFF; /* white for other */
-  --code-function-builtin: #2ECC40; /* green for built-in functions */
-  --code-list: #af4900;
-  --code-tag: #d33682; /* rose for tags */
-  --code-attribute: #dc322f; /* vermilion for attributes */
-  --code-language: #897707; /* yellow for language */
+/* Extended code token palette — Imperial Night */
+--code-bg:                 #07101a;
+--code-bg-highlight:       #132430;
+--code-identifier:         #f7f6f4;
+--code-number:             #ffd76b;
+--code-string:             #24d7ff;
+--code-keyword:            #ff6b5a;
+--code-comment:            #78909b;
+--code-function:           #9be56b;
+--code-function-builtin:   #78c45a;
+--code-variable:           #f6d89a;
+--code-operator:           #ff8a2b;
+--code-constant:           #c17be8;
+--code-type:               #ffcaa0;
+--code-class:              #ff79a7;
+--code-interface:          #ff6347;
+--code-def:                #ff4136;
+--code-template:           #6c71c4;
+--code-parser-function:    #d33682;
+--code-html-attribute:     #dc322f;
+--code-link-brackets:      #657b83;
+--code-link-pagename:      #839496;
+--code-link-text:          #c4c4c4;
+--code-exttag:             #2aa198;
+--code-exttag-attribute:   #b58900;
+--code-exttag-name:        #cb4b16;
+--code-exttag-brackets:    #268bd2;
+--code-section-header:     #268bd2;
+--code-identifier:         #FFFFFF;
+--code-underline:          #FFFFFF;
+--code-other:              #FFFFFF;
+--code-list:               #af4900;
+--code-tag:                #d33682;
+--code-attribute:          #dc322f;
+--code-language:           #897707;
+--code-glow:               rgba(255,215,107,0.08);
+
+  --cursor-color:  var(--accent-primary);
+
+  /* visual editor */
+  --ve-toolbar-bg:   rgb(255, 133, 27);
+  --ve-toolbar-border: rgb(255, 133, 27);
+  --ve-toolbar-hover: rgb(255, 133, 27);
+  --ve-toolbar-background-active: rgb(7, 10, 20);
 
   --shadow: rgba(249, 161, 53, 0.55);
 }
@@ -113,3 +122,48 @@ body.skin-continuum.theme-imperial-night { --icon-color: var(--accent-primary); 
   color: var(--icon-color);
 }
 .theme-imperial-night svg [fill="#000"] { fill: var(--icon-color) !important; }
+
+
+
+/* +++++++++++++++++++++++++++++++++++++
+   Additional theme-specific tweaks
+   ++++++++++++++++++++++++++++++++ */
+   /* Regal borders + vignette + star speckle for Imperial Night */
+.skin-continuum.theme-imperial-night {
+  /* subtle vignette */
+  background-image:
+    radial-gradient(1200px 400px at 10% 10%, rgba(4,10,20,0.08), transparent 10%),
+    linear-gradient(180deg, rgba(0,0,0,0.03), rgba(0,0,0,0.12));
+  background-blend-mode: overlay, normal;
+}
+
+/* tiny star specks (very subtle) */
+.skin-continuum.theme-imperial-night::after {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'><g fill='%23ffffff' fill-opacity='0.6'><circle cx='10' cy='20' r='0.6'/><circle cx='80' cy='15' r='0.7'/><circle cx='45' cy='100' r='0.5'/><circle cx='115' cy='65' r='0.6'/><circle cx='20' cy='85' r='0.5'/></g></svg>");
+  mix-blend-mode: screen;
+  z-index: 0;
+}
+
+/* subtle metallic border for cards/panels */
+.skin-continuum.theme-imperial-night .mw-body {
+  border-color: var(--border);
+}
+.skin-continuum.theme-imperial-night .mw-portlet,
+.skin-continuum.theme-imperial-night .oo-ui-window {
+  border: 1px solid rgba(255,215,107,0.06);
+  box-shadow: 0 6px 18px rgba(3,6,12,0.6);
+}
+
+/* gold rim accent on focused interactive elements */
+.skin-continuum.theme-imperial-night a:focus, 
+.skin-continuum.theme-imperial-night button:focus,
+.skin-continuum.theme-imperial-night input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255,215,107,0.08), 0 0 12px rgba(36,215,255,0.02);
+  border-color: rgba(255,215,107,0.26);
+}

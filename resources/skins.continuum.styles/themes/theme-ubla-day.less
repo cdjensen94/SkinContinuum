@@ -1,10 +1,12 @@
 /* ================== ÛBLÂ — Day ================== */
 body.skin-continuum.theme-ubla-day {
   /* Atmosphere & surfaces (deep cyan slate) */
+  --bg-panel:       #0A1A25;
   --bg-main:        #0B1E28;
   --bg-alt:         #0F2A39;
-  --bg-panel:       #0A1A25;
   --bg-interactive: #113446;
+  --bg-light:       #204f6c;   /* lighter surfaces */
+  --bg-button:      #18C8FF;   /* bright cyan buttons */
 
   /* Type */
   --text-base:      #E8FAFF;   /* airy, readable */
@@ -41,13 +43,48 @@ body.skin-continuum.theme-ubla-day {
   --status-error:   #FF4D9A;
 
   /* Code (cool daylight) */
-  --code-bg:        #0D1D28;
-  --code-number:    #8BE9FD;
-  --code-string:    #A0E9A5;
-  --code-keyword:   #78A6FF;
-  --code-comment:   #7AA0AE;
-  --code-function:  #20E3FF;
-  --code-variable:  #FFCA85;
+  --code-bg:                 #e8f8f6; /* very pale aqua paper */
+  --code-bg-highlight:       #d8f3ee;
+  --code-identifier:         #062033;
+  --code-number:             #2ab7b0; /* seafoam numbers */
+  --code-string:             #0fa3ff; /* crystalline cyan */
+  --code-keyword:            #004b9f; /* deep sky blue keywords */
+  --code-comment:            #6b8fa0; /* muted slate */
+  --code-function:           #0b6b52; /* lush teal */
+  --code-function-builtin:   #0f9d8e;
+  --code-variable:           #0b4c78; /* deep blue variable */
+  --code-operator:           #0fa3ff;
+  --code-constant:           #6c5ce7; /* violetish constant */
+  --code-type:               #137c88;
+  --code-class:              #2b7bff;
+  --code-interface:          #1e90ff;
+  --code-def:                #ff7aa2; /* accent for defs */
+  --code-template:           #7c83ff;
+  --code-parser-function:    #b24fff;
+  --code-html-attribute:     #008080;
+  --code-link-brackets:      #2f6f88;
+  --code-link-pagename:      #2d5f6e;
+  --code-link-text:          #063a3a;
+  --code-exttag:             #08909a;
+  --code-exttag-attribute:   #b18900;
+  --code-exttag-name:        #0b6bff;
+  --code-exttag-brackets:    #268bd2;
+  --code-section-header:     #0e7fa4;
+  --code-underline:          #062033;
+  --code-other:              #062033;
+  --code-list:               #2d6b4f;
+  --code-tag:                #b24fff;
+  --code-attribute:          #008080;
+  --code-language:           #0b6b52;
+  --code-glow:               rgba(11,163,255,0.12);
+
+  --cursor-color:  var(--accent-primary);
+
+  /* visual editor */
+  --ve-toolbar-bg:   rgb(0, 174, 255);
+  --ve-toolbar-border: rgb(32, 225, 255);
+  --ve-toolbar-hover: rgb(32, 225, 255);
+  --ve-toolbar-background-active: rgb(11, 30, 39);
 }
 /* Day */
 .theme-ubla-day .mw-body {

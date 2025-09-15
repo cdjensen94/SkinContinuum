@@ -534,7 +534,6 @@ class Hooks implements
 		$services = MediaWikiServices::getInstance();
 		$featureManagerFactory = $services->getService( 'Continuum.FeatureManagerFactory' );
 		$featureManager = $featureManagerFactory->createFeatureManager( RequestContext::getMain() );
-		$isNightModeEnabled = $featureManager->isFeatureEnabled( Constants::FEATURE_NIGHT_MODE );
 		$uol = $services->getUserOptionsLookup();
 		$skinName = $uol->getOption( $user, 'skin', 'continuum' );
 
@@ -552,6 +551,7 @@ class Hooks implements
 				'continuum-theme-ubla-day'       => 'ubla-day',
 				'continuum-theme-ubla-night'     => 'ubla-night',
 				'continuum-theme-verdant'        => 'verdant',
+				'continuum-theme-adams-chaos'        => 'adams-chaos',
 			],
 			'hide-if' => [ '!==', 'skin', 'continuum' ],
 			],

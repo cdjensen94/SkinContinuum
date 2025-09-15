@@ -94,16 +94,19 @@
 	"continuum-theme-ubla-day": "Ûblâ (Day)",
 	"continuum-theme-ubla-night": "Ûblâ (Night)",
 	"continuum-theme-verdant": "Verdant",
+	"continuum-theme-adams-chaos": "Adam's Chaos",
 	"continuum-theme-saved": "Theme set to $1.",
 	"continuum-theme-applied-temp": "Theme applied (this device): $1.",
 	"continuum-theme-imperial-night-label": "Imperial Night (navy/orange)",
 	"continuum-theme-ubla-day-label": "Ûblâ — Day (azure flora, teal sky)",
 	"continuum-theme-ubla-night-label": "Ûblâ — Night (bioluminescent)",
 	"continuum-theme-verdant-label": "Verdant (green/forest)",
+	"continuum-theme-adams-chaos-label": "Adam's Chaos (metallic red/black)",
 	"imperial-night": "Imperial Night",
 	"ubla-day": "Ûblâ (Day)",
 	"ubla-night": "Ûblâ (Night)",
-	"verdant": "Verdant"
+	"verdant": "Verdant",
+	"adams-chaos": "Adam's Chaos"
 
 }
 	

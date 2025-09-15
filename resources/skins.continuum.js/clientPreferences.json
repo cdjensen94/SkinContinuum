@@ -8,7 +8,8 @@
 		"preferenceKey": "continuum-limited-width"
 	},
 	"continuum-theme": {
-		"options": ["imperial-night", "ubla-day", "ubla-night", "verdant"],
+		"options": ["imperial-night", "ubla-day", "ubla-night", "verdant", 
+		"adams-chaos"],
 		"preferenceKey": "continuum-theme",
 		"type": "radio"
 	}
